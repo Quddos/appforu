@@ -41,3 +41,9 @@ Rotation is stateless: each day takes the next 2 verified items in the list and 
 ## Content accuracy
 
 Your followers act on these posts. Before you set `"verified": true`, check every deadline and link on the official website. Never post an opportunity you can't trace to its official source. The starter entries use cautious "usually opens..." deadline wording, so update them with exact dates when each cycle opens.
+
+## Daily schedule
+
+`data/schedule.json` maps each UTC date to `[earning post, academic post]`. The 07:00 UTC job posts the first and the 17:00 UTC job posts the second. When a date is missing or an item's `deadlineISO` has passed, the app picks another open item of the same kind. Add new opportunities to `data/opportunities.json` and extend the schedule.
+
+Emoji graphics: [Twemoji](https://github.com/jdecked/twemoji) (CC-BY 4.0).
