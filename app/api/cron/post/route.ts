@@ -8,14 +8,18 @@ export const dynamic = "force-dynamic";
  * GET /api/cron/post?slot=0  -> today's first post
  * GET /api/cron/post?slot=1  -> today's second post
  * Add &dry=1 to see what would be posted without calling TikTok.
+ * For a manual test from a browser, add &secret=<CRON_SECRET>.
  */
 export async function GET(req: Request) {
   const secret = process.env.CRON_SECRET;
-  if (!secret || req.headers.get("authorization") !== `Bearer ${secret}`) {
+  const url = new URL(req.url);
+  const authorized =
+    !!secret &&
+    (req.headers.get("authorization") === `Bearer ${secret}` || url.searchParams.get("secret") === secret);
+  if (!authorized) {
     return Response.json({ error: "unauthorized" }, { status: 401 });
   }
 
-  const url = new URL(req.url);
   const slot = Number(url.searchParams.get("slot") ?? 0);
   const o = postsForDate()[slot];
   if (!o) return Response.json({ error: "no verified opportunity for this slot" }, { status: 404 });
