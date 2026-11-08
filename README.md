@@ -46,4 +46,4 @@ Your followers act on these posts. Before you set `"verified": true`, check ever
 
 `data/schedule.json` maps each UTC date to `[earning post, academic post]`. The 07:00 UTC job posts the first and the 17:00 UTC job posts the second. When a date is missing or an item's `deadlineISO` has passed, the app picks another open item of the same kind. Add new opportunities to `data/opportunities.json` and extend the schedule.
 
-Emoji graphics: [Twemoji](https://github.com/jdecked/twemoji) (CC-BY 4.0).
+3D icons: [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT).

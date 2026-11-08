@@ -4,8 +4,13 @@
     "kind": "earn",
     "verified": true,
     "label": "HACKATHON",
+    "kicker": "WIN UP TO",
     "hero": "1f383",
-    "badges": ["1f4b0", "1f916", "1f3c6"],
+    "badges": [
+      "1f4b0",
+      "1f916",
+      "1f3c6"
+    ],
     "title": "Kiroween 2026 Hackathon",
     "highlight": "$100,000",
     "highlightLabel": "CASH PRIZES",
@@ -15,10 +20,22 @@
     "deadlineISO": "2026-12-04",
     "deadline": "4 Dec 2026, 2:00 PM PT",
     "perks": [
-      { "e": "1f3c6", "t": "1st place: $30,000 cash" },
-      { "e": "1f4b0", "t": "2nd $20,000 · 3rd $10,000" },
-      { "e": "1f680", "t": "$10,000 Best Startup Project" },
-      { "e": "1f47b", "t": "4 category prizes of $5,000 each" }
+      {
+        "e": "1f3c6",
+        "t": "1st place: $30,000 cash"
+      },
+      {
+        "e": "1f4b0",
+        "t": "2nd $20,000 · 3rd $10,000"
+      },
+      {
+        "e": "1f680",
+        "t": "$10,000 Best Startup Project"
+      },
+      {
+        "e": "1f47b",
+        "t": "4 category prizes of $5,000 each"
+      }
     ],
     "eligibility": [
       "Solo or team, free to enter",
@@ -33,29 +50,55 @@
       "Submit before 4 Dec, 2 PM PT"
     ],
     "link": "kiroween.devpost.com",
-    "sources": ["https://kiroween.devpost.com/", "https://kiro.dev/events/"],
-    "tags": ["#hackathon", "#coding", "#AI", "#devpost", "#makemoneyonline"]
+    "sources": [
+      "https://kiroween.devpost.com/",
+      "https://kiro.dev/events/"
+    ],
+    "tags": [
+      "#hackathon",
+      "#coding",
+      "#AI",
+      "#devpost",
+      "#makemoneyonline"
+    ]
   },
   {
     "id": "hk-phd-fellowship-2027",
     "kind": "academic",
     "verified": true,
     "label": "PhD FELLOWSHIP",
+    "kicker": "FULLY FUNDED",
     "hero": "1f393",
-    "badges": ["1f1ed-1f1f0", "1f4b5", "2708"],
+    "badges": [
+      "1f1ed-1f1f0",
+      "1f4b5",
+      "2708"
+    ],
     "title": "Hong Kong PhD Fellowship",
-    "highlight": "400",
-    "highlightLabel": "FULLY FUNDED PhD SPOTS",
+    "highlight": "400 PhD SPOTS",
+    "highlightLabel": "IN HONG KONG, ALL NATIONALITIES",
     "subtitle": "Do your PhD at a top Hong Kong university, all nationalities welcome",
     "host": "Research Grants Council, Hong Kong",
     "location": "Hong Kong",
     "deadlineISO": "2026-12-01",
     "deadline": "1 Dec 2026, 12:00 noon HKT",
     "perks": [
-      { "e": "1f4b5", "t": "Monthly stipend throughout your PhD" },
-      { "e": "2708", "t": "Conference & research travel allowance" },
-      { "e": "1f3db", "t": "Study at HKU, CUHK, HKUST & more" },
-      { "e": "2705", "t": "No application fee" }
+      {
+        "e": "1f4b5",
+        "t": "Monthly stipend throughout your PhD"
+      },
+      {
+        "e": "2708",
+        "t": "Conference & research travel allowance"
+      },
+      {
+        "e": "1f3db",
+        "t": "Study at HKU, CUHK, HKUST & more"
+      },
+      {
+        "e": "2705",
+        "t": "No application fee"
+      }
     ],
     "eligibility": [
       "Open to students of ANY nationality",
@@ -70,16 +113,30 @@
       "Both before 1 Dec 2026"
     ],
     "link": "rgc.edu.hk/hkphd",
-    "sources": ["https://cerg1.ugc.edu.hk/hkpfs/apply.html", "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/"],
-    "tags": ["#phd", "#fellowship", "#fullyfunded", "#studyabroad", "#hongkong"]
+    "sources": [
+      "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+      "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/"
+    ],
+    "tags": [
+      "#phd",
+      "#fellowship",
+      "#fullyfunded",
+      "#studyabroad",
+      "#hongkong"
+    ]
   },
   {
     "id": "google-quantum-kaggle",
     "kind": "earn",
     "verified": true,
     "label": "AI COMPETITION",
+    "kicker": "WIN UP TO",
     "hero": "269b",
-    "badges": ["1f4b0", "1f9e0", "1f3c6"],
+    "badges": [
+      "1f4b0",
+      "1f9e0",
+      "1f3c6"
+    ],
     "title": "Google Quantum AI Challenge",
     "highlight": "$150,000",
     "highlightLabel": "PRIZE POOL",
@@ -89,10 +146,22 @@
     "deadlineISO": "2027-01-20",
     "deadline": "Final: 20 Jan 2027 (join by 13 Jan)",
     "perks": [
-      { "e": "1f3c6", "t": "1st place: $50,000" },
-      { "e": "1f4b0", "t": "2nd $25,000 · 3rd $10,000" },
-      { "e": "26a1", "t": "$10,000 milestone prize on 20 Nov" },
-      { "e": "1f9ea", "t": "3 × $10,000 single-task prizes" }
+      {
+        "e": "1f3c6",
+        "t": "1st place: $50,000"
+      },
+      {
+        "e": "1f4b0",
+        "t": "2nd $25,000 · 3rd $10,000"
+      },
+      {
+        "e": "26a1",
+        "t": "$10,000 milestone prize on 20 Nov"
+      },
+      {
+        "e": "1f9ea",
+        "t": "3 × $10,000 single-task prizes"
+      }
     ],
     "eligibility": [
       "Free Kaggle account",
@@ -107,29 +176,54 @@
       "Submit & climb the leaderboard"
     ],
     "link": "kaggle.com/competitions",
-    "sources": ["https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation"],
-    "tags": ["#kaggle", "#quantum", "#AI", "#datascience", "#makemoneyonline"]
+    "sources": [
+      "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation"
+    ],
+    "tags": [
+      "#kaggle",
+      "#quantum",
+      "#AI",
+      "#datascience",
+      "#makemoneyonline"
+    ]
   },
   {
     "id": "commonwealth-shared-2027",
     "kind": "academic",
     "verified": true,
     "label": "MASTER'S SCHOLARSHIP",
+    "kicker": "STUDY IN THE UK",
     "hero": "1f1ec-1f1e7",
-    "badges": ["1f393", "2708", "1f4b5"],
+    "badges": [
+      "1f393",
+      "2708",
+      "1f4b5"
+    ],
     "title": "Commonwealth Shared Scholarships",
     "highlight": "FULLY FUNDED",
-    "highlightLabel": "MASTER'S IN THE UK",
+    "highlightLabel": "1-YEAR MASTER'S + FLIGHTS",
     "subtitle": "1-year Master's at a UK university for talented students from developing Commonwealth countries",
     "host": "Commonwealth Scholarship Commission (UK)",
     "location": "United Kingdom",
     "deadlineISO": "2026-12-08",
     "deadline": "Opens 10 Nov · closes 8 Dec 2026, 16:00 GMT",
     "perks": [
-      { "e": "1f3eb", "t": "Full tuition fees" },
-      { "e": "2708", "t": "Return flight to the UK" },
-      { "e": "1f4b5", "t": "Monthly living allowance" },
-      { "e": "1f3e0", "t": "Arrival & thesis allowances" }
+      {
+        "e": "1f3eb",
+        "t": "Full tuition fees"
+      },
+      {
+        "e": "2708",
+        "t": "Return flight to the UK"
+      },
+      {
+        "e": "1f4b5",
+        "t": "Monthly living allowance"
+      },
+      {
+        "e": "1f3e0",
+        "t": "Arrival & thesis allowances"
+      }
     ],
     "eligibility": [
       "Citizen of an eligible Commonwealth country",
@@ -144,16 +238,29 @@
       "Before 8 Dec 2026, 16:00 GMT"
     ],
     "link": "cscuk.fcdo.gov.uk",
-    "sources": ["https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/"],
-    "tags": ["#scholarship", "#fullyfunded", "#studyinuk", "#commonwealth", "#masters"]
+    "sources": [
+      "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/"
+    ],
+    "tags": [
+      "#scholarship",
+      "#fullyfunded",
+      "#studyinuk",
+      "#commonwealth",
+      "#masters"
+    ]
   },
   {
     "id": "qnx-global-hackathon",
     "kind": "earn",
     "verified": true,
     "label": "HACKATHON",
+    "kicker": "WIN UP TO",
     "hero": "1f916",
-    "badges": ["1f4b0", "1f697", "1f6e0"],
+    "badges": [
+      "1f4b0",
+      "1f697",
+      "1f6e0"
+    ],
     "title": "QNX Global Hackathon",
     "highlight": "$50,000",
     "highlightLabel": "IN PRIZES",
@@ -163,10 +270,22 @@
     "deadlineISO": "2026-12-15",
     "deadline": "15 Dec 2026, 2:00 PM EST",
     "perks": [
-      { "e": "1f3c6", "t": "Grand Prize: $10,000 cash" },
-      { "e": "1f3a4", "t": "Chat with the QNX CEO + podcast feature" },
-      { "e": "1f4b0", "t": "Category & tutorial prizes up to $3,500" },
-      { "e": "1f4bb", "t": "Free QNX tools to build with" }
+      {
+        "e": "1f3c6",
+        "t": "Grand Prize: $10,000 cash"
+      },
+      {
+        "e": "1f3a4",
+        "t": "Chat with the QNX CEO + podcast feature"
+      },
+      {
+        "e": "1f4b0",
+        "t": "Category & tutorial prizes up to $3,500"
+      },
+      {
+        "e": "1f4bb",
+        "t": "Free QNX tools to build with"
+      }
     ],
     "eligibility": [
       "Developers & students",
@@ -181,29 +300,55 @@
       "Submit by 15 Dec 2026"
     ],
     "link": "qnx.devpost.com",
-    "sources": ["https://qnx.devpost.com/", "https://qnx.devpost.com/rules"],
-    "tags": ["#hackathon", "#robotics", "#embedded", "#devpost", "#techcareers"]
+    "sources": [
+      "https://qnx.devpost.com/",
+      "https://qnx.devpost.com/rules"
+    ],
+    "tags": [
+      "#hackathon",
+      "#robotics",
+      "#embedded",
+      "#devpost",
+      "#techcareers"
+    ]
   },
   {
     "id": "yale-world-fellows-2027",
     "kind": "academic",
     "verified": true,
     "label": "LEADERSHIP FELLOWSHIP",
+    "kicker": "SPEND",
     "hero": "1f3db",
-    "badges": ["1f1fa-1f1f8", "1f310", "2b50"],
+    "badges": [
+      "1f1fa-1f1f8",
+      "1f310",
+      "2b50"
+    ],
     "title": "Yale World Fellows 2027",
     "highlight": "4 MONTHS",
-    "highlightLabel": "AT YALE UNIVERSITY",
+    "highlightLabel": "AT YALE UNIVERSITY, FUNDED",
     "subtitle": "Yale's flagship program for emerging global leaders from every country",
     "host": "Yale Jackson School of Global Affairs",
     "location": "New Haven, USA",
     "deadlineISO": "2026-12-02",
     "deadline": "2 Dec 2026, 2:00 PM ET",
     "perks": [
-      { "e": "1f3db", "t": "A semester at Yale University" },
-      { "e": "1f4b5", "t": "Program covers stipend & housing" },
-      { "e": "1f310", "t": "Lifelong global leaders network" },
-      { "e": "1f4da", "t": "Audit Yale courses & seminars" }
+      {
+        "e": "1f3db",
+        "t": "A semester at Yale University"
+      },
+      {
+        "e": "1f4b5",
+        "t": "Program covers stipend & housing"
+      },
+      {
+        "e": "1f310",
+        "t": "Lifelong global leaders network"
+      },
+      {
+        "e": "1f4da",
+        "t": "Audit Yale courses & seminars"
+      }
     ],
     "eligibility": [
       "Mid-career leaders, any nationality",
@@ -218,16 +363,29 @@
       "Apply online ($20 fee) by 2 Dec"
     ],
     "link": "worldfellows.yale.edu",
-    "sources": ["https://worldfellows.yale.edu/the-program/application/"],
-    "tags": ["#fellowship", "#leadership", "#yale", "#fullyfunded", "#globalleaders"]
+    "sources": [
+      "https://worldfellows.yale.edu/the-program/application/"
+    ],
+    "tags": [
+      "#fellowship",
+      "#leadership",
+      "#yale",
+      "#fullyfunded",
+      "#globalleaders"
+    ]
   },
   {
     "id": "outlier-ai-trainer",
     "kind": "earn",
     "verified": true,
     "label": "REMOTE JOB",
+    "kicker": "EARN",
     "hero": "1f9d1-200d-1f4bb",
-    "badges": ["1f4b5", "1f916", "1f3e0"],
+    "badges": [
+      "1f4b5",
+      "1f916",
+      "1f3e0"
+    ],
     "title": "Train AI From Home with Outlier",
     "highlight": "UP TO $50/HR",
     "highlightLabel": "PAID WEEKLY",
@@ -237,10 +395,22 @@
     "deadlineISO": "2027-12-31",
     "deadline": "Rolling: new roles added often",
     "perks": [
-      { "e": "1f9e0", "t": "Math & STEM experts: up to $50/hr" },
-      { "e": "1f30d", "t": "Language roles: ~$6 to $30/hr" },
-      { "e": "1f4c5", "t": "5 to 10 hrs/week, your own schedule" },
-      { "e": "1f4b3", "t": "Paid weekly (PayPal / AirTM)" }
+      {
+        "e": "1f9e0",
+        "t": "Math & STEM experts: up to $50/hr"
+      },
+      {
+        "e": "1f30d",
+        "t": "Language roles: ~$6 to $30/hr"
+      },
+      {
+        "e": "1f4c5",
+        "t": "5 to 10 hrs/week, your own schedule"
+      },
+      {
+        "e": "1f4b3",
+        "t": "Paid weekly (PayPal / AirTM)"
+      }
     ],
     "eligibility": [
       "Expertise in a subject OR a native language",
@@ -255,29 +425,55 @@
       "Start tasks & get paid weekly"
     ],
     "link": "outlier.ai",
-    "sources": ["https://outlier.ai/math/en-us", "https://app.outlier.ai/opportunities/4421864005"],
-    "tags": ["#remotework", "#AIjobs", "#workfromhome", "#sidehustle", "#makemoneyonline"]
+    "sources": [
+      "https://outlier.ai/math/en-us",
+      "https://app.outlier.ai/opportunities/4421864005"
+    ],
+    "tags": [
+      "#remotework",
+      "#AIjobs",
+      "#workfromhome",
+      "#sidehustle",
+      "#makemoneyonline"
+    ]
   },
   {
     "id": "gates-cambridge-2027",
     "kind": "academic",
     "verified": true,
     "label": "SCHOLARSHIP",
+    "kicker": "STUDY AT CAMBRIDGE",
     "hero": "1f3eb",
-    "badges": ["1f1ec-1f1e7", "1f393", "1f48e"],
+    "badges": [
+      "1f1ec-1f1e7",
+      "1f393",
+      "1f48e"
+    ],
     "title": "Gates Cambridge Scholarship",
-    "highlight": "FULL COST",
-    "highlightLabel": "MASTER'S & PhD AT CAMBRIDGE",
+    "highlight": "FULLY FUNDED",
+    "highlightLabel": "MASTER'S & PhD, ALL COSTS PAID",
     "subtitle": "One of the world's most prestigious scholarships, for non-UK students",
     "host": "Gates Cambridge Trust",
     "location": "University of Cambridge, UK",
     "deadlineISO": "2027-01-06",
     "deadline": "8 Dec 2026 or 6 Jan 2027 (depends on course)",
     "perks": [
-      { "e": "1f3eb", "t": "University fees fully covered" },
-      { "e": "1f4b5", "t": "Living allowance (maintenance)" },
-      { "e": "2708", "t": "Return airfare + visa costs" },
-      { "e": "1f310", "t": "Global Gates Scholar community" }
+      {
+        "e": "1f3eb",
+        "t": "University fees fully covered"
+      },
+      {
+        "e": "1f4b5",
+        "t": "Living allowance (maintenance)"
+      },
+      {
+        "e": "2708",
+        "t": "Return airfare + visa costs"
+      },
+      {
+        "e": "1f310",
+        "t": "Global Gates Scholar community"
+      }
     ],
     "eligibility": [
       "Citizen of any country outside the UK",
@@ -292,16 +488,29 @@
       "Submit by your course's funding deadline"
     ],
     "link": "gatescambridge.org",
-    "sources": ["https://www.gatescambridge.org/apply/timeline/"],
-    "tags": ["#scholarship", "#cambridge", "#fullyfunded", "#studyinuk", "#phd"]
+    "sources": [
+      "https://www.gatescambridge.org/apply/timeline/"
+    ],
+    "tags": [
+      "#scholarship",
+      "#cambridge",
+      "#fullyfunded",
+      "#studyinuk",
+      "#phd"
+    ]
   },
   {
     "id": "codegeist-2026",
     "kind": "earn",
     "verified": true,
     "label": "HACKATHON",
+    "kicker": "WIN UP TO",
     "hero": "1f4bb",
-    "badges": ["1f4b0", "1f9e9", "1f3c6"],
+    "badges": [
+      "1f4b0",
+      "1f9e9",
+      "1f3c6"
+    ],
     "title": "Atlassian Codegeist 2026",
     "highlight": "$120,000",
     "highlightLabel": "CASH PRIZES",
@@ -311,10 +520,22 @@
     "deadlineISO": "2026-12-22",
     "deadline": "22 Dec 2026, 12:00 PM PT",
     "perks": [
-      { "e": "1f3c6", "t": "Three 1st-place prizes of $15,000" },
-      { "e": "1f4b0", "t": "$8,000 & $5,000 runner-up prizes" },
-      { "e": "1f916", "t": "$1,500 bonuses for AI / Rovo apps" },
-      { "e": "1f4e6", "t": "Swag for the first 300 entrants" }
+      {
+        "e": "1f3c6",
+        "t": "Three 1st-place prizes of $15,000"
+      },
+      {
+        "e": "1f4b0",
+        "t": "$8,000 & $5,000 runner-up prizes"
+      },
+      {
+        "e": "1f916",
+        "t": "$1,500 bonuses for AI / Rovo apps"
+      },
+      {
+        "e": "1f4e6",
+        "t": "Swag for the first 300 entrants"
+      }
     ],
     "eligibility": [
       "Developers, solo or team",
@@ -329,29 +550,55 @@
       "Submit by 22 Dec 2026"
     ],
     "link": "codegeist2026.devpost.com",
-    "sources": ["https://codegeist2026.devpost.com/", "https://community.developer.atlassian.com/t/heads-up-developers-codegeist-2026-is-officially-open/103506"],
-    "tags": ["#hackathon", "#coding", "#atlassian", "#devpost", "#makemoneyonline"]
+    "sources": [
+      "https://codegeist2026.devpost.com/",
+      "https://community.developer.atlassian.com/t/heads-up-developers-codegeist-2026-is-officially-open/103506"
+    ],
+    "tags": [
+      "#hackathon",
+      "#coding",
+      "#atlassian",
+      "#devpost",
+      "#makemoneyonline"
+    ]
   },
   {
     "id": "mbzuai-2027",
     "kind": "academic",
     "verified": true,
     "label": "AI MASTER'S & PhD",
+    "kicker": "STUDY AI FOR FREE",
     "hero": "1f916",
-    "badges": ["1f1e6-1f1ea", "1f393", "2708"],
+    "badges": [
+      "1f1e6-1f1ea",
+      "1f393",
+      "2708"
+    ],
     "title": "Study AI at MBZUAI",
-    "highlight": "FULLY FUNDED",
-    "highlightLabel": "MSc & PhD IN ABU DHABI",
+    "highlight": "MSc & PhD",
+    "highlightLabel": "TUITION + STIPEND + FLIGHTS",
     "subtitle": "The world's first AI-only university, open to students worldwide",
     "host": "Mohamed bin Zayed University of AI",
     "location": "Abu Dhabi, UAE",
     "deadlineISO": "2026-12-15",
     "deadline": "15 Dec 2026, 5:00 PM GST",
     "perks": [
-      { "e": "1f3eb", "t": "Free tuition" },
-      { "e": "1f4b5", "t": "Monthly stipend" },
-      { "e": "2708", "t": "Yearly return flight home" },
-      { "e": "1f3e5", "t": "Health insurance + UAE visa" }
+      {
+        "e": "1f3eb",
+        "t": "Free tuition"
+      },
+      {
+        "e": "1f4b5",
+        "t": "Monthly stipend"
+      },
+      {
+        "e": "2708",
+        "t": "Yearly return flight home"
+      },
+      {
+        "e": "1f3e5",
+        "t": "Health insurance + UAE visa"
+      }
     ],
     "eligibility": [
       "Bachelor's (for MSc) or Master's (for PhD)",
@@ -366,16 +613,30 @@
       "Before 15 Dec 2026, 5 PM GST"
     ],
     "link": "mbzuai.ac.ae/admissions",
-    "sources": ["https://mbzuai.ac.ae/admissions/graduate-masters-admissions", "https://mbzuai.ac.ae/admissions/graduate-phd-admissions"],
-    "tags": ["#AI", "#scholarship", "#fullyfunded", "#studyabroad", "#uae"]
+    "sources": [
+      "https://mbzuai.ac.ae/admissions/graduate-masters-admissions",
+      "https://mbzuai.ac.ae/admissions/graduate-phd-admissions"
+    ],
+    "tags": [
+      "#AI",
+      "#scholarship",
+      "#fullyfunded",
+      "#studyabroad",
+      "#uae"
+    ]
   },
   {
     "id": "smart-buildings-kaggle",
     "kind": "earn",
     "verified": true,
     "label": "AI COMPETITION",
+    "kicker": "WIN UP TO",
     "hero": "1f3e2",
-    "badges": ["1f4b0", "26a1", "1f4ca"],
+    "badges": [
+      "1f4b0",
+      "26a1",
+      "1f4ca"
+    ],
     "title": "NeurIPS Smart Buildings Challenge",
     "highlight": "$40,000",
     "highlightLabel": "PRIZE POOL",
@@ -385,10 +646,22 @@
     "deadlineISO": "2027-01-15",
     "deadline": "Final: 15 Jan 2027 (join by 3 Jan)",
     "perks": [
-      { "e": "1f4b0", "t": "$25,000 leaderboard prizes" },
-      { "e": "1f4dd", "t": "$15,000 paper-track prizes" },
-      { "e": "1f3c5", "t": "NeurIPS competition credential on your CV" },
-      { "e": "1f4c8", "t": "Real-world energy & ML experience" }
+      {
+        "e": "1f4b0",
+        "t": "$25,000 leaderboard prizes"
+      },
+      {
+        "e": "1f4dd",
+        "t": "$15,000 paper-track prizes"
+      },
+      {
+        "e": "1f3c5",
+        "t": "NeurIPS competition credential on your CV"
+      },
+      {
+        "e": "1f4c8",
+        "t": "Real-world energy & ML experience"
+      }
     ],
     "eligibility": [
       "Free Kaggle account",
@@ -403,29 +676,54 @@
       "Submit by 15 Jan 2027"
     ],
     "link": "kaggle.com/competitions",
-    "sources": ["https://www.kaggle.com/competitions/neurips-2026-smart-buildings/overview/prizes"],
-    "tags": ["#kaggle", "#machinelearning", "#neurips", "#datascience", "#makemoneyonline"]
+    "sources": [
+      "https://www.kaggle.com/competitions/neurips-2026-smart-buildings/overview/prizes"
+    ],
+    "tags": [
+      "#kaggle",
+      "#machinelearning",
+      "#neurips",
+      "#datascience",
+      "#makemoneyonline"
+    ]
   },
   {
     "id": "clarendon-oxford-2027",
     "kind": "academic",
     "verified": true,
     "label": "SCHOLARSHIP",
+    "kicker": "STUDY AT OXFORD",
     "hero": "1f3db",
-    "badges": ["1f1ec-1f1e7", "1f4da", "2b50"],
+    "badges": [
+      "1f1ec-1f1e7",
+      "1f4da",
+      "2b50"
+    ],
     "title": "Clarendon Scholarship, Oxford",
-    "highlight": "NO EXTRA FORM",
-    "highlightLabel": "FULLY FUNDED GRAD STUDY",
+    "highlight": "FULLY FUNDED",
+    "highlightLabel": "NO EXTRA FORM NEEDED",
     "subtitle": "Apply to an Oxford master's or DPhil and you're automatically considered",
     "host": "University of Oxford",
     "location": "Oxford, United Kingdom",
     "deadlineISO": "2027-01-15",
     "deadline": "Your course's Dec 2026 / Jan 2027 deadline",
     "perks": [
-      { "e": "1f3eb", "t": "Course fees covered in full" },
-      { "e": "1f4b5", "t": "Generous living grant" },
-      { "e": "1f4da", "t": "Study at the University of Oxford" },
-      { "e": "1f310", "t": "Clarendon Scholars community" }
+      {
+        "e": "1f3eb",
+        "t": "Course fees covered in full"
+      },
+      {
+        "e": "1f4b5",
+        "t": "Generous living grant"
+      },
+      {
+        "e": "1f4da",
+        "t": "Study at the University of Oxford"
+      },
+      {
+        "e": "1f310",
+        "t": "Clarendon Scholars community"
+      }
     ],
     "eligibility": [
       "All nationalities (UK & international)",
@@ -440,16 +738,29 @@
       "You're considered automatically"
     ],
     "link": "ox.ac.uk/clarendon",
-    "sources": ["https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants"],
-    "tags": ["#oxford", "#scholarship", "#fullyfunded", "#studyinuk", "#masters"]
+    "sources": [
+      "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants"
+    ],
+    "tags": [
+      "#oxford",
+      "#scholarship",
+      "#fullyfunded",
+      "#studyinuk",
+      "#masters"
+    ]
   },
   {
     "id": "squares-in-squares-kaggle",
     "kind": "earn",
     "verified": true,
     "label": "MATH PUZZLE PRIZE",
+    "kicker": "WIN UP TO",
     "hero": "1f9e9",
-    "badges": ["1f4b0", "1f9e0", "1f3af"],
+    "badges": [
+      "1f4b0",
+      "1f9e0",
+      "1f3af"
+    ],
     "title": "Squares in Squares Challenge",
     "highlight": "$50,000",
     "highlightLabel": "PRIZE POOL",
@@ -459,10 +770,22 @@
     "deadlineISO": "2027-07-11",
     "deadline": "$5,000 milestone cut-off 17 Jan 2027",
     "perks": [
-      { "e": "1f4b0", "t": "$50,000 total prizes" },
-      { "e": "1f3af", "t": "$5,000 early milestone prize" },
-      { "e": "1f9e0", "t": "Pure maths + coding puzzle" },
-      { "e": "1f4c5", "t": "Long timeline, join anytime" }
+      {
+        "e": "1f4b0",
+        "t": "$50,000 total prizes"
+      },
+      {
+        "e": "1f3af",
+        "t": "$5,000 early milestone prize"
+      },
+      {
+        "e": "1f9e0",
+        "t": "Pure maths + coding puzzle"
+      },
+      {
+        "e": "1f4c5",
+        "t": "Long timeline, join anytime"
+      }
     ],
     "eligibility": [
       "Free Kaggle account",
@@ -477,29 +800,54 @@
       "Submit before 17 Jan for the milestone"
     ],
     "link": "kaggle.com/competitions",
-    "sources": ["https://www.kaggle.com/competitions/squares-in-squares"],
-    "tags": ["#kaggle", "#math", "#coding", "#puzzle", "#makemoneyonline"]
+    "sources": [
+      "https://www.kaggle.com/competitions/squares-in-squares"
+    ],
+    "tags": [
+      "#kaggle",
+      "#math",
+      "#coding",
+      "#puzzle",
+      "#makemoneyonline"
+    ]
   },
   {
     "id": "euroculture-erasmus-2027",
     "kind": "academic",
     "verified": true,
     "label": "ERASMUS MUNDUS",
+    "kicker": "GET PAID",
     "hero": "1f1ea-1f1fa",
-    "badges": ["1f393", "1f4b5", "2708"],
+    "badges": [
+      "1f393",
+      "1f4b5",
+      "2708"
+    ],
     "title": "Euroculture Erasmus Mundus MA",
     "highlight": "€1,400/MONTH",
-    "highlightLabel": "+ TUITION, 2 YEARS",
+    "highlightLabel": "TO STUDY IN EUROPE FOR 2 YEARS",
     "subtitle": "Study in 2+ European countries on an EU-funded master's",
     "host": "Euroculture Erasmus Mundus consortium",
     "location": "Europe (multiple universities)",
     "deadlineISO": "2027-01-15",
     "deadline": "15 Jan 2027 (scholarship deadline)",
     "perks": [
-      { "e": "1f4b5", "t": "€1,400 every month for 24 months" },
-      { "e": "1f3eb", "t": "Participation costs covered" },
-      { "e": "1f30d", "t": "Study in 2+ EU countries" },
-      { "e": "1f4bc", "t": "Internship / research track" }
+      {
+        "e": "1f4b5",
+        "t": "€1,400 every month for 24 months"
+      },
+      {
+        "e": "1f3eb",
+        "t": "Participation costs covered"
+      },
+      {
+        "e": "1f30d",
+        "t": "Study in 2+ EU countries"
+      },
+      {
+        "e": "1f4bc",
+        "t": "Internship / research track"
+      }
     ],
     "eligibility": [
       "Bachelor's degree (any related field)",
@@ -514,7 +862,16 @@
       "Submit by 15 Jan 2027"
     ],
     "link": "euroculturemaster.eu",
-    "sources": ["https://www.euroculturemaster.eu/application-procedure", "https://www.euroculturemaster.eu/erasmus-mundus-scholarship"],
-    "tags": ["#erasmusmundus", "#scholarship", "#studyineurope", "#fullyfunded", "#masters"]
+    "sources": [
+      "https://www.euroculturemaster.eu/application-procedure",
+      "https://www.euroculturemaster.eu/erasmus-mundus-scholarship"
+    ],
+    "tags": [
+      "#erasmusmundus",
+      "#scholarship",
+      "#studyineurope",
+      "#fullyfunded",
+      "#masters"
+    ]
   }
 ]

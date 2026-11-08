@@ -10,7 +10,9 @@ export type Opportunity = {
   /** Only verified items are posted. Set true after checking the official site. */
   verified: boolean;
   label: string;
-  /** Twemoji codepoints (files in assets/emoji). */
+  /** Short hook shown above the highlight on the cover, e.g. "WIN UP TO". */
+  kicker: string;
+  /** Emoji codepoints of the 3D icons (files in assets/f3d). */
   hero: string;
   badges: string[];
   title: string;

@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Make sure the slide fonts ship with the serverless function on Vercel.
   outputFileTracingIncludes: {
-    "/api/slide/[id]/[n]": ["./assets/fonts/**", "./assets/emoji/**"],
+    "/api/slide/[id]/[n]": ["./assets/fonts/**", "./assets/f3d/**"],
     "/api/icon": ["./assets/fonts/**"],
   },
   async rewrites() {
