@@ -18,7 +18,7 @@ export async function GET(_req: Request, ctx: { params: Promise<{ id: string; n:
     return new Response("Not found", { status: 404 });
   }
 
-  const png = await new ImageResponse(renderSlide(o, index), {
+  const png = await new ImageResponse(await renderSlide(o, index), {
     width: SLIDE_WIDTH,
     height: SLIDE_HEIGHT,
     fonts: await loadFonts(),
