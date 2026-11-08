@@ -23,7 +23,7 @@ export async function GET(req: Request) {
     const user = await getUserInfo(t.access_token).catch(() => ({}) as { display_name?: string; avatar_url?: string });
     const name = esc(user.display_name ?? "your account");
     const avatar = user.avatar_url ? `<img src="${esc(user.avatar_url)}" alt="" width="72" height="72" style="border-radius:50%">` : "";
-    const html = `<!doctype html><html><head><meta name="viewport" content="width=device-width"><title>TikTok connected | FundInTech</title></head>
+    const html = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>TikTok connected | FundInTech</title></head>
 <body style="font-family:system-ui,sans-serif;background:#020617;color:#e2e8f0;padding:32px 16px;margin:0">
 <div style="max-width:560px;margin:0 auto">
 <h1 style="margin:0 0 20px">TikTok connected ✅</h1>
@@ -35,7 +35,7 @@ ${avatar}<div><div style="color:#94a3b8;font-size:14px">Connected account</div><
 <p>Copy this into the <b>TIKTOK_REFRESH_TOKEN</b> setting in Vercel, then redeploy. Never share it.</p>
 <textarea readonly style="width:100%;height:110px">${esc(t.refresh_token)}</textarea></details>
 </div></body></html>`;
-    return new Response(html, { headers: { "Content-Type": "text/html", "Cache-Control": "no-store" } });
+    return new Response(html, { headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
   } catch (e) {
     return new Response(String(e), { status: 500 });
   }
