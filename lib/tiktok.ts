@@ -5,7 +5,7 @@
  * Required env vars:
  *   TIKTOK_CLIENT_KEY, TIKTOK_CLIENT_SECRET  - from your TikTok developer app
  *   TIKTOK_REFRESH_TOKEN                     - from /api/tiktok/connect (valid ~365 days)
- *   PUBLIC_BASE_URL                          - e.g. https://your-app.vercel.app (must be a
+ *   PUBLIC_BASE_URL (optional)               - defaults to https://fnt.diaspafra.org (must be a
  *                                              URL prefix verified in the TikTok dev portal)
  * Optional:
  *   TIKTOK_POST_MODE = "MEDIA_UPLOAD" (default: lands in your TikTok inbox as a draft

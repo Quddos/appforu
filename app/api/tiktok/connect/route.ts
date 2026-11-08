@@ -1,3 +1,4 @@
+import { SITE_URL } from "@/lib/site";
 import { NextResponse } from "next/server";
 import { TIKTOK_SCOPES } from "@/lib/tiktok";
 
@@ -5,7 +6,7 @@ import { TIKTOK_SCOPES } from "@/lib/tiktok";
 export async function GET(req: Request) {
   const clientKey = process.env.TIKTOK_CLIENT_KEY;
   if (!clientKey) return new Response("Set TIKTOK_CLIENT_KEY first.", { status: 500 });
-  const base = process.env.PUBLIC_BASE_URL ?? new URL(req.url).origin;
+  const base = SITE_URL;
   const state = crypto.randomUUID();
   const url = new URL("https://www.tiktok.com/v2/auth/authorize/");
   url.searchParams.set("client_key", clientKey);

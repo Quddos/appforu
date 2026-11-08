@@ -1,3 +1,4 @@
+import { SITE_URL } from "@/lib/site";
 import { captionFor, postsForDate, SLIDES_PER_POST } from "@/lib/opportunities";
 import { postPhotoCarousel, refreshAccessToken } from "@/lib/tiktok";
 
@@ -24,7 +25,7 @@ export async function GET(req: Request) {
   const o = postsForDate()[slot];
   if (!o) return Response.json({ error: "no verified opportunity for this slot" }, { status: 404 });
 
-  const base = process.env.PUBLIC_BASE_URL ?? url.origin;
+  const base = SITE_URL;
   const imageUrls = Array.from({ length: SLIDES_PER_POST }, (_, i) => `${base}/api/slide/${o.id}/${i + 1}.jpg`);
   const caption = captionFor(o);
 

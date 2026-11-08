@@ -1,3 +1,4 @@
+import { SITE_URL } from "@/lib/site";
 import { cookies } from "next/headers";
 import { exchangeCode } from "@/lib/tiktok";
 
@@ -13,7 +14,7 @@ export async function GET(req: Request) {
   if (!code || !state || state !== jar.get("tt_state")?.value) {
     return new Response("Invalid or expired login attempt. Start again at /api/tiktok/connect", { status: 400 });
   }
-  const base = process.env.PUBLIC_BASE_URL ?? url.origin;
+  const base = SITE_URL;
   try {
     const t = await exchangeCode(code, `${base}/api/tiktok/callback`);
     const html = `<!doctype html><meta name="viewport" content="width=device-width"><body style="font-family:sans-serif;padding:24px;max-width:640px">
