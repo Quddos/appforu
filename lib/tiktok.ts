@@ -89,3 +89,12 @@ export async function postPhotoCarousel(opts: {
   }
   return { mode, publishId: json.data?.publish_id as string | undefined };
 }
+
+/** Uses the user.info.basic scope to show which account is connected. */
+export async function getUserInfo(accessToken: string) {
+  const res = await fetch(`${API}/user/info/?fields=open_id,display_name,avatar_url`, {
+    headers: { Authorization: `Bearer ${accessToken}` },
+  });
+  const json = await res.json();
+  return (json.data?.user ?? {}) as { display_name?: string; avatar_url?: string };
+}

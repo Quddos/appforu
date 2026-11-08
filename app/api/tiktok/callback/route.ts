@@ -1,6 +1,9 @@
 import { SITE_URL } from "@/lib/site";
 import { cookies } from "next/headers";
-import { exchangeCode } from "@/lib/tiktok";
+import { exchangeCode, getUserInfo } from "@/lib/tiktok";
+
+const esc = (v: string) =>
+  v.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 /**
  * Step 2: TikTok redirects here with ?code=. We exchange it for tokens and show the
@@ -17,11 +20,21 @@ export async function GET(req: Request) {
   const base = SITE_URL;
   try {
     const t = await exchangeCode(code, `${base}/api/tiktok/callback`);
-    const html = `<!doctype html><meta name="viewport" content="width=device-width"><body style="font-family:sans-serif;padding:24px;max-width:640px">
-<h2>TikTok connected ✅</h2>
-<p>Copy this value into your hosting env var <b>TIKTOK_REFRESH_TOKEN</b>, then redeploy. Do not share it with anyone.</p>
-<textarea readonly style="width:100%;height:120px">${t.refresh_token}</textarea>
-<p>It stays valid for about a year. Reconnect here when it expires.</p></body>`;
+    const user = await getUserInfo(t.access_token).catch(() => ({}) as { display_name?: string; avatar_url?: string });
+    const name = esc(user.display_name ?? "your account");
+    const avatar = user.avatar_url ? `<img src="${esc(user.avatar_url)}" alt="" width="72" height="72" style="border-radius:50%">` : "";
+    const html = `<!doctype html><html><head><meta name="viewport" content="width=device-width"><title>TikTok connected | FundInTech</title></head>
+<body style="font-family:system-ui,sans-serif;background:#020617;color:#e2e8f0;padding:32px 16px;margin:0">
+<div style="max-width:560px;margin:0 auto">
+<h1 style="margin:0 0 20px">TikTok connected ✅</h1>
+<div style="display:flex;align-items:center;gap:16px;background:#0f172a;border:1px solid #334155;border-radius:16px;padding:16px">
+${avatar}<div><div style="color:#94a3b8;font-size:14px">Connected account</div><div style="font-size:22px;font-weight:700">${name}</div></div></div>
+<p>FundInTech will send 2 photo carousels a day to this account using the Content Posting API.</p>
+<p><a href="/studio" style="color:#2dd4bf">Open Post Studio →</a></p>
+<details style="margin-top:28px;color:#94a3b8"><summary style="cursor:pointer">Setup token (owner only)</summary>
+<p>Copy this into the <b>TIKTOK_REFRESH_TOKEN</b> setting in Vercel, then redeploy. Never share it.</p>
+<textarea readonly style="width:100%;height:110px">${esc(t.refresh_token)}</textarea></details>
+</div></body></html>`;
     return new Response(html, { headers: { "Content-Type": "text/html", "Cache-Control": "no-store" } });
   } catch (e) {
     return new Response(String(e), { status: 500 });
