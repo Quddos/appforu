@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BusinessPro - Transform Your Business With Smart Solutions",
-  description: "We help businesses grow with innovative technology solutions, expert consulting, and proven strategies that drive results.",
+  title: "FundInTech: daily opportunities for students & creators",
+  description: "FundInTech creates daily TikTok carousels about scholarships, grants, fellowships, conferences and ways to earn online.",
 };
 
 export default function RootLayout({
