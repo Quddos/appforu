@@ -17,6 +17,7 @@ export async function GET(req: Request) {
   const authorized =
     !!secret &&
     (req.headers.get("authorization") === `Bearer ${secret}` || url.searchParams.get("secret") === secret);
+  console.log(`[cron] ${url.pathname}${url.search.replace(/secret=[^&]*/, "secret=***")} authorized=${authorized}`);
   if (!authorized) {
     return Response.json({ error: "unauthorized" }, { status: 401 });
   }
@@ -36,9 +37,10 @@ export async function GET(req: Request) {
   try {
     const token = await refreshAccessToken();
     const result = await postPhotoCarousel({ accessToken: token.access_token, imageUrls, ...caption });
+    console.log(`[cron] posted ${o.id}`, JSON.stringify(result));
     return Response.json({ ok: true, id: o.id, ...result });
   } catch (e) {
-    console.error(e);
+    console.error(`[cron] FAILED ${o.id}`, e);
     return Response.json({ ok: false, id: o.id, error: String(e) }, { status: 502 });
   }
 }
