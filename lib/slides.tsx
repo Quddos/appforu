@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { CSSProperties, ReactNode } from "react";
 import type { Opportunity } from "./opportunities";
-import { COMMENT_KEYWORD, SLIDES_PER_POST } from "./opportunities";
+import { COMMENT_KEYWORD, opportunities, SLIDES_PER_POST } from "./opportunities";
 
 export const SLIDE_WIDTH = 1080;
 export const SLIDE_HEIGHT = 1440; // 3:4 portrait, matches TikTok photo posts
@@ -66,43 +66,67 @@ type Theme = {
   bg2: string;
   text: string;
   sub: string;
-  accent: string; // blue
+  accent: string; // main brand colour of the palette (badges, step numbers, links)
+  glow: string; // background glow
+  hi: string; // highlight box / stars / headline accent on dark
   card: string;
   cardBorder: string;
   banner: string;
+  soft: string; // icon circle fill
+  panel: string; // "who can apply" panel
 };
 
 const YELLOW = "#FFD21F";
 const RED = "#E8202A";
-const NAVY = "#0A1A4F";
-const BLUE = "#1E46E0";
 const WHITE = "#FFFFFF";
 const INK = "#0B0F1A";
 
-const THEMES: Record<Opportunity["kind"], Theme> = {
-  earn: {
-    dark: true,
-    bg: "#050E2E",
-    bg2: "#0D2A7A",
-    text: WHITE,
-    sub: "#C9D6FF",
-    accent: "#4C8DFF",
-    card: "rgba(255,255,255,0.08)",
-    cardBorder: "rgba(120,170,255,0.45)",
-    banner: "#020821",
-  },
-  academic: {
-    dark: false,
-    bg: "#F3F7FF",
-    bg2: "#DCE8FF",
-    text: INK,
-    sub: "#3B4766",
-    accent: BLUE,
-    card: WHITE,
-    cardBorder: "#D5E0FA",
-    banner: NAVY,
-  },
+function rgba(hex: string, a: number) {
+  const n = parseInt(hex.slice(1), 16);
+  return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`;
+}
+
+function darkTheme(bg: string, bg2: string, accent: string, glow: string, hi = YELLOW, banner = "#020821"): Theme {
+  return {
+    dark: true, bg, bg2, text: WHITE, sub: "#D5DCF2", accent, glow, hi,
+    card: "rgba(255,255,255,0.08)", cardBorder: rgba(accent, 0.5), banner,
+    soft: rgba(accent, 0.25), panel: "rgba(255,255,255,0.07)",
+  };
+}
+
+function lightTheme(bg: string, bg2: string, accent: string, banner: string, soft: string, hi = YELLOW): Theme {
+  return {
+    dark: false, bg, bg2, text: INK, sub: "#3B4766", accent, glow: "#FFFFFF", hi,
+    card: WHITE, cardBorder: rgba(accent, 0.22), banner, soft, panel: rgba(accent, 0.08),
+  };
+}
+
+/** Several palettes per kind; each post picks one from its id so the feed never looks repetitive. */
+const PALETTES: Record<Opportunity["kind"], Theme[]> = {
+  earn: [
+    darkTheme("#050E2E", "#0D2A7A", "#4C8DFF", "#3D7BFF"), // midnight blue
+    darkTheme("#03140E", "#075E3C", "#22C55E", "#10B981"), // money green
+    darkTheme("#12062B", "#4C1D95", "#A855F7", "#8B5CF6", "#FDE047"), // electric purple
+    darkTheme("#1A0508", "#7F1D1D", "#F43F5E", "#EF4444", "#FFD21F", "#140205"), // red hot
+    darkTheme("#0B0B0B", "#262626", "#F59E0B", "#F59E0B", "#FACC15"), // black & gold
+  ],
+  academic: [
+    lightTheme("#F3F7FF", "#DCE8FF", "#1E46E0", "#0A1A4F", "#E6EEFF"), // classic blue
+    lightTheme("#FFF7ED", "#FFE4C7", "#EA580C", "#3B1A08", "#FFEDD5"), // sunset orange
+    lightTheme("#ECFDF5", "#CCF5E3", "#047857", "#022C22", "#D1FAE5"), // fresh green
+    lightTheme("#FAF5FF", "#EBDDFF", "#7C3AED", "#2E1065", "#EDE9FE"), // lavender
+    lightTheme("#FFF1F2", "#FFD9DE", "#E11D48", "#4C0519", "#FFE4E6"), // rose
+    lightTheme("#ECFEFF", "#CDF3F8", "#0E7490", "#083344", "#CFFAFE"), // ocean teal
+  ],
 };
+
+export function themeFor(o: Opportunity): Theme {
+  const list = PALETTES[o.kind];
+  // Rotate through palettes in list order so consecutive posts of a kind never share colours.
+  const sameKind = opportunities.filter((x) => x.kind === o.kind);
+  const i = Math.max(0, sameKind.findIndex((x) => x.id === o.id));
+  return list[i % list.length];
+}
 
 /* ------------------------------------------------------------- background */
 
@@ -127,8 +151,8 @@ function Background({ t, seed }: { t: Theme; seed: number }) {
           <stop offset="1" stopColor={t.bg} />
         </linearGradient>
         <radialGradient id="glow" cx="0.78" cy="0.3" r="0.45">
-          <stop offset="0" stopColor={t.dark ? "#3D7BFF" : "#FFFFFF"} stopOpacity={t.dark ? 0.55 : 0.9} />
-          <stop offset="1" stopColor={t.dark ? "#3D7BFF" : "#FFFFFF"} stopOpacity="0" />
+          <stop offset="0" stopColor={t.glow} stopOpacity={t.dark ? 0.55 : 0.9} />
+          <stop offset="1" stopColor={t.glow} stopOpacity="0" />
         </radialGradient>
         <linearGradient id="ray" x1="0" y1="0" x2="1" y2="0">
           <stop offset="0" stopColor={WHITE} stopOpacity="0" />
@@ -143,10 +167,10 @@ function Background({ t, seed }: { t: Theme; seed: number }) {
       <polygon points="820,0 880,0 600,1440 540,1440" fill="url(#ray)" />
       {/* dotted pattern */}
       {dots.map((d, i) => (
-        <circle key={i} cx={d.x} cy={d.y} r="3" fill={t.dark ? "#7FA6FF" : BLUE} opacity={t.dark ? 0.35 : 0.18} />
+        <circle key={i} cx={d.x} cy={d.y} r="3" fill={t.accent} opacity={t.dark ? 0.4 : 0.18} />
       ))}
       {sparkles.map((p, i) => (
-        <circle key={`s${i}`} cx={p.x} cy={p.y} r={p.r} fill={t.dark ? WHITE : BLUE} opacity={t.dark ? p.o : p.o * 0.3} />
+        <circle key={`s${i}`} cx={p.x} cy={p.y} r={p.r} fill={t.dark ? WHITE : t.accent} opacity={t.dark ? p.o : p.o * 0.3} />
       ))}
     </svg>
   );
@@ -176,9 +200,9 @@ function Logo({ t }: { t: Theme }) {
       </div>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <div style={{ display: "flex", fontFamily: "Anton", fontSize: 40, letterSpacing: 1, lineHeight: 1.05 }}>
-          <span style={{ color: t.dark ? WHITE : NAVY }}>FUND</span>
+          <span style={{ color: t.dark ? WHITE : t.banner }}>FUND</span>
           <span style={{ color: t.dark ? YELLOW : "#F29D00" }}>IN</span>
-          <span style={{ color: t.dark ? WHITE : NAVY }}>TECH</span>
+          <span style={{ color: t.dark ? WHITE : t.banner }}>TECH</span>
         </div>
         <div style={{ display: "flex", fontSize: 17, fontWeight: 800, letterSpacing: 3, color: t.sub }}>
           LEARN • EARN • GROW
@@ -273,7 +297,7 @@ function SectionHeading({ children, t, code }: { children: ReactNode; t: Theme; 
       <div
         style={{
           display: "flex",
-          background: t.dark ? YELLOW : NAVY,
+          background: t.dark ? t.hi : t.banner,
           color: t.dark ? INK : WHITE,
           fontFamily: "Anton",
           fontSize: 44,
@@ -327,8 +351,8 @@ function HeroVisual({ o, t, size }: { o: Opportunity; t: Theme; size: number }) 
           height: size * 0.88,
           borderRadius: size,
           backgroundImage: t.dark
-            ? "radial-gradient(circle, rgba(90,150,255,0.65), rgba(30,70,224,0.25) 55%, rgba(30,70,224,0) 72%)"
-            : "radial-gradient(circle, rgba(255,210,31,0.75), rgba(255,210,31,0.25) 55%, rgba(255,210,31,0) 72%)",
+            ? `radial-gradient(circle, ${rgba(t.glow, 0.65)}, ${rgba(t.accent, 0.25)} 55%, ${rgba(t.accent, 0)} 72%)`
+            : `radial-gradient(circle, ${rgba(t.hi, 0.75)}, ${rgba(t.hi, 0.25)} 55%, ${rgba(t.hi, 0)} 72%)`,
           display: "flex",
         }}
       />
@@ -340,7 +364,7 @@ function HeroVisual({ o, t, size }: { o: Opportunity; t: Theme; size: number }) 
           width: size * 0.74,
           height: size * 0.74,
           borderRadius: size,
-          border: `6px dashed ${t.dark ? "rgba(255,210,31,0.75)" : "rgba(30,70,224,0.45)"}`,
+          border: `6px dashed ${t.dark ? rgba(t.hi, 0.75) : rgba(t.accent, 0.45)}`,
           display: "flex",
         }}
       />
@@ -368,7 +392,7 @@ function HeroVisual({ o, t, size }: { o: Opportunity; t: Theme; size: number }) 
               alignItems: "center",
               justifyContent: "center",
               background: WHITE,
-              border: `5px solid ${i === 1 ? YELLOW : BLUE}`,
+              border: `5px solid ${i === 1 ? t.hi : t.accent}`,
               boxShadow: "0 12px 26px rgba(0,0,0,0.35)",
             }}
           >
@@ -455,7 +479,7 @@ function Cover({ o, t }: { o: Opportunity; t: Theme }) {
               fontFamily: "Anton",
               fontSize: 56,
               lineHeight: 1.05,
-              color: t.dark ? WHITE : BLUE,
+              color: t.dark ? WHITE : t.accent,
               marginTop: 16,
             }}
           >
@@ -486,7 +510,7 @@ function Cover({ o, t }: { o: Opportunity; t: Theme }) {
           border: `2px solid ${t.cardBorder}`,
           borderRadius: 26,
           padding: "18px 10px",
-          boxShadow: t.dark ? "none" : "0 10px 30px rgba(30,70,224,0.15)",
+          boxShadow: t.dark ? "none" : `0 10px 30px ${rgba(t.accent, 0.15)}`,
         }}
       >
         {o.perks.slice(0, 4).map((p, i) => (
@@ -509,7 +533,7 @@ function Cover({ o, t }: { o: Opportunity; t: Theme }) {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                background: t.dark ? "rgba(76,141,255,0.25)" : "#E6EEFF",
+                background: t.soft,
                 border: `4px solid ${t.accent}`,
               }}
             >
@@ -567,10 +591,10 @@ function Details({ o, t }: { o: Opportunity; t: Theme }) {
       <div style={{ display: "flex", alignItems: "center", marginTop: 26, flexShrink: 0 }}>
         <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
           <div style={{ display: "flex", fontFamily: "Anton", fontSize: 88, lineHeight: 1, color: t.text }}>
-            WHAT&apos;S&nbsp;<span style={{ color: t.dark ? YELLOW : BLUE }}>COVERED?</span>
+            WHAT&apos;S&nbsp;<span style={{ color: t.dark ? t.hi : t.accent }}>COVERED?</span>
           </div>
           <div style={{ display: "flex", marginTop: 12 }}>
-            <Stars color={t.dark ? YELLOW : BLUE} />
+            <Stars color={t.dark ? t.hi : t.accent} />
           </div>
           <div style={{ display: "flex", fontSize: 28, fontWeight: 700, marginTop: 10, color: t.sub }}>{o.title}</div>
         </div>
@@ -591,7 +615,7 @@ function Details({ o, t }: { o: Opportunity; t: Theme }) {
               borderRadius: 22,
               background: t.card,
               border: `2px solid ${t.cardBorder}`,
-              boxShadow: t.dark ? "none" : "0 8px 22px rgba(30,70,224,0.12)",
+              boxShadow: t.dark ? "none" : `0 8px 22px ${rgba(t.accent, 0.12)}`,
             }}
           >
             <div
@@ -602,7 +626,7 @@ function Details({ o, t }: { o: Opportunity; t: Theme }) {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                background: t.dark ? "rgba(76,141,255,0.25)" : "#E6EEFF",
+                background: t.soft,
                 flexShrink: 0,
               }}
             >
@@ -623,7 +647,7 @@ function Details({ o, t }: { o: Opportunity; t: Theme }) {
           flexShrink: 0,
           padding: "22px 26px",
           borderRadius: 24,
-          background: t.dark ? "rgba(255,255,255,0.07)" : "#EAF1FF",
+          background: t.panel,
           border: `2px solid ${t.cardBorder}`,
         }}
       >
@@ -674,7 +698,7 @@ function Details({ o, t }: { o: Opportunity; t: Theme }) {
           style={{
             display: "flex",
             background: WHITE,
-            color: BLUE,
+            color: t.accent,
             fontFamily: "Anton",
             fontSize: 30,
             padding: "10px 18px",
@@ -694,7 +718,7 @@ function HowTo({ o, t }: { o: Opportunity; t: Theme }) {
   return (
     <Frame o={o} t={t} index={3}>
       <div style={{ display: "flex", flexDirection: "column", marginTop: 26, flexShrink: 0 }}>
-        <div style={{ display: "flex", fontFamily: "Anton", fontSize: 50, color: t.dark ? YELLOW : BLUE }}>STEP-BY-STEP GUIDE</div>
+        <div style={{ display: "flex", fontFamily: "Anton", fontSize: 50, color: t.dark ? t.hi : t.accent }}>STEP-BY-STEP GUIDE</div>
         <div style={{ display: "flex", fontFamily: "Anton", fontSize: 92, lineHeight: 1, color: t.text }}>HOW TO APPLY</div>
       </div>
 
@@ -712,7 +736,7 @@ function HowTo({ o, t }: { o: Opportunity; t: Theme }) {
               overflow: "hidden",
               background: t.card,
               border: `2px solid ${t.cardBorder}`,
-              boxShadow: t.dark ? "none" : "0 8px 22px rgba(30,70,224,0.12)",
+              boxShadow: t.dark ? "none" : `0 8px 22px ${rgba(t.accent, 0.12)}`,
             }}
           >
             <div
@@ -722,7 +746,7 @@ function HowTo({ o, t }: { o: Opportunity; t: Theme }) {
                 justifyContent: "center",
                 width: 110,
                 height: 128,
-                background: BLUE,
+                background: t.accent,
                 color: WHITE,
                 fontFamily: "Anton",
                 fontSize: 64,
@@ -789,7 +813,7 @@ function iconsFor(o: Opportunity) {
 
 export async function renderSlide(o: Opportunity, n: number) {
   await loadIcons(iconsFor(o));
-  const t = THEMES[o.kind];
+  const t = themeFor(o);
   if (n === 1) return <Cover o={o} t={t} />;
   if (n === 2) return <Details o={o} t={t} />;
   return <HowTo o={o} t={t} />;
