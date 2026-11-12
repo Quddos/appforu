@@ -24,16 +24,22 @@ export type Opportunity = {
   /** Last day the opportunity is open (YYYY-MM-DD). Expired items are never posted. */
   deadlineISO: string;
   deadline: string;
+  /** Date the countdown targets when it differs from deadlineISO (e.g. the first of two rounds). */
+  countdownISO?: string;
+  /** Deadline depends on the course/country: show "OPEN NOW" instead of a countdown. */
+  deadlineVaries?: boolean;
   perks: Perk[];
   eligibility: string[];
   steps: string[];
   link: string;
   sources: string[];
   tags: string[];
+  /** Optional photo (stored in assets/photos) with its licence credit, shown on the slides. */
+  photo?: { file: string; credit: string; source?: string };
 };
 
 export const POSTS_PER_DAY = 2;
-export const SLIDES_PER_POST = 3;
+export const SLIDES_PER_POST = 5;
 export const COMMENT_KEYWORD = "LINK";
 
 export const opportunities = data as Opportunity[];
@@ -68,6 +74,36 @@ export function postsForDate(date = new Date()): Opportunity[] {
   });
 }
 
+/** Whole days from `now` until the deadline (0 = last day). */
+export function daysLeft(o: Opportunity, now = new Date()): number {
+  const end = Date.parse(`${o.countdownISO ?? o.deadlineISO}T23:59:59Z`);
+  return Math.max(0, Math.floor((end - now.getTime()) / 86_400_000));
+}
+
+/** Where an opportunity sits in the schedule (first date it is planned for). */
+function plannedSlot(id: string): { date: Date; slot: number } | null {
+  for (const [day, ids] of Object.entries(plan)) {
+    if (day.startsWith("_")) continue;
+    const slot = ids.indexOf(id);
+    if (slot >= 0) return { date: new Date(`${day}T12:00:00Z`), slot };
+  }
+  return null;
+}
+
+/** The post that follows this one ("tonight" or "tomorrow"), used for the teaser slide. */
+export function nextUp(o: Opportunity): { when: "TONIGHT" | "TOMORROW"; post: Opportunity } | null {
+  const at = plannedSlot(o.id);
+  if (!at) return null;
+  if (at.slot === 0) {
+    const post = postsForDate(at.date)[1];
+    return post && post.id !== o.id ? { when: "TONIGHT", post } : null;
+  }
+  const post = postsForDate(new Date(at.date.getTime() + 86_400_000))[0];
+  return post && post.id !== o.id ? { when: "TOMORROW", post } : null;
+}
+
+export const officialUrl = (o: Opportunity) => o.sources[0] ?? `https://${o.link}`;
+
 /** Scheduled dates from today onward (for the studio page). */
 export function upcomingDates(from = new Date(), days = 7): Date[] {
   const start = Date.UTC(from.getUTCFullYear(), from.getUTCMonth(), from.getUTCDate(), 12);
@@ -81,14 +117,15 @@ export function captionFor(o: Opportunity): { title: string; description: string
     "",
     `👉 ${o.subtitle}`,
     `📍 ${o.location}`,
-    `⏰ Deadline: ${o.deadline}`,
+    `⏰ Deadline: ${o.deadline}${!o.deadlineVaries && daysLeft(o) <= 60 ? ` (${daysLeft(o)} days left!)` : ""}`,
     `🔗 Official site: ${o.link}`,
     "",
-    `💬 Comment "${COMMENT_KEYWORD}" and I'll send you the direct application link + tips!`,
+    `💬 Comment "${COMMENT_KEYWORD}" and I'll send you the direct link, or tap the link in my bio 🔗`,
     "📌 Save this & tag a friend who needs it.",
     "⚠️ Always apply on the official website. Never pay an agent.",
     "",
     tags.join(" "),
+    ...(o.photo ? ["", `📷 ${o.photo.credit}${o.photo.source ? ` ${o.photo.source}` : ""}`] : []),
   ].join("\n");
   return { title: `${o.title} | ${o.highlight}`.slice(0, 90), description };
 }

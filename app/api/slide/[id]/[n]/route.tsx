@@ -30,7 +30,7 @@ export async function GET(_req: Request, ctx: { params: Promise<{ id: string; n:
   return new Response(new Uint8Array(body), {
     headers: {
       "Content-Type": wantPng ? "image/png" : "image/jpeg",
-      "Cache-Control": "public, max-age=3600, s-maxage=86400",
+      "Cache-Control": "public, max-age=600, s-maxage=3600",
     },
   });
 }

@@ -435,7 +435,12 @@
       "#workfromhome",
       "#sidehustle",
       "#makemoneyonline"
-    ]
+    ],
+    "photo": {
+      "file": "outlier-ai-trainer.jpg",
+      "credit": "Photo: jseliger2 · CC BY 2.0",
+      "source": "https://www.flickr.com/photos/91262622@N02/12677057645"
+    }
   },
   {
     "id": "gates-cambridge-2027",
@@ -497,7 +502,13 @@
       "#fullyfunded",
       "#studyinuk",
       "#phd"
-    ]
+    ],
+    "photo": {
+      "file": "gates-cambridge-2027.jpg",
+      "credit": "Photo: *rboed* · CC BY 2.0",
+      "source": "https://www.flickr.com/photos/92082510@N04/30144728947"
+    },
+    "countdownISO": "2026-12-08"
   },
   {
     "id": "codegeist-2026",
@@ -560,7 +571,12 @@
       "#atlassian",
       "#devpost",
       "#makemoneyonline"
-    ]
+    ],
+    "photo": {
+      "file": "codegeist-2026.jpg",
+      "credit": "Photo: qubodup · CC BY 2.0",
+      "source": "https://www.flickr.com/photos/21051491@N02/15204215650"
+    }
   },
   {
     "id": "mbzuai-2027",
@@ -623,7 +639,12 @@
       "#fullyfunded",
       "#studyabroad",
       "#uae"
-    ]
+    ],
+    "photo": {
+      "file": "mbzuai-2027.jpg",
+      "credit": "Photo: Zech Photography · CC BY 2.0",
+      "source": "https://www.flickr.com/photos/7576951@N05/32462596922"
+    }
   },
   {
     "id": "smart-buildings-kaggle",
@@ -685,7 +706,12 @@
       "#neurips",
       "#datascience",
       "#makemoneyonline"
-    ]
+    ],
+    "photo": {
+      "file": "smart-buildings-kaggle.jpg",
+      "credit": "Photo: Nicola since 1972 · CC BY 2.0",
+      "source": "https://www.flickr.com/photos/15216811@N06/6647760697"
+    }
   },
   {
     "id": "clarendon-oxford-2027",
@@ -747,7 +773,13 @@
       "#fullyfunded",
       "#studyinuk",
       "#masters"
-    ]
+    ],
+    "photo": {
+      "file": "clarendon-oxford-2027.jpg",
+      "credit": "Photo: dullhunk · CC BY 2.0",
+      "source": "https://www.flickr.com/photos/14829735@N00/7822195498"
+    },
+    "deadlineVaries": true
   },
   {
     "id": "squares-in-squares-kaggle",
@@ -809,7 +841,12 @@
       "#coding",
       "#puzzle",
       "#makemoneyonline"
-    ]
+    ],
+    "photo": {
+      "file": "squares-in-squares-kaggle.jpg",
+      "credit": "Photo: jin.thai · CC BY 2.0",
+      "source": "https://www.flickr.com/photos/32912734@N04/3192850778"
+    }
   },
   {
     "id": "euroculture-erasmus-2027",
@@ -872,6 +909,11 @@
       "#studyineurope",
       "#fullyfunded",
       "#masters"
-    ]
+    ],
+    "photo": {
+      "file": "euroculture-erasmus-2027.jpg",
+      "credit": "Photo: DesignRecipe · CC BY 2.0",
+      "source": "https://www.flickr.com/photos/124913477@N08/14086693619"
+    }
   }
 ]
