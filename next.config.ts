@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/api/slide/[id]/[n]": ["./assets/fonts/**", "./assets/f3d/**", "./assets/photos/**"],
     "/api/icon": ["./assets/fonts/**"],
+    "/api/brand/[asset]": ["./assets/fonts/**", "./assets/f3d/**"],
   },
   async rewrites() {
     return [
