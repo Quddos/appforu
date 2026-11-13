@@ -28,8 +28,13 @@ export async function exchangeCode(code: string, redirectUri: string) {
   return tokenRequest({ grant_type: "authorization_code", code, redirect_uri: redirectUri });
 }
 
-export async function refreshAccessToken() {
-  return tokenRequest({ grant_type: "refresh_token", refresh_token: env("TIKTOK_REFRESH_TOKEN") });
+/** Channels that can be connected. "main" = @fundntech, "two" = the second TikTok channel. */
+export const CHANNELS = { main: "TIKTOK_REFRESH_TOKEN", two: "TIKTOK_REFRESH_TOKEN_2" } as const;
+export type Channel = keyof typeof CHANNELS;
+export const asChannel = (v: string | null | undefined): Channel => (v === "two" ? "two" : "main");
+
+export async function refreshAccessToken(channel: Channel = "main") {
+  return tokenRequest({ grant_type: "refresh_token", refresh_token: env(CHANNELS[channel]) });
 }
 
 async function tokenRequest(params: Record<string, string>) {

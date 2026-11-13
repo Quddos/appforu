@@ -1,6 +1,6 @@
 import { SITE_URL } from "@/lib/site";
 import { NextResponse } from "next/server";
-import { TIKTOK_SCOPES } from "@/lib/tiktok";
+import { asChannel, TIKTOK_SCOPES } from "@/lib/tiktok";
 
 /** Step 1 of connecting your TikTok account: redirect to TikTok's login/consent screen. */
 export async function GET(req: Request) {
@@ -14,7 +14,10 @@ export async function GET(req: Request) {
   url.searchParams.set("response_type", "code");
   url.searchParams.set("redirect_uri", `${base}/api/tiktok/callback`);
   url.searchParams.set("state", state);
+  const channel = asChannel(new URL(req.url).searchParams.get("channel"));
+  url.searchParams.set("disable_auto_auth", "1"); // always show the login screen, so the right account can be picked
   const res = NextResponse.redirect(url);
   res.cookies.set("tt_state", state, { httpOnly: true, secure: true, maxAge: 600, path: "/" });
+  res.cookies.set("tt_channel", channel, { httpOnly: true, secure: true, maxAge: 600, path: "/" });
   return res;
 }
