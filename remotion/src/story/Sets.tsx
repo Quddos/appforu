@@ -6,6 +6,12 @@ export const SET_STYLE: Record<StoryScene["set"], { floor: string; fog: string; 
   cafe: { floor: "#7A4E33", fog: "#3B2418", key: "#FFE2B8", rim: "#FF9F5A", hemi: ["#FFE7CC", "#3A2214", 0.85], sky: "#5A3A28" },
   room: { floor: "#4A3570", fog: "#170E2E", key: "#FFD7A8", rim: "#8B7DFF", hemi: ["#C9B8FF", "#1A1030", 0.7], sky: "#1C1238" },
   studio: { floor: "#24124A", fog: "#0E0726", key: "#FFFFFF", rim: "#22D3EE", hemi: ["#FFFFFF", "#2B1250", 0.85], sky: "#160B33" },
+  office: { floor: "#9AA3AF", fog: "#DCE6F2", key: "#FFFFFF", rim: "#93C5FD", hemi: ["#F1F5F9", "#475569", 1.0], sky: "#CBD5E1" },
+  park: { floor: "#6BAA4F", fog: "#CDEBFF", key: "#FFF1D6", rim: "#FFC57A", hemi: ["#E0F2FE", "#3F6212", 1.0], sky: "#A5D8FF" },
+  airport: { floor: "#D6D3D1", fog: "#E7EEF6", key: "#FFFFFF", rim: "#7DD3FC", hemi: ["#F8FAFC", "#57534E", 1.05], sky: "#E2E8F0" },
+  street: { floor: "#3F3F46", fog: "#1E1B2E", key: "#FFE4C4", rim: "#F472B6", hemi: ["#C4B5FD", "#18181B", 0.7], sky: "#1E1B4B" },
+  library: { floor: "#8A5A3B", fog: "#3A2618", key: "#FFE7C2", rim: "#FBBF24", hemi: ["#FDE7C8", "#3B2414", 0.85], sky: "#4A3020" },
+  living: { floor: "#B08968", fog: "#F3E3D3", key: "#FFF1DD", rim: "#FB923C", hemi: ["#FFF7ED", "#5C4033", 0.95], sky: "#E7D3BE" },
 };
 
 const wood = "#A0673F";
@@ -119,7 +125,7 @@ function Cafe({ props }: { props: string[] }) {
   );
 }
 
-function Room({ props }: { props: string[] }) {
+function Room({ props, fairy }: { props: string[]; fairy?: boolean }) {
   return (
     <>
       {props.includes("desk") && (
@@ -165,7 +171,7 @@ function Room({ props }: { props: string[] }) {
         </group>
       )}
       {/* fairy lights */}
-      {Array.from({ length: 14 }, (_, i) => (
+      {fairy && Array.from({ length: 14 }, (_, i) => (
         <mesh key={i} position={[-2.2 + i * 0.34, 2.9 + Math.sin(i * 0.9) * 0.12, -2.2]}>
           <sphereGeometry args={[0.04, 10, 10]} />
           <meshBasicMaterial color={i % 2 ? "#FFE6B0" : "#FFB3D9"} toneMapped={false} />
@@ -177,20 +183,121 @@ function Room({ props }: { props: string[] }) {
 
 function Studio() {
   return (
-    <>
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.006, 0]}>
-        <ringGeometry args={[2.0, 2.12, 64]} />
-        <meshBasicMaterial color="#FFD23F" />
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.006, 0]}>
+      <ringGeometry args={[2.0, 2.12, 64]} />
+      <meshBasicMaterial color="#FFD23F" />
+    </mesh>
+  );
+}
+
+function Bench() {
+  return (
+    <group position={[0, 0, -0.05]}>
+      {[-0.12, 0.0, 0.12].map((z) => (
+        <mesh key={z} position={[0, 0.49, z]} castShadow receiveShadow>
+          <boxGeometry args={[1.8, 0.04, 0.1]} />
+          <meshStandardMaterial color={wood} roughness={0.6} />
+        </mesh>
+      ))}
+      {[0.62, 0.78].map((y) => (
+        <mesh key={y} position={[0, y, -0.24]} rotation={[-0.15, 0, 0]} castShadow>
+          <boxGeometry args={[1.8, 0.1, 0.035]} />
+          <meshStandardMaterial color={wood} roughness={0.6} />
+        </mesh>
+      ))}
+      {[-0.8, 0.8].map((x) => (
+        <mesh key={x} position={[x, 0.24, -0.05]} castShadow>
+          <boxGeometry args={[0.06, 0.48, 0.4]} />
+          <meshStandardMaterial color="#1F2937" metalness={0.5} roughness={0.4} />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Sofa() {
+  const c = "#5B6C8F";
+  return (
+    <group position={[0, 0, -0.1]}>
+      <mesh position={[0, 0.3, 0]} castShadow receiveShadow>
+        <boxGeometry args={[1.9, 0.38, 0.62]} />
+        <meshStandardMaterial color={c} roughness={0.9} />
       </mesh>
-    </>
+      <mesh position={[0, 0.72, -0.27]} castShadow>
+        <boxGeometry args={[1.9, 0.6, 0.16]} />
+        <meshStandardMaterial color={c} roughness={0.9} />
+      </mesh>
+      {[-0.98, 0.98].map((x) => (
+        <mesh key={x} position={[x, 0.5, 0]} castShadow>
+          <boxGeometry args={[0.18, 0.5, 0.62]} />
+          <meshStandardMaterial color={c} roughness={0.9} />
+        </mesh>
+      ))}
+      <mesh position={[-0.55, 0.62, -0.12]} rotation={[0.2, 0.3, 0.1]}>
+        <boxGeometry args={[0.32, 0.3, 0.1]} />
+        <meshStandardMaterial color="#FFD23F" roughness={0.9} />
+      </mesh>
+    </group>
+  );
+}
+
+function Seats() {
+  return (
+    <group position={[0, 0, -0.05]}>
+      <mesh position={[0, 0.45, 0]} castShadow receiveShadow>
+        <boxGeometry args={[2.2, 0.06, 0.5]} />
+        <meshStandardMaterial color="#334155" metalness={0.4} roughness={0.4} />
+      </mesh>
+      {[-0.73, 0, 0.73].map((x) => (
+        <mesh key={x} position={[x, 0.75, -0.24]} castShadow>
+          <boxGeometry args={[0.66, 0.55, 0.05]} />
+          <meshStandardMaterial color="#334155" metalness={0.4} roughness={0.4} />
+        </mesh>
+      ))}
+      {[-1.05, 1.05].map((x) => (
+        <mesh key={x} position={[x, 0.22, 0]}>
+          <cylinderGeometry args={[0.03, 0.03, 0.44, 8]} />
+          <meshStandardMaterial color="#94A3B8" metalness={0.8} roughness={0.2} />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Plant({ position }: { position: [number, number, number] }) {
+  return (
+    <group position={position}>
+      <mesh position={[0, 0.2, 0]} castShadow>
+        <cylinderGeometry args={[0.18, 0.14, 0.4, 20]} />
+        <meshStandardMaterial color="#F5F5F4" roughness={0.5} />
+      </mesh>
+      {[0, 1, 2, 3, 4].map((i) => (
+        <mesh key={i} position={[Math.sin(i * 1.3) * 0.1, 0.55 + (i % 2) * 0.12, Math.cos(i * 1.3) * 0.1]} castShadow>
+          <sphereGeometry args={[0.16, 14, 14]} />
+          <meshStandardMaterial color={i % 2 ? "#16A34A" : "#22C55E"} roughness={0.7} />
+        </mesh>
+      ))}
+    </group>
   );
 }
 
 export function SetPieces({ set, props }: { set: StoryScene["set"]; props: string[] }) {
-  if (set === "cafe") return <Cafe props={props} />;
-  if (set === "room") return <Room props={props} />;
-  if (set === "studio") return <Studio />;
-  return null;
+  return (
+    <>
+      {set === "studio" && <Studio />}
+      {(props.includes("table") || set === "cafe") && <Cafe props={props} />}
+      {(props.includes("desk") || props.includes("suitcase") || set === "room") && <Room props={props} fairy={set === "room"} />}
+      {props.includes("bench") && <Bench />}
+      {props.includes("sofa") && <Sofa />}
+      {props.includes("seats") && <Seats />}
+      {props.includes("plants") && (
+        <>
+          <Plant position={[-1.6, 0, -0.9]} />
+          <Plant position={[1.7, 0, -1.1]} />
+        </>
+      )}
+    </>
+  );
 }
 
 export function Floor({ color, glossy }: { color: string; glossy?: boolean }) {

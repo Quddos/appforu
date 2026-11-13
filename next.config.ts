@@ -12,7 +12,13 @@ const nextConfig: NextConfig = {
     return [
       // TikTok domain verification file, e.g. /tiktokAbC123.txt (see app/api/tiktok/verify)
       { source: "/:name(tiktok[A-Za-z0-9_-]*\\.txt)", destination: "/api/tiktok/verify/:name" },
+      // Story videos live on the rolling "media" branch (keeps big files out of the main history);
+      // served from our verified domain so TikTok can pull them.
+      { source: "/media/:file", destination: "https://raw.githubusercontent.com/Quddos/appforu/media/:file" },
     ];
+  },
+  async headers() {
+    return [{ source: "/media/:file", headers: [{ key: "Content-Type", value: "video/mp4" }, { key: "Cache-Control", value: "public, max-age=300" }] }];
   },
 };
 

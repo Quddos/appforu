@@ -176,57 +176,142 @@ function Face({ mood, mouth, blink, look }: { mood: Mood; mouth: number; blink: 
   );
 }
 
-function Hair({ look, color }: { look: "girl" | "guy"; color: string }) {
-  const hair = "#2A1B14";
-  if (look === "guy")
-    return (
-      <>
-        <mesh rotation={[-0.35, 0, 0]}>
-          <sphereGeometry args={[R + 0.018, 32, 16, 0, Math.PI * 2, 0, Math.PI * 0.42]} />
-          <meshStandardMaterial color={hair} roughness={0.8} />
-        </mesh>
-        {/* glasses */}
-        {([-1, 1] as const).map((s) => (
-          <mesh key={s} position={onHead(0.085 * s, 0.035, 0.03)}>
-            <torusGeometry args={[0.058, 0.009, 8, 24]} />
-            <meshStandardMaterial color={INK} metalness={0.4} roughness={0.3} />
-          </mesh>
-        ))}
-        <mesh position={onHead(0, 0.045, 0.035)}>
-          <boxGeometry args={[0.05, 0.01, 0.01]} />
-          <meshStandardMaterial color={INK} />
-        </mesh>
-      </>
-    );
+export type Look = "girl" | "girl-puff" | "girl-braids" | "guy" | "guy-cap" | "guy-fade";
+
+function Glasses() {
   return (
     <>
-      <mesh rotation={[-0.25, 0, 0]}>
-        <sphereGeometry args={[R + 0.02, 32, 16, 0, Math.PI * 2, 0, Math.PI * 0.47]} />
-        <meshStandardMaterial color={hair} roughness={0.75} />
-      </mesh>
-      {/* puff bun + ponytail */}
-      <mesh position={[0, R * 0.75, -R * 0.75]} castShadow>
-        <sphereGeometry args={[0.12, 20, 20]} />
-        <meshStandardMaterial color={hair} roughness={0.75} />
-      </mesh>
-      <mesh position={[0, R * 0.25, -R * 1.05]} rotation={[0.5, 0, 0]} castShadow>
-        <capsuleGeometry args={[0.07, 0.2, 8, 12]} />
-        <meshStandardMaterial color={hair} roughness={0.75} />
-      </mesh>
-      {/* bow */}
       {([-1, 1] as const).map((s) => (
-        <mesh key={s} position={[0.06 * s, R * 0.88, -R * 0.55]} rotation={[0, 0, s * 0.6]}>
-          <coneGeometry args={[0.045, 0.1, 12]} />
-          <meshStandardMaterial color={color} roughness={0.3} />
+        <mesh key={s} position={onHead(0.085 * s, 0.035, 0.03)}>
+          <torusGeometry args={[0.058, 0.009, 8, 24]} />
+          <meshStandardMaterial color={INK} metalness={0.4} roughness={0.3} />
         </mesh>
       ))}
-      {/* cheeks + lashes */}
+      <mesh position={onHead(0, 0.045, 0.035)}>
+        <boxGeometry args={[0.05, 0.01, 0.01]} />
+        <meshStandardMaterial color={INK} />
+      </mesh>
+    </>
+  );
+}
+
+function Cheeks() {
+  return (
+    <>
       {([-1, 1] as const).map((s) => (
         <mesh key={`c${s}`} position={onHead(0.15 * s, -0.04, 0)} scale={[0.04, 0.022, 0.01]}>
           <sphereGeometry args={[1, 12, 12]} />
           <meshStandardMaterial color="#FF8FB8" roughness={0.6} transparent opacity={0.8} />
         </mesh>
       ))}
+    </>
+  );
+}
+
+function Hair({ look, color, glasses, hair = "#2A1B14" }: { look: Look; color: string; glasses?: boolean; hair?: string }) {
+  const mat = <meshStandardMaterial color={hair} roughness={0.8} />;
+  const cap = (open: number, tilt: number, r = R + 0.018) => (
+    <mesh rotation={[tilt, 0, 0]}>
+      <sphereGeometry args={[r, 32, 16, 0, Math.PI * 2, 0, Math.PI * open]} />
+      {mat}
+    </mesh>
+  );
+  let body: React.ReactNode;
+  switch (look) {
+    case "guy":
+      body = cap(0.42, -0.35);
+      break;
+    case "guy-fade":
+      body = (
+        <>
+          {cap(0.36, -0.3, R + 0.012)}
+          <mesh position={[0, R * 0.78, 0.02]} scale={[1, 0.5, 1]}>
+            <sphereGeometry args={[R * 0.72, 24, 16]} />
+            {mat}
+          </mesh>
+        </>
+      );
+      break;
+    case "guy-cap":
+      body = (
+        <>
+          {cap(0.4, -0.35)}
+          <mesh position={[0, 0.03, 0]} rotation={[-0.2, 0, 0]}>
+            <sphereGeometry args={[R + 0.03, 32, 16, 0, Math.PI * 2, 0, Math.PI * 0.36]} />
+            <meshStandardMaterial color={color} roughness={0.5} />
+          </mesh>
+          <mesh position={[0, R * 0.62, R * 0.78]} rotation={[0.25, 0, 0]}>
+            <cylinderGeometry args={[0.17, 0.17, 0.02, 24, 1, false, -Math.PI / 2, Math.PI]} />
+            <meshStandardMaterial color={color} roughness={0.5} />
+          </mesh>
+        </>
+      );
+      break;
+    case "girl-puff":
+      body = (
+        <>
+          {cap(0.47, -0.25, R + 0.02)}
+          <mesh position={[0, R * 1.05, -R * 0.2]} castShadow>
+            <sphereGeometry args={[0.17, 24, 24]} />
+            {mat}
+          </mesh>
+          <mesh position={[0, R * 0.78, -R * 0.15]} rotation={[Math.PI / 2 - 0.2, 0, 0]}>
+            <torusGeometry args={[0.1, 0.022, 8, 24]} />
+            <meshStandardMaterial color={color} roughness={0.3} />
+          </mesh>
+          <Cheeks />
+        </>
+      );
+      break;
+    case "girl-braids":
+      body = (
+        <>
+          {cap(0.48, -0.2, R + 0.02)}
+          {([-1, 1] as const).map((s) => (
+            <group key={s} position={[0.2 * s, -0.02, -0.08]} rotation={[0.15, 0, s * 0.12]}>
+              {[0, 1, 2, 3].map((i) => (
+                <mesh key={i} position={[0, -0.08 - i * 0.075, 0]} castShadow>
+                  <sphereGeometry args={[0.045 - i * 0.004, 12, 12]} />
+                  {mat}
+                </mesh>
+              ))}
+              <mesh position={[0, -0.39, 0]}>
+                <sphereGeometry args={[0.03, 10, 10]} />
+                <meshStandardMaterial color={color} />
+              </mesh>
+            </group>
+          ))}
+          <Cheeks />
+        </>
+      );
+      break;
+    case "girl":
+    default:
+      body = (
+        <>
+          {cap(0.47, -0.25, R + 0.02)}
+          <mesh position={[0, R * 0.75, -R * 0.75]} castShadow>
+            <sphereGeometry args={[0.12, 20, 20]} />
+            {mat}
+          </mesh>
+          <mesh position={[0, R * 0.25, -R * 1.05]} rotation={[0.5, 0, 0]} castShadow>
+            <capsuleGeometry args={[0.07, 0.2, 8, 12]} />
+            {mat}
+          </mesh>
+          {([-1, 1] as const).map((s) => (
+            <mesh key={s} position={[0.06 * s, R * 0.88, -R * 0.55]} rotation={[0, 0, s * 0.6]}>
+              <coneGeometry args={[0.045, 0.1, 12]} />
+              <meshStandardMaterial color={color} roughness={0.3} />
+            </mesh>
+          ))}
+          <Cheeks />
+        </>
+      );
+  }
+  return (
+    <>
+      {body}
+      {glasses && <Glasses />}
     </>
   );
 }
@@ -252,7 +337,9 @@ function GradCap() {
 
 export type StickmanProps = {
   color: string;
-  look: "girl" | "guy";
+  look: Look;
+  glasses?: boolean;
+  hair?: string;
   upper: Upper;
   sit: number; // 0..1
   walk: number; // phase (radians)
@@ -313,7 +400,7 @@ export function Stickman(p: StickmanProps) {
             <meshPhysicalMaterial color={SKIN} roughness={0.45} clearcoat={0.3} />
           </mesh>
           <Face mood={p.mood} mouth={p.mouth} blink={blink} look={p.look2 ?? 0} />
-          <Hair look={p.look} color={p.color} />
+          <Hair look={p.look} color={p.color} glasses={p.glasses} hair={p.hair} />
           {p.gradCap && <GradCap />}
         </group>
       </group>

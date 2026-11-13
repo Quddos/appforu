@@ -1,0 +1,245 @@
+{
+  "id": "q-2026-11-14-b",
+  "date": "2026-11-14",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Ade almost paid a scholarship scammer",
+  "caption": "Ade almost paid $300 to \"secure\" a scholarship 😬 Real scholarships NEVER ask you to pay to win them. Share this with a friend who's applying 🙏 #scholarship #scamalert #studyabroad #storytime",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "NIGHT · CITY STREET",
+      "backdrop": "busy African city street at night with colorful shop lights and wet road",
+      "at": {
+        "ade": [
+          -0.2,
+          0,
+          0.3,
+          0.2
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "DON'T PAY FOR A \"SCHOLARSHIP\"!",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "text": "Quddus! I won a scholarship to Canada! Full funding, flight, everything!",
+          "say": "Kuddus! I won a scholarship to Canada! Full funding, flight, everything!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Congratulations, Ade! Which university?",
+          "act": "wave",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.2
+            ],
+            "ade": [
+              -0.75,
+              0,
+              0.4
+            ]
+          },
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "say": "They didn't say yet. But the agent said I just need to pay three hundred dollars to secure my slot.",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Ade. Put the phone down. Slowly.",
+          "mood": "shock",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "Why? He sounded very nice. He even used five emojis.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "living",
+      "place": "ADE'S LIVING ROOM",
+      "backdrop": "cozy African living room with a sofa, plants and evening light through the window",
+      "at": {
+        "ade": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "ade",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "say": "Listen. Real scholarships never ask you to pay money to win them or to secure a slot.",
+          "act": "talk",
+          "card": {
+            "icon": "1f6a8",
+            "title": "SCAM RED FLAGS",
+            "lines": [
+              "1f4b8|Pay a fee to secure your scholarship",
+              "23f0|You won something you never applied for",
+              "1f4f1|Only talks on WhatsApp, no official email"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "But how do I know which ones are real?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Check the official website. A real university or government scholarship has its own page, and you apply there, not through a random agent.",
+          "act": "point",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO CHECK",
+            "lines": [
+              "1f310|Find it on the official website",
+              "1f4e9|Official email domain, not Gmail",
+              "1f50e|Search the name plus the word scam"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "So the scholarship that found me on WhatsApp at midnight was not real.",
+          "act": "facepalm",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Exactly. Opportunities don't chase you in your DMs. You apply for them.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "Okay. I'm blocking him. Then I'm reporting him.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Good. And next time, send me the link before you send anyone money.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "say": "Deal! My three hundred dollars says thank you.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Comment SAFE if you've seen a scam like this, and share this with a friend who's applying.",
+          "say": "Comment SAFE if you've seen a scam like this, and share this with a friend who's applying.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "STAY SAFE",
+            "lines": [
+              "2705|Only apply on official websites",
+              "1f6a8|Never pay to \"secure\" a scholarship"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow so nobody scams you again!",
+          "text": "Follow so nobody scams you again!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

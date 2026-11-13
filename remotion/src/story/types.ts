@@ -25,7 +25,7 @@ export type Beat = {
 };
 
 export type StoryScene = {
-  set: "campus" | "cafe" | "room" | "studio";
+  set: "campus" | "cafe" | "room" | "studio" | "office" | "park" | "airport" | "street" | "library" | "living";
   place: string;
   backdrop?: string;
   at: Record<string, Place>;
@@ -34,7 +34,16 @@ export type StoryScene = {
   beats: Beat[];
 };
 
-export type CastMember = { name: string; color: string; voice: "male" | "female"; look: "girl" | "guy" };
+export type CastMember = {
+  name: string;
+  color: string;
+  /** "male" / "female" or a Piper voice id such as en_US-joe-medium */
+  voice: string;
+  look: import("./Stickman").Look;
+  glasses?: boolean;
+  hair?: string;
+  speed?: number;
+};
 
 export type TimedBeat = Beat & {
   scene: number;
@@ -48,6 +57,7 @@ export type TimedBeat = Beat & {
 
 export type StoryProps = {
   id: string;
+  brand?: "bingebrain" | "fundintech";
   title: string;
   total: number;
   cast: Record<string, CastMember>;

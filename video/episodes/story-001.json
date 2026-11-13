@@ -1,5 +1,7 @@
 {
   "id": "story-001",
+  "date": "2026-11-14",
+  "slot": "q1",
   "series": "story",
   "title": "Tomy finds a fully funded master's",
   "caption": "She just graduated... and found a FULLY FUNDED master's abroad 🎓✈️ MBZUAI (Abu Dhabi) is open to ALL nationalities: free tuition, monthly stipend, flights, visa. Deadline 15 Dec 2026. Comment LINK 👇 #scholarship #fullyfunded #studyabroad #mastersdegree #storytime",
@@ -7,14 +9,17 @@
     "tomy": {
       "name": "Tomy",
       "color": "#FF4FA3",
-      "voice": "female",
-      "look": "girl"
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
     },
     "quddus": {
       "name": "Quddus",
       "color": "#22D3EE",
-      "voice": "male",
-      "look": "guy"
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
     }
   },
   "scenes": [
@@ -421,5 +426,6 @@
         }
       ]
     }
-  ]
+  ],
+  "brand": "bingebrain"
 }

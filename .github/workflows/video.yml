@@ -1,30 +1,28 @@
-name: Daily BingeBrain video
+name: Story videos
 
 on:
   schedule:
-    - cron: "30 5 * * *" # 05:30 UTC, before the 17:00 UTC posting slot
+    - cron: "15 0 * * *" # renders tomorrow + the day after, well before the 12:00 / 19:00 UTC posts
+    - cron: "15 12 * * *" # second pass picks up anything the first run did not finish
   workflow_dispatch:
     inputs:
-      date:
-        description: "UTC date to render (YYYY-MM-DD), default today"
+      dates:
+        description: "Space-separated UTC dates to render (YYYY-MM-DD). Default: tomorrow and the day after"
         required: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: daily-video
+  group: story-videos
   cancel-in-progress: false
 
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ccr-e50bec89-7db7t5
-          lfs: false
 
       - uses: actions/setup-node@v4
         with:
@@ -34,17 +32,17 @@ jobs:
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Install Piper (free open-source voice)
+      - name: Install Piper and the character voices (free, open source)
         run: |
           python3 -m pip install --user piper-tts==1.8.0
           mkdir -p ~/voices
-          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high
-          curl -sSfL -o ~/voices/en_US-ryan-high.onnx "$base/en_US-ryan-high.onnx"
-          curl -sSfL -o ~/voices/en_US-ryan-high.onnx.json "$base/en_US-ryan-high.onnx.json"
-          # female voice for story characters
-          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/high
-          curl -sSfL -o ~/voices/en_US-lessac-high.onnx "$base/en_US-lessac-high.onnx"
-          curl -sSfL -o ~/voices/en_US-lessac-high.onnx.json "$base/en_US-lessac-high.onnx.json"
+          for v in en_US/ryan/high en_US/lessac/high en_US/joe/medium en_GB/cori/high en_GB/alan/medium en_US/amy/medium en_US/bryce/medium; do
+            lang=$(echo $v | cut -d/ -f1); name=$(echo $v | cut -d/ -f2); q=$(echo $v | cut -d/ -f3)
+            id="$lang-$name-$q"
+            base="https://huggingface.co/rhasspy/piper-voices/resolve/main/en/$v"
+            curl -sSfL --retry 3 -o ~/voices/$id.onnx "$base/$id.onnx"
+            curl -sSfL --retry 3 -o ~/voices/$id.onnx.json "$base/$id.onnx.json"
+          done
 
       - run: npm ci
 
@@ -54,20 +52,34 @@ jobs:
           npm ci
           npx remotion browser ensure
 
-      - name: Render today's episode
+      - name: Check out the media branch
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          url="https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if ! git clone -q --depth 1 -b media "$url" "$RUNNER_TEMP/media"; then
+            mkdir -p "$RUNNER_TEMP/media" && cd "$RUNNER_TEMP/media" && git init -q -b media && git remote add origin "$url"
+          fi
+          cd "$RUNNER_TEMP/media"
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+
+      - name: Render and publish the videos
         env:
           PIPER: /home/runner/.local/bin/piper
           PIPER_VOICE: /home/runner/voices/en_US-ryan-high.onnx
-          PIPER_VOICE_FEMALE: /home/runner/voices/en_US-lessac-high.onnx
           REMOTION_GL: swangle
           CONCURRENCY: "4"
-        run: npx tsx video/daily.ts ${{ github.event.inputs.date }}
+          MEDIA_DIR: ${{ runner.temp }}/media
+          PUSH: "1"
+          TIME_BUDGET_MIN: "290"
+        run: npx tsx video/daily.ts ${{ github.event.inputs.dates }}
 
-      - name: Commit video
+      - name: Keep new backdrops on the code branches
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
-          git add -A public/videos assets/backdrops
+          git add assets/backdrops
           git diff --cached --quiet && exit 0
-          git commit -m "Add daily BingeBrain video"
-          git push origin HEAD:ccr-e50bec89-7db7t5
+          git commit -m "Cache new story backdrops"
+          git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"

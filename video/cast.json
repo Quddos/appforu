@@ -1,0 +1,10 @@
+{
+  "_comment": "Story characters. Quddus is always the guide. voice = Piper voice id (downloaded by the video workflow).",
+  "quddus": { "name": "Quddus", "color": "#22D3EE", "voice": "en_US-ryan-high", "look": "guy", "glasses": true, "speed": 0.97 },
+  "tomy": { "name": "Tomy", "color": "#FF4FA3", "voice": "en_US-lessac-high", "look": "girl", "speed": 0.95 },
+  "ade": { "name": "Ade", "color": "#FB923C", "voice": "en_US-joe-medium", "look": "guy-cap", "speed": 0.95 },
+  "zara": { "name": "Zara", "color": "#A78BFA", "voice": "en_GB-cori-high", "look": "girl-puff", "hair": "#1A1110", "speed": 0.95 },
+  "musa": { "name": "Musa", "color": "#4ADE80", "voice": "en_GB-alan-medium", "look": "guy-fade", "hair": "#111111", "speed": 0.95 },
+  "kemi": { "name": "Kemi", "color": "#FACC15", "voice": "en_US-amy-medium", "look": "girl-braids", "hair": "#1F1410", "speed": 0.95 },
+  "chidi": { "name": "Chidi", "color": "#F87171", "voice": "en_US-bryce-medium", "look": "guy", "hair": "#1A1A1A", "speed": 0.97 }
+}

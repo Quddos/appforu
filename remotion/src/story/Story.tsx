@@ -274,6 +274,8 @@ export const Story: React.FC<StoryProps> = (props) => {
               <Stickman
                 color={cast.color}
                 look={cast.look}
+                glasses={cast.glasses}
+                hair={cast.hair}
                 upper={upper}
                 sit={L.sit}
                 walk={L.walk}
@@ -285,7 +287,7 @@ export const Story: React.FC<StoryProps> = (props) => {
                 blinkSeed={i * 1.3}
                 position={L.pos}
                 rotY={L.rotY}
-                gradCap={scene.set === "campus" && cast.look === "girl"}
+                gradCap={scene.place.includes("GRADUATION") && c !== "quddus"}
                 phone={s.act === "phone"}
               />
               {/* speaker glow ring */}
@@ -303,11 +305,19 @@ export const Story: React.FC<StoryProps> = (props) => {
 
       {/* header: brand + place, then the colour key for who is who */}
       <div style={{ position: "absolute", top: 64, left: 44, right: 44, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 10, fontFamily: "Anton", fontSize: 46, color: "#fff", textShadow: "0 4px 0 rgba(0,0,0,.4)" }}>
-          <Img src={icon("1f37f")} style={{ width: 58, height: 58 }} />
-          BINGE<span style={{ color: BUTTER }}>BRAIN</span>
-          <span style={{ fontSize: 30, background: BUTTER, color: INK, padding: "0 12px", borderRadius: 8, marginLeft: 6 }}>STORIES</span>
-        </div>
+        {props.brand === "fundintech" ? (
+          <div style={{ display: "flex", alignItems: "center", gap: 10, fontFamily: "Anton", fontSize: 46, color: "#fff", textShadow: "0 4px 0 rgba(0,0,0,.4)" }}>
+            <Img src={icon("1f4b0")} style={{ width: 58, height: 58 }} />
+            FUND<span style={{ color: BUTTER }}>IN</span>TECH
+            <span style={{ fontSize: 30, background: "#22D3EE", color: INK, padding: "0 12px", borderRadius: 8, marginLeft: 6 }}>STORIES</span>
+          </div>
+        ) : (
+          <div style={{ display: "flex", alignItems: "center", gap: 10, fontFamily: "Anton", fontSize: 46, color: "#fff", textShadow: "0 4px 0 rgba(0,0,0,.4)" }}>
+            <Img src={icon("1f37f")} style={{ width: 58, height: 58 }} />
+            BINGE<span style={{ color: BUTTER }}>BRAIN</span>
+            <span style={{ fontSize: 30, background: BUTTER, color: INK, padding: "0 12px", borderRadius: 8, marginLeft: 6 }}>STORIES</span>
+          </div>
+        )}
         <div style={{ background: "rgba(14,7,38,.85)", color: BUTTER, fontFamily: "Anton", fontSize: 28, padding: "6px 16px", borderRadius: 12, border: `2px solid ${BUTTER}` }}>{scene.place}</div>
       </div>
       <div style={{ position: "absolute", top: 152, left: 44, display: "flex", gap: 12 }}>
@@ -332,8 +342,8 @@ export const Story: React.FC<StoryProps> = (props) => {
       {beat.card && <CardPanel key={`c${idx}`} card={beat.card} f={f} color={speakerColor} />}
       {beat.end && (
         <div style={{ position: "absolute", top: 700, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 22 }}>
-          <div style={{ background: "#FF2E88", color: "#fff", fontFamily: "Anton", fontSize: 66, padding: "12px 44px", borderRadius: 60, transform: `scale(${spring({ frame: f - 8, fps })})`, boxShadow: "0 12px 0 rgba(0,0,0,.3)" }}>FOLLOW @QOMMENT.CHAT</div>
-          <div style={{ fontFamily: "Anton", fontSize: 54, color: BUTTER, opacity: clamp01((f - 20) / 10), textShadow: "0 5px 0 rgba(0,0,0,.4)" }}>PART 2 COMING SOON</div>
+          <div style={{ background: "#FF2E88", color: "#fff", fontFamily: "Anton", fontSize: 66, padding: "12px 44px", borderRadius: 60, transform: `scale(${spring({ frame: f - 8, fps })})`, boxShadow: "0 12px 0 rgba(0,0,0,.3)" }}>{props.brand === "fundintech" ? "FOLLOW @FUNDNTECH" : "FOLLOW @QOMMENT.CHAT"}</div>
+          <div style={{ fontFamily: "Anton", fontSize: 54, color: BUTTER, opacity: clamp01((f - 20) / 10), textShadow: "0 5px 0 rgba(0,0,0,.4)" }}>{beat.sub ?? "NEW STORY EVERY DAY"}</div>
         </div>
       )}
       {scene.backdropFile && <div style={{ position: "absolute", left: 24, bottom: 20, fontFamily: "Inter", fontWeight: 800, fontSize: 18, color: "rgba(255,255,255,.55)" }}>AI backdrop: pollinations.ai</div>}

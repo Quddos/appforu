@@ -260,7 +260,7 @@ function storyMusic() {
   return "sfx/story-music.wav";
 }
 
-type StoryFile = { id: string; title: string; cast: StoryProps["cast"]; scenes: StoryScene[] };
+type StoryFile = { id: string; brand?: StoryProps["brand"]; title: string; cast: StoryProps["cast"]; scenes: StoryScene[] };
 
 async function story(ep: StoryFile, out: string) {
   // long-form: cap the bitrate so a ~3 min video stays well under 50 MB
@@ -283,8 +283,10 @@ async function story(ep: StoryFile, out: string) {
       let env: number[] | undefined;
       if (b.say) {
         const wav = path.join(epDir, `b${n}.wav`);
-        const voice = ep.cast[b.who]?.voice === "female" ? VOICE_FEMALE : VOICE;
-        sh(PIPER, ["-m", voice, "-f", wav, "--length_scale", ep.cast[b.who]?.voice === "female" ? "0.95" : "0.97", "--sentence_silence", "0.18"], b.say);
+        const cm = ep.cast[b.who];
+        const v = cm?.voice ?? "male";
+        const voice = v === "female" ? VOICE_FEMALE : v === "male" ? VOICE : path.join(path.dirname(VOICE), `${v}.onnx`);
+        sh(PIPER, ["-m", voice, "-f", wav, "--length_scale", String(cm?.speed ?? 0.96), "--sentence_silence", "0.18"], b.say);
         if (b.phone) {
           // phone-call voice: band-limited and a little crunchy
           const tmp = wav.replace(/\.wav$/, "-raw.wav");
@@ -309,7 +311,7 @@ async function story(ep: StoryFile, out: string) {
       n++;
     }
   }
-  const props: StoryProps = { id: ep.id, title: ep.title, total: from, cast: ep.cast, scenes, beats, sfx: { whoosh: fx.whoosh, pop: fx.pop, ding: fx.ding }, music: storyMusic() };
+  const props: StoryProps = { id: ep.id, brand: ep.brand, title: ep.title, total: from, cast: ep.cast, scenes, beats, sfx: { whoosh: fx.whoosh, pop: fx.pop, ding: fx.ding }, music: storyMusic() };
   console.log(`${ep.id}: ${(from / FPS).toFixed(1)}s, ${from} frames, ${beats.length} beats`);
   await renderComp("Story", props as unknown as Record<string, unknown>, out, beats.map((b) => b.from + Math.floor(b.dur * 0.6)));
 }
