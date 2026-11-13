@@ -915,5 +915,887 @@
       "credit": "Photo: DesignRecipe · CC BY 2.0",
       "source": "https://www.flickr.com/photos/124913477@N08/14086693619"
     }
+  },
+  {
+    "id": "dataannotation-ai",
+    "kind": "earn",
+    "label": "REMOTE AI WORK",
+    "kicker": "GET PAID",
+    "hero": "1f916",
+    "badges": [
+      "1f4b5",
+      "1f4bb",
+      "1f3e0"
+    ],
+    "title": "Train AI with DataAnnotation",
+    "highlight": "$20+/HR",
+    "highlightLabel": "CHATTING WITH AI, FROM HOME",
+    "subtitle": "Rate chatbot answers, compare AI outputs and test image generators",
+    "host": "DataAnnotation",
+    "location": "Remote · roles vary by country",
+    "deadlineISO": "2027-12-31",
+    "deadline": "Rolling: apply any time",
+    "deadlineVaries": true,
+    "perks": [
+      {
+        "e": "1f4ac",
+        "t": "General AI tasks: from ~$20–$25/hr"
+      },
+      {
+        "e": "1f4bb",
+        "t": "Coding projects: $40+/hr"
+      },
+      {
+        "e": "1f310",
+        "t": "Multilingual projects: $20+/hr"
+      },
+      {
+        "e": "1f3e0",
+        "t": "Remote, choose your own hours"
+      }
+    ],
+    "eligibility": [
+      "Strong written English",
+      "Good attention to detail",
+      "Pass the free starter assessment",
+      "Laptop + stable internet"
+    ],
+    "steps": [
+      "Open dataannotation.tech",
+      "Pick a role (generalist, coding, language)",
+      "Take the starter assessment",
+      "Unlock paid projects"
+    ],
+    "link": "dataannotation.tech",
+    "sources": [
+      "https://dataannotation.tech/faqs",
+      "https://www.dataannotation.tech/"
+    ],
+    "tags": [
+      "#remotework",
+      "#AIjobs",
+      "#workfromhome",
+      "#sidehustle",
+      "#makemoneyonline"
+    ],
+    "verified": true
+  },
+  {
+    "id": "hurford-youth-2027",
+    "kind": "academic",
+    "label": "FELLOWSHIP IN USA",
+    "kicker": "FULLY FUNDED",
+    "hero": "1f3db",
+    "badges": [
+      "1f1fa-1f1f8",
+      "2708",
+      "1f310"
+    ],
+    "title": "Hurford Youth Fellowship 2027",
+    "highlight": "4 MONTHS",
+    "highlightLabel": "IN WASHINGTON, D.C.",
+    "subtitle": "Work with the World Movement for Democracy at NED, for young activists aged 30 or under",
+    "host": "National Endowment for Democracy (NED)",
+    "location": "Washington, D.C., USA",
+    "deadlineISO": "2026-11-30",
+    "deadline": "30 Nov 2026 (letters by 4 Dec)",
+    "perks": [
+      {
+        "e": "1f3db",
+        "t": "4-month fellowship at NED in D.C."
+      },
+      {
+        "e": "2708",
+        "t": "Fully funded program"
+      },
+      {
+        "e": "1f310",
+        "t": "Global democracy network"
+      },
+      {
+        "e": "1f4c5",
+        "t": "1 May – 31 Aug 2027"
+      }
+    ],
+    "eligibility": [
+      "Aged 30 or younger",
+      "Youth democracy / civic work experience",
+      "Any nationality",
+      "Up to 3 fellows are selected"
+    ],
+    "steps": [
+      "Read the call on ned.org",
+      "Create an account on NED's portal",
+      "Submit by 30 Nov 2026",
+      "Recommendation letters by 4 Dec"
+    ],
+    "link": "ned.org/fellowships",
+    "sources": [
+      "https://www.ned.org/fellowships/hurford-youth-fellows-program/"
+    ],
+    "tags": [
+      "#fellowship",
+      "#fullyfunded",
+      "#studyinusa",
+      "#youthleaders",
+      "#opportunity"
+    ],
+    "verified": true
+  },
+  {
+    "id": "prolific-studies",
+    "kind": "earn",
+    "label": "SIDE HUSTLE",
+    "kicker": "GET PAID",
+    "hero": "1f4dd",
+    "badges": [
+      "1f4b5",
+      "1f9e0",
+      "1f4f1"
+    ],
+    "title": "Take Paid Research Studies on Prolific",
+    "highlight": "$8+/HR",
+    "highlightLabel": "MINIMUM PAY, ANSWER STUDIES",
+    "subtitle": "Universities & companies pay you to take part in surveys and experiments",
+    "host": "Prolific",
+    "location": "Remote · available in 38+ countries",
+    "deadlineISO": "2027-12-31",
+    "deadline": "Rolling: join the waitlist any time",
+    "deadlineVaries": true,
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "Minimum £6 / $8 per hour"
+      },
+      {
+        "e": "1f9e0",
+        "t": "Real academic research studies"
+      },
+      {
+        "e": "23f0",
+        "t": "Studies from 2 to 30+ minutes"
+      },
+      {
+        "e": "1f3e0",
+        "t": "From your phone or laptop"
+      }
+    ],
+    "eligibility": [
+      "18 years or older",
+      "Live in a supported country",
+      "Honest, attentive answers",
+      "Joining may start with a waitlist"
+    ],
+    "steps": [
+      "Sign up as a participant on prolific.com",
+      "Verify your account & fill your profile",
+      "Accept studies that match you",
+      "Cash out once you hit the minimum"
+    ],
+    "link": "prolific.com",
+    "sources": [
+      "https://www.prolific.com/participant-pool",
+      "https://researcher-help.prolific.com/en/articles/445239-what-is-your-pricing"
+    ],
+    "tags": [
+      "#sidehustle",
+      "#makemoneyonline",
+      "#surveys",
+      "#workfromhome",
+      "#studentlife"
+    ],
+    "verified": true
+  },
+  {
+    "id": "eth-esop-2027",
+    "kind": "academic",
+    "label": "MASTER'S SCHOLARSHIP",
+    "kicker": "STUDY AT ETH ZURICH",
+    "hero": "1f3eb",
+    "badges": [
+      "1f1e8-1f1ed",
+      "1f393",
+      "1f48e"
+    ],
+    "title": "ETH Excellence Scholarship (ESOP)",
+    "highlight": "CHF 13,500",
+    "highlightLabel": "PER SEMESTER + NO TUITION",
+    "subtitle": "One of the world's top 10 universities, for outstanding master's students",
+    "host": "ETH Zurich",
+    "location": "Zurich, Switzerland",
+    "deadlineISO": "2026-11-30",
+    "deadline": "30 Nov 2026, 11:59 CET",
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "Up to CHF 13,500 per semester"
+      },
+      {
+        "e": "1f3eb",
+        "t": "Tuition fees waived"
+      },
+      {
+        "e": "1f3c6",
+        "t": "~60 scholarships for 2027/28"
+      },
+      {
+        "e": "1f9ea",
+        "t": "Study at a world top-10 university"
+      }
+    ],
+    "eligibility": [
+      "Excellent bachelor's record (any country)",
+      "Applying to an ETH master's",
+      "Thesis pre-proposal needed",
+      "Only the 1–30 Nov window counts"
+    ],
+    "steps": [
+      "Apply to an ETH master's online",
+      "Tick the ESOP scholarship option",
+      "Upload your master's thesis pre-proposal",
+      "Submit by 30 Nov, 11:59 CET"
+    ],
+    "link": "ethz.ch/esop",
+    "sources": [
+      "https://ethz.ch/en/studies/master/application/dates.html",
+      "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html"
+    ],
+    "tags": [
+      "#scholarship",
+      "#ethzurich",
+      "#studyinswitzerland",
+      "#masters",
+      "#fullyfunded"
+    ],
+    "verified": true
+  },
+  {
+    "id": "alignerr-ai",
+    "kind": "earn",
+    "label": "REMOTE AI WORK",
+    "kicker": "EARN UP TO",
+    "hero": "1f9e0",
+    "badges": [
+      "1f4b5",
+      "1f916",
+      "1f4c5"
+    ],
+    "title": "AI Training Jobs on Alignerr",
+    "highlight": "$120/HR",
+    "highlightLabel": "FOR EXPERTS, REMOTE",
+    "subtitle": "Teach AI models with your knowledge. Many roles need no AI experience",
+    "host": "Alignerr",
+    "location": "Remote · flexible contract",
+    "deadlineISO": "2027-12-31",
+    "deadline": "Rolling: roles posted often",
+    "deadlineVaries": true,
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "Roles from ~$30 to $120/hr"
+      },
+      {
+        "e": "1f4c5",
+        "t": "10–40 hours a week, flexible"
+      },
+      {
+        "e": "1f3e0",
+        "t": "Fully remote contract work"
+      },
+      {
+        "e": "1f4b8",
+        "t": "Weekly payouts"
+      }
+    ],
+    "eligibility": [
+      "Knowledge in a subject or language",
+      "Many roles: no AI experience needed",
+      "Pass a quick screening",
+      "Stable internet"
+    ],
+    "steps": [
+      "Open alignerr.com/jobs",
+      "Pick a role that fits your skills",
+      "Apply & pass the screening",
+      "Start tasks, get paid weekly"
+    ],
+    "link": "alignerr.com",
+    "sources": [
+      "https://www.alignerr.com/jobs/b7b95845-ac1a-4742-8537-094eb6ac59ee"
+    ],
+    "tags": [
+      "#AIjobs",
+      "#remotework",
+      "#workfromhome",
+      "#sidehustle",
+      "#makemoneyonline"
+    ],
+    "verified": true
+  },
+  {
+    "id": "yenching-2027",
+    "kind": "academic",
+    "label": "MASTER'S IN CHINA",
+    "kicker": "FULL FELLOWSHIP",
+    "hero": "1f1e8-1f1f3",
+    "badges": [
+      "1f393",
+      "2708",
+      "1f4da"
+    ],
+    "title": "Yenching Academy, Peking University",
+    "highlight": "FULLY FUNDED",
+    "highlightLabel": "MASTER'S IN BEIJING, CHINA",
+    "subtitle": "A residential master's in China Studies at one of Asia's top universities",
+    "host": "Yenching Academy of Peking University",
+    "location": "Beijing, China",
+    "deadlineISO": "2026-11-30",
+    "deadline": "30 Nov 2026, 9:00 Beijing time",
+    "perks": [
+      {
+        "e": "1f393",
+        "t": "Full fellowship for Scholars"
+      },
+      {
+        "e": "1f3e0",
+        "t": "Residential college life"
+      },
+      {
+        "e": "1f30d",
+        "t": "~75% international students"
+      },
+      {
+        "e": "1f4da",
+        "t": "Study at Peking University"
+      }
+    ],
+    "eligibility": [
+      "Bachelor's degree (any field)",
+      "All nationalities welcome",
+      "750-word personal statement",
+      "Research interest statement"
+    ],
+    "steps": [
+      "Read the admissions page",
+      "Write your statements",
+      "Collect recommendation letters",
+      "Apply by 30 Nov, 9 AM Beijing"
+    ],
+    "link": "yenchingacademy.pku.edu.cn",
+    "sources": [
+      "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm"
+    ],
+    "tags": [
+      "#scholarship",
+      "#studyinchina",
+      "#fullyfunded",
+      "#masters",
+      "#pekinguniversity"
+    ],
+    "verified": true
+  },
+  {
+    "id": "usertesting-2026",
+    "kind": "earn",
+    "label": "SIDE HUSTLE",
+    "kicker": "GET PAID",
+    "hero": "1f4f1",
+    "badges": [
+      "1f4b5",
+      "1f3a4",
+      "1f4bb"
+    ],
+    "title": "Test Websites with UserTesting",
+    "highlight": "$10/TEST",
+    "highlightLabel": "SAY WHAT YOU THINK, GET PAID",
+    "subtitle": "Companies pay you to try their apps and websites and talk through it",
+    "host": "UserTesting",
+    "location": "Remote · availability varies by country",
+    "deadlineISO": "2027-12-31",
+    "deadline": "Rolling: join any time",
+    "deadlineVaries": true,
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "$10 per 20-min test"
+      },
+      {
+        "e": "1f3a4",
+        "t": "Live interviews: $30–$120"
+      },
+      {
+        "e": "1f4b3",
+        "t": "Paid to PayPal"
+      },
+      {
+        "e": "2705",
+        "t": "Free to join, no skills needed"
+      }
+    ],
+    "eligibility": [
+      "18 years or older",
+      "Computer with a microphone",
+      "Speak your thoughts clearly",
+      "Pass the unpaid practice test"
+    ],
+    "steps": [
+      "Apply as a contributor on usertesting.com",
+      "Complete the practice test",
+      "Answer screener questions",
+      "Do tests, get paid ~14 days later"
+    ],
+    "link": "usertesting.com/get-paid-to-test",
+    "sources": [
+      "https://www.usertesting.com/get-paid-to-test",
+      "https://support.usertesting.com/hc/en-us/articles/4405116832019-FAQ-Payments"
+    ],
+    "tags": [
+      "#sidehustle",
+      "#makemoneyonline",
+      "#workfromhome",
+      "#usertesting",
+      "#onlinejobs"
+    ],
+    "verified": true
+  },
+  {
+    "id": "swiss-excellence-2027",
+    "kind": "academic",
+    "label": "PhD & RESEARCH",
+    "kicker": "SWISS GOV PAYS",
+    "hero": "1f1e8-1f1ed",
+    "badges": [
+      "1f393",
+      "1f4b5",
+      "1f52c"
+    ],
+    "title": "Swiss Government Excellence Scholarships",
+    "highlight": "CHF 2,450",
+    "highlightLabel": "EVERY MONTH, UP TO 3 YEARS",
+    "subtitle": "Swiss government funding for researchers from 183 countries",
+    "host": "Swiss Confederation (FCS / SBFI)",
+    "location": "Any Swiss university",
+    "deadlineISO": "2026-12-31",
+    "deadline": "Depends on your country (many close 27 Nov)",
+    "deadlineVaries": true,
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "CHF 2,450 per month"
+      },
+      {
+        "e": "1f4c5",
+        "t": "12 months, renewable to 36"
+      },
+      {
+        "e": "1f52c",
+        "t": "Research or PhD at a Swiss university"
+      },
+      {
+        "e": "1f30d",
+        "t": "Open to 183 countries"
+      }
+    ],
+    "eligibility": [
+      "Master's done by 31 Jul 2027",
+      "Born after 31 Dec 1991",
+      "Letter from a Swiss professor",
+      "Check your country's deadline"
+    ],
+    "steps": [
+      "Open the SBFI country list",
+      "Find your country's deadline",
+      "Get a Swiss supervisor's letter",
+      "Apply online before your deadline"
+    ],
+    "link": "sbfi.admin.ch",
+    "sources": [
+      "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships"
+    ],
+    "tags": [
+      "#scholarship",
+      "#phd",
+      "#studyinswitzerland",
+      "#research",
+      "#fullyfunded"
+    ],
+    "verified": true
+  },
+  {
+    "id": "imagine-cup-2027",
+    "kind": "earn",
+    "label": "STARTUP COMPETITION",
+    "kicker": "WIN UP TO",
+    "hero": "1f680",
+    "badges": [
+      "1f4b0",
+      "1f3c6",
+      "1f4bb"
+    ],
+    "title": "Microsoft Imagine Cup 2027",
+    "highlight": "$250,000",
+    "highlightLabel": "CASH + $1M IN CREDITS",
+    "subtitle": "Microsoft's global competition for early-stage AI startups",
+    "host": "Microsoft",
+    "location": "Online · global",
+    "deadlineISO": "2027-02-28",
+    "deadline": "28 Feb 2027",
+    "perks": [
+      {
+        "e": "1f3c6",
+        "t": "1st: $250,000 + $1M credits"
+      },
+      {
+        "e": "1f4b0",
+        "t": "2nd $50,000 · 3rd $25,000"
+      },
+      {
+        "e": "1f393",
+        "t": "$25,000 Top Student Startup prize"
+      },
+      {
+        "e": "1f4bb",
+        "t": "Free Azure startup credits"
+      }
+    ],
+    "eligibility": [
+      "Early-stage startup using AI",
+      "A founder registers the team",
+      "Apply via Award Force",
+      "Check the official rules for eligibility"
+    ],
+    "steps": [
+      "Read the rules on imaginecup.microsoft.com",
+      "Register your startup team",
+      "Build your pitch & demo",
+      "Submit by 28 Feb 2027"
+    ],
+    "link": "imaginecup.microsoft.com",
+    "sources": [
+      "https://imaginecup.microsoft.com/en-us/support/faq",
+      "https://www.microsoft.com/en-us/startups/blog/imagine-cup-2027-why-this-is-an-opportunity-for-early-stage-founders/"
+    ],
+    "tags": [
+      "#startup",
+      "#imaginecup",
+      "#microsoft",
+      "#entrepreneur",
+      "#makemoneyonline"
+    ],
+    "verified": true
+  },
+  {
+    "id": "epfl-excellence-2027",
+    "kind": "academic",
+    "label": "MASTER'S FELLOWSHIP",
+    "kicker": "STUDY AT EPFL",
+    "hero": "1f1e8-1f1ed",
+    "badges": [
+      "1f393",
+      "1f4b5",
+      "1f9ea"
+    ],
+    "title": "EPFL Master Excellence Fellowship",
+    "highlight": "CHF 10,000",
+    "highlightLabel": "PER SEMESTER IN LAUSANNE",
+    "subtitle": "Top engineering & science university on Lake Geneva, Switzerland",
+    "host": "EPFL",
+    "location": "Lausanne, Switzerland",
+    "deadlineISO": "2026-12-15",
+    "deadline": "15 Dec 2026 (paid & validated)",
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "CHF 10,000 every semester"
+      },
+      {
+        "e": "1f504",
+        "t": "Renewable for year 2"
+      },
+      {
+        "e": "1f9ea",
+        "t": "World-class labs"
+      },
+      {
+        "e": "1f3d4",
+        "t": "Life on Lake Geneva"
+      }
+    ],
+    "eligibility": [
+      "Excellent bachelor's grades",
+      "Applying to an EPFL master's",
+      "Recommendation letters 1 week after",
+      "Application must be paid by 15 Dec"
+    ],
+    "steps": [
+      "Choose your EPFL master's",
+      "Apply online & pay the fee",
+      "Submit by 15 Dec 2026",
+      "Referees upload letters within 1 week"
+    ],
+    "link": "epfl.ch/education/master",
+    "sources": [
+      "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/"
+    ],
+    "tags": [
+      "#scholarship",
+      "#epfl",
+      "#studyinswitzerland",
+      "#engineering",
+      "#masters"
+    ],
+    "verified": true
+  },
+  {
+    "id": "telus-ai-rater",
+    "kind": "earn",
+    "label": "PART-TIME REMOTE",
+    "kicker": "WORK FROM HOME",
+    "hero": "1f50e",
+    "badges": [
+      "1f4b5",
+      "1f310",
+      "1f3e0"
+    ],
+    "title": "Rate Search & AI Results with TELUS Digital",
+    "highlight": "PART-TIME",
+    "highlightLabel": "REMOTE RATER JOBS, MANY COUNTRIES",
+    "subtitle": "Judge search results and AI answers for quality. Pay depends on your country & language",
+    "host": "TELUS Digital AI Community",
+    "location": "Remote · country & language specific",
+    "deadlineISO": "2027-12-31",
+    "deadline": "Rolling: openings by country",
+    "deadlineVaries": true,
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "Examples: $8/hr India, $23/hr Australia"
+      },
+      {
+        "e": "1f4c5",
+        "t": "Around 10–20 hours a week"
+      },
+      {
+        "e": "1f310",
+        "t": "Roles in many languages"
+      },
+      {
+        "e": "1f393",
+        "t": "Paid training & calibration"
+      }
+    ],
+    "eligibility": [
+      "Fluent in the role's language",
+      "Good research skills",
+      "Live in the listed country",
+      "Pass the qualification steps"
+    ],
+    "steps": [
+      "Search 'AI Community' on jobs.telusdigital.com",
+      "Pick the rater role for your country",
+      "Apply & complete the qualification",
+      "Work flexible hours from home"
+    ],
+    "link": "jobs.telusdigital.com",
+    "sources": [
+      "https://jobs.telusdigital.com/jobs/17840908-quality-assurance-rater-english-india",
+      "https://jobs.telusdigital.com/jobs/17840998-quality-assurance-rater-english-australia"
+    ],
+    "tags": [
+      "#remotework",
+      "#workfromhome",
+      "#parttimejob",
+      "#sidehustle",
+      "#onlinejobs"
+    ],
+    "verified": true
+  },
+  {
+    "id": "mundus-journalism-2027",
+    "kind": "academic",
+    "label": "ERASMUS MUNDUS",
+    "kicker": "STUDY IN EUROPE",
+    "hero": "1f4f0",
+    "badges": [
+      "1f1ea-1f1fa",
+      "1f4b5",
+      "2708"
+    ],
+    "title": "Erasmus Mundus Journalism MA",
+    "highlight": "€1,400/MONTH",
+    "highlightLabel": "+ ZERO TUITION FOR 2 YEARS",
+    "subtitle": "Study journalism in Denmark and another European country",
+    "host": "Mundus Journalism consortium (Aarhus, Denmark)",
+    "location": "Denmark + Europe",
+    "deadlineISO": "2027-01-10",
+    "deadline": "10 Jan 2027, 13:00 CET",
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "€1,400 a month for 24 months"
+      },
+      {
+        "e": "1f3eb",
+        "t": "Full tuition waiver, 2 years"
+      },
+      {
+        "e": "1f30d",
+        "t": "Study in 2+ European countries"
+      },
+      {
+        "e": "1f3c6",
+        "t": "10–15 scholarships, all nationalities"
+      }
+    ],
+    "eligibility": [
+      "Bachelor's degree",
+      "English at C1 level",
+      "No previous EM scholarship",
+      "No existing 2-year master's"
+    ],
+    "steps": [
+      "Open mundusjournalism.com/admissions",
+      "Fill the 2027–2029 application",
+      "One form = admission + scholarship",
+      "Submit by 10 Jan 2027, 13:00 CET"
+    ],
+    "link": "mundusjournalism.com",
+    "sources": [
+      "https://mundusjournalism.com/admissions/application-process",
+      "https://mundusjournalism.com/admissions/tuition-stipends-and-scholarships"
+    ],
+    "tags": [
+      "#erasmusmundus",
+      "#scholarship",
+      "#journalism",
+      "#studyineurope",
+      "#fullyfunded"
+    ],
+    "verified": true
+  },
+  {
+    "id": "testio-2026",
+    "kind": "earn",
+    "label": "BEGINNER FRIENDLY",
+    "kicker": "GET PAID TO",
+    "hero": "1f4f1",
+    "badges": [
+      "1f4b5",
+      "1f41e",
+      "1f4bb"
+    ],
+    "title": "Find Bugs in Apps with Test IO",
+    "highlight": "TEST APPS",
+    "highlightLabel": "& WEBSITES, NO EXPERIENCE",
+    "subtitle": "Get paid for every bug you find in real apps and websites",
+    "host": "Test IO",
+    "location": "Remote · worldwide",
+    "deadlineISO": "2027-12-31",
+    "deadline": "Open sign-up (rolling)",
+    "deadlineVaries": true,
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "Paid per accepted bug"
+      },
+      {
+        "e": "1f393",
+        "t": "Free tester training"
+      },
+      {
+        "e": "1f4c5",
+        "t": "Flexible hours"
+      },
+      {
+        "e": "1f3e0",
+        "t": "Work from anywhere"
+      }
+    ],
+    "eligibility": [
+      "Computer or smartphone",
+      "Basic English",
+      "Eye for detail",
+      "No experience needed to start"
+    ],
+    "steps": [
+      "Sign up at test.io/freelancer",
+      "Finish the onboarding course",
+      "Join test cycles",
+      "Report bugs, get paid"
+    ],
+    "link": "test.io/freelancer",
+    "sources": [
+      "https://test.io/freelancer"
+    ],
+    "tags": [
+      "#makemoneyonline",
+      "#sidehustle",
+      "#softwaretesting",
+      "#workfromhome",
+      "#nofaceaccount"
+    ],
+    "verified": true
+  },
+  {
+    "id": "copernicus-cde-2027",
+    "kind": "academic",
+    "label": "ERASMUS MUNDUS",
+    "kicker": "GET PAID",
+    "hero": "1f6f0",
+    "badges": [
+      "1f1ea-1f1fa",
+      "1f30d",
+      "1f4b5"
+    ],
+    "title": "Copernicus Master in Digital Earth",
+    "highlight": "€1,400/MONTH",
+    "highlightLabel": "TO STUDY SATELLITES & MAPS",
+    "subtitle": "Erasmus Mundus master in geodata, AI & Earth observation, in Europe",
+    "host": "Copernicus Master in Digital Earth consortium",
+    "location": "Austria / France / Czechia",
+    "deadlineISO": "2027-01-22",
+    "deadline": "22 Jan 2027, 23:59 CET",
+    "perks": [
+      {
+        "e": "1f4b5",
+        "t": "€1,400 monthly scholarship"
+      },
+      {
+        "e": "1f3eb",
+        "t": "Fee waiver for top students"
+      },
+      {
+        "e": "1f6f0",
+        "t": "Satellite data, AI & geo-tech"
+      },
+      {
+        "e": "1f30d",
+        "t": "Open to candidates worldwide"
+      }
+    ],
+    "eligibility": [
+      "Degree in geospatial or related field",
+      "All nationalities",
+      "English proficiency",
+      "Strong academic record"
+    ],
+    "steps": [
+      "Open master-cde.eu admissions",
+      "Read the Edition 4 call",
+      "Prepare documents & motivation",
+      "Apply by 22 Jan 2027"
+    ],
+    "link": "master-cde.eu",
+    "sources": [
+      "https://master-cde.eu/admission/procedures-deadlines/calls/"
+    ],
+    "tags": [
+      "#erasmusmundus",
+      "#scholarship",
+      "#studyineurope",
+      "#geospatial",
+      "#fullyfunded"
+    ],
+    "verified": true
   }
 ]

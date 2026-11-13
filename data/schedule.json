@@ -1,10 +1,59 @@
 {
   "_comment": "Date (UTC) -> [morning post, evening post]. One earning + one academic per day. Times: 07:00 & 17:00 UTC.",
-  "2026-11-09": ["kiroween-2026", "hk-phd-fellowship-2027"],
-  "2026-11-10": ["google-quantum-kaggle", "commonwealth-shared-2027"],
-  "2026-11-11": ["qnx-global-hackathon", "yale-world-fellows-2027"],
-  "2026-11-12": ["outlier-ai-trainer", "gates-cambridge-2027"],
-  "2026-11-13": ["codegeist-2026", "mbzuai-2027"],
-  "2026-11-14": ["smart-buildings-kaggle", "clarendon-oxford-2027"],
-  "2026-11-15": ["squares-in-squares-kaggle", "euroculture-erasmus-2027"]
+  "2026-11-09": [
+    "kiroween-2026",
+    "hk-phd-fellowship-2027"
+  ],
+  "2026-11-10": [
+    "google-quantum-kaggle",
+    "commonwealth-shared-2027"
+  ],
+  "2026-11-11": [
+    "qnx-global-hackathon",
+    "yale-world-fellows-2027"
+  ],
+  "2026-11-12": [
+    "outlier-ai-trainer",
+    "gates-cambridge-2027"
+  ],
+  "2026-11-13": [
+    "codegeist-2026",
+    "mbzuai-2027"
+  ],
+  "2026-11-14": [
+    "smart-buildings-kaggle",
+    "clarendon-oxford-2027"
+  ],
+  "2026-11-15": [
+    "squares-in-squares-kaggle",
+    "euroculture-erasmus-2027"
+  ],
+  "2026-11-16": [
+    "dataannotation-ai",
+    "hurford-youth-2027"
+  ],
+  "2026-11-17": [
+    "prolific-studies",
+    "eth-esop-2027"
+  ],
+  "2026-11-18": [
+    "alignerr-ai",
+    "yenching-2027"
+  ],
+  "2026-11-19": [
+    "usertesting-2026",
+    "swiss-excellence-2027"
+  ],
+  "2026-11-20": [
+    "imagine-cup-2027",
+    "epfl-excellence-2027"
+  ],
+  "2026-11-21": [
+    "telus-ai-rater",
+    "mundus-journalism-2027"
+  ],
+  "2026-11-22": [
+    "testio-2026",
+    "copernicus-cde-2027"
+  ]
 }
