@@ -1,0 +1,21 @@
+{
+  "id": "brain-002", "series": "brain", "title": "The burger puzzle",
+  "caption": "Burger math 🍔 Most people get this WRONG. Comment your answer 👇 #brainteaser #mathpuzzle #puzzle #iqtest #fyp",
+  "scenes": [
+    { "type": "hook", "icon": "1f354", "text": "BURGER MATH", "sub": "90% FAIL THIS", "say": "Ninety percent of people fail this burger puzzle." },
+    { "type": "puzzle",
+      "say": "Three burgers make forty five. A burger and two fries make twenty three. Fries and two colas make ten. So, cola plus burger times fries?",
+      "rows": [
+        { "items": ["1f354", "+", "1f354", "+", "1f354"], "equals": "45" },
+        { "items": ["1f354", "+", "1f35f", "+", "1f35f"], "equals": "23" },
+        { "items": ["1f35f", "+", "1f964", "+", "1f964"], "equals": "10" }
+      ],
+      "question": { "items": ["1f964", "+", "1f354", "×", "1f35f"] },
+      "note": "Remember the order of operations!" },
+    { "type": "countdown", "seconds": 5 },
+    { "type": "reveal", "answer": "63",
+      "say": "It's sixty three! Burger is fifteen, fries are four, cola is three. Fifteen times four is sixty, plus three is sixty three.",
+      "steps": ["Burger = 15, Fries = 4, Cola = 3", "15 × 4 = 60", "3 + 60 = 63"] },
+    { "type": "outro", "text": "WHAT DID YOU GET?", "say": "Drop your answer in the comments and follow for tomorrow's puzzle.", "next": "New puzzle tomorrow!" }
+  ]
+}

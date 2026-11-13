@@ -1,0 +1,15 @@
+{
+  "id": "brain-003", "series": "brain", "title": "The sheep riddle",
+  "caption": "Read it slowly 🐑 Comment your answer before the reveal 👇 #riddle #brainteaser #trickquestion #fyp",
+  "scenes": [
+    { "type": "hook", "icon": "1f411", "text": "READ THIS SLOWLY", "sub": "TRICK QUESTION", "say": "Read this slowly. It's a trick question." },
+    { "type": "card", "icon": "1f411", "title": "THE FARMER",
+      "lines": ["A farmer has 17 sheep.", "All but 9 run away.", "How many sheep are left?"],
+      "say": "A farmer has seventeen sheep. All but nine run away. How many sheep are left?" },
+    { "type": "countdown", "seconds": 5 },
+    { "type": "reveal", "answer": "9",
+      "say": "Nine! All but nine ran away, so nine are still there. If you said eight, you're not alone.",
+      "steps": ["\"All but 9\" means 9 stayed", "17 - 9 = 8 is the trap"] },
+    { "type": "outro", "text": "DID IT GET YOU?", "say": "Tag a friend who would fall for this, and follow for more.", "next": "New puzzle tomorrow!" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "brain-005", "series": "brain", "title": "Mary's father",
+  "caption": "99% get this wrong 👧 Comment the name 👇 #riddle #brainteaser #trickquestion #fyp",
+  "scenes": [
+    { "type": "hook", "icon": "1f467", "text": "99% GET THIS WRONG", "sub": "EASY... RIGHT?", "say": "Ninety nine percent of people get this wrong." },
+    { "type": "card", "icon": "1f467", "title": "FIVE DAUGHTERS",
+      "lines": ["Mary's father has 5 daughters:", "Nana, Nene, Nini, Nono...", "What is the 5th daughter's name?"],
+      "say": "Mary's father has five daughters: Nana, Nene, Nini, Nono. What is the fifth daughter's name?" },
+    { "type": "countdown", "seconds": 5 },
+    { "type": "reveal", "answer": "MARY",
+      "say": "It's Mary! The very first words tell you. Did you say Nunu?",
+      "steps": ["It's MARY's father", "Nunu is the trap!"] },
+    { "type": "outro", "text": "DID YOU SAY NUNU?", "say": "Be honest in the comments, and follow for a new puzzle every day.", "next": "New puzzle tomorrow!" }
+  ]
+}

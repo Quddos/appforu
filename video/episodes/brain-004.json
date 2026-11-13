@@ -1,0 +1,15 @@
+{
+  "id": "brain-004", "series": "brain", "title": "What comes next?",
+  "caption": "Only geniuses see the pattern 🧠 What comes next? 👇 #iqtest #numberpuzzle #brainteaser #fyp",
+  "scenes": [
+    { "type": "hook", "icon": "1f9e0", "text": "FIND THE PATTERN", "sub": "GENIUS LEVEL", "say": "Only a genius spots this pattern in five seconds." },
+    { "type": "card", "icon": "1f4c8", "title": "WHAT COMES NEXT?",
+      "lines": ["2,  6,  12,  20,  30,  ?", "Hint: look at the gaps"],
+      "say": "Two, six, twelve, twenty, thirty. What comes next? Hint: look at the gaps." },
+    { "type": "countdown", "seconds": 5 },
+    { "type": "reveal", "answer": "42",
+      "say": "Forty two! The gaps grow by two each time: four, six, eight, ten, then twelve. Thirty plus twelve is forty two.",
+      "steps": ["Gaps: +4, +6, +8, +10, +12", "30 + 12 = 42"] },
+    { "type": "outro", "text": "GENIUS OR NOT?", "say": "Comment genius if you got it, and follow for tomorrow's puzzle.", "next": "New puzzle tomorrow!" }
+  ]
+}

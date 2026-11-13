@@ -1,0 +1,59 @@
+name: Daily BingeBrain video
+
+on:
+  schedule:
+    - cron: "30 5 * * *" # 05:30 UTC, before the 17:00 UTC posting slot
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "UTC date to render (YYYY-MM-DD), default today"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-video
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ccr-e50bec89-7db7t5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Piper (free open-source voice)
+        run: |
+          python3 -m pip install --user piper-tts==1.8.0
+          mkdir -p ~/voices
+          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high
+          curl -sSfL -o ~/voices/en_US-ryan-high.onnx "$base/en_US-ryan-high.onnx"
+          curl -sSfL -o ~/voices/en_US-ryan-high.onnx.json "$base/en_US-ryan-high.onnx.json"
+
+      - run: npm ci
+
+      - name: Render today's episode
+        env:
+          PIPER: /home/runner/.local/bin/piper
+          PIPER_VOICE: /home/runner/voices/en_US-ryan-high.onnx
+        run: npx tsx video/daily.ts ${{ github.event.inputs.date }}
+
+      - name: Commit video
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git add -A public/videos
+          git diff --cached --quiet && exit 0
+          git commit -m "Add daily BingeBrain video"
+          git push origin HEAD:ccr-e50bec89-7db7t5

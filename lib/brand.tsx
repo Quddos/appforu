@@ -5,7 +5,7 @@ import type { CSSProperties, ReactNode } from "react";
 /** BingeBrain: the second TikTok channel (comic shorts, what to watch, brain teasers). */
 export const BRAND = {
   name: "BingeBrain",
-  handle: "@bingebrain",
+  handle: "@qomment.chat",
   tagline: "WATCH • LAUGH • THINK",
   colors: { ink: "#0E0726", grape: "#5B21B6", pink: "#FF2E88", butter: "#FFD23F", mint: "#21E6C1", white: "#FFFFFF" },
 };

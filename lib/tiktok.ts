@@ -103,3 +103,17 @@ export async function getUserInfo(accessToken: string) {
   const json = await res.json();
   return (json.data?.user ?? {}) as { display_name?: string; avatar_url?: string };
 }
+
+/** Send a video (served from our verified domain) to the account's TikTok inbox as a draft. */
+export async function sendVideoToInbox(accessToken: string, videoUrl: string) {
+  const res = await fetch(`${API}/post/publish/inbox/video/init/`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${accessToken}`, "Content-Type": "application/json; charset=UTF-8" },
+    body: JSON.stringify({ source_info: { source: "PULL_FROM_URL", video_url: videoUrl } }),
+  });
+  const json = await res.json();
+  if (!res.ok || (json.error && json.error.code !== "ok")) {
+    throw new Error(`TikTok video error: ${JSON.stringify(json)}`);
+  }
+  return { publishId: json.data?.publish_id as string | undefined };
+}

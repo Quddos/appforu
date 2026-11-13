@@ -1,0 +1,28 @@
+{
+  "id": "brain-001",
+  "series": "brain",
+  "title": "The fruit puzzle 99% get wrong",
+  "caption": "Only 1% get this right 🧠🍎 Comment your answer BEFORE the reveal 👇 #brainteaser #puzzle #mathpuzzle #iqtest #fyp",
+  "scenes": [
+    { "type": "hook", "icon": "1f9e0", "text": "ONLY 1% GET THIS RIGHT", "sub": "CAN YOU?", "say": "Only one percent of people get this right. Can you?" },
+    {
+      "type": "puzzle",
+      "say": "Three apples make thirty. Two bananas and an apple make eighteen. Two grapes and a banana make ten. So what is grape, plus apple, times banana?",
+      "rows": [
+        { "items": ["1f34e", "+", "1f34e", "+", "1f34e"], "equals": "30" },
+        { "items": ["1f34c", "+", "1f34c", "+", "1f34e"], "equals": "18" },
+        { "items": ["1f347", "+", "1f347", "+", "1f34c"], "equals": "10" }
+      ],
+      "question": { "items": ["1f347", "+", "1f34e", "×", "1f34c"] },
+      "note": "Careful… there's a trap!"
+    },
+    { "type": "countdown", "seconds": 5 },
+    {
+      "type": "reveal",
+      "answer": "43",
+      "say": "The answer is forty three! An apple is ten, a banana is four, and a grape is three. Multiply first: ten times four is forty, plus three is forty three. Did you say fifty two?",
+      "steps": ["Apple = 10, Banana = 4, Grape = 3", "Multiply first: 10 × 4 = 40", "3 + 40 = 43"]
+    },
+    { "type": "outro", "text": "DID YOU GET IT RIGHT?", "say": "Comment what you got, and follow for a new brain teaser every day.", "next": "New puzzle tomorrow!" }
+  ]
+}

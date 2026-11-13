@@ -1,0 +1,12 @@
+{
+  "id": "comic-002", "series": "comic", "title": "Kernel becomes an AI expert",
+  "caption": "Ep 2: Kernel becomes an 'AI expert' 🤖😂 Comment Kernel's next hustle 👇 #comedy #AI #sidehustle #animation #fyp",
+  "scenes": [
+    { "type": "hook", "icon": "1f916", "text": "KERNEL BECOMES AN AI EXPERT", "sub": "EPISODE 2", "say": "Kernel's side hustle saga. Episode two: the AI expert." },
+    { "type": "talk", "who": "Kernel", "mood": "happy", "place": "MONDAY", "props": ["1f916", "1f4bb"], "say": "New plan. I watched one video about AI. That makes me an expert, right? I'm selling a course!" },
+    { "type": "talk", "who": "Client", "mood": "think", "place": "FIRST CLIENT CALL", "props": ["1f4bb"], "say": "Hi Kernel. Can your course teach me how AI actually works?" },
+    { "type": "talk", "who": "Kernel", "mood": "shock", "place": "FIRST CLIENT CALL", "props": ["1f916", "1f62c"], "say": "Great question. Let me just ask the AI how AI works. One second. Okay, two seconds." },
+    { "type": "talk", "who": "Kernel", "mood": "cry", "place": "TUESDAY", "props": ["1f4b8"], "say": "Zero sales. But the AI wrote me a really nice poem about failure." },
+    { "type": "outro", "text": "WHAT SHOULD KERNEL TRY NEXT?", "say": "Tell Kernel what to try next in the comments, and follow for episode three.", "next": "Episode 3: coming soon" }
+  ]
+}
