@@ -1,0 +1,215 @@
+{
+  "id": "f-2026-11-24",
+  "date": "2026-11-24",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Tomy aims for TU Delft",
+  "caption": "Full tuition + living costs for a master's in the Netherlands 🇳🇱 TU Delft's Justus & Louise van Effen Excellence Scholarship closes 1 Dec 2026, 23:59 CET. Comment LINK 👇 #tudelft #scholarship #netherlands #masters #engineering",
+  "opportunity": "tudelft-excellence-2027",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "park",
+      "place": "WINDY AFTERNOON · CANAL PARK",
+      "backdrop": "Dutch canal park with bicycles, windmill in the distance and autumn trees",
+      "at": {
+        "tomy": [
+          -0.45,
+          0,
+          0.02,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0.02,
+          -0.28
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "bench"
+      ],
+      "beats": [
+        {
+          "title": "FREE MASTER'S IN THE NETHERLANDS?",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus, I want to study engineering in the Netherlands. Bicycles, canals, windmills. The full package.",
+          "say": "Kuddus, I want to study engineering in the Netherlands. Bicycles, canals, windmills. The full package.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Then look at TU Delft's Justus and Louise van Effen Excellence Scholarship.",
+          "act": "talk",
+          "card": {
+            "icon": "1f3eb",
+            "title": "TU DELFT EXCELLENCE",
+            "lines": [
+              "1f3eb|Full tuition fees covered",
+              "1f4b5|Contribution to living costs",
+              "1f393|2-year TU Delft MSc"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "Tuition AND living costs? Even the bicycle?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "The bicycle is your problem. But the scholarship covers the big costs.",
+          "act": "talk",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "SAME EVENING · STUDY CORNER",
+      "backdrop": "cozy study corner with a laptop, tulips in a vase and a window view of canals",
+      "at": {
+        "tomy": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "tomy"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "tomy",
+          "say": "Who can apply?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Excellent international students from outside Europe. As a guide, the top ten percent of your class. And you must be admitted to a two-year TU Delft master's.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO APPLY",
+            "lines": [
+              "1f4dd|Apply to a 2-year TU Delft MSc",
+              "1f4cb|Fill the scholarship form",
+              "1f4e9|Upload 1 reference letter",
+              "23f0|All by 1 Dec, 23:59 CET"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "And the reference letter can come later?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "No. Letters after the deadline are not accepted. Ask your referee today, not on November thirtieth.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "say": "Message to my professor: sent. With three polite emojis.",
+          "act": "type",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Deadline: 1 Dec 2026, 23:59 CET"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

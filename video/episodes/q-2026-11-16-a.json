@@ -1,0 +1,217 @@
+{
+  "id": "q-2026-11-16-a",
+  "date": "2026-11-16",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Zara writes her statement of purpose",
+  "caption": "Your statement of purpose is NOT your life story 😅 Here's the simple structure that works for master's & scholarship applications. Save it 📌 #statementofpurpose #scholarship #studyabroad #mastersdegree",
+  "cast": {
+    "zara": {
+      "name": "Zara",
+      "color": "#A78BFA",
+      "voice": "en_GB-cori-high",
+      "look": "girl-puff",
+      "hair": "#1A1110",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "room",
+      "place": "NIGHT · ZARA'S ROOM",
+      "backdrop": "cozy student bedroom at night with fairy lights, books and a big window",
+      "at": {
+        "zara": [
+          0.1,
+          0,
+          0.4,
+          0.25
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "YOUR SOP IS TOO BORING",
+          "sub": "ZARA & QUDDUS",
+          "who": "zara",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "zara",
+          "text": "Quddus, help. My statement of purpose starts with, since I was born, I have always loved education.",
+          "say": "Kuddus, help. My statement of purpose starts with, since I was born, I have always loved education.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Zara... the committee reads hundreds of those. Delete it. Gently.",
+          "act": "talk",
+          "phone": true,
+          "shot": "close"
+        },
+        {
+          "who": "zara",
+          "say": "Then what do I write? My whole life story?",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "No. A statement of purpose answers three questions: what you want to study, why you're ready, and where it will take you.",
+          "act": "talk",
+          "phone": true,
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "place": "NEXT DAY · LIBRARY",
+      "backdrop": "bright modern library with wooden shelves, study tables and big windows",
+      "at": {
+        "zara": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "zara",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "zara",
+          "say": "Okay. Give me the structure.",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Open with a real moment that started your interest. Then show what you've done: projects, work, research, results.",
+          "act": "point",
+          "card": {
+            "icon": "1f4dd",
+            "title": "SOP STRUCTURE",
+            "lines": [
+              "1f4a1|A real moment, not a quote",
+              "1f4c8|What you've done, with results",
+              "1f3db|Why THIS program",
+              "1f680|Your goal after it"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "And why this program?",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Name specific courses, professors or labs, and connect them to your goals. Copy and paste is easy to spot.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "zara",
+          "say": "So I can't send the same statement to ten schools?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Keep your story, but change the why this program part for each one. And keep within their word limit.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "zara",
+          "say": "New first line: the day our village lost power for a week, I decided to study renewable energy.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Now THAT makes people keep reading!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "zara": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment SOP if you want part two with examples.",
+          "say": "Save this, and comment S.O.P. if you want part two with examples.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Save for your next application",
+              "1f4dd|Write one per program"
+            ]
+          }
+        },
+        {
+          "who": "zara",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more application tips!",
+          "text": "Follow for more application tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

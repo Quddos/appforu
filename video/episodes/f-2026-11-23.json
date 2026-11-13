@@ -1,0 +1,216 @@
+{
+  "id": "f-2026-11-23",
+  "date": "2026-11-23",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Ade builds a game for Reddit",
+  "caption": "Make a daily game, win up to $15,000 🎮 Reddit's Game of the Day Hackathon has $35,000 in cash prizes, open in most countries. Deadline 8 Dec 2026, 6 PM PST. Comment LINK 👇 #hackathon #gamedev #reddit #coding #makemoneyonline",
+  "opportunity": "reddit-gotd-hackathon",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "living",
+      "place": "SATURDAY · ADE'S ROOM",
+      "backdrop": "gamer bedroom with neon lights, posters and a big monitor",
+      "at": {
+        "ade": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "ade",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "title": "GET PAID TO MAKE A GAME?",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "text": "Quddus, I've played the same phone game for three hours. I think I'm now a professional.",
+          "say": "Kuddus, I've played the same phone game for three hours. I think I'm now a professional.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Then why not build one? Reddit is running a Game of the Day Hackathon.",
+          "act": "talk",
+          "card": {
+            "icon": "1f3af",
+            "title": "GAME OF THE DAY",
+            "lines": [
+              "1f4b0|$35,000 in cash prizes",
+              "1f3c6|Best Daily Game: $15,000",
+              "2b50|10 Honorable Mentions: $1,000 each"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "Fifteen thousand dollars for one game? I'll build ten!",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "One great game is enough. A small daily puzzle people want to play every day.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "NEXT DAY · GAME STUDIO",
+      "backdrop": "colorful indie game studio with screens, controllers and sticky notes",
+      "at": {
+        "ade": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "ade"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "ade",
+          "say": "Okay, what are the rules?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "You must be an adult in your country, and the game must run on Reddit using Devvit Web. It's open in most countries.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO ENTER",
+            "lines": [
+              "1f310|Register on the Devpost page",
+              "1f4bb|Build on Devvit Web",
+              "1f3af|Make it a daily game",
+              "23f0|Submit by 8 Dec, 6 PM PST"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "Do I need to publish it before judging?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "No. They even prefer you wait until after the hackathon. Just submit before December eighth.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "say": "Game title: Daily Jollof Quiz. Coming soon to Reddit!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Deadline: 8 Dec 2026, 6 PM PST"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

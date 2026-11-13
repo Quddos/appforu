@@ -1,0 +1,241 @@
+{
+  "id": "f-2026-11-15",
+  "date": "2026-11-15",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Kemi gets paid to study in Europe",
+  "caption": "Getting PAID to study in Europe? 🇪🇺 The Euroculture Erasmus Mundus MA pays €1,400 every month for 2 years and covers participation costs. All nationalities. Scholarship deadline 15 Jan 2027. Comment LINK 👇 #erasmusmundus #scholarship #studyineurope #fullyfunded #masters",
+  "opportunity": "euroculture-erasmus-2027",
+  "cast": {
+    "kemi": {
+      "name": "Kemi",
+      "color": "#FACC15",
+      "voice": "en_US-amy-medium",
+      "look": "girl-braids",
+      "hair": "#1F1410",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "park",
+      "place": "SUNDAY · CITY PARK",
+      "backdrop": "sunny city park with tall trees, flowers and a walking path",
+      "at": {
+        "kemi": [
+          -0.45,
+          0,
+          0.02,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0.02,
+          -0.28
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "bench",
+        "plants"
+      ],
+      "beats": [
+        {
+          "title": "PAID €1,400 A MONTH TO STUDY?",
+          "sub": "KEMI & QUDDUS",
+          "who": "kemi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "kemi",
+          "text": "Quddus, be honest. Is studying in Europe only for people whose fathers own oil wells?",
+          "say": "Kuddus, be honest. Is studying in Europe only for people whose fathers own oil wells?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "No. Some programs actually pay you. Have you heard of Erasmus Mundus?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "kemi",
+          "say": "Erasmus... Mundus? It sounds like a spell from a wizard movie.",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "It's a master's funded by the European Union. Look at this one: Euroculture.",
+          "act": "point",
+          "card": {
+            "icon": "1f1ea-1f1fa",
+            "title": "EUROCULTURE MA",
+            "lines": [
+              "1f30d|Study in 2+ European countries",
+              "1f4b5|€1,400 every month",
+              "23f0|Scholarship deadline: 15 Jan 2027"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "One thousand four hundred euros. Every month?",
+          "mood": "shock",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "For twenty four months. And your participation costs are covered too.",
+          "act": "thumbs",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "MONDAY · CO-WORKING SPACE",
+      "backdrop": "bright modern co-working space with plants, big windows and laptops",
+      "at": {
+        "kemi": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "kemi"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "kemi",
+          "say": "Okay, I'm on the website. Who can apply? Please don't say only Europeans.",
+          "act": "type",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "All nationalities. You need a bachelor's in a related field, and good English.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "WHO CAN APPLY",
+            "lines": [
+              "1f30d|Open to all nationalities",
+              "1f393|Bachelor's degree, related field",
+              "1f4ac|English proficiency"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "And what do I need to prepare?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "A CV, a motivation letter, and your references. Then you choose your universities and submit in their application tool.",
+          "say": "A C.V., a motivation letter, and your references. Then you choose your universities and submit in their application tool.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4dd",
+            "title": "HOW TO APPLY",
+            "lines": [
+              "1f4cb|CV + motivation letter",
+              "1f4e9|References",
+              "1f3db|Choose your universities",
+              "23f0|Submit by 15 Jan 2027"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "Europe, prepare yourself. Kemi is coming. On a scholarship!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "kemi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Scholarship deadline: 15 Jan 2027"
+            ]
+          }
+        },
+        {
+          "who": "kemi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

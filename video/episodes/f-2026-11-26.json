@@ -1,0 +1,209 @@
+{
+  "id": "f-2026-11-26",
+  "date": "2026-11-26",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Kemi wants to help people",
+  "caption": "Want a career helping people in crises? 🌍 The NOHA Erasmus Mundus Master in Humanitarian Action pays €1,400/month for up to 24 months. Scholarship deadline 15 Dec 2026, 23:59 GMT. Comment LINK 👇 #erasmusmundus #humanitarian #scholarship #studyineurope",
+  "opportunity": "noha-erasmus-2027",
+  "cast": {
+    "kemi": {
+      "name": "Kemi",
+      "color": "#FACC15",
+      "voice": "en_US-amy-medium",
+      "look": "girl-braids",
+      "hair": "#1F1410",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "EVENING · COMMUNITY CENTER",
+      "backdrop": "community center street at evening with volunteers' tents and warm string lights",
+      "at": {
+        "kemi": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "A MASTER'S THAT PAYS YOU TO HELP?",
+          "sub": "KEMI & QUDDUS",
+          "who": "kemi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "kemi",
+          "say": "I volunteer every weekend at the community center. I want to do this as a real career.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Then you should know about the NOHA Erasmus Mundus Master in International Humanitarian Action.",
+          "act": "talk",
+          "card": {
+            "icon": "1f30d",
+            "title": "NOHA MASTER'S",
+            "lines": [
+              "1f4b5|€1,400 a month, up to 24 months",
+              "1f30d|Study in several European countries",
+              "1f393|Joint master's degree"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "They pay you to learn how to help people?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Yes. And eight scholarships are set aside for students from Partner Countries, outside Europe.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · TEA HOUSE",
+      "backdrop": "warm tea house with plants, lanterns and wooden tables",
+      "at": {
+        "kemi": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "kemi",
+          "say": "When does it close?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "The scholarship window closes on December fifteenth, at eleven fifty nine P.M., G.M.T.",
+          "act": "point",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO APPLY",
+            "lines": [
+              "1f310|Open apply.nohanet.org",
+              "1f4dd|Fill the NOHA application",
+              "2705|Tick the scholarship option",
+              "23f0|By 15 Dec, 23:59 GMT"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "And if I miss it?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Later there's only a self-funded deadline. So for the scholarship, December fifteenth is the date.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "kemi",
+          "say": "Application started. Volunteering experience: listed first!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "kemi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Scholarship deadline: 15 Dec 2026"
+            ]
+          }
+        },
+        {
+          "who": "kemi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

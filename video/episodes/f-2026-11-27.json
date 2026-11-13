@@ -1,0 +1,212 @@
+{
+  "id": "f-2026-11-27",
+  "date": "2026-11-27",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Chidi and the KAUST fellowship",
+  "caption": "Study science or engineering with tuition covered and a stipend of $20,000/year (MS) or $25K–$30K/year (PhD) 🇸🇦 KAUST Round 2 deadline: 3 Jan 2027 (dates tentative, check the site). Comment LINK 👇 #kaust #scholarship #phd #masters #stem",
+  "opportunity": "kaust-2027",
+  "cast": {
+    "chidi": {
+      "name": "Chidi",
+      "color": "#F87171",
+      "voice": "en_US-bryce-medium",
+      "look": "guy",
+      "hair": "#1A1A1A",
+      "speed": 0.97
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "airport",
+      "place": "AIRPORT · ARRIVALS",
+      "backdrop": "modern Middle Eastern airport terminal with palm trees inside and golden light",
+      "at": {
+        "chidi": [
+          -0.73,
+          0,
+          0.02,
+          0.3
+        ],
+        "quddus": [
+          0,
+          0,
+          0.02,
+          -0.3
+        ]
+      },
+      "sit": [
+        "chidi",
+        "quddus"
+      ],
+      "props": [
+        "seats"
+      ],
+      "beats": [
+        {
+          "title": "$20,000 A YEAR TO STUDY?",
+          "sub": "CHIDI & QUDDUS",
+          "who": "chidi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "chidi",
+          "text": "Quddus, I love chemistry, but my lab back home has one test tube. And it's cracked.",
+          "say": "Kuddus, I love chemistry, but my lab back home has one test tube. And it's cracked.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "Then imagine world-class labs. KAUST in Saudi Arabia offers a fellowship for master's and PhD students.",
+          "say": "Then imagine world-class labs. KAUST in Saudi Arabia offers a fellowship for master's and P.H.D. students.",
+          "act": "talk",
+          "card": {
+            "icon": "1f52c",
+            "title": "KAUST FELLOWSHIP",
+            "lines": [
+              "1f3eb|Tuition covered",
+              "1f4b5|MS: $20,000 a year",
+              "1f393|PhD: $25,000 to $30,000 a year"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "Twenty thousand dollars a year for a master's? And they pay the school fees?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "That's what their funding page says. PhD students get more, depending on progress.",
+          "say": "That's what their funding page says. P.H.D. students get more, depending on progress.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "NEXT DAY · SCIENCE LAB",
+      "backdrop": "bright modern science lab with glass equipment, screens and white benches",
+      "at": {
+        "chidi": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "who": "chidi",
+          "say": "Who can apply?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Students with a science or engineering background, from around the world. Pick your program and apply online.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO APPLY",
+            "lines": [
+              "1f310|Open admissions.kaust.edu.sa",
+              "1f9ea|Pick your program",
+              "1f4dd|Submit the online application",
+              "23f0|Round 2: 3 Jan 2027"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "Is January third final?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Their dates are marked tentative, so check the official timeline. Apply early to be safe.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "chidi",
+          "say": "Goodbye cracked test tube. Hello KAUST!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "chidi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Round 2 deadline: 3 Jan 2027"
+            ]
+          }
+        },
+        {
+          "who": "chidi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "f-2026-11-22",
+  "date": "2026-11-22",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Chidi wants to study satellites",
+  "caption": "Satellites, maps and AI... and €1,400 every month 🛰️ The Copernicus Master in Digital Earth (Austria/France/Czechia) is open to candidates worldwide. Deadline 22 Jan 2027, 23:59 CET. Comment LINK 👇 #erasmusmundus #geospatial #satellite #scholarship #masters",
+  "opportunity": "copernicus-cde-2027",
+  "cast": {
+    "chidi": {
+      "name": "Chidi",
+      "color": "#F87171",
+      "voice": "en_US-bryce-medium",
+      "look": "guy",
+      "hair": "#1A1A1A",
+      "speed": 0.97
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "NIGHT · ROOFTOP VIEW",
+      "backdrop": "city rooftop at night with stars and satellite lights crossing the sky",
+      "at": {
+        "chidi": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "STUDY SATELLITES FOR FREE?",
+          "sub": "CHIDI & QUDDUS",
+          "who": "chidi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "chidi",
+          "text": "Quddus, every time I use maps on my phone, I wonder who builds all this.",
+          "say": "Kuddus, every time I use maps on my phone, I wonder who builds all this.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "People who study geospatial tech. And there's a master's that pays you to learn it: the Copernicus Master in Digital Earth.",
+          "act": "talk",
+          "card": {
+            "icon": "1f6f0",
+            "title": "COPERNICUS DIGITAL EARTH",
+            "lines": [
+              "1f6f0|Satellite data, AI and geo-tech",
+              "1f4b5|€1,400 monthly scholarship",
+              "1f30d|Austria, France and Czechia"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "Fourteen hundred euros a month to study satellites? I'd study the moon for that!",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "And top students can get a fee waiver too.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "NEXT DAY · MAP ROOM",
+      "backdrop": "modern office with big digital world maps on screens and plants",
+      "at": {
+        "chidi": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "chidi"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "chidi",
+          "say": "But my degree is in surveying. Is that allowed?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "They want a degree in geospatial or a related field, so surveying fits well. Plus English proficiency and a strong academic record.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "WHO CAN APPLY",
+            "lines": [
+              "1f393|Geospatial or related degree",
+              "1f4ac|English proficiency",
+              "1f30d|All nationalities"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "Okay. Steps?",
+          "act": "type",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Open the admissions page, read the call, prepare your documents and motivation letter, and apply before January twenty second.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "chidi",
+          "say": "From surveying land to studying Earth from space. Let's go!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "chidi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Deadline: 22 Jan 2027, 23:59 CET"
+            ]
+          }
+        },
+        {
+          "who": "chidi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

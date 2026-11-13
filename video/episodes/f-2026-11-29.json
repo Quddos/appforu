@@ -1,0 +1,218 @@
+{
+  "id": "f-2026-11-29",
+  "date": "2026-11-29",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Tomy tries micro tasks",
+  "caption": "Small online tasks, paid weekly 💻 On clickworker you see the fee BEFORE each task, and you can cash out via PayPal (from $10) or Payoneer (from $20). Free to join. Comment LINK 👇 #makemoneyonline #sidehustle #workfromhome #remotework",
+  "opportunity": "clickworker-2026",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "campus",
+      "place": "BREAK TIME · CAMPUS STEPS",
+      "backdrop": "busy university campus steps with students and trees in afternoon sun",
+      "at": {
+        "tomy": [
+          -0.45,
+          0,
+          0.02,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0.02,
+          -0.28
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "bench"
+      ],
+      "beats": [
+        {
+          "title": "SMALL TASKS, WEEKLY PAY?",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus, I have ten free hours a week and zero naira to show for it.",
+          "say": "Kuddus, I have ten free hours a week and zero naira to show for it.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Then try micro tasks. Small online jobs. One platform is clickworker.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "What kind of tasks?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Things like writing short texts, answering surveys, checking data, or taking photos. Each task shows its fee before you start.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4f1",
+            "title": "CLICKWORKER",
+            "lines": [
+              "1f4b5|Fee shown before each task",
+              "1f4c5|Payouts every week",
+              "1f4b3|PayPal $10 / Payoneer $20 minimum"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "living",
+      "place": "THAT NIGHT · TOMY'S ROOM",
+      "backdrop": "cozy bedroom at night with fairy lights and a laptop on the bed",
+      "at": {
+        "tomy": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "who": "tomy",
+          "say": "How do I start?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Register for free, take the short qualification tests, then pick tasks when you have time.",
+          "act": "point",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO START",
+            "lines": [
+              "1f310|Open clickworker.com",
+              "1f4dd|Register for free",
+              "2705|Pass the qualification tests",
+              "1f4b0|Do tasks, get paid weekly"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "Will I get rich?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Honestly, no. It's extra income, not a salary. But it's real, and it's free to join.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "say": "Extra income is still income. Let's click!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "1f504|Rolling: register any time"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

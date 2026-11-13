@@ -1,0 +1,223 @@
+{
+  "id": "f-2026-11-30",
+  "date": "2026-11-30",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Ade's Cambridge moment",
+  "caption": "Fees fully covered + living allowance + return airfare + visa costs 🇬🇧 Gates Cambridge is open to everyone outside the UK. Final course deadlines 8 Dec 2026 or 6 Jan 2027. Comment LINK 👇 #gatescambridge #cambridge #scholarship #fullyfunded #phd #masters",
+  "opportunity": "gates-cambridge-2027",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "library",
+      "place": "EVENING · CAMBRIDGE-STYLE HALL",
+      "backdrop": "old Cambridge-style college hall with stone arches, long tables and warm lamps",
+      "at": {
+        "ade": [
+          -0.2,
+          0,
+          0.3,
+          0.2
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "CAMBRIDGE, FULLY FUNDED?",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "text": "Quddus, I want a master's at Cambridge. Just saying it makes me feel rich.",
+          "say": "Kuddus, I want a master's at Cambridge. Just saying it makes me feel rich.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Ade! Then let's talk about the Gates Cambridge Scholarship.",
+          "act": "wave",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.2
+            ],
+            "ade": [
+              -0.75,
+              0,
+              0.4
+            ]
+          },
+          "shot": "card",
+          "card": {
+            "icon": "1f393",
+            "title": "GATES CAMBRIDGE",
+            "lines": [
+              "1f3eb|University fees fully covered",
+              "1f4b5|Living allowance",
+              "2708|Return airfare + visa costs"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "say": "Fees, money to live, AND flights? Who is paying, Bill Gates himself?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "The Gates Cambridge Trust. And it's for students from any country outside the UK.",
+          "say": "The Gates Cambridge Trust. And it's for students from any country outside the U.K..",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · RIVERSIDE CAFÉ",
+      "backdrop": "riverside café with punting boats outside and autumn trees",
+      "at": {
+        "ade": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "ade",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "ade",
+          "say": "Okay. What's the catch?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "It's very competitive. They look for outstanding academics and a commitment to improving other people's lives.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "WHO CAN APPLY",
+            "lines": [
+              "1f30d|Citizen of any country outside the UK",
+              "1f393|Full-time postgraduate course",
+              "2b50|Outstanding academic ability"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "And the deadline?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "It depends on your course. Either December eighth, or January sixth. Check your course page and apply through the course application.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "say": "Cambridge, prepare the Gates. Ade is coming through!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Course deadlines: 8 Dec 2026 or 6 Jan 2027"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

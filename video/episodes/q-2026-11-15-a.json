@@ -1,0 +1,221 @@
+{
+  "id": "q-2026-11-15-a",
+  "date": "2026-11-15",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Fully funded vs partial funding, explained",
+  "caption": "\"Fully funded\" doesn't always mean the same thing 👀 Tuition waiver vs stipend vs fully funded vs assistantship, explained in 1 minute. Save this before you apply 📌 #scholarship #studyabroad #fullyfunded #storytime",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "campus",
+      "place": "CAMPUS · LUNCH BREAK",
+      "backdrop": "sunny university campus courtyard with trees, benches and students' bags",
+      "at": {
+        "tomy": [
+          -0.45,
+          0,
+          0.02,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0.02,
+          -0.28
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "bench"
+      ],
+      "beats": [
+        {
+          "title": "\"FULLY FUNDED\" CAN TRICK YOU",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus! I got admission with a tuition waiver! So it's fully funded, right?",
+          "say": "Kuddus! I got admission with a tuition waiver! So it's fully funded, right?",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Not exactly. A tuition waiver means you don't pay school fees. But who pays for your rent and food?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "Wait. Me?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Yes, you. So let me explain the four words people mix up.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4da",
+            "title": "FUNDING WORDS",
+            "lines": [
+              "1f3eb|Tuition waiver: no school fees",
+              "1f4b5|Stipend: monthly money to live",
+              "1f4b0|Fully funded: fees AND living costs",
+              "1f4bc|Assistantship: you work, they pay"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · COFFEE SHOP",
+      "backdrop": "cozy coffee shop with warm lights, brick wall and plants",
+      "at": {
+        "tomy": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "tomy",
+          "say": "So fully funded means fees plus money to live?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Usually yes. Many also add flights, visa costs, or health insurance. But always read the funding section.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "And assistantship? Is that like being a house help for the professor?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "No! It means you teach or do research part time, and in return they pay your fees or a salary. It's common for PhDs.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "say": "So before I celebrate, I should check: fees, living money, and what else they cover.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Exactly. And if it's only a tuition waiver, plan how you'll pay for living costs before you accept.",
+          "act": "point",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "Okay. Celebration postponed. Research activated!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this video, and comment the word that confused you the most.",
+          "say": "Save this video, and comment the word that confused you the most.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Save before you apply",
+              "1f50e|Always read the \"funding\" section"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow so you never get tricked by a scholarship again!",
+          "text": "Follow so you never get tricked by a scholarship again!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

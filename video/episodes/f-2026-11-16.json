@@ -1,0 +1,248 @@
+{
+  "id": "f-2026-11-16",
+  "date": "2026-11-16",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Chidi gets paid to train AI",
+  "caption": "Chidi thought \"getting paid to chat with AI\" was a scam... until Quddus showed him DataAnnotation 🤖💵 General AI tasks from ~$20/hr, coding projects $40+/hr, remote, your own hours. Comment LINK 👇 #remotework #makemoneyonline #ai #sidehustle",
+  "opportunity": "dataannotation-ai",
+  "cast": {
+    "chidi": {
+      "name": "Chidi",
+      "color": "#F87171",
+      "voice": "en_US-bryce-medium",
+      "look": "guy",
+      "hair": "#1A1A1A",
+      "speed": 0.97
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "NIGHT · BUS STOP",
+      "backdrop": "city bus stop at night with street lights and a few closed shops",
+      "at": {
+        "chidi": [
+          -0.2,
+          0,
+          0.3,
+          0.2
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "PAID TO CHAT WITH AI?",
+          "sub": "CHIDI & QUDDUS",
+          "who": "chidi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "chidi",
+          "say": "Another month, another empty wallet. My wallet now has an echo.",
+          "act": "facepalm",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Chidi! Why are you talking to your wallet at a bus stop?",
+          "act": "wave",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.2
+            ],
+            "chidi": [
+              -0.75,
+              0,
+              0.4
+            ]
+          },
+          "shot": "two"
+        },
+        {
+          "who": "chidi",
+          "say": "Because nobody else listens. I need a side income I can do from my phone or laptop.",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Can you write good English and pay attention to small details?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "chidi",
+          "say": "I once found a typo in my pastor's sermon slides. Live. During service.",
+          "act": "point",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "Perfect. Then look at DataAnnotation. You get paid to help train AI.",
+          "say": "Perfect. Then look at DataAnnotation. You get paid to help train A.I..",
+          "act": "thumbs",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "living",
+      "place": "CHIDI'S ROOM",
+      "backdrop": "cozy small living room at night with a lamp, posters and plants",
+      "at": {
+        "chidi": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "chidi",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "who": "chidi",
+          "text": "Train AI? Quddus, I can barely train my dog.",
+          "say": "Train A.I.? Kuddus, I can barely train my dog.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "You chat with AI, check its answers, and rate them. For general tasks, they list pay from around twenty dollars an hour.",
+          "say": "You chat with A.I., check its answers, and rate them. For general tasks, they list pay from around twenty dollars an hour.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4b5",
+            "title": "WHAT IT PAYS",
+            "lines": [
+              "1f916|General AI tasks: from ~$20/hr",
+              "1f4bb|Coding projects: $40+/hr",
+              "1f30d|Multilingual: $20+/hr"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "Twenty dollars an hour? For reading and judging? I do that to my friends for free!",
+          "mood": "shock",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Remote, and you choose your own hours. But first you must pass their free starter assessment.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO START",
+            "lines": [
+              "1f310|Open dataannotation.tech",
+              "1f4cb|Pick a role",
+              "1f4dd|Take the starter assessment",
+              "1f4b0|Unlock paid projects"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "Is it open in every country?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Roles vary by country, so check what's open for you. And never pay anyone to get in. It's free.",
+          "act": "point",
+          "shot": "close"
+        },
+        {
+          "who": "chidi",
+          "say": "Assessment starting now. Goodbye echo, hello income.",
+          "act": "type",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "chidi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "1f504|Rolling: apply any time"
+            ]
+          }
+        },
+        {
+          "who": "chidi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

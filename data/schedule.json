@@ -1,5 +1,5 @@
 {
-  "_comment": "Date (UTC) -> [morning post, evening post]. One earning + one academic per day. Times: 07:00 & 17:00 UTC.",
+  "_comment": "Date (UTC) -> [earning, academic]. Afternoon (~12:00 UTC): story video about one of them (data/videos.json f.opportunity); night (~19:00 UTC): carousel for the other.",
   "2026-11-09": [
     "kiroween-2026",
     "hk-phd-fellowship-2027"
@@ -55,5 +55,37 @@
   "2026-11-22": [
     "testio-2026",
     "copernicus-cde-2027"
+  ],
+  "2026-11-23": [
+    "reddit-gotd-hackathon",
+    "ellison-oxford-2027"
+  ],
+  "2026-11-24": [
+    "mindrift-ai-2026",
+    "tudelft-excellence-2027"
+  ],
+  "2026-11-25": [
+    "respondent-2026",
+    "warwick-cis-2027"
+  ],
+  "2026-11-26": [
+    "hackout-2027",
+    "noha-erasmus-2027"
+  ],
+  "2026-11-27": [
+    "userinterviews-2026",
+    "kaust-2027"
+  ],
+  "2026-11-28": [
+    "name-that-llm-kaggle",
+    "eiffel-2027"
+  ],
+  "2026-11-29": [
+    "clickworker-2026",
+    "utrecht-nl-2027"
+  ],
+  "2026-11-30": [
+    "open-agentic-web",
+    "gates-cambridge-2027"
   ]
 }

@@ -1,0 +1,235 @@
+{
+  "id": "q-2026-11-16-b",
+  "date": "2026-11-16",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Ade emails a professor for a PhD",
+  "caption": "How to email a professor about a funded PhD (and actually get a reply) 📧 Short, specific, and about THEIR research. Save this 📌 #phd #studyabroad #scholarship #academictwitter",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "cafe",
+      "place": "AFTERNOON · CAMPUS CAFÉ",
+      "backdrop": "busy campus coffee shop with chalkboard menu and warm lights",
+      "at": {
+        "ade": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "ade",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "title": "HOW TO EMAIL A PROFESSOR",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "text": "Quddus! I emailed fifty professors for a funded PhD! Same email, I just changed the name.",
+          "say": "Kuddus! I emailed fifty professors for a funded P.H.D.! Same email, I just changed the name.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "And how many replied?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "Zero. One autoreply. It said the professor is on holiday until 2029.",
+          "act": "facepalm",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Professors can tell when an email was sent to fifty people. Let's fix it.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "Okay. What should I write?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "LATER · STUDY ROOM",
+      "backdrop": "quiet modern study room with a whiteboard, books and a laptop",
+      "at": {
+        "ade": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "ade"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "text": "First, a clear subject line. For example: prospective PhD student, interest in your work on solar batteries.",
+          "say": "First, a clear subject line. For example: prospective P.H.D. student, interest in your work on solar batteries.",
+          "act": "point",
+          "card": {
+            "icon": "1f4e9",
+            "title": "THE EMAIL",
+            "lines": [
+              "1f4cc|Clear subject line",
+              "1f4da|Mention a paper of theirs you read",
+              "1f4c8|Your skills that match, briefly",
+              "2753|Ask if they're taking students"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "Then I introduce myself?",
+          "act": "type",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "In two lines. Then mention one of their recent papers and what interested you. Show you actually read it.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "And then I ask them for money?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "No. Ask if they are accepting PhD students next year, and if funding is available. Attach your CV. Keep it short.",
+          "say": "No. Ask if they are accepting P.H.D. students next year, and if funding is available. Attach your C.V.. Keep it short.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "So, one professor, one personal email, not fifty copies.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Exactly. Quality beats quantity.",
+          "act": "thumbs",
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "say": "Sending one perfect email. And no more holiday autoreplies, please!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment EMAIL if you want a ready template.",
+          "say": "Save this, and comment EMAIL if you want a ready template.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Save before you email",
+              "1f4e9|Short, specific, polite"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more P.H.D. tips!",
+          "text": "Follow for more PhD tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

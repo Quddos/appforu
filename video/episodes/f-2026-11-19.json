@@ -1,0 +1,224 @@
+{
+  "id": "f-2026-11-19",
+  "date": "2026-11-19",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Zara's Swiss research dream",
+  "caption": "CHF 2,450 every month for research or a PhD in Switzerland 🇨🇭 The Swiss Government Excellence Scholarships are open to 183 countries, but deadlines depend on YOUR country (many close 27 Nov). Comment LINK 👇 #swissgovernment #scholarship #phd #research #studyabroad",
+  "opportunity": "swiss-excellence-2027",
+  "cast": {
+    "zara": {
+      "name": "Zara",
+      "color": "#A78BFA",
+      "voice": "en_GB-cori-high",
+      "look": "girl-puff",
+      "hair": "#1A1110",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "cafe",
+      "place": "MORNING · CAMPUS CAFÉ",
+      "backdrop": "sunny campus café with big windows, plants and wooden tables",
+      "at": {
+        "zara": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "zara",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "title": "CHF 2,450 EVERY MONTH?",
+          "sub": "ZARA & QUDDUS",
+          "who": "zara",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "zara",
+          "text": "I just finished my master's and I want a PhD abroad. But who pays a PhD student?",
+          "say": "I just finished my master's and I want a P.H.D. abroad. But who pays a P.H.D. student?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "The Swiss government might. The Swiss Government Excellence Scholarships.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4b5",
+            "title": "SWISS EXCELLENCE",
+            "lines": [
+              "1f4b5|CHF 2,450 per month",
+              "1f4c5|12 months, renewable up to 36",
+              "1f52c|Research or PhD in Switzerland",
+              "1f30d|Open to 183 countries"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "Two thousand four hundred and fifty Swiss francs. Every month?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "For research or a PhD at a Swiss university. Twelve months, and it can be renewed up to thirty six.",
+          "say": "For research or a P.H.D. at a Swiss university. Twelve months, and it can be renewed up to thirty six.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "AFTERNOON · RESEARCH LAB",
+      "backdrop": "modern university research lab with microscopes, screens and soft light",
+      "at": {
+        "zara": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "who": "zara",
+          "say": "Who can apply?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "You need your master's done by the end of July twenty twenty seven, and you must be born after December thirty first, nineteen ninety one.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "WHO CAN APPLY",
+            "lines": [
+              "1f393|Master's done by 31 Jul 2027",
+              "1f4c5|Born after 31 Dec 1991",
+              "1f4e9|Letter from a Swiss professor"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "Wait. A letter from a Swiss professor? I don't know any Swiss professor!",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "That's the key step. Find a professor whose research matches yours, email them, and ask if they will support your project.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "zara",
+          "say": "And the deadline?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "It depends on your country. Many close on November twenty seventh. Check your country on the official list today.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "zara",
+          "say": "Country list opened. Professor email being written. Switzerland, let's talk!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "zara": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Check your country's deadline (many 27 Nov)"
+            ]
+          }
+        },
+        {
+          "who": "zara",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

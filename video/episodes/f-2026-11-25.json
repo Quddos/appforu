@@ -1,0 +1,212 @@
+{
+  "id": "f-2026-11-25",
+  "date": "2026-11-25",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Zara's funded PhD in the UK",
+  "caption": "A funded PhD in the UK: full tuition + a maintenance stipend for up to 3.5 years 🇬🇧 Warwick's Chancellor's International Scholarship for 2027 entry, apply by 7 Dec 2026. Comment LINK 👇 #phd #warwick #scholarship #studyinuk #fullyfunded",
+  "opportunity": "warwick-cis-2027",
+  "cast": {
+    "zara": {
+      "name": "Zara",
+      "color": "#A78BFA",
+      "voice": "en_GB-cori-high",
+      "look": "girl-puff",
+      "hair": "#1A1110",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "library",
+      "place": "AFTERNOON · OLD LIBRARY",
+      "backdrop": "grand old British university library with arched windows and long wooden tables",
+      "at": {
+        "zara": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "zara",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "title": "A FUNDED PhD IN THE UK?",
+          "sub": "ZARA & QUDDUS",
+          "who": "zara",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "zara",
+          "text": "Quddus, a PhD in the UK costs more than my whole village's harvest.",
+          "say": "Kuddus, a P.H.D. in the U.K. costs more than my whole village's harvest.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Not with the Chancellor's International Scholarship at the University of Warwick.",
+          "act": "talk",
+          "card": {
+            "icon": "1f393",
+            "title": "WARWICK CHANCELLOR'S",
+            "lines": [
+              "1f3eb|Full tuition fees",
+              "1f4b5|Maintenance stipend",
+              "1f4c5|Up to 3.5 years full-time"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "Fees AND a stipend for three and a half years?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "For outstanding international PhD applicants. It's very competitive, so your application must shine.",
+          "say": "For outstanding international P.H.D. applicants. It's very competitive, so your application must shine.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "campus",
+      "place": "NEXT DAY · UNIVERSITY LAWN",
+      "backdrop": "modern British university campus with glass buildings, green lawn and autumn trees",
+      "at": {
+        "zara": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "who": "zara",
+          "say": "How do I apply?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "First, find a Warwick PhD program and a supervisor. Then apply for the PhD and the scholarship before December seventh.",
+          "say": "First, find a Warwick P.H.D. program and a supervisor. Then apply for the P.H.D. and the scholarship before December seventh.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO APPLY",
+            "lines": [
+              "1f50e|Find a PhD + supervisor",
+              "1f4dd|Apply for the PhD",
+              "2705|Apply for the CIS award",
+              "23f0|Before 7 Dec 2026"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "Does every department use the same date?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Check your department's page too. Some set their own earlier dates.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "zara",
+          "say": "Supervisor search: activated. Warwick, I'm coming with my research proposal!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "zara": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Apply by 7 Dec 2026 (2027 entry)"
+            ]
+          }
+        },
+        {
+          "who": "zara",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

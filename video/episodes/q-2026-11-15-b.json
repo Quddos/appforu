@@ -1,0 +1,229 @@
+{
+  "id": "q-2026-11-15-b",
+  "date": "2026-11-15",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Musa and the \"remote job\" that wanted his money",
+  "caption": "\"You're hired! Just pay $50 for your training kit\" 🚩 If a remote job asks YOU to pay, it's a scam. Share this with someone job hunting 🙏 #remotejobs #scamalert #workfromhome #storytime",
+  "cast": {
+    "musa": {
+      "name": "Musa",
+      "color": "#4ADE80",
+      "voice": "en_GB-alan-medium",
+      "look": "guy-fade",
+      "hair": "#111111",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "office",
+      "place": "MORNING · SHARED OFFICE",
+      "backdrop": "modern shared office with glass walls, plants and laptops",
+      "at": {
+        "musa": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "musa"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "title": "HIRED... THEN ASKED TO PAY?",
+          "sub": "MUSA & QUDDUS",
+          "who": "musa",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "musa",
+          "text": "Quddus! I got a remote job! Data entry, five hundred dollars a week, and I didn't even do an interview!",
+          "say": "Kuddus! I got a remote job! Data entry, five hundred dollars a week, and I didn't even do an interview!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "No interview? How did they hire you?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "They messaged me on Telegram. I just need to pay fifty dollars for my training kit and a work laptop activation.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Musa. Close the chat. Now.",
+          "mood": "shock",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "But they said spaces are limited!",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · TEA SPOT",
+      "backdrop": "small cozy tea shop with hanging plants and soft lights",
+      "at": {
+        "musa": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "musa",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "say": "Here's the rule. A real employer pays you. You never pay them to start working.",
+          "act": "talk",
+          "card": {
+            "icon": "1f6a8",
+            "title": "FAKE JOB RED FLAGS",
+            "lines": [
+              "1f4b8|Pay for training, kit or activation",
+              "1f4f1|Hired on Telegram, no interview",
+              "23f0|Pressure: spaces are limited",
+              "1f4b0|Huge pay for very easy work"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "musa",
+          "say": "So how do I know if a remote job is real?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Find the job on the company's official website or careers page. Check the email domain. And search the company name with the word scam.",
+          "act": "point",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO CHECK",
+            "lines": [
+              "1f310|Job is on the official careers page",
+              "1f4e9|Email from the company's domain",
+              "1f50e|Search the name plus \"scam\""
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "musa",
+          "say": "I was about to pay fifty dollars to become unemployed.",
+          "act": "facepalm",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Better you learn today than lose money tomorrow.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "Blocked, reported, and screenshot for the group chat!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "musa": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Comment SAFE if a fake job ever messaged you, and share this with a friend who's job hunting.",
+          "say": "Comment SAFE if a fake job ever messaged you, and share this with a friend who's job hunting.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "STAY SAFE",
+            "lines": [
+              "1f6a8|Real jobs don't charge you to work",
+              "1f50e|Check the company's official site"
+            ]
+          }
+        },
+        {
+          "who": "musa",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow before your next job interview!",
+          "text": "Follow before your next job interview!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

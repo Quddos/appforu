@@ -1,0 +1,230 @@
+{
+  "id": "f-2026-11-17",
+  "date": "2026-11-17",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Musa and the ETH Zurich scholarship",
+  "caption": "Top-10 university in the world + no tuition + up to CHF 13,500 every semester 🇨🇭 ETH Zurich's Excellence Scholarship (ESOP) closes 30 Nov, 11:59 CET. Comment LINK 👇 #ethzurich #scholarship #studyabroad #switzerland #masters",
+  "opportunity": "eth-esop-2027",
+  "cast": {
+    "musa": {
+      "name": "Musa",
+      "color": "#4ADE80",
+      "voice": "en_GB-alan-medium",
+      "look": "guy-fade",
+      "hair": "#111111",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "park",
+      "place": "EVENING · LAKESIDE PARK",
+      "backdrop": "calm lakeside park at sunset with mountains in the distance and street lamps",
+      "at": {
+        "musa": [
+          -0.45,
+          0,
+          0.02,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0.02,
+          -0.28
+        ]
+      },
+      "sit": [
+        "musa",
+        "quddus"
+      ],
+      "props": [
+        "bench",
+        "plants"
+      ],
+      "beats": [
+        {
+          "title": "SWITZERLAND PAYS YOUR MASTER'S?",
+          "sub": "MUSA & QUDDUS",
+          "who": "musa",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "musa",
+          "text": "Quddus, if I say I want to study in Switzerland, will you laugh?",
+          "say": "Kuddus, if I say I want to study in Switzerland, will you laugh?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Only if you don't apply. ETH Zurich has an Excellence Scholarship for master's students.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "ETH Zurich? The one in every top ten ranking? With Einstein's old chair?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "That one. And the scholarship is very serious.",
+          "act": "thumbs",
+          "card": {
+            "icon": "1f3db",
+            "title": "ETH EXCELLENCE (ESOP)",
+            "lines": [
+              "1f4b5|Up to CHF 13,500 per semester",
+              "1f3eb|Tuition fees waived",
+              "1f393|About 60 scholarships for 2027/28"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "NEXT DAY · STUDY ROOM",
+      "backdrop": "bright modern study room with large windows, plants and a whiteboard",
+      "at": {
+        "musa": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "musa"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "musa",
+          "say": "Okay, I'm ready. What do I need?",
+          "act": "type",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "An excellent bachelor's record, from any country, and an application to an ETH master's program.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "That's it?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Not quite. You also upload a master's thesis pre-proposal. A short plan of the research you'd like to do.",
+          "act": "point",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO APPLY",
+            "lines": [
+              "1f4dd|Apply to an ETH master's online",
+              "2705|Tick the ESOP scholarship option",
+              "1f52c|Upload your thesis pre-proposal",
+              "23f0|Submit by 30 Nov, 11:59 CET"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "musa",
+          "say": "And if I miss November?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Only the November window counts for this scholarship. So start your pre-proposal today, not on the 29th.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "Writing my pre-proposal tonight. Switzerland, keep my seat warm!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "musa": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Deadline: 30 Nov 2026, 11:59 CET"
+            ]
+          }
+        },
+        {
+          "who": "musa",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

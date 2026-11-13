@@ -1,0 +1,224 @@
+{
+  "id": "f-2026-11-28",
+  "date": "2026-11-28",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Musa and the Eiffel scholarship",
+  "caption": "The French government pays €1,200/month for master's students and €2,000/month for PhD students 🇫🇷 But YOUR French university must apply for you, before Campus France's 6 Jan 2027 deadline. Comment LINK 👇 #eiffel #studyinfrance #scholarship #masters #phd",
+  "opportunity": "eiffel-2027",
+  "cast": {
+    "musa": {
+      "name": "Musa",
+      "color": "#4ADE80",
+      "voice": "en_GB-alan-medium",
+      "look": "guy-fade",
+      "hair": "#111111",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "EVENING · PARIS-STYLE STREET",
+      "backdrop": "charming Paris-style street at dusk with cafés, street lamps and the Eiffel Tower in the distance",
+      "at": {
+        "musa": [
+          -0.2,
+          0,
+          0.3,
+          0.2
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "FRANCE PAYS YOU €1,200 A MONTH?",
+          "sub": "MUSA & QUDDUS",
+          "who": "musa",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "musa",
+          "text": "Bonjour, Quddus! I'm learning French because I want to study in France.",
+          "say": "Bonjour, Kuddus! I'm learning French because I want to study in France.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Bonjour, Musa! Then you need to know about the France Excellence Eiffel Scholarship.",
+          "act": "wave",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.2
+            ],
+            "musa": [
+              -0.75,
+              0,
+              0.4
+            ]
+          },
+          "shot": "card",
+          "card": {
+            "icon": "1f3db",
+            "title": "EIFFEL SCHOLARSHIP",
+            "lines": [
+              "1f4b5|Master's: €1,200 a month",
+              "1f393|PhD: €2,000 a month",
+              "2b50|French government award"
+            ]
+          }
+        },
+        {
+          "who": "musa",
+          "say": "The French government pays me monthly? Merci beaucoup!",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "But listen carefully. You can't apply by yourself.",
+          "act": "talk",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · FRENCH CAFÉ",
+      "backdrop": "cozy French café with croissants, small round tables and warm lights",
+      "at": {
+        "musa": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "musa",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "musa",
+          "say": "Then who applies?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "Your French university. You apply to their master's or PhD, then they nominate you to Campus France.",
+          "say": "Your French university. You apply to their master's or P.H.D., then they nominate you to Campus France.",
+          "act": "point",
+          "card": {
+            "icon": "2705",
+            "title": "HOW IT WORKS",
+            "lines": [
+              "1f4dd|Apply to a French master's or PhD",
+              "1f3db|Ask them to nominate you",
+              "23f0|Their date is earlier than 6 Jan",
+              "1f4c5|Age: up to 29 master's, 35 PhD"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "musa",
+          "say": "Does it cover tuition?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "No. It's a monthly allowance, not tuition. So check the fees of your program too.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "musa",
+          "say": "Email to the university: sent. In English. My French is still loading.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "musa": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Universities submit by 6 Jan 2027"
+            ]
+          }
+        },
+        {
+          "who": "musa",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

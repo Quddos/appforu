@@ -1,0 +1,231 @@
+{
+  "id": "f-2026-11-18",
+  "date": "2026-11-18",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Tomy discovers Yenching Academy",
+  "caption": "A fully funded master's at Peking University, open to ANY bachelor's field 🇨🇳 Yenching Academy closes 30 Nov, 9:00 AM Beijing time. Comment LINK 👇 #yenching #pekinguniversity #scholarship #fullyfunded #studyabroad",
+  "opportunity": "yenching-2027",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "airport",
+      "place": "AIRPORT · DEPARTURES",
+      "backdrop": "bright modern airport terminal with big windows, planes outside and departure boards",
+      "at": {
+        "tomy": [
+          -0.73,
+          0,
+          0.02,
+          0.3
+        ],
+        "quddus": [
+          0,
+          0,
+          0.02,
+          -0.3
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "seats"
+      ],
+      "beats": [
+        {
+          "title": "A FREE MASTER'S IN BEIJING?",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus, my degree is in sociology. Every scholarship I see wants engineers.",
+          "say": "Kuddus, my degree is in sociology. Every scholarship I see wants engineers.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Then you'll like this one. Yenching Academy at Peking University. They accept a bachelor's in any field.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "Any field? Even sociology? Even my cousin's degree in poultry science?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Any field. And Yenching Scholars receive a full fellowship.",
+          "act": "thumbs",
+          "card": {
+            "icon": "1f3eb",
+            "title": "YENCHING ACADEMY",
+            "lines": [
+              "1f393|Master's at Peking University",
+              "1f4b0|Full fellowship",
+              "1f30d|All nationalities welcome"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "place": "THAT EVENING · LIBRARY",
+      "backdrop": "modern library with Chinese-style wooden details, lamps and tall bookshelves",
+      "at": {
+        "tomy": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "tomy",
+          "say": "What's life like there?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "It's a residential college, and about three quarters of the students are international.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "Okay. What do they want from me?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "A personal statement of about seven hundred and fifty words, a research interest statement, and recommendation letters.",
+          "act": "point",
+          "card": {
+            "icon": "1f4dd",
+            "title": "WHAT TO PREPARE",
+            "lines": [
+              "1f4dd|750-word personal statement",
+              "1f52c|Research interest statement",
+              "1f4e9|Recommendation letters",
+              "23f0|Apply by 30 Nov, 9 AM Beijing"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "Nine A.M. Beijing time. So in Nigeria, that's...",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Two in the morning. Don't wait for that night.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "Statement drafting starts now. Beijing, here I come!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Deadline: 30 Nov 2026, 9 AM Beijing"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

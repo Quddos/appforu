@@ -1,0 +1,209 @@
+{
+  "id": "f-2026-11-20",
+  "date": "2026-11-20",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Ade's startup goes for Imagine Cup",
+  "caption": "Got an AI startup idea? Microsoft Imagine Cup 2027: $250,000 + $1M in credits for 1st place, and a $25,000 Top Student Startup prize 🚀 Deadline 28 Feb 2027. Comment LINK 👇 #imaginecup #startup #ai #microsoft #students",
+  "opportunity": "imagine-cup-2027",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "office",
+      "place": "NIGHT · CO-WORKING SPACE",
+      "backdrop": "cozy co-working space at night with laptops, sticky notes and neon lights",
+      "at": {
+        "ade": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "ade"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "title": "$250,000 FOR YOUR STARTUP?",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "text": "Quddus! My AI app helps farmers detect sick crops from a photo. My mum says I'm a genius.",
+          "say": "Kuddus! My A.I. app helps farmers detect sick crops from a photo. My mum says I'm a genius.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Your mum is right. Have you heard of the Microsoft Imagine Cup?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "Is that a trophy for the best tea mug?",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "It's a global competition for early-stage startups using AI. And the prizes are big.",
+          "say": "It's a global competition for early-stage startups using A.I.. And the prizes are big.",
+          "act": "talk",
+          "card": {
+            "icon": "1f3c6",
+            "title": "IMAGINE CUP 2027",
+            "lines": [
+              "1f4b0|1st: $250,000 + $1M in credits",
+              "1f3c5|2nd $50,000 · 3rd $25,000",
+              "2b50|$25,000 Top Student Startup"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "street",
+      "place": "NEXT DAY · CITY STREET",
+      "backdrop": "sunny busy city street with shops, trees and blue sky",
+      "at": {
+        "ade": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "who": "ade",
+          "say": "Two hundred and fifty thousand dollars? For crop photos?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "For a strong startup. A founder registers the team, then you build your pitch and demo.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO ENTER",
+            "lines": [
+              "1f310|Read the rules on the official site",
+              "1f4bc|Register your startup team",
+              "1f3a5|Build your pitch and demo",
+              "23f0|Submit by 28 Feb 2027"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "Do I need to be a big company?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "No, it's for early-stage startups. But read the official rules to confirm you're eligible.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "say": "Pitch deck mode activated. Farmers, your app is coming!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Deadline: 28 Feb 2027"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "f-2026-11-21",
+  "date": "2026-11-21",
+  "slot": "f",
+  "series": "story",
+  "brand": "fundintech",
+  "title": "Kemi the future journalist",
+  "caption": "Study journalism in 2+ European countries with zero tuition and €1,400 every month 🗞️🇪🇺 Erasmus Mundus Journalism: one form = admission + scholarship. Deadline 10 Jan 2027, 13:00 CET. Comment LINK 👇 #journalism #erasmusmundus #scholarship #studyineurope",
+  "opportunity": "mundus-journalism-2027",
+  "cast": {
+    "kemi": {
+      "name": "Kemi",
+      "color": "#FACC15",
+      "voice": "en_US-amy-medium",
+      "look": "girl-braids",
+      "hair": "#1F1410",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "living",
+      "place": "KEMI'S HOME · NEWS NIGHT",
+      "backdrop": "cozy living room with a TV showing news, sofa and warm lamps",
+      "at": {
+        "kemi": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "title": "PAID TO STUDY JOURNALISM?",
+          "sub": "KEMI & QUDDUS",
+          "who": "kemi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "kemi",
+          "say": "Breaking news! Kemi wants to be a journalist, but Kemi has no money.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Then here's your headline. Erasmus Mundus Journalism. Study in at least two European countries.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4f0",
+            "title": "MUNDUS JOURNALISM",
+            "lines": [
+              "1f4b5|€1,400 a month for 24 months",
+              "1f3eb|Full tuition waiver",
+              "1f30d|2+ European countries"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "Tuition waived AND they pay me monthly? Is this fake news?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Real news. About ten to fifteen scholarships, open to all nationalities.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "NEXT MORNING · COFFEE SHOP",
+      "backdrop": "morning coffee shop with newspapers, plants and sunlight",
+      "at": {
+        "kemi": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "kemi",
+          "say": "What are the requirements?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "A bachelor's degree, English at C1 level, no previous Erasmus Mundus scholarship, and you shouldn't already hold a two-year master's.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "WHO CAN APPLY",
+            "lines": [
+              "1f393|Bachelor's degree",
+              "1f4ac|English at C1 level",
+              "1f4cb|No previous EM scholarship"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "Do I fill two forms, one for admission and one for the scholarship?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Just one. The same form covers admission and the scholarship. Deadline January tenth, one P.M. Central European time.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "kemi",
+          "say": "This is Kemi, reporting live from my application form!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "kemi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|Deadline: 10 Jan 2027, 13:00 CET"
+            ]
+          }
+        },
+        {
+          "who": "kemi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

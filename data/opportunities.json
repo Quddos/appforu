@@ -1,1801 +1,2730 @@
 [
-  {
-    "id": "kiroween-2026",
-    "kind": "earn",
-    "verified": true,
-    "label": "HACKATHON",
-    "kicker": "WIN UP TO",
-    "hero": "1f383",
-    "badges": [
-      "1f4b0",
-      "1f916",
-      "1f3c6"
-    ],
-    "title": "Kiroween 2026 Hackathon",
-    "highlight": "$100,000",
-    "highlightLabel": "CASH PRIZES",
-    "subtitle": "Build a spooky AI-powered app with the Kiro IDE (by AWS)",
-    "host": "Kiro on Devpost",
-    "location": "Online · build from anywhere",
-    "deadlineISO": "2026-12-04",
-    "deadline": "4 Dec 2026, 2:00 PM PT",
-    "perks": [
-      {
-        "e": "1f3c6",
-        "t": "1st place: $30,000 cash"
-      },
-      {
-        "e": "1f4b0",
-        "t": "2nd $20,000 · 3rd $10,000"
-      },
-      {
-        "e": "1f680",
-        "t": "$10,000 Best Startup Project"
-      },
-      {
-        "e": "1f47b",
-        "t": "4 category prizes of $5,000 each"
-      }
-    ],
-    "eligibility": [
-      "Solo or team, free to enter",
-      "Project must be started after 30 Oct 2026",
-      "Build with Kiro, the AI coding IDE",
-      "Check the official rules for your country"
-    ],
-    "steps": [
-      "Register on the Kiroween Devpost page",
-      "Build your project with Kiro",
-      "Record a short demo video",
-      "Submit before 4 Dec, 2 PM PT"
-    ],
-    "link": "kiroween.devpost.com",
-    "sources": [
-      "https://kiroween.devpost.com/",
-      "https://kiro.dev/events/"
-    ],
-    "tags": [
-      "#hackathon",
-      "#coding",
-      "#AI",
-      "#devpost",
-      "#makemoneyonline"
-    ]
-  },
-  {
-    "id": "hk-phd-fellowship-2027",
-    "kind": "academic",
-    "verified": true,
-    "label": "PhD FELLOWSHIP",
-    "kicker": "FULLY FUNDED",
-    "hero": "1f393",
-    "badges": [
-      "1f1ed-1f1f0",
-      "1f4b5",
-      "2708"
-    ],
-    "title": "Hong Kong PhD Fellowship",
-    "highlight": "400 PhD SPOTS",
-    "highlightLabel": "IN HONG KONG, ALL NATIONALITIES",
-    "subtitle": "Do your PhD at a top Hong Kong university, all nationalities welcome",
-    "host": "Research Grants Council, Hong Kong",
-    "location": "Hong Kong",
-    "deadlineISO": "2026-12-01",
-    "deadline": "1 Dec 2026, 12:00 noon HKT",
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "Monthly stipend throughout your PhD"
-      },
-      {
-        "e": "2708",
-        "t": "Conference & research travel allowance"
-      },
-      {
-        "e": "1f3db",
-        "t": "Study at HKU, CUHK, HKUST & more"
-      },
-      {
-        "e": "2705",
-        "t": "No application fee"
-      }
-    ],
-    "eligibility": [
-      "Open to students of ANY nationality",
-      "Outstanding academic record",
-      "Applying for full-time PhD study",
-      "Research ability & leadership"
-    ],
-    "steps": [
-      "Submit the initial application on the RGC portal",
-      "Note your HKPFS reference number",
-      "Apply to your chosen HK universities",
-      "Both before 1 Dec 2026"
-    ],
-    "link": "rgc.edu.hk/hkphd",
-    "sources": [
-      "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
-      "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/"
-    ],
-    "tags": [
-      "#phd",
-      "#fellowship",
-      "#fullyfunded",
-      "#studyabroad",
-      "#hongkong"
-    ]
-  },
-  {
-    "id": "google-quantum-kaggle",
-    "kind": "earn",
-    "verified": true,
-    "label": "AI COMPETITION",
-    "kicker": "WIN UP TO",
-    "hero": "269b",
-    "badges": [
-      "1f4b0",
-      "1f9e0",
-      "1f3c6"
-    ],
-    "title": "Google Quantum AI Challenge",
-    "highlight": "$150,000",
-    "highlightLabel": "PRIZE POOL",
-    "subtitle": "Compile quantum circuits on Kaggle. Code from your laptop, win cash",
-    "host": "Google Quantum AI × Kaggle",
-    "location": "Online · Kaggle",
-    "deadlineISO": "2027-01-20",
-    "deadline": "Final: 20 Jan 2027 (join by 13 Jan)",
-    "perks": [
-      {
-        "e": "1f3c6",
-        "t": "1st place: $50,000"
-      },
-      {
-        "e": "1f4b0",
-        "t": "2nd $25,000 · 3rd $10,000"
-      },
-      {
-        "e": "26a1",
-        "t": "$10,000 milestone prize on 20 Nov"
-      },
-      {
-        "e": "1f9ea",
-        "t": "3 × $10,000 single-task prizes"
-      }
-    ],
-    "eligibility": [
-      "Free Kaggle account",
-      "Python / ML skills help",
-      "Solo or team",
-      "Public notebooks qualify for bonus prizes"
-    ],
-    "steps": [
-      "Open the competition on Kaggle",
-      "Click Join & accept the rules",
-      "Fork a public starter notebook",
-      "Submit & climb the leaderboard"
-    ],
-    "link": "kaggle.com/competitions",
-    "sources": [
-      "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation"
-    ],
-    "tags": [
-      "#kaggle",
-      "#quantum",
-      "#AI",
-      "#datascience",
-      "#makemoneyonline"
-    ]
-  },
-  {
-    "id": "commonwealth-shared-2027",
-    "kind": "academic",
-    "verified": true,
-    "label": "MASTER'S SCHOLARSHIP",
-    "kicker": "STUDY IN THE UK",
-    "hero": "1f1ec-1f1e7",
-    "badges": [
-      "1f393",
-      "2708",
-      "1f4b5"
-    ],
-    "title": "Commonwealth Shared Scholarships",
-    "highlight": "FULLY FUNDED",
-    "highlightLabel": "1-YEAR MASTER'S + FLIGHTS",
-    "subtitle": "1-year Master's at a UK university for talented students from developing Commonwealth countries",
-    "host": "Commonwealth Scholarship Commission (UK)",
-    "location": "United Kingdom",
-    "deadlineISO": "2026-12-08",
-    "deadline": "Opens 10 Nov · closes 8 Dec 2026, 16:00 GMT",
-    "perks": [
-      {
-        "e": "1f3eb",
-        "t": "Full tuition fees"
-      },
-      {
-        "e": "2708",
-        "t": "Return flight to the UK"
-      },
-      {
-        "e": "1f4b5",
-        "t": "Monthly living allowance"
-      },
-      {
-        "e": "1f3e0",
-        "t": "Arrival & thesis allowances"
-      }
-    ],
-    "eligibility": [
-      "Citizen of an eligible Commonwealth country",
-      "Living in a developing Commonwealth country",
-      "Bachelor's degree (usually 2:1 or higher)",
-      "Unable to afford UK study without it"
-    ],
-    "steps": [
-      "Pick an eligible course from the 2027 list",
-      "Apply to that UK university",
-      "Submit the CSC online application",
-      "Before 8 Dec 2026, 16:00 GMT"
-    ],
-    "link": "cscuk.fcdo.gov.uk",
-    "sources": [
-      "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/"
-    ],
-    "tags": [
-      "#scholarship",
-      "#fullyfunded",
-      "#studyinuk",
-      "#commonwealth",
-      "#masters"
-    ]
-  },
-  {
-    "id": "qnx-global-hackathon",
-    "kind": "earn",
-    "verified": true,
-    "label": "HACKATHON",
-    "kicker": "WIN UP TO",
-    "hero": "1f916",
-    "badges": [
-      "1f4b0",
-      "1f697",
-      "1f6e0"
-    ],
-    "title": "QNX Global Hackathon",
-    "highlight": "$50,000",
-    "highlightLabel": "IN PRIZES",
-    "subtitle": "Build robotics, automotive or dev-tool projects on QNX, online",
-    "host": "QNX (BlackBerry) on Devpost",
-    "location": "Online · worldwide",
-    "deadlineISO": "2026-12-15",
-    "deadline": "15 Dec 2026, 2:00 PM EST",
-    "perks": [
-      {
-        "e": "1f3c6",
-        "t": "Grand Prize: $10,000 cash"
-      },
-      {
-        "e": "1f3a4",
-        "t": "Chat with the QNX CEO + podcast feature"
-      },
-      {
-        "e": "1f4b0",
-        "t": "Category & tutorial prizes up to $3,500"
-      },
-      {
-        "e": "1f4bb",
-        "t": "Free QNX tools to build with"
-      }
-    ],
-    "eligibility": [
-      "Developers & students",
-      "Solo or team",
-      "Robotics, automotive, low-level or tooling ideas",
-      "Check eligible countries in the rules"
-    ],
-    "steps": [
-      "Register on the QNX Devpost page",
-      "Get the free QNX SDK & docs",
-      "Build + record a demo",
-      "Submit by 15 Dec 2026"
-    ],
-    "link": "qnx.devpost.com",
-    "sources": [
-      "https://qnx.devpost.com/",
-      "https://qnx.devpost.com/rules"
-    ],
-    "tags": [
-      "#hackathon",
-      "#robotics",
-      "#embedded",
-      "#devpost",
-      "#techcareers"
-    ]
-  },
-  {
-    "id": "yale-world-fellows-2027",
-    "kind": "academic",
-    "verified": true,
-    "label": "LEADERSHIP FELLOWSHIP",
-    "kicker": "SPEND",
-    "hero": "1f3db",
-    "badges": [
-      "1f1fa-1f1f8",
-      "1f310",
-      "2b50"
-    ],
-    "title": "Yale World Fellows 2027",
-    "highlight": "4 MONTHS",
-    "highlightLabel": "AT YALE UNIVERSITY, FUNDED",
-    "subtitle": "Yale's flagship program for emerging global leaders from every country",
-    "host": "Yale Jackson School of Global Affairs",
-    "location": "New Haven, USA",
-    "deadlineISO": "2026-12-02",
-    "deadline": "2 Dec 2026, 2:00 PM ET",
-    "perks": [
-      {
-        "e": "1f3db",
-        "t": "A semester at Yale University"
-      },
-      {
-        "e": "1f4b5",
-        "t": "Program covers stipend & housing"
-      },
-      {
-        "e": "1f310",
-        "t": "Lifelong global leaders network"
-      },
-      {
-        "e": "1f4da",
-        "t": "Audit Yale courses & seminars"
-      }
-    ],
-    "eligibility": [
-      "Mid-career leaders, any nationality",
-      "Strong track record of impact",
-      "Fluent in English",
-      "Business, gov, NGO, media, tech, arts"
-    ],
-    "steps": [
-      "CV (max 3 pages) + 600-word statement",
-      "3 letters of recommendation",
-      "Short video statement",
-      "Apply online ($20 fee) by 2 Dec"
-    ],
-    "link": "worldfellows.yale.edu",
-    "sources": [
-      "https://worldfellows.yale.edu/the-program/application/"
-    ],
-    "tags": [
-      "#fellowship",
-      "#leadership",
-      "#yale",
-      "#fullyfunded",
-      "#globalleaders"
-    ]
-  },
-  {
-    "id": "outlier-ai-trainer",
-    "kind": "earn",
-    "verified": true,
-    "label": "REMOTE JOB",
-    "kicker": "EARN",
-    "hero": "1f9d1-200d-1f4bb",
-    "badges": [
-      "1f4b5",
-      "1f916",
-      "1f3e0"
-    ],
-    "title": "Train AI From Home with Outlier",
-    "highlight": "UP TO $50/HR",
-    "highlightLabel": "PAID WEEKLY",
-    "subtitle": "Get paid to write, check and improve AI answers in your field or language",
-    "host": "Outlier AI",
-    "location": "Remote · roles vary by country",
-    "deadlineISO": "2027-12-31",
-    "deadline": "Rolling: new roles added often",
-    "perks": [
-      {
-        "e": "1f9e0",
-        "t": "Math & STEM experts: up to $50/hr"
-      },
-      {
-        "e": "1f30d",
-        "t": "Language roles: ~$6 to $30/hr"
-      },
-      {
-        "e": "1f4c5",
-        "t": "5 to 10 hrs/week, your own schedule"
-      },
-      {
-        "e": "1f4b3",
-        "t": "Paid weekly (PayPal / AirTM)"
-      }
-    ],
-    "eligibility": [
-      "Expertise in a subject OR a native language",
-      "Pass a short skills assessment",
-      "Laptop + stable internet",
-      "Available roles depend on your country"
-    ],
-    "steps": [
-      "Open the Outlier opportunities page",
-      "Pick a role for your skill & country",
-      "Complete the assessment",
-      "Start tasks & get paid weekly"
-    ],
-    "link": "outlier.ai",
-    "sources": [
-      "https://outlier.ai/math/en-us",
-      "https://app.outlier.ai/opportunities/4421864005"
-    ],
-    "tags": [
-      "#remotework",
-      "#AIjobs",
-      "#workfromhome",
-      "#sidehustle",
-      "#makemoneyonline"
-    ],
-    "photo": {
-      "file": "outlier-ai-trainer.jpg",
-      "credit": "Photo: jseliger2 · CC BY 2.0",
-      "source": "https://www.flickr.com/photos/91262622@N02/12677057645"
-    }
-  },
-  {
-    "id": "gates-cambridge-2027",
-    "kind": "academic",
-    "verified": true,
-    "label": "SCHOLARSHIP",
-    "kicker": "STUDY AT CAMBRIDGE",
-    "hero": "1f3eb",
-    "badges": [
-      "1f1ec-1f1e7",
-      "1f393",
-      "1f48e"
-    ],
-    "title": "Gates Cambridge Scholarship",
-    "highlight": "FULLY FUNDED",
-    "highlightLabel": "MASTER'S & PhD, ALL COSTS PAID",
-    "subtitle": "One of the world's most prestigious scholarships, for non-UK students",
-    "host": "Gates Cambridge Trust",
-    "location": "University of Cambridge, UK",
-    "deadlineISO": "2027-01-06",
-    "deadline": "8 Dec 2026 or 6 Jan 2027 (depends on course)",
-    "perks": [
-      {
-        "e": "1f3eb",
-        "t": "University fees fully covered"
-      },
-      {
-        "e": "1f4b5",
-        "t": "Living allowance (maintenance)"
-      },
-      {
-        "e": "2708",
-        "t": "Return airfare + visa costs"
-      },
-      {
-        "e": "1f310",
-        "t": "Global Gates Scholar community"
-      }
-    ],
-    "eligibility": [
-      "Citizen of any country outside the UK",
-      "Applying for a full-time postgraduate course",
-      "Outstanding academic ability",
-      "Commitment to improving others' lives"
-    ],
-    "steps": [
-      "Choose your Cambridge course",
-      "Apply via the Cambridge applicant portal",
-      "Tick the Gates Cambridge funding section",
-      "Submit by your course's funding deadline"
-    ],
-    "link": "gatescambridge.org",
-    "sources": [
-      "https://www.gatescambridge.org/apply/timeline/"
-    ],
-    "tags": [
-      "#scholarship",
-      "#cambridge",
-      "#fullyfunded",
-      "#studyinuk",
-      "#phd"
-    ],
-    "photo": {
-      "file": "gates-cambridge-2027.jpg",
-      "credit": "Photo: *rboed* · CC BY 2.0",
-      "source": "https://www.flickr.com/photos/92082510@N04/30144728947"
-    },
-    "countdownISO": "2026-12-08"
-  },
-  {
-    "id": "codegeist-2026",
-    "kind": "earn",
-    "verified": true,
-    "label": "HACKATHON",
-    "kicker": "WIN UP TO",
-    "hero": "1f4bb",
-    "badges": [
-      "1f4b0",
-      "1f9e9",
-      "1f3c6"
-    ],
-    "title": "Atlassian Codegeist 2026",
-    "highlight": "$120,000",
-    "highlightLabel": "CASH PRIZES",
-    "subtitle": "Build apps for Jira & Confluence on Atlassian Forge and win",
-    "host": "Atlassian on Devpost",
-    "location": "Online · build from anywhere",
-    "deadlineISO": "2026-12-22",
-    "deadline": "22 Dec 2026, 12:00 PM PT",
-    "perks": [
-      {
-        "e": "1f3c6",
-        "t": "Three 1st-place prizes of $15,000"
-      },
-      {
-        "e": "1f4b0",
-        "t": "$8,000 & $5,000 runner-up prizes"
-      },
-      {
-        "e": "1f916",
-        "t": "$1,500 bonuses for AI / Rovo apps"
-      },
-      {
-        "e": "1f4e6",
-        "t": "Swag for the first 300 entrants"
-      }
-    ],
-    "eligibility": [
-      "Developers, solo or team",
-      "Build on Atlassian Forge (free)",
-      "Tracks: software, business, industry teams",
-      "Check eligible countries in the rules"
-    ],
-    "steps": [
-      "Register on the Codegeist Devpost page",
-      "Create a free Atlassian dev site",
-      "Build your Forge app + demo video",
-      "Submit by 22 Dec 2026"
-    ],
-    "link": "codegeist2026.devpost.com",
-    "sources": [
-      "https://codegeist2026.devpost.com/",
-      "https://community.developer.atlassian.com/t/heads-up-developers-codegeist-2026-is-officially-open/103506"
-    ],
-    "tags": [
-      "#hackathon",
-      "#coding",
-      "#atlassian",
-      "#devpost",
-      "#makemoneyonline"
-    ],
-    "photo": {
-      "file": "codegeist-2026.jpg",
-      "credit": "Photo: qubodup · CC BY 2.0",
-      "source": "https://www.flickr.com/photos/21051491@N02/15204215650"
-    }
-  },
-  {
-    "id": "mbzuai-2027",
-    "kind": "academic",
-    "verified": true,
-    "label": "AI MASTER'S & PhD",
-    "kicker": "STUDY AI FOR FREE",
-    "hero": "1f916",
-    "badges": [
-      "1f1e6-1f1ea",
-      "1f393",
-      "2708"
-    ],
-    "title": "Study AI at MBZUAI",
-    "highlight": "MSc & PhD",
-    "highlightLabel": "TUITION + STIPEND + FLIGHTS",
-    "subtitle": "The world's first AI-only university, open to students worldwide",
-    "host": "Mohamed bin Zayed University of AI",
-    "location": "Abu Dhabi, UAE",
-    "deadlineISO": "2026-12-15",
-    "deadline": "15 Dec 2026, 5:00 PM GST",
-    "perks": [
-      {
-        "e": "1f3eb",
-        "t": "Free tuition"
-      },
-      {
-        "e": "1f4b5",
-        "t": "Monthly stipend"
-      },
-      {
-        "e": "2708",
-        "t": "Yearly return flight home"
-      },
-      {
-        "e": "1f3e5",
-        "t": "Health insurance + UAE visa"
-      }
-    ],
-    "eligibility": [
-      "Bachelor's (for MSc) or Master's (for PhD)",
-      "Computer science, maths or engineering background",
-      "Open to all nationalities",
-      "Fee-based MAAI program is not funded"
-    ],
-    "steps": [
-      "Pick an MSc or PhD program in AI",
-      "Prepare transcripts, CV & statement",
-      "Apply online on mbzuai.ac.ae",
-      "Before 15 Dec 2026, 5 PM GST"
-    ],
-    "link": "mbzuai.ac.ae/admissions",
-    "sources": [
-      "https://mbzuai.ac.ae/admissions/graduate-masters-admissions",
-      "https://mbzuai.ac.ae/admissions/graduate-phd-admissions"
-    ],
-    "tags": [
-      "#AI",
-      "#scholarship",
-      "#fullyfunded",
-      "#studyabroad",
-      "#uae"
-    ],
-    "photo": {
-      "file": "mbzuai-2027.jpg",
-      "credit": "Photo: Zech Photography · CC BY 2.0",
-      "source": "https://www.flickr.com/photos/7576951@N05/32462596922"
-    }
-  },
-  {
-    "id": "smart-buildings-kaggle",
-    "kind": "earn",
-    "verified": true,
-    "label": "AI COMPETITION",
-    "kicker": "WIN UP TO",
-    "hero": "1f3e2",
-    "badges": [
-      "1f4b0",
-      "26a1",
-      "1f4ca"
-    ],
-    "title": "NeurIPS Smart Buildings Challenge",
-    "highlight": "$40,000",
-    "highlightLabel": "PRIZE POOL",
-    "subtitle": "Use machine learning to make buildings smarter, on Kaggle",
-    "host": "NeurIPS 2026 × Kaggle",
-    "location": "Online · Kaggle",
-    "deadlineISO": "2027-01-15",
-    "deadline": "Final: 15 Jan 2027 (join by 3 Jan)",
-    "perks": [
-      {
-        "e": "1f4b0",
-        "t": "$25,000 leaderboard prizes"
-      },
-      {
-        "e": "1f4dd",
-        "t": "$15,000 paper-track prizes"
-      },
-      {
-        "e": "1f3c5",
-        "t": "NeurIPS competition credential on your CV"
-      },
-      {
-        "e": "1f4c8",
-        "t": "Real-world energy & ML experience"
-      }
-    ],
-    "eligibility": [
-      "Free Kaggle account",
-      "Python & machine learning basics",
-      "Solo or team (merge by 3 Jan)",
-      "Students & professionals welcome"
-    ],
-    "steps": [
-      "Search \"Smart Buildings\" on Kaggle",
-      "Join & download the data",
-      "Train a model in a Kaggle notebook",
-      "Submit by 15 Jan 2027"
-    ],
-    "link": "kaggle.com/competitions",
-    "sources": [
-      "https://www.kaggle.com/competitions/neurips-2026-smart-buildings/overview/prizes"
-    ],
-    "tags": [
-      "#kaggle",
-      "#machinelearning",
-      "#neurips",
-      "#datascience",
-      "#makemoneyonline"
-    ],
-    "photo": {
-      "file": "smart-buildings-kaggle.jpg",
-      "credit": "Photo: Nicola since 1972 · CC BY 2.0",
-      "source": "https://www.flickr.com/photos/15216811@N06/6647760697"
-    }
-  },
-  {
-    "id": "clarendon-oxford-2027",
-    "kind": "academic",
-    "verified": true,
-    "label": "SCHOLARSHIP",
-    "kicker": "STUDY AT OXFORD",
-    "hero": "1f3db",
-    "badges": [
-      "1f1ec-1f1e7",
-      "1f4da",
-      "2b50"
-    ],
-    "title": "Clarendon Scholarship, Oxford",
-    "highlight": "FULLY FUNDED",
-    "highlightLabel": "NO EXTRA FORM NEEDED",
-    "subtitle": "Apply to an Oxford master's or DPhil and you're automatically considered",
-    "host": "University of Oxford",
-    "location": "Oxford, United Kingdom",
-    "deadlineISO": "2027-01-15",
-    "deadline": "Your course's Dec 2026 / Jan 2027 deadline",
-    "perks": [
-      {
-        "e": "1f3eb",
-        "t": "Course fees covered in full"
-      },
-      {
-        "e": "1f4b5",
-        "t": "Generous living grant"
-      },
-      {
-        "e": "1f4da",
-        "t": "Study at the University of Oxford"
-      },
-      {
-        "e": "1f310",
-        "t": "Clarendon Scholars community"
-      }
-    ],
-    "eligibility": [
-      "All nationalities (UK & international)",
-      "Excellent academic record",
-      "Applying to an eligible graduate course",
-      "Apply by the Dec/Jan course deadline"
-    ],
-    "steps": [
-      "Choose your Oxford graduate course",
-      "Check its December/January deadline",
-      "Submit a strong course application",
-      "You're considered automatically"
-    ],
-    "link": "ox.ac.uk/clarendon",
-    "sources": [
-      "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants"
-    ],
-    "tags": [
-      "#oxford",
-      "#scholarship",
-      "#fullyfunded",
-      "#studyinuk",
-      "#masters"
-    ],
-    "photo": {
-      "file": "clarendon-oxford-2027.jpg",
-      "credit": "Photo: dullhunk · CC BY 2.0",
-      "source": "https://www.flickr.com/photos/14829735@N00/7822195498"
-    },
-    "deadlineVaries": true
-  },
-  {
-    "id": "squares-in-squares-kaggle",
-    "kind": "earn",
-    "verified": true,
-    "label": "MATH PUZZLE PRIZE",
-    "kicker": "WIN UP TO",
-    "hero": "1f9e9",
-    "badges": [
-      "1f4b0",
-      "1f9e0",
-      "1f3af"
-    ],
-    "title": "Squares in Squares Challenge",
-    "highlight": "$50,000",
-    "highlightLabel": "PRIZE POOL",
-    "subtitle": "Solve a famous packing puzzle with code. Math lovers, this one's for you",
-    "host": "Kaggle",
-    "location": "Online · Kaggle",
-    "deadlineISO": "2027-07-11",
-    "deadline": "$5,000 milestone cut-off 17 Jan 2027",
-    "perks": [
-      {
-        "e": "1f4b0",
-        "t": "$50,000 total prizes"
-      },
-      {
-        "e": "1f3af",
-        "t": "$5,000 early milestone prize"
-      },
-      {
-        "e": "1f9e0",
-        "t": "Pure maths + coding puzzle"
-      },
-      {
-        "e": "1f4c5",
-        "t": "Long timeline, join anytime"
-      }
-    ],
-    "eligibility": [
-      "Free Kaggle account",
-      "Math / optimisation interest",
-      "Any programming language for ideas",
-      "Solo or team"
-    ],
-    "steps": [
-      "Search \"Squares in Squares\" on Kaggle",
-      "Read the puzzle & scoring",
-      "Start from a public notebook",
-      "Submit before 17 Jan for the milestone"
-    ],
-    "link": "kaggle.com/competitions",
-    "sources": [
-      "https://www.kaggle.com/competitions/squares-in-squares"
-    ],
-    "tags": [
-      "#kaggle",
-      "#math",
-      "#coding",
-      "#puzzle",
-      "#makemoneyonline"
-    ],
-    "photo": {
-      "file": "squares-in-squares-kaggle.jpg",
-      "credit": "Photo: jin.thai · CC BY 2.0",
-      "source": "https://www.flickr.com/photos/32912734@N04/3192850778"
-    }
-  },
-  {
-    "id": "euroculture-erasmus-2027",
-    "kind": "academic",
-    "verified": true,
-    "label": "ERASMUS MUNDUS",
-    "kicker": "GET PAID",
-    "hero": "1f1ea-1f1fa",
-    "badges": [
-      "1f393",
-      "1f4b5",
-      "2708"
-    ],
-    "title": "Euroculture Erasmus Mundus MA",
-    "highlight": "€1,400/MONTH",
-    "highlightLabel": "TO STUDY IN EUROPE FOR 2 YEARS",
-    "subtitle": "Study in 2+ European countries on an EU-funded master's",
-    "host": "Euroculture Erasmus Mundus consortium",
-    "location": "Europe (multiple universities)",
-    "deadlineISO": "2027-01-15",
-    "deadline": "15 Jan 2027 (scholarship deadline)",
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "€1,400 every month for 24 months"
-      },
-      {
-        "e": "1f3eb",
-        "t": "Participation costs covered"
-      },
-      {
-        "e": "1f30d",
-        "t": "Study in 2+ EU countries"
-      },
-      {
-        "e": "1f4bc",
-        "t": "Internship / research track"
-      }
-    ],
-    "eligibility": [
-      "Bachelor's degree (any related field)",
-      "English proficiency",
-      "Open to all nationalities",
-      "Proof of degree by 15 Jan 2027"
-    ],
-    "steps": [
-      "Open the Euroculture application tool",
-      "Prepare CV, motivation & references",
-      "Choose your universities",
-      "Submit by 15 Jan 2027"
-    ],
-    "link": "euroculturemaster.eu",
-    "sources": [
-      "https://www.euroculturemaster.eu/application-procedure",
-      "https://www.euroculturemaster.eu/erasmus-mundus-scholarship"
-    ],
-    "tags": [
-      "#erasmusmundus",
-      "#scholarship",
-      "#studyineurope",
-      "#fullyfunded",
-      "#masters"
-    ],
-    "photo": {
-      "file": "euroculture-erasmus-2027.jpg",
-      "credit": "Photo: DesignRecipe · CC BY 2.0",
-      "source": "https://www.flickr.com/photos/124913477@N08/14086693619"
-    }
-  },
-  {
-    "id": "dataannotation-ai",
-    "kind": "earn",
-    "label": "REMOTE AI WORK",
-    "kicker": "GET PAID",
-    "hero": "1f916",
-    "badges": [
-      "1f4b5",
-      "1f4bb",
-      "1f3e0"
-    ],
-    "title": "Train AI with DataAnnotation",
-    "highlight": "$20+/HR",
-    "highlightLabel": "CHATTING WITH AI, FROM HOME",
-    "subtitle": "Rate chatbot answers, compare AI outputs and test image generators",
-    "host": "DataAnnotation",
-    "location": "Remote · roles vary by country",
-    "deadlineISO": "2027-12-31",
-    "deadline": "Rolling: apply any time",
-    "deadlineVaries": true,
-    "perks": [
-      {
-        "e": "1f4ac",
-        "t": "General AI tasks: from ~$20–$25/hr"
-      },
-      {
-        "e": "1f4bb",
-        "t": "Coding projects: $40+/hr"
-      },
-      {
-        "e": "1f310",
-        "t": "Multilingual projects: $20+/hr"
-      },
-      {
-        "e": "1f3e0",
-        "t": "Remote, choose your own hours"
-      }
-    ],
-    "eligibility": [
-      "Strong written English",
-      "Good attention to detail",
-      "Pass the free starter assessment",
-      "Laptop + stable internet"
-    ],
-    "steps": [
-      "Open dataannotation.tech",
-      "Pick a role (generalist, coding, language)",
-      "Take the starter assessment",
-      "Unlock paid projects"
-    ],
-    "link": "dataannotation.tech",
-    "sources": [
-      "https://dataannotation.tech/faqs",
-      "https://www.dataannotation.tech/"
-    ],
-    "tags": [
-      "#remotework",
-      "#AIjobs",
-      "#workfromhome",
-      "#sidehustle",
-      "#makemoneyonline"
-    ],
-    "verified": true
-  },
-  {
-    "id": "hurford-youth-2027",
-    "kind": "academic",
-    "label": "FELLOWSHIP IN USA",
-    "kicker": "FULLY FUNDED",
-    "hero": "1f3db",
-    "badges": [
-      "1f1fa-1f1f8",
-      "2708",
-      "1f310"
-    ],
-    "title": "Hurford Youth Fellowship 2027",
-    "highlight": "4 MONTHS",
-    "highlightLabel": "IN WASHINGTON, D.C.",
-    "subtitle": "Work with the World Movement for Democracy at NED, for young activists aged 30 or under",
-    "host": "National Endowment for Democracy (NED)",
-    "location": "Washington, D.C., USA",
-    "deadlineISO": "2026-11-30",
-    "deadline": "30 Nov 2026 (letters by 4 Dec)",
-    "perks": [
-      {
-        "e": "1f3db",
-        "t": "4-month fellowship at NED in D.C."
-      },
-      {
-        "e": "2708",
-        "t": "Fully funded program"
-      },
-      {
-        "e": "1f310",
-        "t": "Global democracy network"
-      },
-      {
-        "e": "1f4c5",
-        "t": "1 May – 31 Aug 2027"
-      }
-    ],
-    "eligibility": [
-      "Aged 30 or younger",
-      "Youth democracy / civic work experience",
-      "Any nationality",
-      "Up to 3 fellows are selected"
-    ],
-    "steps": [
-      "Read the call on ned.org",
-      "Create an account on NED's portal",
-      "Submit by 30 Nov 2026",
-      "Recommendation letters by 4 Dec"
-    ],
-    "link": "ned.org/fellowships",
-    "sources": [
-      "https://www.ned.org/fellowships/hurford-youth-fellows-program/"
-    ],
-    "tags": [
-      "#fellowship",
-      "#fullyfunded",
-      "#studyinusa",
-      "#youthleaders",
-      "#opportunity"
-    ],
-    "verified": true
-  },
-  {
-    "id": "prolific-studies",
-    "kind": "earn",
-    "label": "SIDE HUSTLE",
-    "kicker": "GET PAID",
-    "hero": "1f4dd",
-    "badges": [
-      "1f4b5",
-      "1f9e0",
-      "1f4f1"
-    ],
-    "title": "Take Paid Research Studies on Prolific",
-    "highlight": "$8+/HR",
-    "highlightLabel": "MINIMUM PAY, ANSWER STUDIES",
-    "subtitle": "Universities & companies pay you to take part in surveys and experiments",
-    "host": "Prolific",
-    "location": "Remote · available in 38+ countries",
-    "deadlineISO": "2027-12-31",
-    "deadline": "Rolling: join the waitlist any time",
-    "deadlineVaries": true,
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "Minimum £6 / $8 per hour"
-      },
-      {
-        "e": "1f9e0",
-        "t": "Real academic research studies"
-      },
-      {
-        "e": "23f0",
-        "t": "Studies from 2 to 30+ minutes"
-      },
-      {
-        "e": "1f3e0",
-        "t": "From your phone or laptop"
-      }
-    ],
-    "eligibility": [
-      "18 years or older",
-      "Live in a supported country",
-      "Honest, attentive answers",
-      "Joining may start with a waitlist"
-    ],
-    "steps": [
-      "Sign up as a participant on prolific.com",
-      "Verify your account & fill your profile",
-      "Accept studies that match you",
-      "Cash out once you hit the minimum"
-    ],
-    "link": "prolific.com",
-    "sources": [
-      "https://www.prolific.com/participant-pool",
-      "https://researcher-help.prolific.com/en/articles/445239-what-is-your-pricing"
-    ],
-    "tags": [
-      "#sidehustle",
-      "#makemoneyonline",
-      "#surveys",
-      "#workfromhome",
-      "#studentlife"
-    ],
-    "verified": true
-  },
-  {
-    "id": "eth-esop-2027",
-    "kind": "academic",
-    "label": "MASTER'S SCHOLARSHIP",
-    "kicker": "STUDY AT ETH ZURICH",
-    "hero": "1f3eb",
-    "badges": [
-      "1f1e8-1f1ed",
-      "1f393",
-      "1f48e"
-    ],
-    "title": "ETH Excellence Scholarship (ESOP)",
-    "highlight": "CHF 13,500",
-    "highlightLabel": "PER SEMESTER + NO TUITION",
-    "subtitle": "One of the world's top 10 universities, for outstanding master's students",
-    "host": "ETH Zurich",
-    "location": "Zurich, Switzerland",
-    "deadlineISO": "2026-11-30",
-    "deadline": "30 Nov 2026, 11:59 CET",
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "Up to CHF 13,500 per semester"
-      },
-      {
-        "e": "1f3eb",
-        "t": "Tuition fees waived"
-      },
-      {
-        "e": "1f3c6",
-        "t": "~60 scholarships for 2027/28"
-      },
-      {
-        "e": "1f9ea",
-        "t": "Study at a world top-10 university"
-      }
-    ],
-    "eligibility": [
-      "Excellent bachelor's record (any country)",
-      "Applying to an ETH master's",
-      "Thesis pre-proposal needed",
-      "Only the 1–30 Nov window counts"
-    ],
-    "steps": [
-      "Apply to an ETH master's online",
-      "Tick the ESOP scholarship option",
-      "Upload your master's thesis pre-proposal",
-      "Submit by 30 Nov, 11:59 CET"
-    ],
-    "link": "ethz.ch/esop",
-    "sources": [
-      "https://ethz.ch/en/studies/master/application/dates.html",
-      "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html"
-    ],
-    "tags": [
-      "#scholarship",
-      "#ethzurich",
-      "#studyinswitzerland",
-      "#masters",
-      "#fullyfunded"
-    ],
-    "verified": true
-  },
-  {
-    "id": "alignerr-ai",
-    "kind": "earn",
-    "label": "REMOTE AI WORK",
-    "kicker": "EARN UP TO",
-    "hero": "1f9e0",
-    "badges": [
-      "1f4b5",
-      "1f916",
-      "1f4c5"
-    ],
-    "title": "AI Training Jobs on Alignerr",
-    "highlight": "$120/HR",
-    "highlightLabel": "FOR EXPERTS, REMOTE",
-    "subtitle": "Teach AI models with your knowledge. Many roles need no AI experience",
-    "host": "Alignerr",
-    "location": "Remote · flexible contract",
-    "deadlineISO": "2027-12-31",
-    "deadline": "Rolling: roles posted often",
-    "deadlineVaries": true,
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "Roles from ~$30 to $120/hr"
-      },
-      {
-        "e": "1f4c5",
-        "t": "10–40 hours a week, flexible"
-      },
-      {
-        "e": "1f3e0",
-        "t": "Fully remote contract work"
-      },
-      {
-        "e": "1f4b8",
-        "t": "Weekly payouts"
-      }
-    ],
-    "eligibility": [
-      "Knowledge in a subject or language",
-      "Many roles: no AI experience needed",
-      "Pass a quick screening",
-      "Stable internet"
-    ],
-    "steps": [
-      "Open alignerr.com/jobs",
-      "Pick a role that fits your skills",
-      "Apply & pass the screening",
-      "Start tasks, get paid weekly"
-    ],
-    "link": "alignerr.com",
-    "sources": [
-      "https://www.alignerr.com/jobs/b7b95845-ac1a-4742-8537-094eb6ac59ee"
-    ],
-    "tags": [
-      "#AIjobs",
-      "#remotework",
-      "#workfromhome",
-      "#sidehustle",
-      "#makemoneyonline"
-    ],
-    "verified": true
-  },
-  {
-    "id": "yenching-2027",
-    "kind": "academic",
-    "label": "MASTER'S IN CHINA",
-    "kicker": "FULL FELLOWSHIP",
-    "hero": "1f1e8-1f1f3",
-    "badges": [
-      "1f393",
-      "2708",
-      "1f4da"
-    ],
-    "title": "Yenching Academy, Peking University",
-    "highlight": "FULLY FUNDED",
-    "highlightLabel": "MASTER'S IN BEIJING, CHINA",
-    "subtitle": "A residential master's in China Studies at one of Asia's top universities",
-    "host": "Yenching Academy of Peking University",
-    "location": "Beijing, China",
-    "deadlineISO": "2026-11-30",
-    "deadline": "30 Nov 2026, 9:00 Beijing time",
-    "perks": [
-      {
-        "e": "1f393",
-        "t": "Full fellowship for Scholars"
-      },
-      {
-        "e": "1f3e0",
-        "t": "Residential college life"
-      },
-      {
-        "e": "1f30d",
-        "t": "~75% international students"
-      },
-      {
-        "e": "1f4da",
-        "t": "Study at Peking University"
-      }
-    ],
-    "eligibility": [
-      "Bachelor's degree (any field)",
-      "All nationalities welcome",
-      "750-word personal statement",
-      "Research interest statement"
-    ],
-    "steps": [
-      "Read the admissions page",
-      "Write your statements",
-      "Collect recommendation letters",
-      "Apply by 30 Nov, 9 AM Beijing"
-    ],
-    "link": "yenchingacademy.pku.edu.cn",
-    "sources": [
-      "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm"
-    ],
-    "tags": [
-      "#scholarship",
-      "#studyinchina",
-      "#fullyfunded",
-      "#masters",
-      "#pekinguniversity"
-    ],
-    "verified": true
-  },
-  {
-    "id": "usertesting-2026",
-    "kind": "earn",
-    "label": "SIDE HUSTLE",
-    "kicker": "GET PAID",
-    "hero": "1f4f1",
-    "badges": [
-      "1f4b5",
-      "1f3a4",
-      "1f4bb"
-    ],
-    "title": "Test Websites with UserTesting",
-    "highlight": "$10/TEST",
-    "highlightLabel": "SAY WHAT YOU THINK, GET PAID",
-    "subtitle": "Companies pay you to try their apps and websites and talk through it",
-    "host": "UserTesting",
-    "location": "Remote · availability varies by country",
-    "deadlineISO": "2027-12-31",
-    "deadline": "Rolling: join any time",
-    "deadlineVaries": true,
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "$10 per 20-min test"
-      },
-      {
-        "e": "1f3a4",
-        "t": "Live interviews: $30–$120"
-      },
-      {
-        "e": "1f4b3",
-        "t": "Paid to PayPal"
-      },
-      {
-        "e": "2705",
-        "t": "Free to join, no skills needed"
-      }
-    ],
-    "eligibility": [
-      "18 years or older",
-      "Computer with a microphone",
-      "Speak your thoughts clearly",
-      "Pass the unpaid practice test"
-    ],
-    "steps": [
-      "Apply as a contributor on usertesting.com",
-      "Complete the practice test",
-      "Answer screener questions",
-      "Do tests, get paid ~14 days later"
-    ],
-    "link": "usertesting.com/get-paid-to-test",
-    "sources": [
-      "https://www.usertesting.com/get-paid-to-test",
-      "https://support.usertesting.com/hc/en-us/articles/4405116832019-FAQ-Payments"
-    ],
-    "tags": [
-      "#sidehustle",
-      "#makemoneyonline",
-      "#workfromhome",
-      "#usertesting",
-      "#onlinejobs"
-    ],
-    "verified": true
-  },
-  {
-    "id": "swiss-excellence-2027",
-    "kind": "academic",
-    "label": "PhD & RESEARCH",
-    "kicker": "SWISS GOV PAYS",
-    "hero": "1f1e8-1f1ed",
-    "badges": [
-      "1f393",
-      "1f4b5",
-      "1f52c"
-    ],
-    "title": "Swiss Government Excellence Scholarships",
-    "highlight": "CHF 2,450",
-    "highlightLabel": "EVERY MONTH, UP TO 3 YEARS",
-    "subtitle": "Swiss government funding for researchers from 183 countries",
-    "host": "Swiss Confederation (FCS / SBFI)",
-    "location": "Any Swiss university",
-    "deadlineISO": "2026-12-31",
-    "deadline": "Depends on your country (many close 27 Nov)",
-    "deadlineVaries": true,
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "CHF 2,450 per month"
-      },
-      {
-        "e": "1f4c5",
-        "t": "12 months, renewable to 36"
-      },
-      {
-        "e": "1f52c",
-        "t": "Research or PhD at a Swiss university"
-      },
-      {
-        "e": "1f30d",
-        "t": "Open to 183 countries"
-      }
-    ],
-    "eligibility": [
-      "Master's done by 31 Jul 2027",
-      "Born after 31 Dec 1991",
-      "Letter from a Swiss professor",
-      "Check your country's deadline"
-    ],
-    "steps": [
-      "Open the SBFI country list",
-      "Find your country's deadline",
-      "Get a Swiss supervisor's letter",
-      "Apply online before your deadline"
-    ],
-    "link": "sbfi.admin.ch",
-    "sources": [
-      "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships"
-    ],
-    "tags": [
-      "#scholarship",
-      "#phd",
-      "#studyinswitzerland",
-      "#research",
-      "#fullyfunded"
-    ],
-    "verified": true
-  },
-  {
-    "id": "imagine-cup-2027",
-    "kind": "earn",
-    "label": "STARTUP COMPETITION",
-    "kicker": "WIN UP TO",
-    "hero": "1f680",
-    "badges": [
-      "1f4b0",
-      "1f3c6",
-      "1f4bb"
-    ],
-    "title": "Microsoft Imagine Cup 2027",
-    "highlight": "$250,000",
-    "highlightLabel": "CASH + $1M IN CREDITS",
-    "subtitle": "Microsoft's global competition for early-stage AI startups",
-    "host": "Microsoft",
-    "location": "Online · global",
-    "deadlineISO": "2027-02-28",
-    "deadline": "28 Feb 2027",
-    "perks": [
-      {
-        "e": "1f3c6",
-        "t": "1st: $250,000 + $1M credits"
-      },
-      {
-        "e": "1f4b0",
-        "t": "2nd $50,000 · 3rd $25,000"
-      },
-      {
-        "e": "1f393",
-        "t": "$25,000 Top Student Startup prize"
-      },
-      {
-        "e": "1f4bb",
-        "t": "Free Azure startup credits"
-      }
-    ],
-    "eligibility": [
-      "Early-stage startup using AI",
-      "A founder registers the team",
-      "Apply via Award Force",
-      "Check the official rules for eligibility"
-    ],
-    "steps": [
-      "Read the rules on imaginecup.microsoft.com",
-      "Register your startup team",
-      "Build your pitch & demo",
-      "Submit by 28 Feb 2027"
-    ],
-    "link": "imaginecup.microsoft.com",
-    "sources": [
-      "https://imaginecup.microsoft.com/en-us/support/faq",
-      "https://www.microsoft.com/en-us/startups/blog/imagine-cup-2027-why-this-is-an-opportunity-for-early-stage-founders/"
-    ],
-    "tags": [
-      "#startup",
-      "#imaginecup",
-      "#microsoft",
-      "#entrepreneur",
-      "#makemoneyonline"
-    ],
-    "verified": true
-  },
-  {
-    "id": "epfl-excellence-2027",
-    "kind": "academic",
-    "label": "MASTER'S FELLOWSHIP",
-    "kicker": "STUDY AT EPFL",
-    "hero": "1f1e8-1f1ed",
-    "badges": [
-      "1f393",
-      "1f4b5",
-      "1f9ea"
-    ],
-    "title": "EPFL Master Excellence Fellowship",
-    "highlight": "CHF 10,000",
-    "highlightLabel": "PER SEMESTER IN LAUSANNE",
-    "subtitle": "Top engineering & science university on Lake Geneva, Switzerland",
-    "host": "EPFL",
-    "location": "Lausanne, Switzerland",
-    "deadlineISO": "2026-12-15",
-    "deadline": "15 Dec 2026 (paid & validated)",
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "CHF 10,000 every semester"
-      },
-      {
-        "e": "1f504",
-        "t": "Renewable for year 2"
-      },
-      {
-        "e": "1f9ea",
-        "t": "World-class labs"
-      },
-      {
-        "e": "1f3d4",
-        "t": "Life on Lake Geneva"
-      }
-    ],
-    "eligibility": [
-      "Excellent bachelor's grades",
-      "Applying to an EPFL master's",
-      "Recommendation letters 1 week after",
-      "Application must be paid by 15 Dec"
-    ],
-    "steps": [
-      "Choose your EPFL master's",
-      "Apply online & pay the fee",
-      "Submit by 15 Dec 2026",
-      "Referees upload letters within 1 week"
-    ],
-    "link": "epfl.ch/education/master",
-    "sources": [
-      "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/"
-    ],
-    "tags": [
-      "#scholarship",
-      "#epfl",
-      "#studyinswitzerland",
-      "#engineering",
-      "#masters"
-    ],
-    "verified": true
-  },
-  {
-    "id": "telus-ai-rater",
-    "kind": "earn",
-    "label": "PART-TIME REMOTE",
-    "kicker": "WORK FROM HOME",
-    "hero": "1f50e",
-    "badges": [
-      "1f4b5",
-      "1f310",
-      "1f3e0"
-    ],
-    "title": "Rate Search & AI Results with TELUS Digital",
-    "highlight": "PART-TIME",
-    "highlightLabel": "REMOTE RATER JOBS, MANY COUNTRIES",
-    "subtitle": "Judge search results and AI answers for quality. Pay depends on your country & language",
-    "host": "TELUS Digital AI Community",
-    "location": "Remote · country & language specific",
-    "deadlineISO": "2027-12-31",
-    "deadline": "Rolling: openings by country",
-    "deadlineVaries": true,
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "Examples: $8/hr India, $23/hr Australia"
-      },
-      {
-        "e": "1f4c5",
-        "t": "Around 10–20 hours a week"
-      },
-      {
-        "e": "1f310",
-        "t": "Roles in many languages"
-      },
-      {
-        "e": "1f393",
-        "t": "Paid training & calibration"
-      }
-    ],
-    "eligibility": [
-      "Fluent in the role's language",
-      "Good research skills",
-      "Live in the listed country",
-      "Pass the qualification steps"
-    ],
-    "steps": [
-      "Search 'AI Community' on jobs.telusdigital.com",
-      "Pick the rater role for your country",
-      "Apply & complete the qualification",
-      "Work flexible hours from home"
-    ],
-    "link": "jobs.telusdigital.com",
-    "sources": [
-      "https://jobs.telusdigital.com/jobs/17840908-quality-assurance-rater-english-india",
-      "https://jobs.telusdigital.com/jobs/17840998-quality-assurance-rater-english-australia"
-    ],
-    "tags": [
-      "#remotework",
-      "#workfromhome",
-      "#parttimejob",
-      "#sidehustle",
-      "#onlinejobs"
-    ],
-    "verified": true
-  },
-  {
-    "id": "mundus-journalism-2027",
-    "kind": "academic",
-    "label": "ERASMUS MUNDUS",
-    "kicker": "STUDY IN EUROPE",
-    "hero": "1f4f0",
-    "badges": [
-      "1f1ea-1f1fa",
-      "1f4b5",
-      "2708"
-    ],
-    "title": "Erasmus Mundus Journalism MA",
-    "highlight": "€1,400/MONTH",
-    "highlightLabel": "+ ZERO TUITION FOR 2 YEARS",
-    "subtitle": "Study journalism in Denmark and another European country",
-    "host": "Mundus Journalism consortium (Aarhus, Denmark)",
-    "location": "Denmark + Europe",
-    "deadlineISO": "2027-01-10",
-    "deadline": "10 Jan 2027, 13:00 CET",
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "€1,400 a month for 24 months"
-      },
-      {
-        "e": "1f3eb",
-        "t": "Full tuition waiver, 2 years"
-      },
-      {
-        "e": "1f30d",
-        "t": "Study in 2+ European countries"
-      },
-      {
-        "e": "1f3c6",
-        "t": "10–15 scholarships, all nationalities"
-      }
-    ],
-    "eligibility": [
-      "Bachelor's degree",
-      "English at C1 level",
-      "No previous EM scholarship",
-      "No existing 2-year master's"
-    ],
-    "steps": [
-      "Open mundusjournalism.com/admissions",
-      "Fill the 2027–2029 application",
-      "One form = admission + scholarship",
-      "Submit by 10 Jan 2027, 13:00 CET"
-    ],
-    "link": "mundusjournalism.com",
-    "sources": [
-      "https://mundusjournalism.com/admissions/application-process",
-      "https://mundusjournalism.com/admissions/tuition-stipends-and-scholarships"
-    ],
-    "tags": [
-      "#erasmusmundus",
-      "#scholarship",
-      "#journalism",
-      "#studyineurope",
-      "#fullyfunded"
-    ],
-    "verified": true
-  },
-  {
-    "id": "testio-2026",
-    "kind": "earn",
-    "label": "BEGINNER FRIENDLY",
-    "kicker": "GET PAID TO",
-    "hero": "1f4f1",
-    "badges": [
-      "1f4b5",
-      "1f41e",
-      "1f4bb"
-    ],
-    "title": "Find Bugs in Apps with Test IO",
-    "highlight": "TEST APPS",
-    "highlightLabel": "& WEBSITES, NO EXPERIENCE",
-    "subtitle": "Get paid for every bug you find in real apps and websites",
-    "host": "Test IO",
-    "location": "Remote · worldwide",
-    "deadlineISO": "2027-12-31",
-    "deadline": "Open sign-up (rolling)",
-    "deadlineVaries": true,
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "Paid per accepted bug"
-      },
-      {
-        "e": "1f393",
-        "t": "Free tester training"
-      },
-      {
-        "e": "1f4c5",
-        "t": "Flexible hours"
-      },
-      {
-        "e": "1f3e0",
-        "t": "Work from anywhere"
-      }
-    ],
-    "eligibility": [
-      "Computer or smartphone",
-      "Basic English",
-      "Eye for detail",
-      "No experience needed to start"
-    ],
-    "steps": [
-      "Sign up at test.io/freelancer",
-      "Finish the onboarding course",
-      "Join test cycles",
-      "Report bugs, get paid"
-    ],
-    "link": "test.io/freelancer",
-    "sources": [
-      "https://test.io/freelancer"
-    ],
-    "tags": [
-      "#makemoneyonline",
-      "#sidehustle",
-      "#softwaretesting",
-      "#workfromhome",
-      "#nofaceaccount"
-    ],
-    "verified": true
-  },
-  {
-    "id": "copernicus-cde-2027",
-    "kind": "academic",
-    "label": "ERASMUS MUNDUS",
-    "kicker": "GET PAID",
-    "hero": "1f6f0",
-    "badges": [
-      "1f1ea-1f1fa",
-      "1f30d",
-      "1f4b5"
-    ],
-    "title": "Copernicus Master in Digital Earth",
-    "highlight": "€1,400/MONTH",
-    "highlightLabel": "TO STUDY SATELLITES & MAPS",
-    "subtitle": "Erasmus Mundus master in geodata, AI & Earth observation, in Europe",
-    "host": "Copernicus Master in Digital Earth consortium",
-    "location": "Austria / France / Czechia",
-    "deadlineISO": "2027-01-22",
-    "deadline": "22 Jan 2027, 23:59 CET",
-    "perks": [
-      {
-        "e": "1f4b5",
-        "t": "€1,400 monthly scholarship"
-      },
-      {
-        "e": "1f3eb",
-        "t": "Fee waiver for top students"
-      },
-      {
-        "e": "1f6f0",
-        "t": "Satellite data, AI & geo-tech"
-      },
-      {
-        "e": "1f30d",
-        "t": "Open to candidates worldwide"
-      }
-    ],
-    "eligibility": [
-      "Degree in geospatial or related field",
-      "All nationalities",
-      "English proficiency",
-      "Strong academic record"
-    ],
-    "steps": [
-      "Open master-cde.eu admissions",
-      "Read the Edition 4 call",
-      "Prepare documents & motivation",
-      "Apply by 22 Jan 2027"
-    ],
-    "link": "master-cde.eu",
-    "sources": [
-      "https://master-cde.eu/admission/procedures-deadlines/calls/"
-    ],
-    "tags": [
-      "#erasmusmundus",
-      "#scholarship",
-      "#studyineurope",
-      "#geospatial",
-      "#fullyfunded"
-    ],
-    "verified": true
+ {
+  "id": "kiroween-2026",
+  "kind": "earn",
+  "verified": true,
+  "label": "HACKATHON",
+  "kicker": "WIN UP TO",
+  "hero": "1f383",
+  "badges": [
+   "1f4b0",
+   "1f916",
+   "1f3c6"
+  ],
+  "title": "Kiroween 2026 Hackathon",
+  "highlight": "$100,000",
+  "highlightLabel": "CASH PRIZES",
+  "subtitle": "Build a spooky AI-powered app with the Kiro IDE (by AWS)",
+  "host": "Kiro on Devpost",
+  "location": "Online · build from anywhere",
+  "deadlineISO": "2026-12-04",
+  "deadline": "4 Dec 2026, 2:00 PM PT",
+  "perks": [
+   {
+    "e": "1f3c6",
+    "t": "1st place: $30,000 cash"
+   },
+   {
+    "e": "1f4b0",
+    "t": "2nd $20,000 · 3rd $10,000"
+   },
+   {
+    "e": "1f680",
+    "t": "$10,000 Best Startup Project"
+   },
+   {
+    "e": "1f47b",
+    "t": "4 category prizes of $5,000 each"
+   }
+  ],
+  "eligibility": [
+   "Solo or team, free to enter",
+   "Project must be started after 30 Oct 2026",
+   "Build with Kiro, the AI coding IDE",
+   "Check the official rules for your country"
+  ],
+  "steps": [
+   "Register on the Kiroween Devpost page",
+   "Build your project with Kiro",
+   "Record a short demo video",
+   "Submit before 4 Dec, 2 PM PT"
+  ],
+  "link": "kiroween.devpost.com",
+  "sources": [
+   "https://kiroween.devpost.com/",
+   "https://kiro.dev/events/"
+  ],
+  "tags": [
+   "#hackathon",
+   "#coding",
+   "#AI",
+   "#devpost",
+   "#makemoneyonline"
+  ]
+ },
+ {
+  "id": "hk-phd-fellowship-2027",
+  "kind": "academic",
+  "verified": true,
+  "label": "PhD FELLOWSHIP",
+  "kicker": "FULLY FUNDED",
+  "hero": "1f393",
+  "badges": [
+   "1f1ed-1f1f0",
+   "1f4b5",
+   "2708"
+  ],
+  "title": "Hong Kong PhD Fellowship",
+  "highlight": "400 PhD SPOTS",
+  "highlightLabel": "IN HONG KONG, ALL NATIONALITIES",
+  "subtitle": "Do your PhD at a top Hong Kong university, all nationalities welcome",
+  "host": "Research Grants Council, Hong Kong",
+  "location": "Hong Kong",
+  "deadlineISO": "2026-12-01",
+  "deadline": "1 Dec 2026, 12:00 noon HKT",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Monthly stipend throughout your PhD"
+   },
+   {
+    "e": "2708",
+    "t": "Conference & research travel allowance"
+   },
+   {
+    "e": "1f3db",
+    "t": "Study at HKU, CUHK, HKUST & more"
+   },
+   {
+    "e": "2705",
+    "t": "No application fee"
+   }
+  ],
+  "eligibility": [
+   "Open to students of ANY nationality",
+   "Outstanding academic record",
+   "Applying for full-time PhD study",
+   "Research ability & leadership"
+  ],
+  "steps": [
+   "Submit the initial application on the RGC portal",
+   "Note your HKPFS reference number",
+   "Apply to your chosen HK universities",
+   "Both before 1 Dec 2026"
+  ],
+  "link": "rgc.edu.hk/hkphd",
+  "sources": [
+   "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+   "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/"
+  ],
+  "tags": [
+   "#phd",
+   "#fellowship",
+   "#fullyfunded",
+   "#studyabroad",
+   "#hongkong"
+  ]
+ },
+ {
+  "id": "google-quantum-kaggle",
+  "kind": "earn",
+  "verified": true,
+  "label": "AI COMPETITION",
+  "kicker": "WIN UP TO",
+  "hero": "269b",
+  "badges": [
+   "1f4b0",
+   "1f9e0",
+   "1f3c6"
+  ],
+  "title": "Google Quantum AI Challenge",
+  "highlight": "$150,000",
+  "highlightLabel": "PRIZE POOL",
+  "subtitle": "Compile quantum circuits on Kaggle. Code from your laptop, win cash",
+  "host": "Google Quantum AI × Kaggle",
+  "location": "Online · Kaggle",
+  "deadlineISO": "2027-01-20",
+  "deadline": "Final: 20 Jan 2027 (join by 13 Jan)",
+  "perks": [
+   {
+    "e": "1f3c6",
+    "t": "1st place: $50,000"
+   },
+   {
+    "e": "1f4b0",
+    "t": "2nd $25,000 · 3rd $10,000"
+   },
+   {
+    "e": "26a1",
+    "t": "$10,000 milestone prize on 20 Nov"
+   },
+   {
+    "e": "1f9ea",
+    "t": "3 × $10,000 single-task prizes"
+   }
+  ],
+  "eligibility": [
+   "Free Kaggle account",
+   "Python / ML skills help",
+   "Solo or team",
+   "Public notebooks qualify for bonus prizes"
+  ],
+  "steps": [
+   "Open the competition on Kaggle",
+   "Click Join & accept the rules",
+   "Fork a public starter notebook",
+   "Submit & climb the leaderboard"
+  ],
+  "link": "kaggle.com/competitions",
+  "sources": [
+   "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation"
+  ],
+  "tags": [
+   "#kaggle",
+   "#quantum",
+   "#AI",
+   "#datascience",
+   "#makemoneyonline"
+  ]
+ },
+ {
+  "id": "commonwealth-shared-2027",
+  "kind": "academic",
+  "verified": true,
+  "label": "MASTER'S SCHOLARSHIP",
+  "kicker": "STUDY IN THE UK",
+  "hero": "1f1ec-1f1e7",
+  "badges": [
+   "1f393",
+   "2708",
+   "1f4b5"
+  ],
+  "title": "Commonwealth Shared Scholarships",
+  "highlight": "FULLY FUNDED",
+  "highlightLabel": "1-YEAR MASTER'S + FLIGHTS",
+  "subtitle": "1-year Master's at a UK university for talented students from developing Commonwealth countries",
+  "host": "Commonwealth Scholarship Commission (UK)",
+  "location": "United Kingdom",
+  "deadlineISO": "2026-12-08",
+  "deadline": "Opens 10 Nov · closes 8 Dec 2026, 16:00 GMT",
+  "perks": [
+   {
+    "e": "1f3eb",
+    "t": "Full tuition fees"
+   },
+   {
+    "e": "2708",
+    "t": "Return flight to the UK"
+   },
+   {
+    "e": "1f4b5",
+    "t": "Monthly living allowance"
+   },
+   {
+    "e": "1f3e0",
+    "t": "Arrival & thesis allowances"
+   }
+  ],
+  "eligibility": [
+   "Citizen of an eligible Commonwealth country",
+   "Living in a developing Commonwealth country",
+   "Bachelor's degree (usually 2:1 or higher)",
+   "Unable to afford UK study without it"
+  ],
+  "steps": [
+   "Pick an eligible course from the 2027 list",
+   "Apply to that UK university",
+   "Submit the CSC online application",
+   "Before 8 Dec 2026, 16:00 GMT"
+  ],
+  "link": "cscuk.fcdo.gov.uk",
+  "sources": [
+   "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/"
+  ],
+  "tags": [
+   "#scholarship",
+   "#fullyfunded",
+   "#studyinuk",
+   "#commonwealth",
+   "#masters"
+  ]
+ },
+ {
+  "id": "qnx-global-hackathon",
+  "kind": "earn",
+  "verified": true,
+  "label": "HACKATHON",
+  "kicker": "WIN UP TO",
+  "hero": "1f916",
+  "badges": [
+   "1f4b0",
+   "1f697",
+   "1f6e0"
+  ],
+  "title": "QNX Global Hackathon",
+  "highlight": "$50,000",
+  "highlightLabel": "IN PRIZES",
+  "subtitle": "Build robotics, automotive or dev-tool projects on QNX, online",
+  "host": "QNX (BlackBerry) on Devpost",
+  "location": "Online · worldwide",
+  "deadlineISO": "2026-12-15",
+  "deadline": "15 Dec 2026, 2:00 PM EST",
+  "perks": [
+   {
+    "e": "1f3c6",
+    "t": "Grand Prize: $10,000 cash"
+   },
+   {
+    "e": "1f3a4",
+    "t": "Chat with the QNX CEO + podcast feature"
+   },
+   {
+    "e": "1f4b0",
+    "t": "Category & tutorial prizes up to $3,500"
+   },
+   {
+    "e": "1f4bb",
+    "t": "Free QNX tools to build with"
+   }
+  ],
+  "eligibility": [
+   "Developers & students",
+   "Solo or team",
+   "Robotics, automotive, low-level or tooling ideas",
+   "Check eligible countries in the rules"
+  ],
+  "steps": [
+   "Register on the QNX Devpost page",
+   "Get the free QNX SDK & docs",
+   "Build + record a demo",
+   "Submit by 15 Dec 2026"
+  ],
+  "link": "qnx.devpost.com",
+  "sources": [
+   "https://qnx.devpost.com/",
+   "https://qnx.devpost.com/rules"
+  ],
+  "tags": [
+   "#hackathon",
+   "#robotics",
+   "#embedded",
+   "#devpost",
+   "#techcareers"
+  ]
+ },
+ {
+  "id": "yale-world-fellows-2027",
+  "kind": "academic",
+  "verified": true,
+  "label": "LEADERSHIP FELLOWSHIP",
+  "kicker": "SPEND",
+  "hero": "1f3db",
+  "badges": [
+   "1f1fa-1f1f8",
+   "1f310",
+   "2b50"
+  ],
+  "title": "Yale World Fellows 2027",
+  "highlight": "4 MONTHS",
+  "highlightLabel": "AT YALE UNIVERSITY, FUNDED",
+  "subtitle": "Yale's flagship program for emerging global leaders from every country",
+  "host": "Yale Jackson School of Global Affairs",
+  "location": "New Haven, USA",
+  "deadlineISO": "2026-12-02",
+  "deadline": "2 Dec 2026, 2:00 PM ET",
+  "perks": [
+   {
+    "e": "1f3db",
+    "t": "A semester at Yale University"
+   },
+   {
+    "e": "1f4b5",
+    "t": "Program covers stipend & housing"
+   },
+   {
+    "e": "1f310",
+    "t": "Lifelong global leaders network"
+   },
+   {
+    "e": "1f4da",
+    "t": "Audit Yale courses & seminars"
+   }
+  ],
+  "eligibility": [
+   "Mid-career leaders, any nationality",
+   "Strong track record of impact",
+   "Fluent in English",
+   "Business, gov, NGO, media, tech, arts"
+  ],
+  "steps": [
+   "CV (max 3 pages) + 600-word statement",
+   "3 letters of recommendation",
+   "Short video statement",
+   "Apply online ($20 fee) by 2 Dec"
+  ],
+  "link": "worldfellows.yale.edu",
+  "sources": [
+   "https://worldfellows.yale.edu/the-program/application/"
+  ],
+  "tags": [
+   "#fellowship",
+   "#leadership",
+   "#yale",
+   "#fullyfunded",
+   "#globalleaders"
+  ]
+ },
+ {
+  "id": "outlier-ai-trainer",
+  "kind": "earn",
+  "verified": true,
+  "label": "REMOTE JOB",
+  "kicker": "EARN",
+  "hero": "1f9d1-200d-1f4bb",
+  "badges": [
+   "1f4b5",
+   "1f916",
+   "1f3e0"
+  ],
+  "title": "Train AI From Home with Outlier",
+  "highlight": "UP TO $50/HR",
+  "highlightLabel": "PAID WEEKLY",
+  "subtitle": "Get paid to write, check and improve AI answers in your field or language",
+  "host": "Outlier AI",
+  "location": "Remote · roles vary by country",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: new roles added often",
+  "perks": [
+   {
+    "e": "1f9e0",
+    "t": "Math & STEM experts: up to $50/hr"
+   },
+   {
+    "e": "1f30d",
+    "t": "Language roles: ~$6 to $30/hr"
+   },
+   {
+    "e": "1f4c5",
+    "t": "5 to 10 hrs/week, your own schedule"
+   },
+   {
+    "e": "1f4b3",
+    "t": "Paid weekly (PayPal / AirTM)"
+   }
+  ],
+  "eligibility": [
+   "Expertise in a subject OR a native language",
+   "Pass a short skills assessment",
+   "Laptop + stable internet",
+   "Available roles depend on your country"
+  ],
+  "steps": [
+   "Open the Outlier opportunities page",
+   "Pick a role for your skill & country",
+   "Complete the assessment",
+   "Start tasks & get paid weekly"
+  ],
+  "link": "outlier.ai",
+  "sources": [
+   "https://outlier.ai/math/en-us",
+   "https://app.outlier.ai/opportunities/4421864005"
+  ],
+  "tags": [
+   "#remotework",
+   "#AIjobs",
+   "#workfromhome",
+   "#sidehustle",
+   "#makemoneyonline"
+  ],
+  "photo": {
+   "file": "outlier-ai-trainer.jpg",
+   "credit": "Photo: jseliger2 · CC BY 2.0",
+   "source": "https://www.flickr.com/photos/91262622@N02/12677057645"
   }
+ },
+ {
+  "id": "gates-cambridge-2027",
+  "kind": "academic",
+  "verified": true,
+  "label": "SCHOLARSHIP",
+  "kicker": "STUDY AT CAMBRIDGE",
+  "hero": "1f3eb",
+  "badges": [
+   "1f1ec-1f1e7",
+   "1f393",
+   "1f48e"
+  ],
+  "title": "Gates Cambridge Scholarship",
+  "highlight": "FULLY FUNDED",
+  "highlightLabel": "MASTER'S & PhD, ALL COSTS PAID",
+  "subtitle": "One of the world's most prestigious scholarships, for non-UK students",
+  "host": "Gates Cambridge Trust",
+  "location": "University of Cambridge, UK",
+  "deadlineISO": "2027-01-06",
+  "deadline": "8 Dec 2026 or 6 Jan 2027 (depends on course)",
+  "perks": [
+   {
+    "e": "1f3eb",
+    "t": "University fees fully covered"
+   },
+   {
+    "e": "1f4b5",
+    "t": "Living allowance (maintenance)"
+   },
+   {
+    "e": "2708",
+    "t": "Return airfare + visa costs"
+   },
+   {
+    "e": "1f310",
+    "t": "Global Gates Scholar community"
+   }
+  ],
+  "eligibility": [
+   "Citizen of any country outside the UK",
+   "Applying for a full-time postgraduate course",
+   "Outstanding academic ability",
+   "Commitment to improving others' lives"
+  ],
+  "steps": [
+   "Choose your Cambridge course",
+   "Apply via the Cambridge applicant portal",
+   "Tick the Gates Cambridge funding section",
+   "Submit by your course's funding deadline"
+  ],
+  "link": "gatescambridge.org",
+  "sources": [
+   "https://www.gatescambridge.org/apply/timeline/"
+  ],
+  "tags": [
+   "#scholarship",
+   "#cambridge",
+   "#fullyfunded",
+   "#studyinuk",
+   "#phd"
+  ],
+  "photo": {
+   "file": "gates-cambridge-2027.jpg",
+   "credit": "Photo: *rboed* · CC BY 2.0",
+   "source": "https://www.flickr.com/photos/92082510@N04/30144728947"
+  },
+  "countdownISO": "2026-12-08"
+ },
+ {
+  "id": "codegeist-2026",
+  "kind": "earn",
+  "verified": true,
+  "label": "HACKATHON",
+  "kicker": "WIN UP TO",
+  "hero": "1f4bb",
+  "badges": [
+   "1f4b0",
+   "1f9e9",
+   "1f3c6"
+  ],
+  "title": "Atlassian Codegeist 2026",
+  "highlight": "$120,000",
+  "highlightLabel": "CASH PRIZES",
+  "subtitle": "Build apps for Jira & Confluence on Atlassian Forge and win",
+  "host": "Atlassian on Devpost",
+  "location": "Online · build from anywhere",
+  "deadlineISO": "2026-12-22",
+  "deadline": "22 Dec 2026, 12:00 PM PT",
+  "perks": [
+   {
+    "e": "1f3c6",
+    "t": "Three 1st-place prizes of $15,000"
+   },
+   {
+    "e": "1f4b0",
+    "t": "$8,000 & $5,000 runner-up prizes"
+   },
+   {
+    "e": "1f916",
+    "t": "$1,500 bonuses for AI / Rovo apps"
+   },
+   {
+    "e": "1f4e6",
+    "t": "Swag for the first 300 entrants"
+   }
+  ],
+  "eligibility": [
+   "Developers, solo or team",
+   "Build on Atlassian Forge (free)",
+   "Tracks: software, business, industry teams",
+   "Check eligible countries in the rules"
+  ],
+  "steps": [
+   "Register on the Codegeist Devpost page",
+   "Create a free Atlassian dev site",
+   "Build your Forge app + demo video",
+   "Submit by 22 Dec 2026"
+  ],
+  "link": "codegeist2026.devpost.com",
+  "sources": [
+   "https://codegeist2026.devpost.com/",
+   "https://community.developer.atlassian.com/t/heads-up-developers-codegeist-2026-is-officially-open/103506"
+  ],
+  "tags": [
+   "#hackathon",
+   "#coding",
+   "#atlassian",
+   "#devpost",
+   "#makemoneyonline"
+  ],
+  "photo": {
+   "file": "codegeist-2026.jpg",
+   "credit": "Photo: qubodup · CC BY 2.0",
+   "source": "https://www.flickr.com/photos/21051491@N02/15204215650"
+  }
+ },
+ {
+  "id": "mbzuai-2027",
+  "kind": "academic",
+  "verified": true,
+  "label": "AI MASTER'S & PhD",
+  "kicker": "STUDY AI FOR FREE",
+  "hero": "1f916",
+  "badges": [
+   "1f1e6-1f1ea",
+   "1f393",
+   "2708"
+  ],
+  "title": "Study AI at MBZUAI",
+  "highlight": "MSc & PhD",
+  "highlightLabel": "TUITION + STIPEND + FLIGHTS",
+  "subtitle": "The world's first AI-only university, open to students worldwide",
+  "host": "Mohamed bin Zayed University of AI",
+  "location": "Abu Dhabi, UAE",
+  "deadlineISO": "2026-12-15",
+  "deadline": "15 Dec 2026, 5:00 PM GST",
+  "perks": [
+   {
+    "e": "1f3eb",
+    "t": "Free tuition"
+   },
+   {
+    "e": "1f4b5",
+    "t": "Monthly stipend"
+   },
+   {
+    "e": "2708",
+    "t": "Yearly return flight home"
+   },
+   {
+    "e": "1f3e5",
+    "t": "Health insurance + UAE visa"
+   }
+  ],
+  "eligibility": [
+   "Bachelor's (for MSc) or Master's (for PhD)",
+   "Computer science, maths or engineering background",
+   "Open to all nationalities",
+   "Fee-based MAAI program is not funded"
+  ],
+  "steps": [
+   "Pick an MSc or PhD program in AI",
+   "Prepare transcripts, CV & statement",
+   "Apply online on mbzuai.ac.ae",
+   "Before 15 Dec 2026, 5 PM GST"
+  ],
+  "link": "mbzuai.ac.ae/admissions",
+  "sources": [
+   "https://mbzuai.ac.ae/admissions/graduate-masters-admissions",
+   "https://mbzuai.ac.ae/admissions/graduate-phd-admissions"
+  ],
+  "tags": [
+   "#AI",
+   "#scholarship",
+   "#fullyfunded",
+   "#studyabroad",
+   "#uae"
+  ],
+  "photo": {
+   "file": "mbzuai-2027.jpg",
+   "credit": "Photo: Zech Photography · CC BY 2.0",
+   "source": "https://www.flickr.com/photos/7576951@N05/32462596922"
+  }
+ },
+ {
+  "id": "smart-buildings-kaggle",
+  "kind": "earn",
+  "verified": true,
+  "label": "AI COMPETITION",
+  "kicker": "WIN UP TO",
+  "hero": "1f3e2",
+  "badges": [
+   "1f4b0",
+   "26a1",
+   "1f4ca"
+  ],
+  "title": "NeurIPS Smart Buildings Challenge",
+  "highlight": "$40,000",
+  "highlightLabel": "PRIZE POOL",
+  "subtitle": "Use machine learning to make buildings smarter, on Kaggle",
+  "host": "NeurIPS 2026 × Kaggle",
+  "location": "Online · Kaggle",
+  "deadlineISO": "2027-01-15",
+  "deadline": "Final: 15 Jan 2027 (join by 3 Jan)",
+  "perks": [
+   {
+    "e": "1f4b0",
+    "t": "$25,000 leaderboard prizes"
+   },
+   {
+    "e": "1f4dd",
+    "t": "$15,000 paper-track prizes"
+   },
+   {
+    "e": "1f3c5",
+    "t": "NeurIPS competition credential on your CV"
+   },
+   {
+    "e": "1f4c8",
+    "t": "Real-world energy & ML experience"
+   }
+  ],
+  "eligibility": [
+   "Free Kaggle account",
+   "Python & machine learning basics",
+   "Solo or team (merge by 3 Jan)",
+   "Students & professionals welcome"
+  ],
+  "steps": [
+   "Search \"Smart Buildings\" on Kaggle",
+   "Join & download the data",
+   "Train a model in a Kaggle notebook",
+   "Submit by 15 Jan 2027"
+  ],
+  "link": "kaggle.com/competitions",
+  "sources": [
+   "https://www.kaggle.com/competitions/neurips-2026-smart-buildings/overview/prizes"
+  ],
+  "tags": [
+   "#kaggle",
+   "#machinelearning",
+   "#neurips",
+   "#datascience",
+   "#makemoneyonline"
+  ],
+  "photo": {
+   "file": "smart-buildings-kaggle.jpg",
+   "credit": "Photo: Nicola since 1972 · CC BY 2.0",
+   "source": "https://www.flickr.com/photos/15216811@N06/6647760697"
+  }
+ },
+ {
+  "id": "clarendon-oxford-2027",
+  "kind": "academic",
+  "verified": true,
+  "label": "SCHOLARSHIP",
+  "kicker": "STUDY AT OXFORD",
+  "hero": "1f3db",
+  "badges": [
+   "1f1ec-1f1e7",
+   "1f4da",
+   "2b50"
+  ],
+  "title": "Clarendon Scholarship, Oxford",
+  "highlight": "FULLY FUNDED",
+  "highlightLabel": "NO EXTRA FORM NEEDED",
+  "subtitle": "Apply to an Oxford master's or DPhil and you're automatically considered",
+  "host": "University of Oxford",
+  "location": "Oxford, United Kingdom",
+  "deadlineISO": "2027-01-15",
+  "deadline": "Your course's Dec 2026 / Jan 2027 deadline",
+  "perks": [
+   {
+    "e": "1f3eb",
+    "t": "Course fees covered in full"
+   },
+   {
+    "e": "1f4b5",
+    "t": "Generous living grant"
+   },
+   {
+    "e": "1f4da",
+    "t": "Study at the University of Oxford"
+   },
+   {
+    "e": "1f310",
+    "t": "Clarendon Scholars community"
+   }
+  ],
+  "eligibility": [
+   "All nationalities (UK & international)",
+   "Excellent academic record",
+   "Applying to an eligible graduate course",
+   "Apply by the Dec/Jan course deadline"
+  ],
+  "steps": [
+   "Choose your Oxford graduate course",
+   "Check its December/January deadline",
+   "Submit a strong course application",
+   "You're considered automatically"
+  ],
+  "link": "ox.ac.uk/clarendon",
+  "sources": [
+   "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants"
+  ],
+  "tags": [
+   "#oxford",
+   "#scholarship",
+   "#fullyfunded",
+   "#studyinuk",
+   "#masters"
+  ],
+  "photo": {
+   "file": "clarendon-oxford-2027.jpg",
+   "credit": "Photo: dullhunk · CC BY 2.0",
+   "source": "https://www.flickr.com/photos/14829735@N00/7822195498"
+  },
+  "deadlineVaries": true
+ },
+ {
+  "id": "squares-in-squares-kaggle",
+  "kind": "earn",
+  "verified": true,
+  "label": "MATH PUZZLE PRIZE",
+  "kicker": "WIN UP TO",
+  "hero": "1f9e9",
+  "badges": [
+   "1f4b0",
+   "1f9e0",
+   "1f3af"
+  ],
+  "title": "Squares in Squares Challenge",
+  "highlight": "$50,000",
+  "highlightLabel": "PRIZE POOL",
+  "subtitle": "Solve a famous packing puzzle with code. Math lovers, this one's for you",
+  "host": "Kaggle",
+  "location": "Online · Kaggle",
+  "deadlineISO": "2027-07-11",
+  "deadline": "$5,000 milestone cut-off 17 Jan 2027",
+  "perks": [
+   {
+    "e": "1f4b0",
+    "t": "$50,000 total prizes"
+   },
+   {
+    "e": "1f3af",
+    "t": "$5,000 early milestone prize"
+   },
+   {
+    "e": "1f9e0",
+    "t": "Pure maths + coding puzzle"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Long timeline, join anytime"
+   }
+  ],
+  "eligibility": [
+   "Free Kaggle account",
+   "Math / optimisation interest",
+   "Any programming language for ideas",
+   "Solo or team"
+  ],
+  "steps": [
+   "Search \"Squares in Squares\" on Kaggle",
+   "Read the puzzle & scoring",
+   "Start from a public notebook",
+   "Submit before 17 Jan for the milestone"
+  ],
+  "link": "kaggle.com/competitions",
+  "sources": [
+   "https://www.kaggle.com/competitions/squares-in-squares"
+  ],
+  "tags": [
+   "#kaggle",
+   "#math",
+   "#coding",
+   "#puzzle",
+   "#makemoneyonline"
+  ],
+  "photo": {
+   "file": "squares-in-squares-kaggle.jpg",
+   "credit": "Photo: jin.thai · CC BY 2.0",
+   "source": "https://www.flickr.com/photos/32912734@N04/3192850778"
+  }
+ },
+ {
+  "id": "euroculture-erasmus-2027",
+  "kind": "academic",
+  "verified": true,
+  "label": "ERASMUS MUNDUS",
+  "kicker": "GET PAID",
+  "hero": "1f1ea-1f1fa",
+  "badges": [
+   "1f393",
+   "1f4b5",
+   "2708"
+  ],
+  "title": "Euroculture Erasmus Mundus MA",
+  "highlight": "€1,400/MONTH",
+  "highlightLabel": "TO STUDY IN EUROPE FOR 2 YEARS",
+  "subtitle": "Study in 2+ European countries on an EU-funded master's",
+  "host": "Euroculture Erasmus Mundus consortium",
+  "location": "Europe (multiple universities)",
+  "deadlineISO": "2027-01-15",
+  "deadline": "15 Jan 2027 (scholarship deadline)",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "€1,400 every month for 24 months"
+   },
+   {
+    "e": "1f3eb",
+    "t": "Participation costs covered"
+   },
+   {
+    "e": "1f30d",
+    "t": "Study in 2+ EU countries"
+   },
+   {
+    "e": "1f4bc",
+    "t": "Internship / research track"
+   }
+  ],
+  "eligibility": [
+   "Bachelor's degree (any related field)",
+   "English proficiency",
+   "Open to all nationalities",
+   "Proof of degree by 15 Jan 2027"
+  ],
+  "steps": [
+   "Open the Euroculture application tool",
+   "Prepare CV, motivation & references",
+   "Choose your universities",
+   "Submit by 15 Jan 2027"
+  ],
+  "link": "euroculturemaster.eu",
+  "sources": [
+   "https://www.euroculturemaster.eu/application-procedure",
+   "https://www.euroculturemaster.eu/erasmus-mundus-scholarship"
+  ],
+  "tags": [
+   "#erasmusmundus",
+   "#scholarship",
+   "#studyineurope",
+   "#fullyfunded",
+   "#masters"
+  ],
+  "photo": {
+   "file": "euroculture-erasmus-2027.jpg",
+   "credit": "Photo: DesignRecipe · CC BY 2.0",
+   "source": "https://www.flickr.com/photos/124913477@N08/14086693619"
+  }
+ },
+ {
+  "id": "dataannotation-ai",
+  "kind": "earn",
+  "label": "REMOTE AI WORK",
+  "kicker": "GET PAID",
+  "hero": "1f916",
+  "badges": [
+   "1f4b5",
+   "1f4bb",
+   "1f3e0"
+  ],
+  "title": "Train AI with DataAnnotation",
+  "highlight": "$20+/HR",
+  "highlightLabel": "CHATTING WITH AI, FROM HOME",
+  "subtitle": "Rate chatbot answers, compare AI outputs and test image generators",
+  "host": "DataAnnotation",
+  "location": "Remote · roles vary by country",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: apply any time",
+  "deadlineVaries": true,
+  "perks": [
+   {
+    "e": "1f4ac",
+    "t": "General AI tasks: from ~$20–$25/hr"
+   },
+   {
+    "e": "1f4bb",
+    "t": "Coding projects: $40+/hr"
+   },
+   {
+    "e": "1f310",
+    "t": "Multilingual projects: $20+/hr"
+   },
+   {
+    "e": "1f3e0",
+    "t": "Remote, choose your own hours"
+   }
+  ],
+  "eligibility": [
+   "Strong written English",
+   "Good attention to detail",
+   "Pass the free starter assessment",
+   "Laptop + stable internet"
+  ],
+  "steps": [
+   "Open dataannotation.tech",
+   "Pick a role (generalist, coding, language)",
+   "Take the starter assessment",
+   "Unlock paid projects"
+  ],
+  "link": "dataannotation.tech",
+  "sources": [
+   "https://dataannotation.tech/faqs",
+   "https://www.dataannotation.tech/"
+  ],
+  "tags": [
+   "#remotework",
+   "#AIjobs",
+   "#workfromhome",
+   "#sidehustle",
+   "#makemoneyonline"
+  ],
+  "verified": true
+ },
+ {
+  "id": "hurford-youth-2027",
+  "kind": "academic",
+  "label": "FELLOWSHIP IN USA",
+  "kicker": "FULLY FUNDED",
+  "hero": "1f3db",
+  "badges": [
+   "1f1fa-1f1f8",
+   "2708",
+   "1f310"
+  ],
+  "title": "Hurford Youth Fellowship 2027",
+  "highlight": "4 MONTHS",
+  "highlightLabel": "IN WASHINGTON, D.C.",
+  "subtitle": "Work with the World Movement for Democracy at NED, for young activists aged 30 or under",
+  "host": "National Endowment for Democracy (NED)",
+  "location": "Washington, D.C., USA",
+  "deadlineISO": "2026-11-30",
+  "deadline": "30 Nov 2026 (letters by 4 Dec)",
+  "perks": [
+   {
+    "e": "1f3db",
+    "t": "4-month fellowship at NED in D.C."
+   },
+   {
+    "e": "2708",
+    "t": "Fully funded program"
+   },
+   {
+    "e": "1f310",
+    "t": "Global democracy network"
+   },
+   {
+    "e": "1f4c5",
+    "t": "1 May – 31 Aug 2027"
+   }
+  ],
+  "eligibility": [
+   "Aged 30 or younger",
+   "Youth democracy / civic work experience",
+   "Any nationality",
+   "Up to 3 fellows are selected"
+  ],
+  "steps": [
+   "Read the call on ned.org",
+   "Create an account on NED's portal",
+   "Submit by 30 Nov 2026",
+   "Recommendation letters by 4 Dec"
+  ],
+  "link": "ned.org/fellowships",
+  "sources": [
+   "https://www.ned.org/fellowships/hurford-youth-fellows-program/"
+  ],
+  "tags": [
+   "#fellowship",
+   "#fullyfunded",
+   "#studyinusa",
+   "#youthleaders",
+   "#opportunity"
+  ],
+  "verified": true
+ },
+ {
+  "id": "prolific-studies",
+  "kind": "earn",
+  "label": "SIDE HUSTLE",
+  "kicker": "GET PAID",
+  "hero": "1f4dd",
+  "badges": [
+   "1f4b5",
+   "1f9e0",
+   "1f4f1"
+  ],
+  "title": "Take Paid Research Studies on Prolific",
+  "highlight": "$8+/HR",
+  "highlightLabel": "MINIMUM PAY, ANSWER STUDIES",
+  "subtitle": "Universities & companies pay you to take part in surveys and experiments",
+  "host": "Prolific",
+  "location": "Remote · available in 38+ countries",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: join the waitlist any time",
+  "deadlineVaries": true,
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Minimum £6 / $8 per hour"
+   },
+   {
+    "e": "1f9e0",
+    "t": "Real academic research studies"
+   },
+   {
+    "e": "23f0",
+    "t": "Studies from 2 to 30+ minutes"
+   },
+   {
+    "e": "1f3e0",
+    "t": "From your phone or laptop"
+   }
+  ],
+  "eligibility": [
+   "18 years or older",
+   "Live in a supported country",
+   "Honest, attentive answers",
+   "Joining may start with a waitlist"
+  ],
+  "steps": [
+   "Sign up as a participant on prolific.com",
+   "Verify your account & fill your profile",
+   "Accept studies that match you",
+   "Cash out once you hit the minimum"
+  ],
+  "link": "prolific.com",
+  "sources": [
+   "https://www.prolific.com/participant-pool",
+   "https://researcher-help.prolific.com/en/articles/445239-what-is-your-pricing"
+  ],
+  "tags": [
+   "#sidehustle",
+   "#makemoneyonline",
+   "#surveys",
+   "#workfromhome",
+   "#studentlife"
+  ],
+  "verified": true
+ },
+ {
+  "id": "eth-esop-2027",
+  "kind": "academic",
+  "label": "MASTER'S SCHOLARSHIP",
+  "kicker": "STUDY AT ETH ZURICH",
+  "hero": "1f3eb",
+  "badges": [
+   "1f1e8-1f1ed",
+   "1f393",
+   "1f48e"
+  ],
+  "title": "ETH Excellence Scholarship (ESOP)",
+  "highlight": "CHF 13,500",
+  "highlightLabel": "PER SEMESTER + NO TUITION",
+  "subtitle": "One of the world's top 10 universities, for outstanding master's students",
+  "host": "ETH Zurich",
+  "location": "Zurich, Switzerland",
+  "deadlineISO": "2026-11-30",
+  "deadline": "30 Nov 2026, 11:59 CET",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Up to CHF 13,500 per semester"
+   },
+   {
+    "e": "1f3eb",
+    "t": "Tuition fees waived"
+   },
+   {
+    "e": "1f3c6",
+    "t": "~60 scholarships for 2027/28"
+   },
+   {
+    "e": "1f9ea",
+    "t": "Study at a world top-10 university"
+   }
+  ],
+  "eligibility": [
+   "Excellent bachelor's record (any country)",
+   "Applying to an ETH master's",
+   "Thesis pre-proposal needed",
+   "Only the 1–30 Nov window counts"
+  ],
+  "steps": [
+   "Apply to an ETH master's online",
+   "Tick the ESOP scholarship option",
+   "Upload your master's thesis pre-proposal",
+   "Submit by 30 Nov, 11:59 CET"
+  ],
+  "link": "ethz.ch/esop",
+  "sources": [
+   "https://ethz.ch/en/studies/master/application/dates.html",
+   "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html"
+  ],
+  "tags": [
+   "#scholarship",
+   "#ethzurich",
+   "#studyinswitzerland",
+   "#masters",
+   "#fullyfunded"
+  ],
+  "verified": true
+ },
+ {
+  "id": "alignerr-ai",
+  "kind": "earn",
+  "label": "REMOTE AI WORK",
+  "kicker": "EARN UP TO",
+  "hero": "1f9e0",
+  "badges": [
+   "1f4b5",
+   "1f916",
+   "1f4c5"
+  ],
+  "title": "AI Training Jobs on Alignerr",
+  "highlight": "$120/HR",
+  "highlightLabel": "FOR EXPERTS, REMOTE",
+  "subtitle": "Teach AI models with your knowledge. Many roles need no AI experience",
+  "host": "Alignerr",
+  "location": "Remote · flexible contract",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: roles posted often",
+  "deadlineVaries": true,
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Roles from ~$30 to $120/hr"
+   },
+   {
+    "e": "1f4c5",
+    "t": "10–40 hours a week, flexible"
+   },
+   {
+    "e": "1f3e0",
+    "t": "Fully remote contract work"
+   },
+   {
+    "e": "1f4b8",
+    "t": "Weekly payouts"
+   }
+  ],
+  "eligibility": [
+   "Knowledge in a subject or language",
+   "Many roles: no AI experience needed",
+   "Pass a quick screening",
+   "Stable internet"
+  ],
+  "steps": [
+   "Open alignerr.com/jobs",
+   "Pick a role that fits your skills",
+   "Apply & pass the screening",
+   "Start tasks, get paid weekly"
+  ],
+  "link": "alignerr.com",
+  "sources": [
+   "https://www.alignerr.com/jobs/b7b95845-ac1a-4742-8537-094eb6ac59ee"
+  ],
+  "tags": [
+   "#AIjobs",
+   "#remotework",
+   "#workfromhome",
+   "#sidehustle",
+   "#makemoneyonline"
+  ],
+  "verified": true
+ },
+ {
+  "id": "yenching-2027",
+  "kind": "academic",
+  "label": "MASTER'S IN CHINA",
+  "kicker": "FULL FELLOWSHIP",
+  "hero": "1f1e8-1f1f3",
+  "badges": [
+   "1f393",
+   "2708",
+   "1f4da"
+  ],
+  "title": "Yenching Academy, Peking University",
+  "highlight": "FULLY FUNDED",
+  "highlightLabel": "MASTER'S IN BEIJING, CHINA",
+  "subtitle": "A residential master's in China Studies at one of Asia's top universities",
+  "host": "Yenching Academy of Peking University",
+  "location": "Beijing, China",
+  "deadlineISO": "2026-11-30",
+  "deadline": "30 Nov 2026, 9:00 Beijing time",
+  "perks": [
+   {
+    "e": "1f393",
+    "t": "Full fellowship for Scholars"
+   },
+   {
+    "e": "1f3e0",
+    "t": "Residential college life"
+   },
+   {
+    "e": "1f30d",
+    "t": "~75% international students"
+   },
+   {
+    "e": "1f4da",
+    "t": "Study at Peking University"
+   }
+  ],
+  "eligibility": [
+   "Bachelor's degree (any field)",
+   "All nationalities welcome",
+   "750-word personal statement",
+   "Research interest statement"
+  ],
+  "steps": [
+   "Read the admissions page",
+   "Write your statements",
+   "Collect recommendation letters",
+   "Apply by 30 Nov, 9 AM Beijing"
+  ],
+  "link": "yenchingacademy.pku.edu.cn",
+  "sources": [
+   "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm"
+  ],
+  "tags": [
+   "#scholarship",
+   "#studyinchina",
+   "#fullyfunded",
+   "#masters",
+   "#pekinguniversity"
+  ],
+  "verified": true
+ },
+ {
+  "id": "usertesting-2026",
+  "kind": "earn",
+  "label": "SIDE HUSTLE",
+  "kicker": "GET PAID",
+  "hero": "1f4f1",
+  "badges": [
+   "1f4b5",
+   "1f3a4",
+   "1f4bb"
+  ],
+  "title": "Test Websites with UserTesting",
+  "highlight": "$10/TEST",
+  "highlightLabel": "SAY WHAT YOU THINK, GET PAID",
+  "subtitle": "Companies pay you to try their apps and websites and talk through it",
+  "host": "UserTesting",
+  "location": "Remote · availability varies by country",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: join any time",
+  "deadlineVaries": true,
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "$10 per 20-min test"
+   },
+   {
+    "e": "1f3a4",
+    "t": "Live interviews: $30–$120"
+   },
+   {
+    "e": "1f4b3",
+    "t": "Paid to PayPal"
+   },
+   {
+    "e": "2705",
+    "t": "Free to join, no skills needed"
+   }
+  ],
+  "eligibility": [
+   "18 years or older",
+   "Computer with a microphone",
+   "Speak your thoughts clearly",
+   "Pass the unpaid practice test"
+  ],
+  "steps": [
+   "Apply as a contributor on usertesting.com",
+   "Complete the practice test",
+   "Answer screener questions",
+   "Do tests, get paid ~14 days later"
+  ],
+  "link": "usertesting.com/get-paid-to-test",
+  "sources": [
+   "https://www.usertesting.com/get-paid-to-test",
+   "https://support.usertesting.com/hc/en-us/articles/4405116832019-FAQ-Payments"
+  ],
+  "tags": [
+   "#sidehustle",
+   "#makemoneyonline",
+   "#workfromhome",
+   "#usertesting",
+   "#onlinejobs"
+  ],
+  "verified": true
+ },
+ {
+  "id": "swiss-excellence-2027",
+  "kind": "academic",
+  "label": "PhD & RESEARCH",
+  "kicker": "SWISS GOV PAYS",
+  "hero": "1f1e8-1f1ed",
+  "badges": [
+   "1f393",
+   "1f4b5",
+   "1f52c"
+  ],
+  "title": "Swiss Government Excellence Scholarships",
+  "highlight": "CHF 2,450",
+  "highlightLabel": "EVERY MONTH, UP TO 3 YEARS",
+  "subtitle": "Swiss government funding for researchers from 183 countries",
+  "host": "Swiss Confederation (FCS / SBFI)",
+  "location": "Any Swiss university",
+  "deadlineISO": "2026-12-31",
+  "deadline": "Depends on your country (many close 27 Nov)",
+  "deadlineVaries": true,
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "CHF 2,450 per month"
+   },
+   {
+    "e": "1f4c5",
+    "t": "12 months, renewable to 36"
+   },
+   {
+    "e": "1f52c",
+    "t": "Research or PhD at a Swiss university"
+   },
+   {
+    "e": "1f30d",
+    "t": "Open to 183 countries"
+   }
+  ],
+  "eligibility": [
+   "Master's done by 31 Jul 2027",
+   "Born after 31 Dec 1991",
+   "Letter from a Swiss professor",
+   "Check your country's deadline"
+  ],
+  "steps": [
+   "Open the SBFI country list",
+   "Find your country's deadline",
+   "Get a Swiss supervisor's letter",
+   "Apply online before your deadline"
+  ],
+  "link": "sbfi.admin.ch",
+  "sources": [
+   "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships"
+  ],
+  "tags": [
+   "#scholarship",
+   "#phd",
+   "#studyinswitzerland",
+   "#research",
+   "#fullyfunded"
+  ],
+  "verified": true
+ },
+ {
+  "id": "imagine-cup-2027",
+  "kind": "earn",
+  "label": "STARTUP COMPETITION",
+  "kicker": "WIN UP TO",
+  "hero": "1f680",
+  "badges": [
+   "1f4b0",
+   "1f3c6",
+   "1f4bb"
+  ],
+  "title": "Microsoft Imagine Cup 2027",
+  "highlight": "$250,000",
+  "highlightLabel": "CASH + $1M IN CREDITS",
+  "subtitle": "Microsoft's global competition for early-stage AI startups",
+  "host": "Microsoft",
+  "location": "Online · global",
+  "deadlineISO": "2027-02-28",
+  "deadline": "28 Feb 2027",
+  "perks": [
+   {
+    "e": "1f3c6",
+    "t": "1st: $250,000 + $1M credits"
+   },
+   {
+    "e": "1f4b0",
+    "t": "2nd $50,000 · 3rd $25,000"
+   },
+   {
+    "e": "1f393",
+    "t": "$25,000 Top Student Startup prize"
+   },
+   {
+    "e": "1f4bb",
+    "t": "Free Azure startup credits"
+   }
+  ],
+  "eligibility": [
+   "Early-stage startup using AI",
+   "A founder registers the team",
+   "Apply via Award Force",
+   "Check the official rules for eligibility"
+  ],
+  "steps": [
+   "Read the rules on imaginecup.microsoft.com",
+   "Register your startup team",
+   "Build your pitch & demo",
+   "Submit by 28 Feb 2027"
+  ],
+  "link": "imaginecup.microsoft.com",
+  "sources": [
+   "https://imaginecup.microsoft.com/en-us/support/faq",
+   "https://www.microsoft.com/en-us/startups/blog/imagine-cup-2027-why-this-is-an-opportunity-for-early-stage-founders/"
+  ],
+  "tags": [
+   "#startup",
+   "#imaginecup",
+   "#microsoft",
+   "#entrepreneur",
+   "#makemoneyonline"
+  ],
+  "verified": true
+ },
+ {
+  "id": "epfl-excellence-2027",
+  "kind": "academic",
+  "label": "MASTER'S FELLOWSHIP",
+  "kicker": "STUDY AT EPFL",
+  "hero": "1f1e8-1f1ed",
+  "badges": [
+   "1f393",
+   "1f4b5",
+   "1f9ea"
+  ],
+  "title": "EPFL Master Excellence Fellowship",
+  "highlight": "CHF 10,000",
+  "highlightLabel": "PER SEMESTER IN LAUSANNE",
+  "subtitle": "Top engineering & science university on Lake Geneva, Switzerland",
+  "host": "EPFL",
+  "location": "Lausanne, Switzerland",
+  "deadlineISO": "2026-12-15",
+  "deadline": "15 Dec 2026 (paid & validated)",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "CHF 10,000 every semester"
+   },
+   {
+    "e": "1f504",
+    "t": "Renewable for year 2"
+   },
+   {
+    "e": "1f9ea",
+    "t": "World-class labs"
+   },
+   {
+    "e": "1f3d4",
+    "t": "Life on Lake Geneva"
+   }
+  ],
+  "eligibility": [
+   "Excellent bachelor's grades",
+   "Applying to an EPFL master's",
+   "Recommendation letters 1 week after",
+   "Application must be paid by 15 Dec"
+  ],
+  "steps": [
+   "Choose your EPFL master's",
+   "Apply online & pay the fee",
+   "Submit by 15 Dec 2026",
+   "Referees upload letters within 1 week"
+  ],
+  "link": "epfl.ch/education/master",
+  "sources": [
+   "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/"
+  ],
+  "tags": [
+   "#scholarship",
+   "#epfl",
+   "#studyinswitzerland",
+   "#engineering",
+   "#masters"
+  ],
+  "verified": true
+ },
+ {
+  "id": "telus-ai-rater",
+  "kind": "earn",
+  "label": "PART-TIME REMOTE",
+  "kicker": "WORK FROM HOME",
+  "hero": "1f50e",
+  "badges": [
+   "1f4b5",
+   "1f310",
+   "1f3e0"
+  ],
+  "title": "Rate Search & AI Results with TELUS Digital",
+  "highlight": "PART-TIME",
+  "highlightLabel": "REMOTE RATER JOBS, MANY COUNTRIES",
+  "subtitle": "Judge search results and AI answers for quality. Pay depends on your country & language",
+  "host": "TELUS Digital AI Community",
+  "location": "Remote · country & language specific",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: openings by country",
+  "deadlineVaries": true,
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Examples: $8/hr India, $23/hr Australia"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Around 10–20 hours a week"
+   },
+   {
+    "e": "1f310",
+    "t": "Roles in many languages"
+   },
+   {
+    "e": "1f393",
+    "t": "Paid training & calibration"
+   }
+  ],
+  "eligibility": [
+   "Fluent in the role's language",
+   "Good research skills",
+   "Live in the listed country",
+   "Pass the qualification steps"
+  ],
+  "steps": [
+   "Search 'AI Community' on jobs.telusdigital.com",
+   "Pick the rater role for your country",
+   "Apply & complete the qualification",
+   "Work flexible hours from home"
+  ],
+  "link": "jobs.telusdigital.com",
+  "sources": [
+   "https://jobs.telusdigital.com/jobs/17840908-quality-assurance-rater-english-india",
+   "https://jobs.telusdigital.com/jobs/17840998-quality-assurance-rater-english-australia"
+  ],
+  "tags": [
+   "#remotework",
+   "#workfromhome",
+   "#parttimejob",
+   "#sidehustle",
+   "#onlinejobs"
+  ],
+  "verified": true
+ },
+ {
+  "id": "mundus-journalism-2027",
+  "kind": "academic",
+  "label": "ERASMUS MUNDUS",
+  "kicker": "STUDY IN EUROPE",
+  "hero": "1f4f0",
+  "badges": [
+   "1f1ea-1f1fa",
+   "1f4b5",
+   "2708"
+  ],
+  "title": "Erasmus Mundus Journalism MA",
+  "highlight": "€1,400/MONTH",
+  "highlightLabel": "+ ZERO TUITION FOR 2 YEARS",
+  "subtitle": "Study journalism in Denmark and another European country",
+  "host": "Mundus Journalism consortium (Aarhus, Denmark)",
+  "location": "Denmark + Europe",
+  "deadlineISO": "2027-01-10",
+  "deadline": "10 Jan 2027, 13:00 CET",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "€1,400 a month for 24 months"
+   },
+   {
+    "e": "1f3eb",
+    "t": "Full tuition waiver, 2 years"
+   },
+   {
+    "e": "1f30d",
+    "t": "Study in 2+ European countries"
+   },
+   {
+    "e": "1f3c6",
+    "t": "10–15 scholarships, all nationalities"
+   }
+  ],
+  "eligibility": [
+   "Bachelor's degree",
+   "English at C1 level",
+   "No previous EM scholarship",
+   "No existing 2-year master's"
+  ],
+  "steps": [
+   "Open mundusjournalism.com/admissions",
+   "Fill the 2027–2029 application",
+   "One form = admission + scholarship",
+   "Submit by 10 Jan 2027, 13:00 CET"
+  ],
+  "link": "mundusjournalism.com",
+  "sources": [
+   "https://mundusjournalism.com/admissions/application-process",
+   "https://mundusjournalism.com/admissions/tuition-stipends-and-scholarships"
+  ],
+  "tags": [
+   "#erasmusmundus",
+   "#scholarship",
+   "#journalism",
+   "#studyineurope",
+   "#fullyfunded"
+  ],
+  "verified": true
+ },
+ {
+  "id": "testio-2026",
+  "kind": "earn",
+  "label": "BEGINNER FRIENDLY",
+  "kicker": "GET PAID TO",
+  "hero": "1f4f1",
+  "badges": [
+   "1f4b5",
+   "1f41e",
+   "1f4bb"
+  ],
+  "title": "Find Bugs in Apps with Test IO",
+  "highlight": "TEST APPS",
+  "highlightLabel": "& WEBSITES, NO EXPERIENCE",
+  "subtitle": "Get paid for every bug you find in real apps and websites",
+  "host": "Test IO",
+  "location": "Remote · worldwide",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Open sign-up (rolling)",
+  "deadlineVaries": true,
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Paid per accepted bug"
+   },
+   {
+    "e": "1f393",
+    "t": "Free tester training"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Flexible hours"
+   },
+   {
+    "e": "1f3e0",
+    "t": "Work from anywhere"
+   }
+  ],
+  "eligibility": [
+   "Computer or smartphone",
+   "Basic English",
+   "Eye for detail",
+   "No experience needed to start"
+  ],
+  "steps": [
+   "Sign up at test.io/freelancer",
+   "Finish the onboarding course",
+   "Join test cycles",
+   "Report bugs, get paid"
+  ],
+  "link": "test.io/freelancer",
+  "sources": [
+   "https://test.io/freelancer"
+  ],
+  "tags": [
+   "#makemoneyonline",
+   "#sidehustle",
+   "#softwaretesting",
+   "#workfromhome",
+   "#nofaceaccount"
+  ],
+  "verified": true
+ },
+ {
+  "id": "copernicus-cde-2027",
+  "kind": "academic",
+  "label": "ERASMUS MUNDUS",
+  "kicker": "GET PAID",
+  "hero": "1f6f0",
+  "badges": [
+   "1f1ea-1f1fa",
+   "1f30d",
+   "1f4b5"
+  ],
+  "title": "Copernicus Master in Digital Earth",
+  "highlight": "€1,400/MONTH",
+  "highlightLabel": "TO STUDY SATELLITES & MAPS",
+  "subtitle": "Erasmus Mundus master in geodata, AI & Earth observation, in Europe",
+  "host": "Copernicus Master in Digital Earth consortium",
+  "location": "Austria / France / Czechia",
+  "deadlineISO": "2027-01-22",
+  "deadline": "22 Jan 2027, 23:59 CET",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "€1,400 monthly scholarship"
+   },
+   {
+    "e": "1f3eb",
+    "t": "Fee waiver for top students"
+   },
+   {
+    "e": "1f6f0",
+    "t": "Satellite data, AI & geo-tech"
+   },
+   {
+    "e": "1f30d",
+    "t": "Open to candidates worldwide"
+   }
+  ],
+  "eligibility": [
+   "Degree in geospatial or related field",
+   "All nationalities",
+   "English proficiency",
+   "Strong academic record"
+  ],
+  "steps": [
+   "Open master-cde.eu admissions",
+   "Read the Edition 4 call",
+   "Prepare documents & motivation",
+   "Apply by 22 Jan 2027"
+  ],
+  "link": "master-cde.eu",
+  "sources": [
+   "https://master-cde.eu/admission/procedures-deadlines/calls/"
+  ],
+  "tags": [
+   "#erasmusmundus",
+   "#scholarship",
+   "#studyineurope",
+   "#geospatial",
+   "#fullyfunded"
+  ],
+  "verified": true
+ },
+ {
+  "id": "reddit-gotd-hackathon",
+  "kind": "earn",
+  "label": "GAME HACKATHON",
+  "kicker": "BUILD A GAME, WIN CASH",
+  "hero": "1f3af",
+  "badges": [
+   "1f4b0",
+   "1f3c6",
+   "1f4bb"
+  ],
+  "title": "Reddit Game of the Day Hackathon",
+  "highlight": "$35,000",
+  "highlightLabel": "IN CASH PRIZES",
+  "subtitle": "Build a daily game that runs on Reddit with Devvit Web",
+  "host": "Reddit (via Devpost)",
+  "location": "Online · global",
+  "deadlineISO": "2026-12-08",
+  "deadline": "8 Dec 2026, 6:00 PM PST",
+  "perks": [
+   {
+    "e": "1f3c6",
+    "t": "Best Daily Game: $15,000"
+   },
+   {
+    "e": "1f3c5",
+    "t": "Best Ported Game: $6,000"
+   },
+   {
+    "e": "2b50",
+    "t": "10 Honorable Mentions: $1,000 each"
+   },
+   {
+    "e": "1f4b5",
+    "t": "Helper & feedback awards too"
+   }
+  ],
+  "eligibility": [
+   "Age of majority in your country",
+   "Open to most countries",
+   "Game must be built on Devvit Web",
+   "No need to publish during the event"
+  ],
+  "steps": [
+   "Open redditgameofday2026.devpost.com",
+   "Register for the hackathon",
+   "Build your daily game on Devvit Web",
+   "Submit by 8 Dec, 6 PM PST"
+  ],
+  "link": "redditgameofday2026.devpost.com",
+  "sources": [
+   "https://redditgameofday2026.devpost.com/"
+  ],
+  "tags": [
+   "#hackathon",
+   "#gamedev",
+   "#reddit",
+   "#makemoneyonline",
+   "#coding"
+  ],
+  "verified": true
+ },
+ {
+  "id": "mindrift-ai-2026",
+  "kind": "earn",
+  "label": "AI TRAINING JOBS",
+  "kicker": "EARN FROM HOME",
+  "hero": "1f916",
+  "badges": [
+   "1f4b5",
+   "1f3e0",
+   "1f4bb"
+  ],
+  "title": "Train AI with Mindrift",
+  "highlight": "$15–$100+/HR",
+  "highlightLabel": "DEPENDING ON PROJECT & SKILLS",
+  "subtitle": "Freelance AI training projects: writing, coding, expert tasks",
+  "host": "Mindrift",
+  "location": "Remote · open worldwide",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: join any time",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "From ~$15 to $100+/hr by project"
+   },
+   {
+    "e": "1f4bb",
+    "t": "Coding projects listed $32–$90+/hr"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Paid bi-weekly"
+   },
+   {
+    "e": "1f3e0",
+    "t": "Remote, no fixed hours"
+   }
+  ],
+  "eligibility": [
+   "Free to join, never pay a fee",
+   "Expert projects: CV + assessment",
+   "All-access tasks: no CV needed",
+   "ID verification required"
+  ],
+  "steps": [
+   "Open mindrift.ai",
+   "Register or apply with your CV",
+   "Pass assessments & verify ID",
+   "Do tasks, get paid bi-weekly"
+  ],
+  "link": "mindrift.ai",
+  "sources": [
+   "https://mindrift.ai/",
+   "https://mindrift.ai/how",
+   "https://mindrift.ai/blog/open-mindrift"
+  ],
+  "tags": [
+   "#remotework",
+   "#ai",
+   "#makemoneyonline",
+   "#sidehustle",
+   "#freelance"
+  ],
+  "verified": true
+ },
+ {
+  "id": "respondent-2026",
+  "kind": "earn",
+  "label": "PAID RESEARCH",
+  "kicker": "GET PAID FOR YOUR OPINION",
+  "hero": "1f4ac",
+  "badges": [
+   "1f4b5",
+   "1f4bb",
+   "1f3a4"
+  ],
+  "title": "Paid Studies on Respondent",
+  "highlight": "$50–$400+",
+  "highlightLabel": "TYPICAL STUDY PAYOUTS",
+  "subtitle": "Join interviews, focus groups & tests run by researchers",
+  "host": "Respondent",
+  "location": "Remote · studies vary by country",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: new studies daily",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Most studies: $50–$400+"
+   },
+   {
+    "e": "1f3a4",
+    "t": "Focus groups: ~$150–$350+"
+   },
+   {
+    "e": "1f4dd",
+    "t": "Surveys: ~$10–$75"
+   },
+   {
+    "e": "1f3e0",
+    "t": "Online or in person"
+   }
+  ],
+  "eligibility": [
+   "Create a free profile",
+   "Match each study's screener",
+   "Be honest in screeners",
+   "Studies depend on your profile"
+  ],
+  "steps": [
+   "Open respondent.io",
+   "Sign up as a participant",
+   "Apply to studies that fit you",
+   "Join the session, get paid"
+  ],
+  "link": "respondent.io",
+  "sources": [
+   "https://www.respondent.io/become-a-participant"
+  ],
+  "tags": [
+   "#makemoneyonline",
+   "#sidehustle",
+   "#remotework",
+   "#paidstudies"
+  ],
+  "verified": true
+ },
+ {
+  "id": "hackout-2027",
+  "kind": "earn",
+  "label": "TEEN HACKATHON",
+  "kicker": "HIGH SCHOOL CODERS",
+  "hero": "1f4bb",
+  "badges": [
+   "1f4b0",
+   "1f30d",
+   "1f3c6"
+  ],
+  "title": "HackOut! 2027: Tech for Good",
+  "highlight": "$3,000",
+  "highlightLabel": "CASH PRIZES FOR TEENS",
+  "subtitle": "Online hackathon for high school students worldwide",
+  "host": "BranchOut! (via Devpost)",
+  "location": "Online · any country (where allowed)",
+  "deadlineISO": "2026-12-07",
+  "countdownISO": "2026-12-07",
+  "deadline": "Register by 7 Dec 2026 · build 1–31 Jan 2027",
+  "perks": [
+   {
+    "e": "1f3c6",
+    "t": "$1,000 Grand Prize"
+   },
+   {
+    "e": "1f3c5",
+    "t": "Five $300 category prizes"
+   },
+   {
+    "e": "2b50",
+    "t": "$500 Community Impact Award"
+   },
+   {
+    "e": "1f30d",
+    "t": "Students from any country"
+   }
+  ],
+  "eligibility": [
+   "Ages 13 to 18",
+   "In grades 9–12 through 31 Jan 2027",
+   "Teams of 2 to 4",
+   "Register + form by 7 Dec 2026"
+  ],
+  "steps": [
+   "Open hackout-branchout.devpost.com",
+   "Register + fill the BranchOut! form",
+   "Form a team of 2–4",
+   "Build 1–31 Jan 2027 & submit"
+  ],
+  "link": "hackout-branchout.devpost.com",
+  "sources": [
+   "https://hackout-branchout.devpost.com/",
+   "https://hackout-branchout.devpost.com/rules"
+  ],
+  "tags": [
+   "#hackathon",
+   "#students",
+   "#coding",
+   "#techforgood"
+  ],
+  "verified": true
+ },
+ {
+  "id": "userinterviews-2026",
+  "kind": "earn",
+  "label": "PAID STUDIES",
+  "kicker": "SHARE YOUR OPINION",
+  "hero": "1f3a4",
+  "badges": [
+   "1f4b5",
+   "1f381",
+   "1f4bb"
+  ],
+  "title": "Paid Studies on User Interviews",
+  "highlight": "$45+",
+  "highlightLabel": "AVERAGE PER STUDY (THEY SAY)",
+  "subtitle": "Get paid for surveys, interviews & product tests",
+  "host": "User Interviews",
+  "location": "Remote · studies vary by country",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: join any time",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Average study pays over $45"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Online studies: $20 to $1,500+"
+   },
+   {
+    "e": "1f381",
+    "t": "Paid via gift cards or researcher"
+   },
+   {
+    "e": "1f3e0",
+    "t": "30 mins to several days"
+   }
+  ],
+  "eligibility": [
+   "Free participant profile",
+   "Qualify through screeners",
+   "Honest answers",
+   "Availability varies by country"
+  ],
+  "steps": [
+   "Open userinterviews.com",
+   "Create a participant profile",
+   "Apply to matching studies",
+   "Complete it, receive your incentive"
+  ],
+  "link": "userinterviews.com",
+  "sources": [
+   "https://www.userinterviews.com/hello",
+   "https://www.userinterviews.com/support/incentive-payments"
+  ],
+  "tags": [
+   "#makemoneyonline",
+   "#sidehustle",
+   "#paidstudies",
+   "#remotework"
+  ],
+  "verified": true
+ },
+ {
+  "id": "name-that-llm-kaggle",
+  "kind": "earn",
+  "label": "KAGGLE CHALLENGE",
+  "kicker": "ML COMPETITION",
+  "hero": "1f9e0",
+  "badges": [
+   "1f4b0",
+   "1f916",
+   "1f3c6"
+  ],
+  "title": "Kaggle: Name That LLM",
+  "highlight": "$50,000",
+  "highlightLabel": "PRIZE POOL",
+  "subtitle": "A machine-learning competition about large language models",
+  "host": "Kaggle",
+  "location": "Online · Kaggle",
+  "deadlineISO": "2027-01-13",
+  "countdownISO": "2027-01-06",
+  "deadline": "Join by 6 Jan · final 13 Jan 2027",
+  "perks": [
+   {
+    "e": "1f4b0",
+    "t": "$50,000 total prizes"
+   },
+   {
+    "e": "1f4bb",
+    "t": "Free Kaggle notebooks & GPUs"
+   },
+   {
+    "e": "1f4c8",
+    "t": "Public leaderboard"
+   },
+   {
+    "e": "2b50",
+    "t": "Great for your CV"
+   }
+  ],
+  "eligibility": [
+   "Free Kaggle account",
+   "Python / ML skills help",
+   "Solo or team",
+   "Check the rules for your country"
+  ],
+  "steps": [
+   "Search 'Name That LLM' on Kaggle",
+   "Accept the rules by 6 Jan",
+   "Build in a Kaggle notebook",
+   "Final submission by 13 Jan 2027"
+  ],
+  "link": "kaggle.com/competitions/name-that-llm",
+  "sources": [
+   "https://www.kaggle.com/competitions/name-that-llm"
+  ],
+  "tags": [
+   "#kaggle",
+   "#machinelearning",
+   "#ai",
+   "#datascience"
+  ],
+  "verified": true
+ },
+ {
+  "id": "clickworker-2026",
+  "kind": "earn",
+  "label": "MICRO JOBS",
+  "kicker": "SMALL TASKS, REAL PAY",
+  "hero": "1f4f1",
+  "badges": [
+   "1f4b5",
+   "1f4bb",
+   "1f3e0"
+  ],
+  "title": "Micro Tasks on Clickworker",
+  "highlight": "PER TASK",
+  "highlightLabel": "PAID WEEKLY: PAYPAL, PAYONEER & MORE",
+  "subtitle": "Text, survey, photo & data tasks from home",
+  "host": "clickworker",
+  "location": "Remote · where you're allowed to work",
+  "deadlineISO": "2027-12-31",
+  "deadline": "Rolling: register any time",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Fee shown before each task"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Weekly payouts"
+   },
+   {
+    "e": "1f4b3",
+    "t": "PayPal $10 / Payoneer $20 minimum"
+   },
+   {
+    "e": "1f3e0",
+    "t": "Work any time you want"
+   }
+  ],
+  "eligibility": [
+   "Free registration",
+   "Allowed to work where you live",
+   "Pass short qualification tests",
+   "Browser + internet"
+  ],
+  "steps": [
+   "Open clickworker.com",
+   "Register as a Clickworker",
+   "Do the qualification tests",
+   "Complete tasks, get paid weekly"
+  ],
+  "link": "clickworker.com",
+  "sources": [
+   "https://www.clickworker.com/clickworker/",
+   "https://support-workplace.clickworker.com/support/solutions/articles/80000672346-how-do-i-get-paid-for-my-work-"
+  ],
+  "tags": [
+   "#makemoneyonline",
+   "#sidehustle",
+   "#workfromhome",
+   "#microtasks"
+  ],
+  "verified": true
+ },
+ {
+  "id": "open-agentic-web",
+  "kind": "earn",
+  "label": "AI HACKATHON",
+  "kicker": "BUILD AI AGENTS",
+  "hero": "1f916",
+  "badges": [
+   "1f4b0",
+   "1f310",
+   "1f3c6"
+  ],
+  "title": "Open Agentic Web Challenge",
+  "highlight": "$10,000",
+  "highlightLabel": "IN CASH PRIZES",
+  "subtitle": "Help build the first pages of the open agentic web",
+  "host": "Cognizant (via Devpost)",
+  "location": "Online · global",
+  "deadlineISO": "2027-01-11",
+  "deadline": "11 Jan 2027, 8:00 AM PST",
+  "perks": [
+   {
+    "e": "1f4b0",
+    "t": "$10,000 cash prize pool"
+   },
+   {
+    "e": "1f916",
+    "t": "Build real AI agent projects"
+   },
+   {
+    "e": "1f30d",
+    "t": "Open to most countries"
+   },
+   {
+    "e": "2b50",
+    "t": "Portfolio-ready project"
+   }
+  ],
+  "eligibility": [
+   "Age of majority in your country",
+   "Most countries/territories",
+   "Check the official rules",
+   "Solo or team (see rules)"
+  ],
+  "steps": [
+   "Open cognizant-agenticweb.devpost.com",
+   "Register for the challenge",
+   "Build your agentic web project",
+   "Submit by 11 Jan 2027, 8 AM PST"
+  ],
+  "link": "cognizant-agenticweb.devpost.com",
+  "sources": [
+   "https://cognizant-agenticweb.devpost.com/"
+  ],
+  "tags": [
+   "#hackathon",
+   "#ai",
+   "#aiagents",
+   "#coding"
+  ],
+  "verified": true
+ },
+ {
+  "id": "ellison-oxford-2027",
+  "kind": "academic",
+  "label": "OXFORD DPhil",
+  "kicker": "STUDY AT OXFORD",
+  "hero": "1f3db",
+  "badges": [
+   "1f1ec-1f1e7",
+   "1f393",
+   "1f52c"
+  ],
+  "title": "Graduate Ellison Scholars, Oxford",
+  "highlight": "DPhil",
+  "highlightLabel": "ELLISON INSTITUTE SCHOLARSHIP",
+  "subtitle": "DPhil scholarships at Oxford in selected research areas",
+  "host": "Ellison Institute of Technology & Oxford",
+  "location": "Oxford, United Kingdom",
+  "deadlineISO": "2026-12-01",
+  "deadline": "1 Dec 2026, 5:00 PM UK time",
+  "perks": [
+   {
+    "e": "1f393",
+    "t": "DPhil (PhD) at the University of Oxford"
+   },
+   {
+    "e": "1f52c",
+    "t": "Pathogens, life-science materials, plants, economics"
+   },
+   {
+    "e": "2b50",
+    "t": "Join the Ellison Scholars cohort"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Results expected April 2027"
+   }
+  ],
+  "eligibility": [
+   "Meet Oxford's entry requirements",
+   "DPhil project in a listed area",
+   "Apply via the EIT portal",
+   "Generative Biology DTP: 6 Jan 2027"
+  ],
+  "steps": [
+   "Open ellisonscholars.eit.org/graduate",
+   "Check the eligible research areas",
+   "Complete the EIT application",
+   "Submit by 1 Dec, 5 PM UK time"
+  ],
+  "link": "ellisonscholars.eit.org/graduate",
+  "sources": [
+   "https://ellisonscholars.eit.org/graduate",
+   "https://eit.org/news/applications-now-open-for-graduate-ellison-scholars-programme"
+  ],
+  "tags": [
+   "#oxford",
+   "#phd",
+   "#scholarship",
+   "#studyinuk"
+  ],
+  "verified": true
+ },
+ {
+  "id": "tudelft-excellence-2027",
+  "kind": "academic",
+  "label": "MASTER'S SCHOLARSHIP",
+  "kicker": "STUDY IN THE NETHERLANDS",
+  "hero": "1f3eb",
+  "badges": [
+   "1f30d",
+   "1f393",
+   "1f4b5"
+  ],
+  "title": "TU Delft Justus & Louise van Effen Excellence",
+  "highlight": "TUITION + LIVING",
+  "highlightLabel": "FOR TOP INTERNATIONAL MSc STUDENTS",
+  "subtitle": "Full tuition plus a living-cost contribution at TU Delft",
+  "host": "TU Delft",
+  "location": "Delft, Netherlands",
+  "deadlineISO": "2026-12-01",
+  "deadline": "1 Dec 2026, 23:59 CET",
+  "perks": [
+   {
+    "e": "1f3eb",
+    "t": "Full tuition fees covered"
+   },
+   {
+    "e": "1f4b5",
+    "t": "Contribution to living costs"
+   },
+   {
+    "e": "1f393",
+    "t": "2-year TU Delft MSc"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Results by end of March 2027"
+   }
+  ],
+  "eligibility": [
+   "International (non-EEA) applicant",
+   "Top ~10% of your class (guide)",
+   "Admitted to a 2-year TU Delft MSc",
+   "1 reference letter by the deadline"
+  ],
+  "steps": [
+   "Apply to a 2-year TU Delft MSc",
+   "Fill the scholarship form",
+   "Upload 1 reference letter",
+   "All in by 1 Dec, 23:59 CET"
+  ],
+  "link": "tudelft.nl",
+  "sources": [
+   "https://www.tudelft.nl/onderwijs/studievoorlichting/praktische-zaken/scholarships/justus-louise-van-effen-excellence-scholarships"
+  ],
+  "tags": [
+   "#scholarship",
+   "#studyabroad",
+   "#netherlands",
+   "#masters"
+  ],
+  "verified": true
+ },
+ {
+  "id": "warwick-cis-2027",
+  "kind": "academic",
+  "label": "FUNDED PhD",
+  "kicker": "STUDY IN THE UK",
+  "hero": "1f393",
+  "badges": [
+   "1f1ec-1f1e7",
+   "1f4b5",
+   "1f3eb"
+  ],
+  "title": "Warwick Chancellor's International Scholarship",
+  "highlight": "FEES + STIPEND",
+  "highlightLabel": "UP TO 3.5 YEARS OF PhD",
+  "subtitle": "Full tuition and a maintenance stipend for top international PhD applicants",
+  "host": "University of Warwick",
+  "location": "Coventry, United Kingdom",
+  "deadlineISO": "2026-12-07",
+  "deadline": "7 Dec 2026 (2027 entry)",
+  "perks": [
+   {
+    "e": "1f3eb",
+    "t": "Full tuition fees"
+   },
+   {
+    "e": "1f4b5",
+    "t": "Maintenance stipend"
+   },
+   {
+    "e": "1f4c5",
+    "t": "Up to 3.5 years full-time"
+   },
+   {
+    "e": "1f52c",
+    "t": "PhD at the University of Warwick"
+   }
+  ],
+  "eligibility": [
+   "International PhD applicant",
+   "Outstanding academic record",
+   "Applying for 2027 entry",
+   "Check your department's own date"
+  ],
+  "steps": [
+   "Find a Warwick PhD & supervisor",
+   "Apply for the PhD",
+   "Tick/apply for the CIS award",
+   "Before 7 Dec 2026"
+  ],
+  "link": "warwick.ac.uk",
+  "sources": [
+   "https://warwick.ac.uk/services/academicoffice/gsp/scholarships_and_funding/chancellors_int",
+   "https://warwick.ac.uk/services/dc/schols_fund/new/cistc/"
+  ],
+  "tags": [
+   "#phd",
+   "#scholarship",
+   "#studyinuk",
+   "#fullyfunded"
+  ],
+  "verified": true
+ },
+ {
+  "id": "noha-erasmus-2027",
+  "kind": "academic",
+  "label": "ERASMUS MUNDUS",
+  "kicker": "HUMANITARIAN ACTION",
+  "hero": "1f30d",
+  "badges": [
+   "1f1ea-1f1fa",
+   "1f4b5",
+   "1f393"
+  ],
+  "title": "NOHA Erasmus Mundus Master",
+  "highlight": "€1,400/MONTH",
+  "highlightLabel": "FOR 24 MONTHS",
+  "subtitle": "Joint master's in International Humanitarian Action across Europe",
+  "host": "NOHA Network on Humanitarian Action",
+  "location": "Europe (partner universities)",
+  "deadlineISO": "2026-12-15",
+  "deadline": "15 Dec 2026, 23:59 GMT (scholarship)",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "€1,400 a month, up to 24 months"
+   },
+   {
+    "e": "1f30d",
+    "t": "Study in multiple European countries"
+   },
+   {
+    "e": "1f393",
+    "t": "Joint master's degree"
+   },
+   {
+    "e": "2b50",
+    "t": "8 scholarships for Partner Countries"
+   }
+  ],
+  "eligibility": [
+   "Bachelor's degree",
+   "Interest in humanitarian work",
+   "All nationalities",
+   "Scholarship window: 1 Oct–15 Dec"
+  ],
+  "steps": [
+   "Open apply.nohanet.org",
+   "Fill the NOHA application",
+   "Tick the Erasmus Mundus scholarship",
+   "Submit by 15 Dec 2026, 23:59 GMT"
+  ],
+  "link": "nohanet.org/masters",
+  "sources": [
+   "https://www.nohanet.org/masters"
+  ],
+  "tags": [
+   "#erasmusmundus",
+   "#scholarship",
+   "#studyineurope",
+   "#humanitarian"
+  ],
+  "verified": true
+ },
+ {
+  "id": "kaust-2027",
+  "kind": "academic",
+  "label": "MS & PhD FELLOWSHIP",
+  "kicker": "STUDY IN SAUDI ARABIA",
+  "hero": "1f52c",
+  "badges": [
+   "1f4b5",
+   "1f393",
+   "2708"
+  ],
+  "title": "KAUST Fellowship (MS & PhD)",
+  "highlight": "$20,000/YEAR",
+  "highlightLabel": "MS STIPEND · PhD $25K–$30K",
+  "subtitle": "Science & engineering graduate study with tuition covered",
+  "host": "King Abdullah University of Science and Technology",
+  "location": "Thuwal, Saudi Arabia",
+  "deadlineISO": "2027-01-03",
+  "deadline": "Round 2: 3 Jan 2027 (Fall 2027 entry)",
+  "perks": [
+   {
+    "e": "1f3eb",
+    "t": "Tuition covered"
+   },
+   {
+    "e": "1f4b5",
+    "t": "MS stipend: $20,000 a year"
+   },
+   {
+    "e": "1f393",
+    "t": "PhD stipend: $25,000–$30,000 a year"
+   },
+   {
+    "e": "1f52c",
+    "t": "World-class science labs"
+   }
+  ],
+  "eligibility": [
+   "Bachelor's (MS) or Master's/Bachelor's (PhD)",
+   "Science or engineering background",
+   "Open to international students",
+   "Dates are tentative: check site"
+  ],
+  "steps": [
+   "Open admissions.kaust.edu.sa",
+   "Pick your program",
+   "Submit the online application",
+   "Before 3 Jan 2027 (Round 2)"
+  ],
+  "link": "admissions.kaust.edu.sa",
+  "sources": [
+   "https://admissions.kaust.edu.sa/how-to-apply/admission-timelines",
+   "https://admissions.kaust.edu.sa/fees-funding"
+  ],
+  "tags": [
+   "#scholarship",
+   "#phd",
+   "#masters",
+   "#saudiarabia",
+   "#stem"
+  ],
+  "verified": true
+ },
+ {
+  "id": "eiffel-2027",
+  "kind": "academic",
+  "label": "FRENCH GOVERNMENT",
+  "kicker": "STUDY IN FRANCE",
+  "hero": "1f3db",
+  "badges": [
+   "1f4b5",
+   "1f393",
+   "2708"
+  ],
+  "title": "France Excellence Eiffel Scholarship",
+  "highlight": "€1,200/MONTH",
+  "highlightLabel": "MASTER'S · PhD €2,000/MONTH",
+  "subtitle": "French government scholarship for master's and PhD students",
+  "host": "Campus France / French Ministry",
+  "location": "France",
+  "deadlineISO": "2027-01-06",
+  "deadline": "Universities submit by 6 Jan 2027",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "Master's: €1,200 a month"
+   },
+   {
+    "e": "1f393",
+    "t": "PhD: €2,000 a month"
+   },
+   {
+    "e": "1f4c5",
+    "t": "PhD: 12, 18 or 36 months"
+   },
+   {
+    "e": "2b50",
+    "t": "Prestigious government award"
+   }
+  ],
+  "eligibility": [
+   "Master's: up to 29 years old",
+   "PhD: up to 35 years old",
+   "Your French university applies for you",
+   "Tuition not covered"
+  ],
+  "steps": [
+   "Apply to a French master's/PhD",
+   "Ask the university to nominate you",
+   "Meet the university's earlier date",
+   "Campus France deadline: 6 Jan 2027"
+  ],
+  "link": "campusfrance.org",
+  "sources": [
+   "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
+   "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-implementation"
+  ],
+  "tags": [
+   "#scholarship",
+   "#studyinfrance",
+   "#masters",
+   "#phd"
+  ],
+  "verified": true
+ },
+ {
+  "id": "utrecht-nl-2027",
+  "kind": "academic",
+  "label": "MASTER'S SCHOLARSHIP",
+  "kicker": "STUDY IN THE NETHERLANDS",
+  "hero": "1f3eb",
+  "badges": [
+   "1f4b5",
+   "1f393",
+   "1f30d"
+  ],
+  "title": "NL Scholarship at Utrecht University",
+  "highlight": "€5K–€15K",
+  "highlightLabel": "FOR NON-EEA MASTER'S STUDENTS",
+  "subtitle": "Partial scholarship for international master's at Utrecht",
+  "host": "Utrecht University",
+  "location": "Utrecht, Netherlands",
+  "deadlineISO": "2027-02-01",
+  "deadline": "1 Feb 2027, 23:59 CET",
+  "perks": [
+   {
+    "e": "1f4b5",
+    "t": "€5,000, €10,000 or €15,000"
+   },
+   {
+    "e": "1f393",
+    "t": "International master's, Sept 2027"
+   },
+   {
+    "e": "1f30d",
+    "t": "For non-EEA students"
+   },
+   {
+    "e": "2b50",
+    "t": "One of Europe's top universities"
+   }
+  ],
+  "eligibility": [
+   "Non-EEA nationality",
+   "Applied to a participating master's",
+   "Start date 1 Sept 2027",
+   "Show how you'll cover the rest"
+  ],
+  "steps": [
+   "Apply to a Utrecht master's",
+   "Check it participates in NL Scholarship",
+   "Submit the scholarship application",
+   "Before 1 Feb 2027, 23:59 CET"
+  ],
+  "link": "uu.nl/en/masters",
+  "sources": [
+   "https://www.uu.nl/en/masters/general-information/application-and-admission/scholarships-and-grants/nl-scholarship"
+  ],
+  "tags": [
+   "#scholarship",
+   "#studyabroad",
+   "#netherlands",
+   "#masters"
+  ],
+  "verified": true
+ }
 ]
