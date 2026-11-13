@@ -1,0 +1,219 @@
+{
+  "id": "q-2026-11-28-a",
+  "date": "2026-11-28",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Zara's first stipend",
+  "caption": "First stipend abroad hits your account 🤑 ... and disappears in 3 days 😭 Rent first, then food and transport, then savings. Zara learns budgeting the hard way. Save this 📌 #studentlife #budget #studyabroad #money",
+  "cast": {
+    "zara": {
+      "name": "Zara",
+      "color": "#A78BFA",
+      "voice": "en_GB-cori-high",
+      "look": "girl-puff",
+      "hair": "#1A1110",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "WEEKEND · SHOPPING STREET",
+      "backdrop": "busy European shopping street with shop windows and shopping bags",
+      "at": {
+        "zara": [
+          -0.2,
+          0,
+          0.3,
+          0.2
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "STIPEND GONE IN 3 DAYS?!",
+          "sub": "ZARA & QUDDUS",
+          "who": "zara",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "zara",
+          "text": "Quddus! My first stipend arrived! I bought boots, a coat, three bags, and a lamp shaped like a cat.",
+          "say": "Kuddus! My first stipend arrived! I bought boots, a coat, three bags, and a lamp shaped like a cat.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Nice lamp. Have you paid your rent?",
+          "act": "wave",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.2
+            ],
+            "zara": [
+              -0.75,
+              0,
+              0.4
+            ]
+          },
+          "shot": "two"
+        },
+        {
+          "who": "zara",
+          "say": "Rent... is this month?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Every month, Zara. Let's make a budget before the cat lamp eats your stipend.",
+          "act": "facepalm",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "living",
+      "place": "THAT NIGHT · STUDENT ROOM",
+      "backdrop": "small student room at night with a desk, a cat-shaped lamp and a calculator",
+      "at": {
+        "zara": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "zara",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "say": "Pay the fixed things first: rent, phone, transport pass. Then food. Then fun.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4b0",
+            "title": "SIMPLE BUDGET",
+            "lines": [
+              "1f3e0|Rent + bills first",
+              "1f354|Food + transport",
+              "1f4b8|Fun money, with a limit",
+              "1f4c8|Savings, even a little"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "How do I stop overspending?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Write down everything you spend for one month. Cook more, buy second-hand, and use student discounts.",
+          "act": "point",
+          "shot": "close"
+        },
+        {
+          "who": "zara",
+          "say": "And if there's an emergency?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "That's why you save a little every month. Even small savings become a safety net.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "zara",
+          "say": "Budget done. Cat lamp stays. Fourth bag goes back to the shop!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "zara": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment your biggest student expense.",
+          "say": "Save this, and comment your biggest student expense.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Needs first, wants later",
+              "1f4b0|Save a little every month"
+            ]
+          }
+        },
+        {
+          "who": "zara",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more student life tips!",
+          "text": "Follow for more student life tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

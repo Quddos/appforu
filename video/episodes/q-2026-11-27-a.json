@@ -1,0 +1,213 @@
+{
+  "id": "q-2026-11-27-a",
+  "date": "2026-11-27",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Tomy's scholarship interview",
+  "caption": "Shortlisted for a scholarship interview? 🎉 Know your story, connect it to their mission, give examples, and prepare questions. Tomy practises with Quddus. Save this 📌 #scholarship #interview #studyabroad #storytime",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "campus",
+      "place": "MORNING · CAMPUS LAWN",
+      "backdrop": "bright campus lawn with students, trees and a modern building",
+      "at": {
+        "tomy": [
+          -0.2,
+          0,
+          0.3,
+          0.2
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "SHORTLISTED! NOW WHAT?",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus! I'm shortlisted for the interview! And I'm already sweating.",
+          "say": "Kuddus! I'm shortlisted for the interview! And I'm already sweating.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Congratulations! The hard part is done. Now let's practise. Tell me about yourself.",
+          "act": "wave",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.2
+            ],
+            "tomy": [
+              -0.75,
+              0,
+              0.4
+            ]
+          },
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "say": "Well, I was born on a Tuesday...",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Start with what matters to them. Who you are, what you've done, and where you're going, in one minute.",
+          "act": "facepalm",
+          "card": {
+            "icon": "1f4ac",
+            "title": "TELL ME ABOUT YOURSELF",
+            "lines": [
+              "1f9d1-200d-1f4bb|Who you are now",
+              "1f4c8|1 or 2 things you achieved",
+              "1f680|Your goal + why this scholarship"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "LATER · MOCK INTERVIEW ROOM",
+      "backdrop": "interview room with a table, two chairs and a window",
+      "at": {
+        "tomy": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "who": "tomy",
+          "say": "What else will they ask?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Why this program, how you'll use it back home, and a time you solved a problem. Use real examples.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "PREPARE",
+            "lines": [
+              "1f3af|Why this program",
+              "1f30d|Your impact after",
+              "1f4a1|A real problem you solved",
+              "2753|2 questions for them"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "And if they ask, do you have any questions?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Always have two good questions ready. About the community, mentoring, or opportunities.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "say": "One-minute story ready. Questions ready. Tuesday story deleted!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment the hardest interview question you've ever had.",
+          "say": "Save this, and comment the hardest interview question you've ever had.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Practise out loud",
+              "1f4a1|Prepare 2 questions for them"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more scholarship tips!",
+          "text": "Follow for more scholarship tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

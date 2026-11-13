@@ -1,0 +1,201 @@
+{
+  "id": "q-2026-11-19-b",
+  "date": "2026-11-19",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "How many hours can students work abroad?",
+  "caption": "Can you work while studying abroad? Usually yes, but there are limits ⏰ UK ~20 hrs/week in term, Canada 24 hrs/week off-campus, Australia 48 hrs per fortnight, Germany 140 full or 280 half days a year. Rules change: always check the official site! #studyabroad #studentvisa #parttimejob",
+  "cast": {
+    "zara": {
+      "name": "Zara",
+      "color": "#A78BFA",
+      "voice": "en_GB-cori-high",
+      "look": "girl-puff",
+      "hair": "#1A1110",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "NIGHT · CITY CENTER",
+      "backdrop": "lively city center at night with shops, cafés and lights",
+      "at": {
+        "zara": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "CAN YOU WORK WHILE STUDYING?",
+          "sub": "ZARA & QUDDUS",
+          "who": "zara",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "zara",
+          "text": "Quddus! When I get my visa, I'll work full time and study part time. Money, money, money!",
+          "say": "Kuddus! When I get my visa, I'll work full time and study part time. Money, money, money!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Zara, no! Student visas usually limit how many hours you can work during term.",
+          "mood": "shock",
+          "shot": "close"
+        },
+        {
+          "who": "zara",
+          "say": "Limits? How much?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "It depends on the country. Here are the common rules right now. But always check the official website, because rules change.",
+          "act": "talk",
+          "card": {
+            "icon": "23f0",
+            "title": "STUDENT WORK LIMITS",
+            "lines": [
+              "1f1ec-1f1e7|UK: about 20 hrs/week in term",
+              "1f30d|Canada: 24 hrs/week off-campus",
+              "1f30d|Australia: 48 hrs per fortnight",
+              "1f1ea-1f1fa|Germany: 140 full or 280 half days/yr"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "living",
+      "place": "LATER · SHARED APARTMENT",
+      "backdrop": "cozy shared student apartment living room with a sofa and city view",
+      "at": {
+        "zara": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "zara",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "who": "zara",
+          "say": "And during holidays?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Many countries allow more hours or full time during official breaks. Again, check the exact rule for your visa.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "zara",
+          "say": "What if I work a bit more than allowed? Nobody will know.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "They can find out through taxes and payroll. Breaking the rules can cost you your visa. It's not worth it.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "zara",
+          "say": "Study first, work smart, and stay legal. Got it!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "zara": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment the country you're dreaming of.",
+          "say": "Save this, and comment the country you're dreaming of.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Rules change: check official sites",
+              "1f6a8|Breaking work rules can cost your visa"
+            ]
+          }
+        },
+        {
+          "who": "zara",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more study abroad facts!",
+          "text": "Follow for more study abroad facts!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

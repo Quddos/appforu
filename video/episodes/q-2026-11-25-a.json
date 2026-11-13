@@ -1,0 +1,217 @@
+{
+  "id": "q-2026-11-25-a",
+  "date": "2026-11-25",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Zara builds for Codegeist",
+  "caption": "Build an app for Atlassian tools and win up to $15,000 💻 Codegeist 2026 has THREE 1st-place prizes of $15,000, plus bonuses for AI apps. Deadline 22 Dec 2026, 12 PM PT. Comment LINK 👇 #hackathon #coding #atlassian #developer",
+  "cast": {
+    "zara": {
+      "name": "Zara",
+      "color": "#A78BFA",
+      "voice": "en_GB-cori-high",
+      "look": "girl-puff",
+      "hair": "#1A1110",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "office",
+      "place": "NIGHT · DEV STUDIO",
+      "backdrop": "dark developer studio at night with code on multiple screens and neon lights",
+      "at": {
+        "zara": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "zara"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "title": "$15,000 FOR ONE APP?",
+          "sub": "ZARA & QUDDUS",
+          "who": "zara",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "zara",
+          "text": "Quddus, my team uses Jira every day and I have ten ideas to make it better.",
+          "say": "Kuddus, my team uses Jira every day and I have ten ideas to make it better.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Then build one. Atlassian's Codegeist hackathon is open right now.",
+          "act": "talk",
+          "card": {
+            "icon": "1f3c6",
+            "title": "CODEGEIST 2026",
+            "lines": [
+              "1f3c6|Three 1st-place prizes: $15,000",
+              "1f3c5|Runner-ups: $8,000 and $5,000",
+              "1f916|$1,500 bonuses for AI / Rovo apps"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "Three first places? So three people can win fifteen thousand?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "Yes, across different tracks. And there are bonus prizes for apps using AI.",
+          "say": "Yes, across different tracks. And there are bonus prizes for apps using A.I..",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "NEXT DAY · TECH CAFÉ",
+      "backdrop": "modern tech café with laptops and stickers on the walls",
+      "at": {
+        "zara": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "zara",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "zara",
+          "say": "What do I build with?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Atlassian Forge. It's free. You can work solo or with a team.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO ENTER",
+            "lines": [
+              "1f310|Register on the Devpost page",
+              "1f4bb|Build on Atlassian Forge",
+              "1f4cb|Check eligible countries in the rules",
+              "23f0|Submit by 22 Dec, 12 PM PT"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "Can anyone from any country join?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Check the eligible countries in the official rules first. Then start building.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "zara",
+          "say": "Idea number one: an app that reminds my team of deadlines with memes!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "zara": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link: codegeist2026.devpost.com",
+              "23f0|Deadline: 22 Dec 2026, 12 PM PT"
+            ]
+          }
+        },
+        {
+          "who": "zara",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

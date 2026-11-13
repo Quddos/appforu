@@ -1,0 +1,209 @@
+{
+  "id": "q-2026-11-18-a",
+  "date": "2026-11-18",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Musa practises his visa interview",
+  "caption": "Visa interview tomorrow? 😰 Be honest, know your program, show your funds, and explain your plans. Quddus helps Musa practise. Save this 📌 #visainterview #studentvisa #studyabroad #storytime",
+  "cast": {
+    "musa": {
+      "name": "Musa",
+      "color": "#4ADE80",
+      "voice": "en_GB-alan-medium",
+      "look": "guy-fade",
+      "hair": "#111111",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "office",
+      "place": "MOCK INTERVIEW · QUDDUS'S OFFICE",
+      "backdrop": "modern office with a desk, two chairs and a window with city view",
+      "at": {
+        "musa": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "VISA INTERVIEW TOMORROW?!",
+          "sub": "MUSA & QUDDUS",
+          "who": "musa",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "musa",
+          "text": "Quddus, my student visa interview is tomorrow. I'm shaking like a phone on vibrate.",
+          "say": "Kuddus, my student visa interview is tomorrow. I'm shaking like a phone on vibrate.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Okay. I'll be the officer. Why did you choose this university?",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "Because... it accepted me?",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Musa. Know your program. Name the course, why it fits your goals, and what you'll do after.",
+          "act": "facepalm",
+          "card": {
+            "icon": "2705",
+            "title": "KNOW YOUR STORY",
+            "lines": [
+              "1f393|Your exact program + university",
+              "1f3af|Why it fits your goals",
+              "1f680|Your plan after you graduate"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · QUIET CAFÉ",
+      "backdrop": "quiet café with soft lights and a few empty tables",
+      "at": {
+        "musa": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "musa",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "musa",
+          "say": "What else do they check?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "How you'll pay. Bring your admission letter, scholarship or sponsor letter, and bank statements that match your story.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4cb",
+            "title": "BRING THESE",
+            "lines": [
+              "1f4e9|Admission letter",
+              "1f4b0|Scholarship or sponsor proof",
+              "1f4b3|Bank statements",
+              "1f4cb|Passport + visa form"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "musa",
+          "say": "What if I don't know an answer?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Be honest. Never invent things. Short, clear, true answers beat long memorised speeches.",
+          "act": "thumbs",
+          "shot": "two"
+        },
+        {
+          "who": "musa",
+          "say": "Short. Clear. True. And no shaking. Officer, I'm ready!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "musa": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment VISA with the country you're applying to.",
+          "say": "Save this, and comment VISA with the country you're applying to.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Save before your interview",
+              "1f4cb|Bring every document, organised"
+            ]
+          }
+        },
+        {
+          "who": "musa",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more visa tips!",
+          "text": "Follow for more visa tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

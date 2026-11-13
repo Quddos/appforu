@@ -1,0 +1,219 @@
+{
+  "id": "q-2026-11-20-a",
+  "date": "2026-11-20",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Kemi and the Hong Kong PhD Fellowship",
+  "caption": "A PhD in Hong Kong with a monthly stipend + conference travel allowance, open to ANY nationality, and NO application fee 🇭🇰 Hong Kong PhD Fellowship deadline: 1 Dec 2026, 12 noon HKT. Comment LINK 👇 #phd #hongkong #scholarship #fullyfunded",
+  "cast": {
+    "kemi": {
+      "name": "Kemi",
+      "color": "#FACC15",
+      "voice": "en_US-amy-medium",
+      "look": "girl-braids",
+      "hair": "#1F1410",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "airport",
+      "place": "AIRPORT · CITY VIEW",
+      "backdrop": "modern Asian airport terminal with a view of a skyline and mountains",
+      "at": {
+        "kemi": [
+          -0.73,
+          0,
+          0.02,
+          0.3
+        ],
+        "quddus": [
+          0,
+          0,
+          0.02,
+          -0.3
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "seats"
+      ],
+      "beats": [
+        {
+          "title": "A PhD IN HONG KONG, PAID?",
+          "sub": "KEMI & QUDDUS",
+          "who": "kemi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "kemi",
+          "text": "Quddus, I want a PhD in Asia. Somewhere with big buildings and good food.",
+          "say": "Kuddus, I want a P.H.D. in Asia. Somewhere with big buildings and good food.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "Then look at Hong Kong. The Hong Kong PhD Fellowship.",
+          "say": "Then look at Hong Kong. The Hong Kong P.H.D. Fellowship.",
+          "act": "talk",
+          "card": {
+            "icon": "1f393",
+            "title": "HONG KONG PhD FELLOWSHIP",
+            "lines": [
+              "1f4b5|Monthly stipend for your PhD",
+              "2708|Conference & research travel allowance",
+              "1f3db|HKU, CUHK, HKUST and more"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "A stipend AND travel money for conferences?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Yes. And it's open to students of any nationality. No application fee.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "place": "NEXT DAY · UNIVERSITY LIBRARY",
+      "backdrop": "modern university library with glass walls and a harbour view",
+      "at": {
+        "kemi": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "kemi",
+          "say": "What are they looking for?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "An outstanding academic record, research ability, and leadership. And you must be applying for full-time PhD study.",
+          "say": "An outstanding academic record, research ability, and leadership. And you must be applying for full-time P.H.D. study.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "WHO CAN APPLY",
+            "lines": [
+              "1f30d|Any nationality",
+              "1f4c8|Outstanding academic record",
+              "1f52c|Research ability + leadership"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "And the deadline?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "December first, twelve noon, Hong Kong time. That's very soon. Start today.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "kemi",
+          "say": "Hong Kong, I'm bringing my research and my appetite!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "kemi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link: rgc.edu.hk/hkphd",
+              "23f0|Deadline: 1 Dec 2026, 12 noon HKT"
+            ]
+          }
+        },
+        {
+          "who": "kemi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

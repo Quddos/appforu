@@ -1,0 +1,192 @@
+{
+  "id": "q-2026-11-29-a",
+  "date": "2026-11-29",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Kemi feels homesick",
+  "caption": "First month abroad and missing home so much it hurts 🥹 You're not alone. Kemi's video call with Quddus will make you feel seen ❤️ Share it with someone far from home. #studyabroad #homesick #studentlife #storytime",
+  "cast": {
+    "kemi": {
+      "name": "Kemi",
+      "color": "#FACC15",
+      "voice": "en_US-amy-medium",
+      "look": "girl-braids",
+      "hair": "#1F1410",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "room",
+      "place": "SNOWY NIGHT · DORM ROOM",
+      "backdrop": "small dorm room at night with snow falling outside the window and warm lights",
+      "at": {
+        "kemi": [
+          0.1,
+          0,
+          0.4,
+          0.25
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "I MISS HOME SO MUCH",
+          "sub": "KEMI & QUDDUS",
+          "who": "kemi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "kemi",
+          "text": "Quddus, it's snowing, I'm cold, and I just cried because the shop doesn't sell my mum's pepper soup.",
+          "say": "Kuddus, it's snowing, I'm cold, and I just cried because the shop doesn't sell my mum's pepper soup.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Oh Kemi. Homesickness is real, and almost everyone feels it in the first months.",
+          "act": "talk",
+          "phone": true,
+          "shot": "close"
+        },
+        {
+          "who": "kemi",
+          "say": "Everyone here seems fine. Maybe I made a mistake coming.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Many of them are feeling the same thing, they just don't show it. It doesn't mean you made a mistake.",
+          "act": "talk",
+          "phone": true,
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "WEEKEND · INTERNATIONAL CAFÉ",
+      "backdrop": "cozy café with flags, warm lights and people chatting",
+      "at": {
+        "kemi": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "say": "Try this. Keep a small routine, join one student group, and find people from home and from everywhere else.",
+          "act": "point",
+          "card": {
+            "icon": "2b50",
+            "title": "WHEN YOU MISS HOME",
+            "lines": [
+              "1f4f1|Call home, but not all day",
+              "1f30d|Join one student group",
+              "1f35f|Find or cook food from home",
+              "1f4ac|Talk to student support"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "And if it gets really heavy?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Talk to your university's student support or counselling team. That's what they're there for.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "kemi",
+          "say": "I found an African students' group. They're cooking pepper soup on Saturday!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "kemi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Share this with someone far from home, and comment where you're studying.",
+          "say": "Share this with someone far from home, and comment where you're studying.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "YOU'RE NOT ALONE",
+            "lines": [
+              "1f4f1|Call home, but go out too",
+              "1f30d|Find your community"
+            ]
+          }
+        },
+        {
+          "who": "kemi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow, we're in this together!",
+          "text": "Follow, we're in this together!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

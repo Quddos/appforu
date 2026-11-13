@@ -1,0 +1,205 @@
+{
+  "id": "q-2026-11-20-b",
+  "date": "2026-11-20",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Ade upgrades his LinkedIn",
+  "caption": "Recruiters can't hire you if they can't find you 👀 A clear photo, a headline that says what you do, and an About section with real results. Save this 📌 #linkedin #remotejobs #career #jobsearch",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "cafe",
+      "place": "AFTERNOON · CAFÉ",
+      "backdrop": "cozy café with brick walls, plants and laptops",
+      "at": {
+        "ade": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "ade",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "title": "YOUR LINKEDIN IS INVISIBLE",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "text": "Quddus, my LinkedIn has twelve connections. Eight are my cousins.",
+          "say": "Kuddus, my LinkedIn has twelve connections. Eight are my cousins.",
+          "act": "shrug",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Let's see. Profile photo: you at a wedding, holding a chicken.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "It was a very good wedding.",
+          "act": "facepalm",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Use a clear photo of your face. Then fix your headline. Say what you do and who you help.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4bc",
+            "title": "QUICK FIXES",
+            "lines": [
+              "1f4f1|Clear, friendly photo",
+              "1f4cc|Headline: what you do + for whom",
+              "1f4dd|About: your story with results"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "LATER · HOME OFFICE",
+      "backdrop": "small home office with a desk, ring light and plants",
+      "at": {
+        "ade": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "ade"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "ade",
+          "say": "Headline: Data analyst, helping small businesses understand their sales.",
+          "act": "type",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Much better. Now add your projects, with links, and skills that match the jobs you want.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "Do I need to post?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Yes. Share what you're learning or building, once or twice a week. Recruiters notice people who show their work.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "say": "Chicken photo: retired. Professional Ade: online!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment your job title so I can suggest a headline.",
+          "say": "Save this, and comment your job title so I can suggest a headline.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Fix one section today",
+              "1f4bc|Post about your work"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more career tips!",
+          "text": "Follow for more career tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

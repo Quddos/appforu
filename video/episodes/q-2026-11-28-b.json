@@ -1,0 +1,209 @@
+{
+  "id": "q-2026-11-28-b",
+  "date": "2026-11-28",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Chidi joins Kiroween",
+  "caption": "A spooky AI hackathon with $30,000 for 1st place 🎃 Kiroween 2026: build with Kiro, the AI coding IDE. Free to enter, solo or team. Deadline 4 Dec 2026, 2 PM PT. Comment LINK 👇 #hackathon #ai #coding #developer",
+  "cast": {
+    "chidi": {
+      "name": "Chidi",
+      "color": "#F87171",
+      "voice": "en_US-bryce-medium",
+      "look": "guy",
+      "hair": "#1A1A1A",
+      "speed": 0.97
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "NIGHT · SPOOKY STREET",
+      "backdrop": "spooky city street at night with pumpkins, purple fog and glowing windows",
+      "at": {
+        "chidi": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "$30,000 HACKATHON, ENDS SOON",
+          "sub": "CHIDI & QUDDUS",
+          "who": "chidi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "chidi",
+          "text": "Quddus, why is this street so spooky? Are there ghosts?",
+          "say": "Kuddus, why is this street so spooky? Are there ghosts?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "Only bugs in your code. It's Kiroween, a hackathon where you build something wicked with Kiro, an AI coding tool.",
+          "say": "Only bugs in your code. It's Kiroween, a hackathon where you build something wicked with Kiro, an A.I. coding tool.",
+          "act": "talk",
+          "card": {
+            "icon": "1f383",
+            "title": "KIROWEEN 2026",
+            "lines": [
+              "1f3c6|1st place: $30,000 cash",
+              "1f3c5|2nd $20,000 · 3rd $10,000",
+              "2b50|$10,000 Best Startup Project"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "Thirty thousand dollars? I'll fight ten ghosts for that!",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "No ghosts needed. It's free to enter, solo or as a team.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "LATER · HACKER DEN",
+      "backdrop": "cozy developer den with pumpkins, code on screens and purple lights",
+      "at": {
+        "chidi": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "chidi"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "chidi",
+          "say": "Any rules?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Your project must be started after October thirtieth, built with Kiro, and you should check the official rules for your country.",
+          "act": "point",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO ENTER",
+            "lines": [
+              "1f310|Open kiroween.devpost.com",
+              "1f4bb|Build with Kiro",
+              "1f4c5|Project started after 30 Oct",
+              "23f0|Submit by 4 Dec, 2 PM PT"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "December fourth? That's soon!",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Then start small. One clear idea, a working demo, and a good video.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "chidi",
+          "say": "Building tonight. The only thing haunting me will be my deadline!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "chidi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link: kiroween.devpost.com",
+              "23f0|Deadline: 4 Dec 2026, 2 PM PT"
+            ]
+          }
+        },
+        {
+          "who": "chidi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

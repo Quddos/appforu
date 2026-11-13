@@ -1,0 +1,214 @@
+{
+  "id": "q-2026-11-17-b",
+  "date": "2026-11-17",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Ade trains AI with Outlier",
+  "caption": "Know a subject or speak a language well? Outlier pays people to train AI from home 🤖 Math & STEM experts up to $50/hr, language roles ~$6–$30/hr, paid weekly. Free to join. Comment LINK 👇 #remotework #ai #makemoneyonline #sidehustle",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "living",
+      "place": "NIGHT · ADE'S ROOM",
+      "backdrop": "cozy bedroom at night with a desk lamp, posters and a laptop",
+      "at": {
+        "ade": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "ade",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "title": "YOUR DEGREE CAN TRAIN AI",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "say": "I have a maths degree and I'm using it to calculate how long my data will last.",
+          "act": "facepalm",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "Then use it to train AI. Outlier pays experts to check and improve AI answers.",
+          "say": "Then use it to train A.I.. Outlier pays experts to check and improve A.I. answers.",
+          "act": "talk",
+          "card": {
+            "icon": "1f916",
+            "title": "OUTLIER",
+            "lines": [
+              "1f4b5|Math & STEM experts: up to $50/hr",
+              "1f4ac|Language roles: ~$6 to $30/hr",
+              "1f4c5|5 to 10 hrs a week, your schedule"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "Up to fifty dollars an hour for maths? Pythagoras is finally paying me back!",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "For expert roles, yes. Language roles pay less, and roles depend on your country.",
+          "act": "talk",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "NEXT DAY · STUDY ROOM",
+      "backdrop": "bright study room with a whiteboard full of maths and a laptop",
+      "at": {
+        "ade": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "ade"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "ade",
+          "say": "How do I join?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Sign up on outlier dot A.I., pick a role that matches your skills, and pass a short skills assessment.",
+          "act": "point",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO START",
+            "lines": [
+              "1f310|Open outlier.ai",
+              "1f4bc|Pick a role that fits you",
+              "1f4dd|Pass the skills assessment",
+              "1f4b0|Paid weekly: PayPal or AirTM"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "Do I need to pay to start?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Never. It's free. Anyone asking you for money to get a role is a scammer.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "say": "Assessment time. Pythagoras, don't fail me now!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link: outlier.ai",
+              "1f504|Rolling: new roles added often"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

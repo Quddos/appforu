@@ -1,0 +1,202 @@
+{
+  "id": "q-2026-11-30-a",
+  "date": "2026-11-30",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Tomy's December deadline calendar",
+  "caption": "December is DEADLINE month 📅 HK PhD Fellowship (1 Dec), Yale World Fellows (2 Dec), Warwick (7 Dec), Commonwealth Shared (8 Dec), MBZUAI & NOHA (15 Dec)... Save this calendar 📌 #scholarship #deadlines #studyabroad #fullyfunded",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "room",
+      "place": "NIGHT · TOMY'S ROOM",
+      "backdrop": "student bedroom at night with a big wall calendar, sticky notes and fairy lights",
+      "at": {
+        "tomy": [
+          0.1,
+          0,
+          0.4,
+          0.25
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "DECEMBER = DEADLINE MONTH",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus, it's November thirtieth. I have five scholarships open and my brain is a browser with fifty tabs.",
+          "say": "Kuddus, it's November thirtieth. I have five scholarships open and my brain is a browser with fifty tabs.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Let's make one calendar. Deadlines first, then work backwards.",
+          "act": "talk",
+          "phone": true,
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "Okay. What's closing first?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Here are some big December dates from the opportunities we've shared.",
+          "act": "point",
+          "phone": true,
+          "card": {
+            "icon": "1f4c5",
+            "title": "EARLY DECEMBER",
+            "lines": [
+              "23f0|1 Dec: HK PhD Fellowship",
+              "23f0|2 Dec: Yale World Fellows",
+              "23f0|7 Dec: Warwick Chancellor's (PhD)",
+              "23f0|8 Dec: Commonwealth Shared"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "library",
+      "place": "NEXT DAY · LIBRARY",
+      "backdrop": "calm library with a big calendar on the wall and laptops",
+      "at": {
+        "tomy": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "say": "And later in December.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4c5",
+            "title": "MID DECEMBER",
+            "lines": [
+              "23f0|15 Dec: MBZUAI (MSc & PhD)",
+              "23f0|15 Dec: NOHA Erasmus Mundus",
+              "23f0|15 Dec: QNX Hackathon",
+              "23f0|22 Dec: Atlassian Codegeist"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "How do I not panic?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Set a reminder three days before each deadline. Finish documents early, because websites slow down on the last day.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "Calendar done. Reminders set. Fifty tabs closed!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this calendar, and comment LINK for the official pages.",
+          "say": "Save this calendar, and comment LINK for the official pages.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Save the calendar",
+              "1f514|Set reminders 3 days early"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow so you never miss a deadline!",
+          "text": "Follow so you never miss a deadline!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

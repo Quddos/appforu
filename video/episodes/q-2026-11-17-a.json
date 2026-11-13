@@ -1,0 +1,223 @@
+{
+  "id": "q-2026-11-17-a",
+  "date": "2026-11-17",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Kemi needs recommendation letters",
+  "caption": "Your recommendation letter can make or break your scholarship 📩 How to ask the right person, the right way, at the right time. Save this 📌 #scholarship #recommendationletter #studyabroad #storytime",
+  "cast": {
+    "kemi": {
+      "name": "Kemi",
+      "color": "#FACC15",
+      "voice": "en_US-amy-medium",
+      "look": "girl-braids",
+      "hair": "#1F1410",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "campus",
+      "place": "MORNING · FACULTY BUILDING",
+      "backdrop": "university faculty building entrance with stairs, trees and morning light",
+      "at": {
+        "kemi": [
+          -0.2,
+          0,
+          0.3,
+          0.2
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "WHO WRITES YOUR LETTER MATTERS",
+          "sub": "KEMI & QUDDUS",
+          "who": "kemi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "kemi",
+          "text": "Quddus, the deadline is in three days and I still need two recommendation letters.",
+          "say": "Kuddus, the deadline is in three days and I still need two recommendation letters.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Three days? Kemi, lecturers are not printers.",
+          "act": "wave",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.2
+            ],
+            "kemi": [
+              -0.75,
+              0,
+              0.4
+            ]
+          },
+          "shot": "two"
+        },
+        {
+          "who": "kemi",
+          "say": "I was going to ask the Head of Department. Big title, big letter, right?",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Not always. A strong letter comes from someone who actually knows your work.",
+          "act": "think",
+          "mood": "think",
+          "card": {
+            "icon": "1f4e9",
+            "title": "WHO TO ASK",
+            "lines": [
+              "1f9d1-200d-1f4bc|Someone who taught or supervised you",
+              "1f4c8|Who saw your results up close",
+              "2b50|Not just the biggest title"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · CAMPUS CAFÉ",
+      "backdrop": "busy campus café with a chalkboard menu and warm lights",
+      "at": {
+        "kemi": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "kemi",
+          "say": "So how do I ask?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "Ask at least three to four weeks before the deadline. And make their job easy: send your CV, your statement, the program, and the deadline.",
+          "say": "Ask at least three to four weeks before the deadline. And make their job easy: send your C.V., your statement, the program, and the deadline.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4cb",
+            "title": "SEND THEM A BRIEF",
+            "lines": [
+              "1f4cb|Your CV + transcript",
+              "1f4dd|Your statement of purpose",
+              "23f0|Program + exact deadline",
+              "1f4a1|2-3 things you did in their class"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "And I should remind them what I did in their class?",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Yes. Your project, your grade, your research. Specific stories make strong letters.",
+          "act": "thumbs",
+          "shot": "two"
+        },
+        {
+          "who": "kemi",
+          "say": "Next time I'm asking one month early. With a brief. And chin chin.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "kemi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment LETTER if you want a template for asking.",
+          "say": "Save this, and comment LETTER if you want a template for asking.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Ask early, ask the right person",
+              "1f4e9|Send them a short brief"
+            ]
+          }
+        },
+        {
+          "who": "kemi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more application tips!",
+          "text": "Follow for more application tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

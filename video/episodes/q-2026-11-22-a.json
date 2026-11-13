@@ -1,0 +1,223 @@
+{
+  "id": "q-2026-11-22-a",
+  "date": "2026-11-22",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Zara and the Commonwealth Shared Scholarship",
+  "caption": "A 1-year UK master's with full tuition, return flights and a monthly allowance 🇬🇧 Commonwealth Shared Scholarships, for students living in developing Commonwealth countries. Closes 8 Dec 2026, 16:00 GMT. Comment LINK 👇 #commonwealth #scholarship #studyinuk #fullyfunded",
+  "cast": {
+    "zara": {
+      "name": "Zara",
+      "color": "#A78BFA",
+      "voice": "en_GB-cori-high",
+      "look": "girl-puff",
+      "hair": "#1A1110",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "RAINY EVENING · LONDON-STYLE STREET",
+      "backdrop": "rainy London-style street at evening with red phone box and glowing shop windows",
+      "at": {
+        "zara": [
+          -0.2,
+          0,
+          0.3,
+          0.2
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "A FREE UK MASTER'S?",
+          "sub": "ZARA & QUDDUS",
+          "who": "zara",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "zara",
+          "text": "Quddus, I practised my British accent. Cheerio, old chap! Fancy a spot of tea?",
+          "say": "Kuddus, I practised my British accent. Cheerio, old chap! Fancy a spot of tea?",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Very nice. Now let's get you a scholarship to use it. The Commonwealth Shared Scholarship.",
+          "act": "wave",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.2
+            ],
+            "zara": [
+              -0.75,
+              0,
+              0.4
+            ]
+          },
+          "shot": "card",
+          "card": {
+            "icon": "1f1ec-1f1e7",
+            "title": "COMMONWEALTH SHARED",
+            "lines": [
+              "1f3eb|Full tuition fees",
+              "2708|Return flight to the UK",
+              "1f4b5|Monthly living allowance"
+            ]
+          }
+        },
+        {
+          "who": "zara",
+          "say": "Tuition, flights, and money every month?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "Plus arrival and thesis allowances. It's for a one-year master's at a UK university.",
+          "say": "Plus arrival and thesis allowances. It's for a one-year master's at a U.K. university.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · BRITISH TEA ROOM",
+      "backdrop": "cozy British tea room with teapots, cakes and lace curtains",
+      "at": {
+        "zara": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "zara",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "zara",
+          "say": "Who can apply?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "Citizens of eligible Commonwealth countries who live in a developing Commonwealth country. Usually with a two-one degree or higher, and you must show you can't afford UK study without it.",
+          "say": "Citizens of eligible Commonwealth countries who live in a developing Commonwealth country. Usually with a two-one degree or higher, and you must show you can't afford U.K. study without it.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "HOW TO APPLY",
+            "lines": [
+              "1f4cb|Pick a course from the 2027 list",
+              "1f3eb|Apply to that UK university",
+              "1f4dd|Submit the CSC application",
+              "23f0|By 8 Dec 2026, 16:00 GMT"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "zara",
+          "say": "Can I choose any course?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Only courses on their list for this year. So pick from the list first.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "zara",
+          "say": "Course list opened. Spot of tea: postponed!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "zara": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link: cscuk.fcdo.gov.uk",
+              "23f0|Closes 8 Dec 2026, 16:00 GMT"
+            ]
+          }
+        },
+        {
+          "who": "zara",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

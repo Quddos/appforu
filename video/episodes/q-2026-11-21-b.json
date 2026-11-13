@@ -1,0 +1,217 @@
+{
+  "id": "q-2026-11-21-b",
+  "date": "2026-11-21",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Musa gets his first international payment",
+  "caption": "Got your first foreign client... but how do you receive the money? 💸 Compare fees, check what works in your country, and NEVER share your login. Save this 📌 #freelancing #remotework #payments #makemoneyonline",
+  "cast": {
+    "musa": {
+      "name": "Musa",
+      "color": "#4ADE80",
+      "voice": "en_GB-alan-medium",
+      "look": "guy-fade",
+      "hair": "#111111",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "living",
+      "place": "EVENING · MUSA'S APARTMENT",
+      "backdrop": "small modern apartment with a sofa, plants and evening city lights",
+      "at": {
+        "musa": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "musa",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "title": "HOW DO I RECEIVE DOLLARS?",
+          "sub": "MUSA & QUDDUS",
+          "who": "musa",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "musa",
+          "text": "Quddus! My first foreign client! Two hundred dollars for a logo!",
+          "say": "Kuddus! My first foreign client! Two hundred dollars for a logo!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Congratulations! How will they pay you?",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "I told them to send it by... vibes?",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Let's fix that. Freelancers usually use the platform's own payment, a payment service that works in their country, or a bank transfer.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4b3",
+            "title": "WAYS TO GET PAID",
+            "lines": [
+              "1f4bc|The freelance platform's own payout",
+              "1f30d|A payment service available in your country",
+              "1f4b3|Bank transfer"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "musa",
+          "say": "Which one is best?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "NEXT DAY · CAFÉ",
+      "backdrop": "modern café with a laptop and a phone on the table",
+      "at": {
+        "musa": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "musa",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "say": "Compare the fees and the exchange rate. A low fee with a bad rate can still cost you more.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "BEFORE YOU CHOOSE",
+            "lines": [
+              "1f4b8|Compare fees + exchange rate",
+              "1f30d|Check it works in your country",
+              "1f4dd|Send a clear invoice"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "musa",
+          "say": "The client asked me to send my login code so they can \"help\" me receive it.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Never! No real client needs your password or code. That's how accounts get stolen.",
+          "mood": "shock",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "Invoice sent, fees compared, and my codes stay with me!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "musa": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment PAY if you want a comparison of options.",
+          "say": "Save this, and comment PAY if you want a comparison of options.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Compare fees before you choose",
+              "1f6a8|Never share codes or passwords"
+            ]
+          }
+        },
+        {
+          "who": "musa",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more freelancing tips!",
+          "text": "Follow for more freelancing tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

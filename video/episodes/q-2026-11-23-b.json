@@ -1,0 +1,196 @@
+{
+  "id": "q-2026-11-23-b",
+  "date": "2026-11-23",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Ade packs for his flight abroad",
+  "caption": "Flying abroad to study? Keep your important documents in your HAND luggage, not the big suitcase ✈️ Passport, visa, admission letter, proof of funds, address... Save this checklist 📌 #studyabroad #travel #studentlife #checklist",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "room",
+      "place": "NIGHT BEFORE · ADE'S ROOM",
+      "backdrop": "bedroom at night with an open suitcase, clothes everywhere and a passport on the bed",
+      "at": {
+        "ade": [
+          0.1,
+          0,
+          0.4,
+          0.25
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "DON'T PUT THESE IN YOUR SUITCASE!",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "text": "Quddus! My suitcase is ready. Passport, admission letter, all my documents, at the very bottom, under my jollof spices.",
+          "say": "Kuddus! My suitcase is ready. Passport, admission letter, all my documents, at the very bottom, under my jollof spices.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Ade! Take them out. Important documents go in your hand luggage, with you.",
+          "mood": "shock",
+          "phone": true,
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "Why?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Big suitcases can get delayed or lost. And at immigration, they may ask for documents before you even get your bag.",
+          "act": "talk",
+          "phone": true,
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "airport",
+      "place": "NEXT MORNING · AIRPORT",
+      "backdrop": "busy international airport check-in hall with departure boards and trolleys",
+      "at": {
+        "ade": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "who": "quddus",
+          "say": "Keep this in your hand luggage, in one folder.",
+          "act": "point",
+          "card": {
+            "icon": "1f4cb",
+            "title": "HAND LUGGAGE FOLDER",
+            "lines": [
+              "1f4cb|Passport + visa",
+              "1f4e9|Admission letter",
+              "1f4b0|Proof of funds / scholarship letter",
+              "1f3e0|Your address + school contact"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "ade",
+          "say": "What if I lose the folder?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Save scanned copies on your phone and in your email. And share your flight details with family.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "And the jollof spices?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Check the customs rules of your new country first. Some foods are not allowed.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "Documents in my hand, spices checked, and Ade is ready to fly!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment the country you're flying to.",
+          "say": "Save this, and comment the country you're flying to.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Save before your flight",
+              "1f4cb|Paper copies + digital copies"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more study abroad tips!",
+          "text": "Follow for more study abroad tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

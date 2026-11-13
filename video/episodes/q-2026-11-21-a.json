@@ -1,0 +1,197 @@
+{
+  "id": "q-2026-11-21-a",
+  "date": "2026-11-21",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Tomy asks about English tests",
+  "caption": "IELTS, TOEFL, Duolingo... which English test do you need? 🤔 It depends on each university. Some even waive it if your degree was taught in English. Always check the program page! Save this 📌 #ielts #toefl #duolingo #studyabroad",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "library",
+      "place": "MORNING · LIBRARY",
+      "backdrop": "bright library with study tables and English textbooks",
+      "at": {
+        "tomy": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "title": "WHICH ENGLISH TEST DO I NEED?",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus, English is our official language. Why do they want me to pay for an English test?",
+          "say": "Kuddus, English is our official language. Why do they want me to pay for an English test?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Many universities ask international students for proof of English. But the rules are different for every program.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "text": "IELTS, TOEFL, Duolingo... it sounds like a boy band.",
+          "say": "eye-elts, TOEFL, Duolingo... it sounds like a boy band.",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Ha! Those are common tests. Some universities accept all of them. Some accept only one or two.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4ac",
+            "title": "ENGLISH PROOF",
+            "lines": [
+              "1f4dd|IELTS or TOEFL: widely accepted",
+              "1f4bb|Duolingo English Test: some schools",
+              "1f393|Waiver: some, if your degree was in English"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "room",
+      "place": "EVENING · TOMY'S ROOM",
+      "backdrop": "cozy bedroom at evening with books and a laptop on a desk",
+      "at": {
+        "tomy": [
+          0.1,
+          0,
+          0.4,
+          0.25
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "who": "tomy",
+          "say": "So how do I know which one to take?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Check the admission requirements page of each program. Look for the exact test, and the minimum score.",
+          "act": "point",
+          "phone": true,
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "And this waiver thing?",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Some programs waive the test if your degree was taught in English. You may need a letter from your university. Email admissions and ask.",
+          "act": "talk",
+          "phone": true,
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "say": "Step one: check. Step two: email. Step three: maybe save my test money!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment the test you're planning to take.",
+          "say": "Save this, and comment the test you're planning to take.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Check each program's page",
+              "1f4e9|Ask admissions about waivers"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more study abroad tips!",
+          "text": "Follow for more study abroad tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

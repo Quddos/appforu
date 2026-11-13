@@ -1,0 +1,207 @@
+{
+  "id": "q-2026-11-24-a",
+  "date": "2026-11-24",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Tomy and Yale World Fellows",
+  "caption": "Mid-career leader making real impact? Yale World Fellows: a semester at Yale with stipend & housing covered, open to ANY nationality 🇺🇸 Deadline 2 Dec 2026, 2 PM ET. Comment LINK 👇 #yale #fellowship #leadership #opportunity",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "office",
+      "place": "EVENING · NGO OFFICE",
+      "backdrop": "busy NGO office at evening with posters, laptops and plants",
+      "at": {
+        "tomy": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "A SEMESTER AT YALE, PAID FOR?",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus, my aunt runs a health NGO. Ten years of work. She says fellowships are only for young graduates.",
+          "say": "Kuddus, my aunt runs a health N.G.O.. Ten years of work. She says fellowships are only for young graduates.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Not this one. Yale World Fellows is for mid-career leaders, from any country.",
+          "act": "think",
+          "mood": "think",
+          "card": {
+            "icon": "1f3db",
+            "title": "YALE WORLD FELLOWS",
+            "lines": [
+              "1f3eb|A semester at Yale University",
+              "1f4b0|Stipend + housing covered",
+              "1f30d|Mid-career leaders, any nationality"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "A semester at Yale, and they cover stipend and housing?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Yes. Plus a lifelong network of global leaders, and she can audit Yale courses.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "living",
+      "place": "LATER · AUNT'S LIVING ROOM",
+      "backdrop": "warm living room with family photos, awards on a shelf and a sofa",
+      "at": {
+        "tomy": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "who": "tomy",
+          "say": "Who do they pick?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Leaders with a strong track record of impact, in business, government, NGOs, media, tech, or the arts. And she must be fluent in English.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "WHO CAN APPLY",
+            "lines": [
+              "1f4c8|Strong track record of impact",
+              "1f4bc|Business, gov, NGO, media, tech, arts",
+              "1f4ac|Fluent English"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "When does it close?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "December second, two P.M. Eastern Time. So she should start this week.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "say": "Calling my aunt right now. Yale, meet Auntie!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Want the link? Comment LINK, and check the link in our bio.",
+          "say": "Want the link? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link: worldfellows.yale.edu",
+              "23f0|Deadline: 2 Dec 2026, 2 PM ET"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more stories like this!",
+          "text": "Follow for more stories like this!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "q-2026-11-18-b",
+  "date": "2026-11-18",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Tomy learns what \"proof of funds\" means",
+  "caption": "\"Proof of funds\" confuses so many students 😵 It's simply evidence you can pay for your studies and living costs: bank statements, sponsor letters, scholarship letters. Rules differ by country. Save this 📌 #proofoffunds #studentvisa #studyabroad",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "en_US-lessac-high",
+      "look": "girl",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "room",
+      "place": "NIGHT · TOMY'S ROOM",
+      "backdrop": "cozy student bedroom at night with fairy lights and papers on the bed",
+      "at": {
+        "tomy": [
+          0.1,
+          0,
+          0.4,
+          0.25
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "WHAT IS \"PROOF OF FUNDS\"?",
+          "sub": "TOMY & QUDDUS",
+          "who": "tomy",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "tomy",
+          "text": "Quddus, the embassy says I need proof of funds. Is that like proof of life?",
+          "say": "Kuddus, the embassy says I need proof of funds. Is that like proof of life?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Close. It's proof that you can pay for your tuition and your living costs while you study.",
+          "act": "talk",
+          "phone": true,
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "So like... a picture of my piggy bank?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "More like official documents. And each country sets its own amount and rules.",
+          "act": "talk",
+          "phone": true,
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "NEXT DAY · BANK CAFÉ",
+      "backdrop": "modern café next to a bank with glass windows and plants",
+      "at": {
+        "tomy": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "say": "Usually it's bank statements, a sponsor letter with their statements, or a scholarship letter that shows what's covered.",
+          "act": "point",
+          "card": {
+            "icon": "1f4b0",
+            "title": "COMMON PROOFS",
+            "lines": [
+              "1f4b3|Bank statements",
+              "1f4e9|Sponsor letter + their statements",
+              "1f393|Scholarship award letter"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "tomy",
+          "say": "Some countries ask for money to stay in the account for a long time, right?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Yes. Some want it there for weeks or months, and some use special accounts like a blocked account. Always read the official visa page.",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "My uncle said he can lend me money for one day, just for the statement.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "No! Sudden big deposits look suspicious, and fake documents can get you banned. Be honest and plan early.",
+          "mood": "shock",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "say": "Honest money, early planning. Got it!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment FUNDS if you want the rules for a specific country.",
+          "say": "Save this, and comment FUNDS if you want the rules for a specific country.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Check your country's official rules",
+              "1f6a8|Never fake documents"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow so your visa doesn't get refused!",
+          "text": "Follow so your visa doesn't get refused!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

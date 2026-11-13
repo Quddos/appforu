@@ -1,0 +1,207 @@
+{
+  "id": "q-2026-11-22-b",
+  "date": "2026-11-22",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Chidi learns about Germany's Opportunity Card",
+  "caption": "Germany's Opportunity Card (Chancenkarte) lets skilled people look for a job in Germany for up to 1 year 🇩🇪 Recognised qualification OR enough points, plus proof you can support yourself. Check the official Make it in Germany site! #germany #chancenkarte #workabroad #visa",
+  "cast": {
+    "chidi": {
+      "name": "Chidi",
+      "color": "#F87171",
+      "voice": "en_US-bryce-medium",
+      "look": "guy",
+      "hair": "#1A1A1A",
+      "speed": 0.97
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "street",
+      "place": "EVENING · EUROPEAN STREET",
+      "backdrop": "European city street at evening with old buildings, trams and warm lights",
+      "at": {
+        "chidi": [
+          -0.75,
+          0,
+          0.4
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.4
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "MOVE TO GERMANY WITHOUT A JOB?",
+          "sub": "CHIDI & QUDDUS",
+          "who": "chidi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "chidi",
+          "text": "Quddus, I heard Germany lets people come without a job offer. Is that a rumour from my uncle's WhatsApp group?",
+          "say": "Kuddus, I heard Germany lets people come without a job offer. Is that a rumour from my uncle's WhatsApp group?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "This one is real. It's called the Opportunity Card, or Chancenkarte. It's a residence permit to look for a job in Germany.",
+          "act": "talk",
+          "card": {
+            "icon": "1f1ea-1f1fa",
+            "title": "OPPORTUNITY CARD",
+            "lines": [
+              "1f50e|Search for a job in Germany",
+              "1f4c5|Valid for up to 12 months",
+              "1f4bc|For skilled workers"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "A whole year to find a job?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Up to twelve months. But it can't be extended, so you need to use that time well.",
+          "act": "thumbs",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "NEXT DAY · OFFICE",
+      "backdrop": "modern office with a world map, plants and a laptop",
+      "at": {
+        "chidi": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "chidi"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "chidi",
+          "say": "Who qualifies?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Either your degree or vocational qualification is fully recognised in Germany, or you collect enough points from things like education, work experience, language, and age.",
+          "act": "talk",
+          "card": {
+            "icon": "2705",
+            "title": "THE BASICS",
+            "lines": [
+              "1f393|Recognised qualification, or",
+              "1f4ca|Enough points (education, work, language)",
+              "1f4b0|Proof you can support yourself"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "And money?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "You must show you can support yourself while you search, for example with a blocked account. Check the exact amount on the official Make it in Germany site.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "chidi",
+          "say": "Guten Tag, Germany! I'm doing my research first!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "chidi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment GERMANY if you want part two on the points.",
+          "say": "Save this, and comment GERMANY if you want part two on the points.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Check make-it-in-germany.com",
+              "1f6a8|Avoid fake \"visa agents\""
+            ]
+          }
+        },
+        {
+          "who": "chidi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more work abroad tips!",
+          "text": "Follow for more work abroad tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

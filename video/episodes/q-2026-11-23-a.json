@@ -1,0 +1,207 @@
+{
+  "id": "q-2026-11-23-a",
+  "date": "2026-11-23",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Kemi got rejected",
+  "caption": "Rejected from your dream scholarship? 💔 It's not the end. Ask for feedback, improve one thing, and apply again. Kemi's story will make you feel seen. Share this with someone who needs it ❤️ #scholarship #rejection #motivation #storytime",
+  "cast": {
+    "kemi": {
+      "name": "Kemi",
+      "color": "#FACC15",
+      "voice": "en_US-amy-medium",
+      "look": "girl-braids",
+      "hair": "#1F1410",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "park",
+      "place": "RAINY AFTERNOON · PARK BENCH",
+      "backdrop": "quiet city park in light rain with wet benches, puddles and grey sky",
+      "at": {
+        "kemi": [
+          -0.45,
+          0,
+          0.02,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0.02,
+          -0.28
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "bench"
+      ],
+      "beats": [
+        {
+          "title": "\"WE REGRET TO INFORM YOU...\"",
+          "sub": "KEMI & QUDDUS",
+          "who": "kemi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "kemi",
+          "text": "Quddus, I got the email. We regret to inform you. Two years of preparing, and it took them one line to say no.",
+          "say": "Kuddus, I got the email. We regret to inform you. Two years of preparing, and it took them one line to say no.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "I'm sorry, Kemi. That really hurts. It's okay to be sad today.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "kemi",
+          "say": "Maybe people like me are not meant for these scholarships.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "No. Rejection is about one application, in one year, with limited spaces. It's not about your worth.",
+          "mood": "shock",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "A WEEK LATER · WARM CAFÉ",
+      "backdrop": "warm cozy café with fairy lights, plants and a rainy window",
+      "at": {
+        "kemi": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "table"
+      ],
+      "beats": [
+        {
+          "who": "kemi",
+          "say": "Okay. I'm ready to try again. Where do I start?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "First, ask politely if they give feedback. Then read your application with fresh eyes, or let someone you trust review it.",
+          "act": "talk",
+          "card": {
+            "icon": "2b50",
+            "title": "AFTER A REJECTION",
+            "lines": [
+              "1f4e9|Ask politely for feedback",
+              "1f4dd|Improve your weakest part",
+              "1f30d|Apply to more than one place"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "kemi",
+          "say": "And maybe I applied to only one place.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Exactly. Apply to several good fits. Many winners were rejected before.",
+          "act": "thumbs",
+          "shot": "two"
+        },
+        {
+          "who": "kemi",
+          "say": "Round two. Same dream, better application!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "kemi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Share this with a friend who got a rejection email, and comment AGAIN if you're trying again.",
+          "say": "Share this with a friend who got a rejection email, and comment AGAIN if you're trying again.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "KEEP GOING",
+            "lines": [
+              "2b50|Rejection is redirection",
+              "1f4dd|Improve one thing, apply again"
+            ]
+          }
+        },
+        {
+          "who": "kemi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow, and let's win the next one together!",
+          "text": "Follow, and let's win the next one together!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "q-2026-11-24-b",
+  "date": "2026-11-24",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Musa lands his first freelance client",
+  "caption": "No reviews, no clients? 😩 Start with a small niche, a clear portfolio, and short personal proposals. Musa's first-client story 💪 Save this 📌 #freelancing #upwork #fiverr #remotework #sidehustle",
+  "cast": {
+    "musa": {
+      "name": "Musa",
+      "color": "#4ADE80",
+      "voice": "en_GB-alan-medium",
+      "look": "guy-fade",
+      "hair": "#111111",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "cafe",
+      "place": "AFTERNOON · CO-WORKING CAFÉ",
+      "backdrop": "busy café with freelancers working on laptops and big windows",
+      "at": {
+        "musa": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "musa",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "title": "NO REVIEWS = NO CLIENTS?",
+          "sub": "MUSA & QUDDUS",
+          "who": "musa",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "musa",
+          "text": "Quddus, I sent forty proposals on a freelance site. Zero replies. My profile says I can do everything.",
+          "say": "Kuddus, I sent forty proposals on a freelance site. Zero replies. My profile says I can do everything.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "That's the problem. When you do everything, nobody knows what you're good at.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "But I CAN do everything. Design, writing, video, and I fix phones.",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Pick one niche first. For example: logos for small restaurants. Clients search for specific help.",
+          "act": "talk",
+          "card": {
+            "icon": "1f3af",
+            "title": "START SMART",
+            "lines": [
+              "1f3af|Pick one clear niche",
+              "1f4bc|Show 3 to 5 sample projects",
+              "1f4dd|Short, personal proposals"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "NEXT WEEK · HOME STUDIO",
+      "backdrop": "small home studio with a design tablet, a laptop and plants",
+      "at": {
+        "musa": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "musa"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "musa",
+          "say": "And my proposals?",
+          "act": "type",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Short and personal. Mention their exact problem, how you'd solve it, and one sample that matches. No copy-paste essays.",
+          "act": "point",
+          "shot": "close"
+        },
+        {
+          "who": "musa",
+          "say": "And if I have no reviews?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Start with smaller jobs, deliver fast, and ask happy clients for a review. Reviews grow from there.",
+          "act": "thumbs",
+          "shot": "two"
+        },
+        {
+          "who": "musa",
+          "say": "Niche chosen: logos for food businesses. My first client just replied!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "sunset over a modern city skyline, warm orange and pink sky, cinematic",
+      "at": {
+        "musa": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment your skill so others can see it.",
+          "say": "Save this, and comment your skill so others can see it.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Niche + portfolio + short proposals",
+              "1f6a8|Never pay to \"unlock\" jobs"
+            ]
+          }
+        },
+        {
+          "who": "musa",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more freelancing tips!",
+          "text": "Follow for more freelancing tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "q-2026-11-19-a",
+  "date": "2026-11-19",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Chidi fixes his CV for remote jobs",
+  "caption": "Applied to 100 remote jobs and got 0 replies? Your CV might be the problem 😬 Simple layout, results with numbers, and keywords from the job post. Save this 📌 #cv #resume #remotejobs #jobsearch",
+  "cast": {
+    "chidi": {
+      "name": "Chidi",
+      "color": "#F87171",
+      "voice": "en_US-bryce-medium",
+      "look": "guy",
+      "hair": "#1A1A1A",
+      "speed": 0.97
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "office",
+      "place": "MORNING · CO-WORKING SPACE",
+      "backdrop": "bright co-working space with plants, big windows and laptops",
+      "at": {
+        "chidi": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "chidi"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "title": "100 APPLICATIONS, 0 REPLIES?",
+          "sub": "CHIDI & QUDDUS",
+          "who": "chidi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "chidi",
+          "say": "I've applied to one hundred remote jobs. Zero replies. Even the scammers ignored me.",
+          "act": "facepalm",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "Show me your CV. Hmm. Three colours, two photos, and a font that looks like a wedding card.",
+          "say": "Show me your C.V.. Hmm. Three colours, two photos, and a font that looks like a wedding card.",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "chidi",
+          "say": "I wanted it to look fancy.",
+          "act": "shrug",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "Many companies use software to scan CVs. Fancy designs can confuse it. Keep it simple and clear.",
+          "say": "Many companies use software to scan C.V.. Fancy designs can confuse it. Keep it simple and clear.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4cb",
+            "title": "CV BASICS",
+            "lines": [
+              "1f4cb|Simple layout, standard font",
+              "1f4cc|Clear headings",
+              "1f50e|Keywords from the job post"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · COFFEE SHOP",
+      "backdrop": "modern coffee shop with laptops, plants and warm lights",
+      "at": {
+        "chidi": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "chidi",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "chidi",
+          "say": "What should I write under experience?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Results, not duties. Not \"responsible for social media\", but \"grew our page from two thousand to ten thousand followers in six months\".",
+          "act": "point",
+          "card": {
+            "icon": "1f4c8",
+            "title": "WRITE RESULTS",
+            "lines": [
+              "1f4c8|Use numbers",
+              "1f3af|Match the job's keywords",
+              "1f4bb|Add remote tools you know"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "And I should change it for every job?",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Adjust it. Use the words from each job post that truly match your skills. Never lie.",
+          "act": "thumbs",
+          "shot": "two"
+        },
+        {
+          "who": "chidi",
+          "say": "Wedding card font: deleted. Numbers: added!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "chidi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment CV if you want a free CV checklist.",
+          "say": "Save this, and comment C.V. if you want a free C.V. checklist.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Save before your next application",
+              "1f4cb|One page, clear, with numbers"
+            ]
+          }
+        },
+        {
+          "who": "chidi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more remote job tips!",
+          "text": "Follow for more remote job tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "q-2026-11-26-b",
+  "date": "2026-11-26",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Ade searches for funded PhDs",
+  "caption": "Where do people actually FIND funded PhD positions? 🔎 Official job boards like EURAXESS, university PhD pages, FindAPhD, and professors' lab websites. Save this 📌 #phd #fullyfunded #research #studyabroad",
+  "cast": {
+    "ade": {
+      "name": "Ade",
+      "color": "#FB923C",
+      "voice": "en_US-joe-medium",
+      "look": "guy-cap",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "library",
+      "place": "AFTERNOON · RESEARCH LIBRARY",
+      "backdrop": "quiet research library with computers, journals and soft light",
+      "at": {
+        "ade": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "ade",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "title": "WHERE ARE THE FUNDED PhDs?",
+          "sub": "ADE & QUDDUS",
+          "who": "ade",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "ade",
+          "text": "Quddus, I googled fully funded PhD and got ten blogs, three scams, and one recipe for jollof.",
+          "say": "Kuddus, I googled fully funded P.H.D. and got ten blogs, three scams, and one recipe for jollof.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "You need to search where real positions are posted. In many countries, a PhD is advertised like a job, with a salary.",
+          "say": "You need to search where real positions are posted. In many countries, a P.H.D. is advertised like a job, with a salary.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "text": "A PhD with a salary?",
+          "say": "A P.H.D. with a salary?",
+          "mood": "shock",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "In places like Europe, many PhD positions are paid. You find them on job boards.",
+          "say": "In places like Europe, many P.H.D. positions are paid. You find them on job boards.",
+          "act": "thumbs",
+          "card": {
+            "icon": "1f50e",
+            "title": "WHERE TO LOOK",
+            "lines": [
+              "1f30d|EURAXESS (Europe research jobs)",
+              "1f3db|University PhD and job pages",
+              "1f4da|FindAPhD and similar boards",
+              "1f52c|Professors' lab websites"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "office",
+      "place": "NEXT DAY · STUDY ROOM",
+      "backdrop": "modern study room with a laptop, a calendar and coffee",
+      "at": {
+        "ade": [
+          -0.55,
+          0,
+          -0.35,
+          0.15
+        ],
+        "quddus": [
+          0.75,
+          0,
+          0.35,
+          -0.55
+        ]
+      },
+      "sit": [
+        "ade"
+      ],
+      "props": [
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "ade",
+          "say": "What do I search?",
+          "act": "type",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "text": "Use words like PhD position, doctoral researcher, or PhD studentship, plus your field. And set up email alerts.",
+          "say": "Use words like P.H.D. position, doctoral researcher, or P.H.D. studentship, plus your field. And set up email alerts.",
+          "act": "point",
+          "shot": "close"
+        },
+        {
+          "who": "ade",
+          "say": "And then?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "Read the requirements carefully. Most want a CV, a motivation letter, and references. Apply to each one properly.",
+          "say": "Read the requirements carefully. Most want a C.V., a motivation letter, and references. Apply to each one properly.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "ade",
+          "text": "Alerts set. Funded PhD, I'm coming. Jollof recipe, saved for later!",
+          "say": "Alerts set. Funded P.H.D., I'm coming. Jollof recipe, saved for later!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "abstract glowing world map with flight paths, deep blue and gold, cinematic",
+      "at": {
+        "ade": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment your field so others can search together.",
+          "say": "Save this, and comment your field so others can search together.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|Check boards weekly",
+              "1f50e|Search \"PhD position\" + your field"
+            ]
+          }
+        },
+        {
+          "who": "ade",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more P.H.D. tips!",
+          "text": "Follow for more PhD tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "q-2026-11-25-b",
+  "date": "2026-11-25",
+  "slot": "q2",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Chidi's AI-written essay",
+  "caption": "Using AI to write your scholarship essay? 🤖 Use it to brainstorm and check grammar, NOT to invent your story. Committees can tell, and some programs ban it. Save this 📌 #ai #chatgpt #scholarship #statementofpurpose",
+  "cast": {
+    "chidi": {
+      "name": "Chidi",
+      "color": "#F87171",
+      "voice": "en_US-bryce-medium",
+      "look": "guy",
+      "hair": "#1A1A1A",
+      "speed": 0.97
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "room",
+      "place": "LATE NIGHT · CHIDI'S ROOM",
+      "backdrop": "dark bedroom late at night lit by a laptop screen and a small lamp",
+      "at": {
+        "chidi": [
+          0.1,
+          0,
+          0.4,
+          0.25
+        ]
+      },
+      "props": [],
+      "beats": [
+        {
+          "title": "AI WROTE MY ESSAY...",
+          "sub": "CHIDI & QUDDUS",
+          "who": "chidi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "chidi",
+          "text": "Quddus! I finished my scholarship essay in two minutes. AI wrote it. It's beautiful.",
+          "say": "Kuddus! I finished my scholarship essay in two minutes. A.I. wrote it. It's beautiful.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Read me the first line.",
+          "act": "think",
+          "mood": "think",
+          "phone": true,
+          "shot": "close"
+        },
+        {
+          "who": "chidi",
+          "say": "Ever since I was a child in the vibrant streets of my city, my passion for innovation has burned like a thousand suns.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Chidi. A thousand suns? The committee has read that sun many times.",
+          "act": "facepalm",
+          "phone": true,
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "NEXT DAY · CAFÉ",
+      "backdrop": "calm café with soft lights, plants and a notebook on the table",
+      "at": {
+        "chidi": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "sit": [
+        "chidi",
+        "quddus"
+      ],
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "chidi",
+          "text": "So I can't use AI at all?",
+          "say": "So I can't use A.I. at all?",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Use it as a helper, not as the writer. Brainstorm ideas, check grammar, or ask it what's unclear. But the story and the facts must be yours.",
+          "act": "talk",
+          "card": {
+            "icon": "1f916",
+            "title": "USING AI WISELY",
+            "lines": [
+              "2705|Brainstorm + grammar checks",
+              "1f4dd|Your real stories and facts",
+              "1f4cb|Follow each program's AI rules"
+            ]
+          },
+          "shot": "card"
+        },
+        {
+          "who": "chidi",
+          "say": "What if they check?",
+          "act": "think",
+          "mood": "think",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "text": "Some programs ban AI-written essays. And generic text is easy to spot. Your real experience is what makes you stand out.",
+          "say": "Some programs ban A.I.-written essays. And generic text is easy to spot. Your real experience is what makes you stand out.",
+          "act": "point",
+          "shot": "two"
+        },
+        {
+          "who": "chidi",
+          "say": "New first line: in my final year, I fixed my school's broken water pump with a phone charger. True story!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "chidi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Save this, and comment HONEST if you'll write your own story.",
+          "say": "Save this, and comment HONEST if you'll write your own story.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "SAVE THIS",
+            "lines": [
+              "1f4cc|AI helps, you write",
+              "1f4cb|Read each program's AI rules"
+            ]
+          }
+        },
+        {
+          "who": "chidi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more honest application tips!",
+          "text": "Follow for more honest application tips!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

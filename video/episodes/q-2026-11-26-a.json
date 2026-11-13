@@ -1,0 +1,209 @@
+{
+  "id": "q-2026-11-26-a",
+  "date": "2026-11-26",
+  "slot": "q1",
+  "series": "story",
+  "brand": "bingebrain",
+  "title": "Kemi tells her parents",
+  "caption": "\"Mum, Dad... I want to study abroad.\" 🥹 How Kemi turned a scary conversation into a family plan. Share this with someone who needs to have this talk ❤️ #studyabroad #family #storytime #scholarship",
+  "cast": {
+    "kemi": {
+      "name": "Kemi",
+      "color": "#FACC15",
+      "voice": "en_US-amy-medium",
+      "look": "girl-braids",
+      "hair": "#1F1410",
+      "speed": 0.95
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "en_US-ryan-high",
+      "look": "guy",
+      "glasses": true,
+      "speed": 0.97
+    }
+  },
+  "scenes": [
+    {
+      "set": "living",
+      "place": "EVENING · FAMILY HOME",
+      "backdrop": "warm African family living room at evening with a big sofa, family photos and a TV",
+      "at": {
+        "kemi": [
+          -0.45,
+          0,
+          0,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0,
+          -0.28
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "sofa"
+      ],
+      "beats": [
+        {
+          "title": "\"MUM, DAD... I'M LEAVING\"",
+          "sub": "KEMI & QUDDUS",
+          "who": "kemi",
+          "act": "wave",
+          "shot": "wide",
+          "dur": 66
+        },
+        {
+          "who": "kemi",
+          "text": "Quddus, tonight I'm telling my parents I want to study abroad. My mum will cry. My dad will ask who will fix the generator.",
+          "say": "Kuddus, tonight I'm telling my parents I want to study abroad. My mum will cry. My dad will ask who will fix the generator.",
+          "act": "worried",
+          "mood": "worried",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "Their worry comes from love. So don't just announce it. Bring a plan.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "kemi",
+          "say": "A plan?",
+          "act": "think",
+          "mood": "think",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "Which program, how it's funded, where you'll live, and how you'll stay in touch. Facts calm fears.",
+          "act": "talk",
+          "card": {
+            "icon": "1f4cb",
+            "title": "YOUR FAMILY PLAN",
+            "lines": [
+              "1f393|The program + why it matters",
+              "1f4b0|How it's paid for",
+              "1f3e0|Where you'll live",
+              "1f4f1|How you'll keep in touch"
+            ]
+          },
+          "shot": "card"
+        }
+      ]
+    },
+    {
+      "set": "park",
+      "place": "NEXT MORNING · FAMILY GARDEN",
+      "backdrop": "sunny family garden with a mango tree, flowers and plastic chairs",
+      "at": {
+        "kemi": [
+          -0.45,
+          0,
+          0.02,
+          0.28
+        ],
+        "quddus": [
+          0.45,
+          0,
+          0.02,
+          -0.28
+        ]
+      },
+      "sit": [
+        "kemi",
+        "quddus"
+      ],
+      "props": [
+        "bench"
+      ],
+      "beats": [
+        {
+          "who": "kemi",
+          "text": "Quddus, it worked! Mum cried, but happy tears. Dad asked for the university website.",
+          "say": "Kuddus, it worked! Mum cried, but happy tears. Dad asked for the university website.",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "say": "That's beautiful. What changed their mind?",
+          "act": "thumbs",
+          "shot": "close"
+        },
+        {
+          "who": "kemi",
+          "say": "I showed them the scholarship letter, the accommodation, and that I'd call every Sunday.",
+          "act": "talk",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "say": "And you listened to their worries too. That's what makes it a family decision.",
+          "act": "talk",
+          "shot": "two"
+        },
+        {
+          "who": "kemi",
+          "say": "And I taught my little brother how to fix the generator. Family plan complete!",
+          "act": "cheer",
+          "mood": "happy",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR MOVE",
+      "backdrop": "starry night sky over a calm city with teal and gold lights, cinematic",
+      "at": {
+        "kemi": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "text": "Share this with a friend, and comment FAMILY if your parents support your dream.",
+          "say": "Share this with a friend, and comment FAMILY if your parents support your dream.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "YOU'VE GOT THIS",
+            "lines": [
+              "1f4cb|Bring a clear plan",
+              "2b50|Listen to their worries"
+            ]
+          }
+        },
+        {
+          "who": "kemi",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Follow for more real stories!",
+          "text": "Follow for more real stories!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}
