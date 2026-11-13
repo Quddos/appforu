@@ -1,12 +1,69 @@
 {
-  "id": "comic-001", "series": "comic", "title": "Kernel tries dropshipping",
+  "id": "comic-001",
+  "series": "comic",
+  "title": "Kernel tries dropshipping",
   "caption": "Ep 1: Kernel tries dropshipping 📦😭 Which side hustle should Kernel try next? 👇 #comedy #sidehustle #animation #fyp",
   "scenes": [
-    { "type": "hook", "icon": "1f37f", "text": "KERNEL TRIES DROPSHIPPING", "sub": "EPISODE 1", "say": "Kernel's side hustle saga. Episode one: dropshipping." },
-    { "type": "talk", "who": "Kernel", "mood": "happy", "place": "KERNEL'S ROOM, 3 AM", "props": ["1f4bb", "1f4e6"], "say": "A guy on TikTok said dropshipping makes ten thousand dollars a week. I'm going to be rich by Friday!" },
-    { "type": "talk", "who": "Kernel", "mood": "think", "place": "DAY 2", "props": ["1f4e6", "1f4b8"], "say": "Okay, I spent all my money on ads for glow in the dark socks. Now we wait." },
-    { "type": "talk", "who": "Kernel", "mood": "shock", "place": "DAY 5", "props": ["1f4f1", "1f4c9"], "say": "One order! Oh wait. It's my mom. She wants a refund." },
-    { "type": "talk", "who": "Kernel", "mood": "cry", "place": "FRIDAY", "props": ["1f4e6", "1f4e6"], "say": "I'm not rich. But I do own four hundred pairs of glow in the dark socks." },
-    { "type": "outro", "text": "WHAT SHOULD KERNEL TRY NEXT?", "say": "Comment Kernel's next side hustle, and follow for episode two.", "next": "Episode 2: Kernel becomes an AI expert" }
+    {
+      "type": "hook",
+      "icon": "1f37f",
+      "text": "KERNEL TRIES DROPSHIPPING",
+      "sub": "EPISODE 1",
+      "say": "Kernel's side hustle saga. Episode one: dropshipping."
+    },
+    {
+      "type": "talk",
+      "who": "Kernel",
+      "mood": "happy",
+      "place": "KERNEL'S ROOM, 3 AM",
+      "props": [
+        "1f4bb",
+        "1f4e6"
+      ],
+      "say": "A guy on TikTok said dropshipping makes ten thousand dollars a week. I'm going to be rich by Friday!",
+      "set": "messy teenage bedroom at night lit by a glowing laptop, cardboard boxes everywhere"
+    },
+    {
+      "type": "talk",
+      "who": "Kernel",
+      "mood": "think",
+      "place": "DAY 2",
+      "props": [
+        "1f4e6",
+        "1f4b8"
+      ],
+      "say": "Okay, I spent all my money on ads for glow in the dark socks. Now we wait.",
+      "set": "messy bedroom piled with cardboard shipping boxes, warm desk lamp"
+    },
+    {
+      "type": "talk",
+      "who": "Kernel",
+      "mood": "shock",
+      "place": "DAY 5",
+      "props": [
+        "1f4f1",
+        "1f4c9"
+      ],
+      "say": "One order! Oh wait. It's my mom. She wants a refund.",
+      "set": "small bedroom at dawn, phone glowing on the desk, empty pizza boxes"
+    },
+    {
+      "type": "talk",
+      "who": "Kernel",
+      "mood": "cry",
+      "place": "FRIDAY",
+      "props": [
+        "1f4e6",
+        "1f4e6"
+      ],
+      "say": "I'm not rich. But I do own four hundred pairs of glow in the dark socks.",
+      "set": "bedroom completely filled with stacks of glowing socks boxes, moody purple light"
+    },
+    {
+      "type": "outro",
+      "text": "WHAT SHOULD KERNEL TRY NEXT?",
+      "say": "Comment Kernel's next side hustle, and follow for episode two.",
+      "next": "Episode 2: Kernel becomes an AI expert"
+    }
   ]
 }

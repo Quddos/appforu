@@ -1,0 +1,27 @@
+{
+  "name": "bingebrain-remotion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "tsx render.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@remotion/bundler": "^4.0.543",
+    "@remotion/cli": "^4.0.543",
+    "@remotion/media-utils": "^4.0.543",
+    "@remotion/renderer": "^4.0.543",
+    "@remotion/three": "^4.0.543",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.543",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/three": "^0.170.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

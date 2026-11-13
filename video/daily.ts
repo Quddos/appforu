@@ -30,4 +30,11 @@ if (existsSync(out)) {
   console.log(`${out} already exists`);
   process.exit(0);
 }
-execFileSync("npx", ["tsx", path.join(root, "video", "make.ts"), path.join(root, "video", "episodes", `${id}.json`), out], { stdio: "inherit" });
+const episode = path.join(root, "video", "episodes", `${id}.json`);
+try {
+  // 3D renderer (Remotion + React Three Fiber)
+  execFileSync("npx", ["tsx", "render.ts", episode, out], { stdio: "inherit", cwd: path.join(root, "remotion") });
+} catch (e) {
+  console.error("3D render failed, falling back to the 2D engine", e);
+  execFileSync("npx", ["tsx", path.join(root, "video", "make.ts"), episode, out], { stdio: "inherit" });
+}

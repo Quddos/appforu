@@ -19,11 +19,12 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ccr-e50bec89-7db7t5
+          lfs: false
 
       - uses: actions/setup-node@v4
         with:
@@ -43,17 +44,25 @@ jobs:
 
       - run: npm ci
 
+      - name: Install the 3D renderer (Remotion + Three.js)
+        working-directory: remotion
+        run: |
+          npm ci
+          npx remotion browser ensure
+
       - name: Render today's episode
         env:
           PIPER: /home/runner/.local/bin/piper
           PIPER_VOICE: /home/runner/voices/en_US-ryan-high.onnx
+          REMOTION_GL: swangle
+          CONCURRENCY: "4"
         run: npx tsx video/daily.ts ${{ github.event.inputs.date }}
 
       - name: Commit video
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
-          git add -A public/videos
+          git add -A public/videos assets/backdrops
           git diff --cached --quiet && exit 0
           git commit -m "Add daily BingeBrain video"
           git push origin HEAD:ccr-e50bec89-7db7t5
