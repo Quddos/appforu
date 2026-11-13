@@ -28,6 +28,14 @@ function publish(note: string) {
   for (const f of readdirSync(mediaDir)) if (/^\d{4}-\d{2}-\d{2}-/.test(f) && f.slice(0, 10) < cutoff) rmSync(path.join(mediaDir, f));
   if (process.env.PUSH !== "1") return;
   const git = (...a: string[]) => execFileSync("git", a, { cwd: mediaDir, stdio: "inherit" });
+  // keep videos another run already published (the branch is rewritten on every push)
+  try {
+    execFileSync("git", ["fetch", "-q", "--depth", "1", "origin", "media"], { cwd: mediaDir, stdio: "ignore" });
+    const remote = execFileSync("git", ["ls-tree", "--name-only", "FETCH_HEAD"], { cwd: mediaDir }).toString().split("\n").filter(Boolean);
+    for (const f of remote) if (/^\d{4}-\d{2}-\d{2}-/.test(f) && f.slice(0, 10) >= cutoff && !existsSync(path.join(mediaDir, f))) git("checkout", "FETCH_HEAD", "--", f);
+  } catch {
+    /* no media branch yet */
+  }
   git("checkout", "-q", "--orphan", "next");
   git("add", "-A");
   git("commit", "-q", "-m", `Story videos (${note})`);
