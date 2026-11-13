@@ -1,0 +1,425 @@
+{
+  "id": "story-001",
+  "series": "story",
+  "title": "Tomy finds a fully funded master's",
+  "caption": "She just graduated... and found a FULLY FUNDED master's abroad 🎓✈️ MBZUAI (Abu Dhabi) is open to ALL nationalities: free tuition, monthly stipend, flights, visa. Deadline 15 Dec 2026. Comment LINK 👇 #scholarship #fullyfunded #studyabroad #mastersdegree #storytime",
+  "cast": {
+    "tomy": {
+      "name": "Tomy",
+      "color": "#FF4FA3",
+      "voice": "female",
+      "look": "girl"
+    },
+    "quddus": {
+      "name": "Quddus",
+      "color": "#22D3EE",
+      "voice": "male",
+      "look": "guy"
+    }
+  },
+  "scenes": [
+    {
+      "set": "campus",
+      "place": "GRADUATION DAY",
+      "backdrop": "sunny university campus lawn on graduation day, red brick buildings, green trees, colorful balloons, blue sky",
+      "at": {
+        "tomy": [
+          -0.2,
+          0,
+          0.25
+        ],
+        "quddus": [
+          4.2,
+          0,
+          -0.6
+        ]
+      },
+      "beats": [
+        {
+          "title": "FULLY FUNDED MASTER'S ABROAD?",
+          "sub": "TOMY & QUDDUS · EPISODE 1",
+          "who": "tomy",
+          "act": "cheer",
+          "shot": "wide",
+          "dur": 75
+        },
+        {
+          "who": "tomy",
+          "act": "cheer",
+          "mood": "happy",
+          "say": "I did it! Bachelor's degree... done!",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "act": "facepalm",
+          "mood": "worried",
+          "say": "Okay. Now what? My mum already asked when I'm starting my master's. The ceremony isn't even over!",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "act": "wave",
+          "mood": "happy",
+          "say": "Congratulations, Tomy! Why do you look so worried on your big day?",
+          "text": "Congratulations, Tomy! Why do you look so worried on your big day?",
+          "move": {
+            "quddus": [
+              0.75,
+              0,
+              -0.6
+            ],
+            "tomy": [
+              -0.75,
+              0,
+              0.6
+            ]
+          },
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "act": "talk",
+          "mood": "happy",
+          "say": "Hi Kuddus! I just finished my bachelor's degree. Do you know any fully funded master's I can apply for?",
+          "text": "Hi Quddus! I just finished my bachelor's degree. Do you know any fully funded master's I can apply for?",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "act": "talk",
+          "mood": "happy",
+          "say": "Hi Tomy. I understand you're looking for a master's program abroad?",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "act": "point",
+          "mood": "happy",
+          "say": "Yes! Abroad. Far. Very far.",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "act": "think",
+          "mood": "think",
+          "say": "Okay. Are you looking for fully funded, partial funding, or self funded?",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "act": "shrug",
+          "mood": "worried",
+          "say": "Fully funded, please. My bank account just heard this conversation and fainted.",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "cafe",
+      "place": "LATER · CAMPUS CAFÉ",
+      "backdrop": "cozy modern coffee shop interior with warm hanging lamps, green plants, big windows, soft afternoon light",
+      "sit": [
+        "tomy",
+        "quddus"
+      ],
+      "at": {
+        "tomy": [
+          -0.82,
+          0,
+          0,
+          1.15
+        ],
+        "quddus": [
+          0.82,
+          0,
+          0,
+          -1.15
+        ]
+      },
+      "props": [
+        "table",
+        "laptop"
+      ],
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "say": "Then let me show you this. There's an open admission right now at M B Z U AI, in Abu Dhabi, and it's fully funded.",
+          "text": "Then let me show you this. There's an open admission right now at MBZUAI, in Abu Dhabi, and it's fully funded.",
+          "shot": "card",
+          "card": {
+            "icon": "1f1e6-1f1ea",
+            "title": "MBZUAI · ABU DHABI",
+            "lines": [
+              "1f916|Master's (MSc) & PhD in AI",
+              "1f4b0|Fully funded",
+              "23f0|Deadline: 15 Dec 2026"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "think",
+          "mood": "think",
+          "say": "M B Z... what? Is that a university or a Wi-Fi password?",
+          "text": "MBZ... what? Is that a university or a Wi-Fi password?",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "act": "talk",
+          "mood": "happy",
+          "say": "Ha! It's the Mohamed bin Zayed University of Artificial Intelligence. The world's first university focused only on A.I.",
+          "text": "Ha! It's the Mohamed bin Zayed University of Artificial Intelligence. The world's first university focused only on AI.",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "act": "worried",
+          "mood": "worried",
+          "say": "And when you say fully funded... what does it actually cover?",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "act": "talk",
+          "mood": "happy",
+          "say": "Free tuition. A monthly stipend. A return flight home every year. Health insurance. And they handle your U.A.E. student visa.",
+          "text": "Free tuition. A monthly stipend. A return flight home every year. Health insurance. And they handle your UAE student visa.",
+          "shot": "card",
+          "card": {
+            "icon": "1f4b5",
+            "title": "WHAT IT COVERS",
+            "lines": [
+              "1f3eb|Free tuition",
+              "1f4b5|Monthly stipend",
+              "2708|Yearly return flight",
+              "1f3e5|Health insurance + UAE visa"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "cheer",
+          "mood": "shock",
+          "say": "Wait. They pay ME to study? Somebody hold me!",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "act": "worried",
+          "mood": "worried",
+          "say": "But... am I eligible? I mean, I'm from Nigeria.",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "act": "thumbs",
+          "mood": "happy",
+          "say": "Yes, you are. It's open to all nationalities. Your passport is not the problem.",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "act": "talk",
+          "mood": "think",
+          "say": "For the master's, you need a bachelor's degree in computer science, maths, or engineering.",
+          "shot": "card",
+          "card": {
+            "icon": "2705",
+            "title": "WHO CAN APPLY",
+            "lines": [
+              "1f30d|All nationalities",
+              "1f393|Bachelor's degree",
+              "1f4bb|Computer science, maths or engineering"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "cheer",
+          "mood": "happy",
+          "say": "Computer science! That's me!",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "act": "think",
+          "mood": "think",
+          "say": "But my cousin studied history. Is there anything for her?",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "act": "talk",
+          "mood": "happy",
+          "say": "Yes. Commonwealth Shared Scholarships in the U.K. close on December eighth. And the Euroculture Erasmus Mundus master's in Europe pays fourteen hundred euros a month. That deadline is January fifteenth.",
+          "text": "Yes. Commonwealth Shared Scholarships in the UK close on December 8th. And the Euroculture Erasmus Mundus master's in Europe pays €1,400 a month. That deadline is January 15th.",
+          "shot": "card",
+          "card": {
+            "icon": "1f30d",
+            "title": "ALSO OPEN NOW",
+            "lines": [
+              "1f1ec-1f1e7|Commonwealth Shared · 8 Dec 2026",
+              "1f1ea-1f1fa|Euroculture Erasmus Mundus · 15 Jan 2027"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "talk",
+          "mood": "happy",
+          "say": "Okay, I'm taking notes. What documents do I need for M B Z U AI?",
+          "text": "Okay, I'm taking notes. What documents do I need for MBZUAI?",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "act": "talk",
+          "mood": "think",
+          "say": "Your transcripts, a C.V., and a statement of purpose. Then you apply online on their admissions page. And check the English test rules there too.",
+          "text": "Your transcripts, a CV, and a statement of purpose. Then you apply online on their admissions page. And check the English test rules there too.",
+          "shot": "card",
+          "card": {
+            "icon": "1f4dd",
+            "title": "HOW TO APPLY",
+            "lines": [
+              "1f4da|Transcripts",
+              "1f4cb|CV",
+              "1f4dd|Statement of purpose",
+              "1f310|Apply online: mbzuai.ac.ae"
+            ]
+          }
+        },
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "cool",
+          "say": "And please, don't wait for the last day. The deadline is December fifteenth, five P.M., U.A.E. time.",
+          "text": "And please, don't wait for the last day. The deadline is December 15th, 5 PM, UAE time.",
+          "shot": "close"
+        }
+      ]
+    },
+    {
+      "set": "room",
+      "place": "THAT NIGHT · TOMY'S ROOM",
+      "backdrop": "cozy student bedroom at night, warm fairy lights, bookshelf, posters, window showing city lights",
+      "at": {
+        "tomy": [
+          0.1,
+          0,
+          0.4,
+          0.25
+        ]
+      },
+      "props": [
+        "suitcase",
+        "desk"
+      ],
+      "beats": [
+        {
+          "who": "tomy",
+          "act": "phone",
+          "mood": "happy",
+          "say": "Kuddus! Good news! I've already packed my suitcase!",
+          "text": "Quddus! Good news! I've already packed my suitcase!",
+          "shot": "two"
+        },
+        {
+          "who": "quddus",
+          "phone": true,
+          "mood": "think",
+          "say": "Tomy... you haven't even applied yet.",
+          "shot": "close"
+        },
+        {
+          "who": "tomy",
+          "act": "phone",
+          "mood": "happy",
+          "say": "Positive energy, Kuddus! Positive energy!",
+          "text": "Positive energy, Quddus! Positive energy!",
+          "shot": "close"
+        },
+        {
+          "who": "quddus",
+          "phone": true,
+          "mood": "happy",
+          "say": "Submit the application first. Then pack.",
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "act": "type",
+          "mood": "think",
+          "say": "Fine. Transcripts... C.V.... statement of purpose...",
+          "text": "Fine. Transcripts... CV... statement of purpose...",
+          "move": {
+            "tomy": [
+              -0.55,
+              0,
+              -0.35,
+              0
+            ]
+          },
+          "sitAt": "tomy",
+          "shot": "two"
+        },
+        {
+          "who": "tomy",
+          "act": "cheer",
+          "mood": "happy",
+          "say": "Submitted! Now I can pack. Again.",
+          "shot": "close",
+          "confetti": true
+        }
+      ]
+    },
+    {
+      "set": "studio",
+      "place": "YOUR TURN",
+      "backdrop": "night city skyline with soft bokeh lights, purple and teal glow, cinematic",
+      "at": {
+        "tomy": [
+          -0.6,
+          0,
+          0.3,
+          0.25
+        ],
+        "quddus": [
+          0.6,
+          0,
+          0.3,
+          -0.25
+        ]
+      },
+      "beats": [
+        {
+          "who": "quddus",
+          "act": "point",
+          "mood": "happy",
+          "say": "Want the link to apply? Comment LINK, and check the link in our bio.",
+          "shot": "card",
+          "card": {
+            "icon": "1f517",
+            "title": "COMMENT \"LINK\"",
+            "lines": [
+              "1f447|Official link in bio",
+              "23f0|MBZUAI deadline: 15 Dec 2026"
+            ]
+          }
+        },
+        {
+          "who": "tomy",
+          "act": "wave",
+          "mood": "happy",
+          "say": "And follow, so you don't miss part two!",
+          "shot": "card",
+          "end": true
+        }
+      ]
+    }
+  ]
+}

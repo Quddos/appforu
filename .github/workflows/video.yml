@@ -19,7 +19,7 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,6 +41,10 @@ jobs:
           base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high
           curl -sSfL -o ~/voices/en_US-ryan-high.onnx "$base/en_US-ryan-high.onnx"
           curl -sSfL -o ~/voices/en_US-ryan-high.onnx.json "$base/en_US-ryan-high.onnx.json"
+          # female voice for story characters
+          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/high
+          curl -sSfL -o ~/voices/en_US-lessac-high.onnx "$base/en_US-lessac-high.onnx"
+          curl -sSfL -o ~/voices/en_US-lessac-high.onnx.json "$base/en_US-lessac-high.onnx.json"
 
       - run: npm ci
 
@@ -54,6 +58,7 @@ jobs:
         env:
           PIPER: /home/runner/.local/bin/piper
           PIPER_VOICE: /home/runner/voices/en_US-ryan-high.onnx
+          PIPER_VOICE_FEMALE: /home/runner/voices/en_US-lessac-high.onnx
           REMOTION_GL: swangle
           CONCURRENCY: "4"
         run: npx tsx video/daily.ts ${{ github.event.inputs.date }}
