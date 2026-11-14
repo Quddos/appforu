@@ -11,9 +11,9 @@ type Ep = { id: string; title: string; caption: string; brand?: string };
 type DayPlan = { f?: { id: string }; q1?: string; q2?: string };
 
 const SLOTS = [
-  { key: "f", label: "@fundntech · afternoon (~12:00 UTC)", color: "text-cyan-300" },
-  { key: "q1", label: "@qomment.chat · afternoon (~12:00 UTC)", color: "text-pink-300" },
-  { key: "q2", label: "@qomment.chat · night (~19:00 UTC)", color: "text-pink-300" },
+  { key: "f", label: "@fundntech · morning (~9:00 AM IST)", color: "text-cyan-300" },
+  { key: "q1", label: "@qomment.chat · morning (~9:00 AM IST)", color: "text-pink-300" },
+  { key: "q2", label: "@qomment.chat · night (~7:00 PM IST)", color: "text-pink-300" },
 ] as const;
 
 function episode(id: string): Ep | null {

@@ -2,7 +2,7 @@ name: Story videos
 
 on:
   schedule:
-    - cron: "15 0 * * *" # renders tomorrow + the day after, well before the 12:00 / 19:00 UTC posts
+    - cron: "15 0 * * *" # renders tomorrow + the day after, well before the ~9 AM / ~7 PM IST posts
     - cron: "15 12 * * *" # second pass picks up anything the first run did not finish
   workflow_dispatch:
     inputs:

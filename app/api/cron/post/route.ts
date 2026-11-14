@@ -9,9 +9,9 @@ type DayPlan = { f?: { id: string; opportunity?: string }; q1?: string; q2?: str
 
 /**
  * Called by Vercel Cron (see vercel.json), twice a day.
- * slot=0 (afternoon): @fundntech story video (falls back to a carousel if the video is missing)
+ * slot=0 (morning, ~9 AM IST): @fundntech story video (falls back to a carousel if the video is missing)
  *                     + @qomment.chat story video 1
- * slot=1 (night):     @fundntech carousel for the day's other opportunity
+ * slot=1 (night, ~7 PM IST): @fundntech carousel for the day's other opportunity
  *                     + @qomment.chat story video 2
  * Add &dry=1 to see what would happen without calling TikTok, &date=YYYY-MM-DD to pick a day,
  * &only=fundintech|qomment to run one channel. For a manual test, add &secret=<CRON_SECRET>.

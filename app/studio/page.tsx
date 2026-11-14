@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = { title: "FundInTech Post Studio" };
 export const dynamic = "force-dynamic";
 
-const SLOT_LABEL = ["07:00 UTC · EARN", "17:00 UTC · STUDY / FELLOWSHIP"];
+const SLOT_LABEL = ["EARN", "STUDY / FELLOWSHIP"];
 
 function PostCard({ o, label }: { o: Opportunity; label?: string }) {
   const caption = captionFor(o);

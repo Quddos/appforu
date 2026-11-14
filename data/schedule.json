@@ -1,5 +1,5 @@
 {
-  "_comment": "Date (UTC) -> [earning, academic]. Afternoon (~12:00 UTC): story video about one of them (data/videos.json f.opportunity); night (~19:00 UTC): carousel for the other.",
+  "_comment": "Date (UTC) -> [earning, academic]. Morning (~9:00 AM IST): story video about one of them (data/videos.json f.opportunity); night (~7:00 PM IST): carousel for the other.",
   "2026-11-09": [
     "kiroween-2026",
     "hk-phd-fellowship-2027"
