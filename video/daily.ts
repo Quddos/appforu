@@ -3,7 +3,7 @@
  * then publish MEDIA_DIR as the single-commit "media" branch (old videos are pruned, so the
  * repository history does not grow). Run by .github/workflows/video.yml.
  *
- * Usage: npx tsx video/daily.ts [YYYY-MM-DD ...]     (default: tomorrow and the day after)
+ * Usage: npx tsx video/daily.ts [YYYY-MM-DD ...]     (default: the next three days)
  * Env:   MEDIA_DIR (a clone of the media branch), PUSH=1 to push after each video,
  *        TIME_BUDGET_MIN (stop starting new renders after this many minutes, default 300)
  */
@@ -16,7 +16,7 @@ const mediaDir = path.resolve(process.env.MEDIA_DIR ?? path.join(root, "..", "me
 const started = Date.now();
 const budget = Number(process.env.TIME_BUDGET_MIN ?? 300) * 60_000;
 const day = (offset: number) => new Date(Date.now() + offset * 86_400_000).toISOString().slice(0, 10);
-const dates = process.argv.slice(2).length ? process.argv.slice(2) : [day(1), day(2)];
+const dates = process.argv.slice(2).length ? process.argv.slice(2) : [day(1), day(2), day(3)];
 
 type DayPlan = { f?: { id: string }; q1?: string; q2?: string };
 const plan = JSON.parse(readFileSync(path.join(root, "data", "videos.json"), "utf8")) as Record<string, DayPlan>;

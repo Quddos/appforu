@@ -2,12 +2,12 @@ name: Story videos
 
 on:
   schedule:
-    - cron: "15 0 * * *" # renders tomorrow + the day after, well before the ~9 AM / ~7 PM IST posts
+    - cron: "15 0 * * *" # renders the next three days, well before the ~9 AM / ~7 PM IST posts
     - cron: "15 12 * * *" # second pass picks up anything the first run did not finish
   workflow_dispatch:
     inputs:
       dates:
-        description: "Space-separated UTC dates to render (YYYY-MM-DD). Default: tomorrow and the day after"
+        description: "Space-separated UTC dates to render (YYYY-MM-DD). Default: the next three days"
         required: false
 
 permissions:
